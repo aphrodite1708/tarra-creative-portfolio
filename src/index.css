@@ -320,6 +320,35 @@ button, a { cursor: none; font-family: inherit; }
   z-index: 25;
 }
 
+/* ─── Story break divider ───────────────────────────────────── */
+.story-break {
+  width: 2px;
+  height: 100%;
+  flex-shrink: 0;
+  background: rgba(247, 241, 233, 0.6);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+}
+
+.story-break-label {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-family: var(--font-sans);
+  font-size: 7px;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--warm-ivory);
+  opacity: 0.5;
+  white-space: nowrap;
+  background: rgba(48, 35, 35, 0.4);
+  padding: 8px 4px;
+  border-radius: 2px;
+}
+
 .bottom-hint > span {
   font-size: 9px;
   letter-spacing: 0.14em;

@@ -29,11 +29,18 @@ export default function HomeArchive() {
 
       {/* Folder panels strip */}
       <div className="panels-strip">
-        {FOLDERS.map((folder) => {
+        {FOLDERS.map((folder, idx) => {
           const isHovered = hovered === folder.id
           const anyHovered = hovered !== null
+          const isStoryBreak = idx === 3 // divider before creator story
 
           return (
+            <>
+              {isStoryBreak && (
+                <div key="story-break" className="story-break">
+                  <span className="story-break-label">Creator Work</span>
+                </div>
+              )}
             <motion.div
               key={folder.id}
               className="folder-panel"
@@ -89,6 +96,7 @@ export default function HomeArchive() {
                 <div className="peek-open">Open folder →</div>
               </motion.div>
             </motion.div>
+            </>
           )
         })}
       </div>
