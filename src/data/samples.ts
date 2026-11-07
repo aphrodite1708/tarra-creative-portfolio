@@ -97,6 +97,21 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
   },
 }
 
+  copywriting: {
+    1: [
+      {
+        id: 'wardah-nmf-amino-face-wash-script',
+        title: 'Wardah NMF Amino Face Wash — Reels & Stories Script',
+        brand: 'Wardah',
+        type: 'pdf',
+        file: '/samples/copywriting/wardah-nmf-amino-face-wash-script.pdf',
+        description: 'Full UGC script for Reels + Instagram Stories: 6-scene Reels script and 5-story IG series. Concept, dialogue, visual direction, and text overlays.',
+        year: '2025',
+      },
+    ],
+  },
+}
+
 export function getSamples(sectionId: SectionId, areaIndex: number): Sample[] {
   return SAMPLES[sectionId]?.[areaIndex] ?? []
 }
