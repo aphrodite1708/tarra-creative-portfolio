@@ -71,6 +71,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         description: 'Full endorsement brief for the NVMEE Libra Hair Styler — product messaging, creator guidelines, and content requirements.',
         year: '2025',
       },
+      {
+        id: 'firstlab-probiotic-skin-essence-kol-brief',
+        title: 'Probiotic Skin Essence Signature — IG Reels KOL Brief',
+        brand: 'Firstlab',
+        type: 'pdf',
+        file: '/samples/campaigns/firstlab-probiotic-skin-essence-kol-brief.pdf',
+        description: 'IG Reels KOL brief for the Firstlab Probiotic Skin Essence Signature — talking points, content direction, and key mentions for a skincare-before-makeup concept.',
+        year: '2023',
+      },
     ],
     1: [
       {
@@ -90,6 +99,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         file: '/samples/campaigns/secondate-xexymix-padel-kol-catalogue.pdf',
         description: 'KOL styling catalogue for the Secondate × Xexymix Playdate Padel Event, covering outfit options across Team White, Red, and Green.',
         year: '2024',
+      },
+      {
+        id: 'firstlab-product-knowledge',
+        title: 'Firstlab — Product Knowledge Deck',
+        brand: 'Firstlab',
+        type: 'pdf',
+        file: '/samples/campaigns/firstlab-product-knowledge.pdf',
+        description: 'Full product knowledge reference deck for Firstlab by ILDONG Pharmaceutical — brand background, product lines, probiotic ingredient breakdown, and key selling points for creators.',
+        year: '2023',
       },
     ],
     5: [
@@ -137,6 +155,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         file: '/samples/campaigns/nvmee-instagram-stories-insight.pdf',
         description: '26.8K views · 25.7K accounts reached · 159 link clicks · 23 @nvmee.id sticker taps. Navigation: 29.3K total, 22.2K forwards.',
         year: '2025',
+      },
+      {
+        id: 'firstlab-reels-insight',
+        title: 'Firstlab Probiotic Skin Essence — Reels Insight',
+        brand: 'Firstlab',
+        type: 'image',
+        file: '/samples/campaigns/firstlab-reels-insight.jpg',
+        description: '69.5K plays · 72.8K accounts reached · 59.2% non-followers · 1,509 interactions (1,370 likes, 97 saves, 32 shares). January 2023.',
+        year: '2023',
       },
     ],
   },
