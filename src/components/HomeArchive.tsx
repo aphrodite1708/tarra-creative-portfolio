@@ -18,7 +18,7 @@ export default function HomeArchive() {
         </h1>
         <p className="hero-quote">"Understanding people.<br />Developing ideas.<br />Creating work that connects."</p>
         <p className="hero-welcome">
-          Welcome to my creative archive — a collection of ideas, strategies, concepts, and creative work.
+          Welcome to my creative archive — a collection of my work, from ideas and strategies to concepts and creative execution.
         </p>
         <div className="hero-photo-wrap">
           <img src="/tarra.png" alt="Tarra Ananda" className="hero-photo" />
