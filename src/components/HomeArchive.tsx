@@ -91,7 +91,7 @@ export default function HomeArchive() {
                 transition={{ duration: 0.3, delay: isHovered ? 0.1 : 0 }}
               >
                 <div className="peek-number">{folder.number}</div>
-                <div className="peek-label">{folder.shortLabel}</div>
+                <div className="peek-label">{folder.label}</div>
                 <div className="peek-tagline">{folder.tagline}</div>
                 <div className="peek-open">Open folder →</div>
               </motion.div>
