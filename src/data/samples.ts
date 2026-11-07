@@ -17,6 +17,17 @@ export interface Sample {
 export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
   campaigns: {
     // 0 = Campaign Briefs
+    1: [
+      {
+        id: 'secondate-xexymix-padel-kol-catalogue',
+        title: 'Playdate Padel Event — KOL Catalogue',
+        brand: 'Secondate × Xexymix',
+        type: 'pdf',
+        file: '/samples/campaigns/secondate-xexymix-padel-kol-catalogue.pdf',
+        description: 'KOL styling catalogue for the Secondate × Xexymix Playdate Padel Event, covering outfit options across Team White, Red, and Green.',
+        year: '2024',
+      },
+    ],
     0: [
       {
         id: 'westcare-sunscreen-brief',
