@@ -95,8 +95,6 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
       },
     ],
   },
-}
-
   copywriting: {
     1: [
       {
