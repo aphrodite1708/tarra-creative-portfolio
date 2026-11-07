@@ -129,6 +129,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         description: '57.7K views · 1,605 likes · 44.7K total viewers · 80.4% For You traffic. Audience: 90% female, 99.3% Indonesia, 52% age 25–34.',
         year: '2025',
       },
+      {
+        id: 'nvmee-instagram-stories-insight',
+        title: 'NVMEE Libra Hair Styler — Instagram Stories Insight',
+        brand: 'NVMEE',
+        type: 'pdf',
+        file: '/samples/campaigns/nvmee-instagram-stories-insight.pdf',
+        description: '26.8K views · 25.7K accounts reached · 159 link clicks · 23 @nvmee.id sticker taps. Navigation: 29.3K total, 22.2K forwards.',
+        year: '2025',
+      },
     ],
   },
   copywriting: {
