@@ -67,18 +67,18 @@ button, a { cursor: none; font-family: inherit; }
 .hero-overlay {
   position: absolute;
   top: 0; left: 0;
-  width: min(360px, 29vw);
+  /* Wide enough to hold the name + clear the panels */
+  width: min(400px, 30vw);
   height: 100%;
   z-index: 20;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 48px 24px 0 44px;
+  padding: 48px 32px 60px 48px;
   overflow: visible;
-  /* gradient so it fades into the panels */
   background: linear-gradient(
     to right,
-    var(--warm-ivory) 65%,
+    var(--warm-ivory) 70%,
     rgba(247, 241, 233, 0) 100%
   );
   pointer-events: none;
@@ -143,17 +143,15 @@ button, a { cursor: none; font-family: inherit; }
 }
 
 .hero-photo-wrap {
-  position: relative;
-  width: clamp(240px, 30vw, 420px);
-  /* shift slightly right so photo overlaps the panels edge */
-  margin-left: -16px;
-  margin-top: 20px;
-  /* let it spill below the overlay */
-  margin-bottom: -40vh;
+  /* Sibling of hero-overlay — absolute on archive-root */
+  position: absolute;
+  /* sits in the lower half of the hero column, below the text */
+  bottom: -40px;
+  left: 20px;
+  width: clamp(220px, 24vw, 400px);
   pointer-events: none;
-  z-index: 25;
-  rotate: -1.5deg;
-  align-self: flex-start;
+  z-index: 26;
+  rotate: -2deg;
 }
 
 .hero-photo {
@@ -161,18 +159,18 @@ button, a { cursor: none; font-family: inherit; }
   height: auto;
   display: block;
   filter:
-    drop-shadow(-6px 0 0 var(--warm-ivory))
-    drop-shadow(6px 0 0 var(--warm-ivory))
-    drop-shadow(0 8px 0 var(--warm-ivory))
-    drop-shadow(0 28px 40px rgba(100, 31, 54, 0.25));
+    drop-shadow(-8px 0 0 var(--warm-ivory))
+    drop-shadow(8px 0 0 var(--warm-ivory))
+    drop-shadow(0 10px 0 var(--warm-ivory))
+    drop-shadow(0 32px 48px rgba(100, 31, 54, 0.3));
 }
 
 /* ─── Panels strip ──────────────────────────────────────────── */
 .panels-strip {
   flex: 1;
   display: flex;
-  /* indent past the hero overlay */
-  padding-left: min(260px, 24vw);
+  /* must clear hero-overlay width (min(400px,30vw)) + a little buffer */
+  padding-left: min(410px, 31vw);
   gap: 3px;
   overflow: hidden;
 }
@@ -580,54 +578,95 @@ button, a { cursor: none; font-family: inherit; }
   opacity: 0.3;
 }
 
-/* ─── Responsive ────────────────────────────────────────────── */
-@media (max-width: 900px) {
+/* ─── Responsive: tablet ────────────────────────────────────── */
+@media (max-width: 1024px) {
   .hero-overlay {
-    width: 180px;
-    padding: 32px 20px 32px 24px;
+    width: min(300px, 32vw);
+    padding: 40px 24px 60px 36px;
   }
-  .hero-name-first { font-size: 2.4rem; }
-  .hero-name-last  { font-size: 2.6rem; }
-  .panels-strip { padding-left: 150px; }
-  .hero-photo-wrap { display: none; }
+  .hero-name-first { font-size: clamp(2.2rem, 4vw, 3.4rem); }
+  .hero-name-last  { font-size: clamp(2.4rem, 4.4vw, 3.8rem); }
+  .panels-strip { padding-left: min(310px, 33vw); }
+  .hero-photo-wrap { width: clamp(180px, 20vw, 300px); left: 16px; }
 }
 
+/* ─── Responsive: mobile ────────────────────────────────────── */
 @media (max-width: 640px) {
+  html, body { height: auto; overflow: auto; }
+
+  .archive-root {
+    height: auto;
+    min-height: 100svh;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Hero text: static block, full width */
   .hero-overlay {
     position: static;
     width: 100%;
-    background: var(--warm-ivory);
-    padding: 32px 24px 24px;
-    min-height: auto;
+    height: auto;
+    padding: 48px 28px 20px 28px;
     justify-content: flex-start;
+    background: var(--warm-ivory);
+    /* remove right fade on mobile */
+    background-image: none;
+    overflow: visible;
   }
-  .hero-welcome { display: none; }
-  .hero-quote { display: none; }
+
+  .hero-name-first { font-size: 3rem; }
+  .hero-name-last  { font-size: 3.4rem; }
+  .hero-quote { font-size: 1rem; }
+  .hero-welcome { font-size: 11px; }
+
+  /* Photo: in-flow after the text, large */
+  .hero-photo-wrap {
+    position: static;
+    width: 72%;
+    max-width: 280px;
+    rotate: -2deg;
+    margin: 16px 0 0 20px;
+    /* spill it below so it looks "pop-out" */
+    margin-bottom: -60px;
+    z-index: 10;
+  }
+
+  /* Panels: horizontal scrollable row */
   .panels-strip {
     padding-left: 0;
-    flex-direction: column;
-    height: auto;
-    overflow-y: auto;
-    overflow-x: hidden;
-    gap: 2px;
-  }
-  .folder-panel {
-    height: 100px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 320px;
     flex: none;
-    transition: height 0.4s ease;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 2px;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 60px; /* space for the photo overlap */
   }
-  .folder-panel:focus,
-  .folder-panel:active {
-    height: 220px;
+  .panels-strip::-webkit-scrollbar { display: none; }
+
+  /* Each panel card: fixed width, full height */
+  .folder-panel {
+    flex: none;
+    width: 48vw;
+    height: 100%;
+    transition: none;
+    cursor: pointer;
   }
-  .panel-label { bottom: 16px; }
-  .panel-tab { width: 42px; height: 28px; }
-  .section-body { padding: 32px 24px; }
-  .section-header-inner { padding: 32px 24px 28px; }
+
+  .panel-tab { width: 44px; height: 30px; }
+  .panel-label { bottom: 20px; }
+  .bottom-hint { bottom: 10px; right: 16px; }
+
+  /* Section overlay: full screen scroll */
+  .section-body { padding: 32px 20px; }
+  .section-header-inner { padding: 36px 20px 28px; }
   .section-areas { grid-template-columns: 1fr; }
   .work-placeholder-grid { grid-template-columns: repeat(2, 1fr); }
-  .bottom-hint { bottom: 12px; right: 16px; }
-  .archive-root { overflow-y: auto; }
+  .work-placeholder { padding: 28px 20px; }
 }
 
 /* ─── Scrollbar ─────────────────────────────────────────────── */
