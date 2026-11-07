@@ -2,10 +2,12 @@ import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { FOLDERS, type SectionId } from '../data/sections'
 import SectionView from './SectionView'
+import AreaView from './AreaView'
 
 export default function HomeArchive() {
   const [hovered, setHovered] = useState<SectionId | null>(null)
   const [active, setActive] = useState<SectionId | null>(null)
+  const [activeArea, setActiveArea] = useState<{ sectionId: SectionId; areaIndex: number } | null>(null)
 
   return (
     <div className="archive-root">
@@ -117,7 +119,7 @@ export default function HomeArchive() {
         </div>
       </div>
 
-      {/* Section overlay — slides in when a folder is opened */}
+      {/* Section overlay */}
       <AnimatePresence>
         {active && (
           <SectionView
@@ -125,6 +127,20 @@ export default function HomeArchive() {
             sectionId={active}
             folder={FOLDERS.find(f => f.id === active)!}
             onClose={() => setActive(null)}
+            onAreaClick={(i) => setActiveArea({ sectionId: active, areaIndex: i })}
+          />
+        )}
+      </AnimatePresence>
+
+      {/* Area sample page — slides over the section */}
+      <AnimatePresence>
+        {activeArea && (
+          <AreaView
+            key={`${activeArea.sectionId}-${activeArea.areaIndex}`}
+            sectionId={activeArea.sectionId}
+            areaIndex={activeArea.areaIndex}
+            folder={FOLDERS.find(f => f.id === activeArea.sectionId)!}
+            onClose={() => setActiveArea(null)}
           />
         )}
       </AnimatePresence>

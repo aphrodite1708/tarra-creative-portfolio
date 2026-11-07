@@ -480,21 +480,28 @@ button, a { cursor: none; font-family: inherit; }
   width: 100%;
 }
 
-/* Areas grid */
+/* Areas grid — each card is a button linking to its sample page */
 .section-areas {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 2px;
-  margin-bottom: 56px;
   border: 1px solid rgba(48, 35, 35, 0.07);
 }
 
 .area-card {
-  padding: 32px 28px;
+  padding: 32px 28px 28px;
   border: 1px solid rgba(48, 35, 35, 0.07);
-  transition: background 0.15s;
+  background: none;
+  text-align: left;
+  transition: background 0.18s, transform 0.18s;
+  display: flex;
+  flex-direction: column;
 }
-.area-card:hover { background: rgba(100, 31, 54, 0.03); }
+
+.area-card--clickable {
+  cursor: none;
+}
+.area-card--clickable:hover { background: rgba(100, 31, 54, 0.04); }
 
 .area-number {
   font-family: var(--font-sans);
@@ -524,43 +531,171 @@ button, a { cursor: none; font-family: inherit; }
   line-height: 1.65;
   color: var(--espresso);
   opacity: 0.65;
+  flex: 1;
 }
 
-/* Work placeholder */
-.work-placeholder {
-  border: 1.5px dashed rgba(48, 35, 35, 0.12);
-  border-radius: 4px;
-  padding: 48px;
-  text-align: center;
-}
-
-.work-placeholder-inner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-}
-
-.work-label-tag {
-  display: inline-block;
-  padding: 6px 16px;
-  border-radius: 99px;
+.area-cta {
+  margin-top: 20px;
   font-family: var(--font-sans);
   font-size: 10px;
   font-weight: 700;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
+  opacity: 0;
+  transition: opacity 0.18s;
+}
+.area-card--clickable:hover .area-cta { opacity: 1; }
+
+/* ─── Area sample overlay ───────────────────────────────────── */
+.area-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 110;
+  background: var(--warm-ivory);
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
 }
 
-.work-placeholder-text {
-  font-family: var(--font-script);
-  font-size: 1.1rem;
-  font-style: italic;
-  color: var(--espresso);
+.area-overlay-header {
+  flex-shrink: 0;
+  min-height: 220px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+
+.area-overlay-inner {
+  padding: 36px 60px 40px;
+  max-width: 900px;
+  width: 100%;
+}
+
+.area-breadcrumb { margin-bottom: 20px; }
+
+.area-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: 1px solid;
+  border-radius: 99px;
+  padding: 7px 16px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: opacity 0.15s;
+  cursor: none;
+}
+.area-back:hover { opacity: 0.65; }
+
+.area-overlay-meta {
+  margin-bottom: 10px;
+}
+
+.area-overlay-num {
+  font-family: var(--font-sans);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
   opacity: 0.5;
-  line-height: 1.65;
 }
 
+.area-overlay-title {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 3.5vw, 3rem);
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  margin-bottom: 16px;
+}
+
+.area-overlay-desc {
+  font-family: var(--font-script);
+  font-style: italic;
+  font-size: clamp(0.95rem, 1.3vw, 1.1rem);
+  line-height: 1.7;
+  opacity: 0.8;
+  max-width: 560px;
+}
+
+/* Samples body */
+.area-samples-body {
+  flex: 1;
+  padding: 48px 60px;
+}
+
+.area-samples-header {
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+  margin-bottom: 32px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(48, 35, 35, 0.08);
+}
+
+.area-samples-label {
+  font-family: var(--font-serif);
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--espresso);
+}
+
+.area-samples-hint {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  color: var(--espresso);
+  opacity: 0.4;
+  letter-spacing: 0.02em;
+}
+
+/* Upload slot grid */
+.samples-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+}
+
+.sample-slot {
+  aspect-ratio: 4 / 3;
+  border: 1.5px dashed rgba(48, 35, 35, 0.14);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: border-color 0.15s, background 0.15s;
+  cursor: pointer;
+}
+.sample-slot:hover {
+  border-color: rgba(100, 31, 54, 0.3);
+  background: rgba(100, 31, 54, 0.02);
+}
+
+.sample-slot-icon { opacity: 0.4; transition: opacity 0.15s; }
+.sample-slot:hover .sample-slot-icon { opacity: 0.7; }
+
+.sample-slot-label {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--espresso);
+  opacity: 0.45;
+  letter-spacing: 0.04em;
+}
+
+.sample-slot-type {
+  font-family: var(--font-sans);
+  font-size: 9px;
+  color: var(--espresso);
+  opacity: 0.28;
+  letter-spacing: 0.06em;
+}
+
+/* keep the old work-placeholder text styles alive in case referenced elsewhere */
 .work-placeholder-text span {
   font-size: 0.9rem;
   opacity: 0.7;

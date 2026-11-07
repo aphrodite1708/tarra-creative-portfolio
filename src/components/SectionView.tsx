@@ -6,11 +6,11 @@ interface Props {
   sectionId: SectionId
   folder: FolderData
   onClose: () => void
+  onAreaClick: (areaIndex: number) => void
 }
 
-export default function SectionView({ sectionId, folder, onClose }: Props) {
+export default function SectionView({ sectionId, folder, onClose, onAreaClick }: Props) {
   const content = SECTION_CONTENT[sectionId]
-  const isLight = folder.color === '#EDE1D2' || folder.color === '#D7AEB5' || folder.color === '#A99A8D'
 
   return (
     <motion.div
@@ -20,14 +20,8 @@ export default function SectionView({ sectionId, folder, onClose }: Props) {
       exit={{ x: '100%' }}
       transition={{ duration: 0.55, ease: [0.16, 1, 0.3, 1] }}
     >
-      {/* Section header — colored strip using folder's color */}
-      <div
-        className="section-header"
-        style={{
-          background: folder.color,
-          color: folder.textColor,
-        }}
-      >
+      {/* Section header */}
+      <div className="section-header" style={{ background: folder.color, color: folder.textColor }}>
         <div className="section-header-inner">
           <div className="section-meta">
             <span className="section-folder-num">{folder.number}</span>
@@ -50,56 +44,29 @@ export default function SectionView({ sectionId, folder, onClose }: Props) {
         </div>
       </div>
 
-      {/* Section body */}
+      {/* Areas — each one opens its own sample page */}
       <div className="section-body">
-        {/* Areas grid */}
         <div className="section-areas">
           {content.areas.map((area, i) => (
-            <motion.div
+            <motion.button
               key={area.title}
-              className="area-card"
+              className="area-card area-card--clickable"
               initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1 + i * 0.07, duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+              onClick={() => onAreaClick(i)}
+              whileHover={{ y: -3 }}
+              whileTap={{ scale: 0.98 }}
             >
               <div className="area-number">0{i + 1}</div>
               <h3 className="area-title">{area.title}</h3>
               <p className="area-body">{area.body}</p>
-            </motion.div>
+              <div className="area-cta" style={{ color: folder.color }}>
+                View samples →
+              </div>
+            </motion.button>
           ))}
         </div>
-
-        {/* Work placeholder */}
-        <motion.div
-          className="work-placeholder"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.5 }}
-        >
-          <div className="work-placeholder-inner">
-            <div
-              className="work-label-tag"
-              style={{ background: folder.color, color: folder.textColor }}
-            >
-              {folder.label}
-            </div>
-            <p className="work-placeholder-text">
-              Portfolio work, case studies, and examples coming soon.<br />
-              <span>Add your files to bring this section to life.</span>
-            </p>
-            <div className="work-placeholder-grid">
-              {[1, 2, 3, 4].map(n => (
-                <div key={n} className="work-placeholder-cell">
-                  <div
-                    className="cell-stripe"
-                    style={{ background: folder.color, opacity: isLight ? 0.12 : 0.08 }}
-                  />
-                  <span className="cell-label">Work sample {n}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        </motion.div>
       </div>
     </motion.div>
   )
