@@ -80,6 +80,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         description: 'IG Reels KOL brief for the Firstlab Probiotic Skin Essence Signature — talking points, content direction, and key mentions for a skincare-before-makeup concept.',
         year: '2023',
       },
+      {
+        id: 'teddie-clubs-acne-patch-collab-brief',
+        title: 'Special Edition Acne Patch — Collaboration Pitch Deck',
+        brand: 'Teddie Clubs',
+        type: 'pdf',
+        file: '/samples/campaigns/teddie-clubs-acne-patch-collab-brief.pdf',
+        description: 'Collaboration pitch deck for a creator co-branded Special Edition Acne Patch — custom illustration packaging, revenue share model, TikTok Shop & Shopee launch plan. Target launch: June 2026.',
+        year: '2025',
+      },
     ],
     1: [
       {
