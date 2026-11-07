@@ -39,6 +39,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2022',
       },
       {
+        id: 'kaila-cushion-kol-brief',
+        title: 'Cushion 2in1 — KOL Video Brief',
+        brand: 'Kaila Beauté',
+        type: 'image',
+        file: '/samples/campaigns/kaila-cushion-kol-brief.jpg',
+        description: 'Video concept brief for a soft-sell UGC creator: a full-day outing concept with before-after Cushion 2in1 demo.',
+        year: '2025',
+      },
+      {
         id: 'walls-paddlepop-jiggly-jelly-kol-brief',
         title: 'MTX Gems — Paddle Pop Jiggly Jelly KOL Brief',
         brand: "Wall's",
