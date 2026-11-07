@@ -53,6 +53,24 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         description: 'PR Kit KOL brief for the Paddle Pop Jiggly Jelly launch, collaborating with the Jumbo film.',
         year: '2025',
       },
+      {
+        id: 'paxmoly-brightening-tone-up-cream-brief',
+        title: 'Brightening Tone Up Cream — KOL Brief',
+        brand: 'Paxmoly',
+        type: 'pdf',
+        file: '/samples/campaigns/paxmoly-brightening-tone-up-cream-brief.pdf',
+        description: 'KOL endorsement brief for Paxmoly Brightening Tone Up Cream — concept direction, key messages, and content guidelines.',
+        year: '2025',
+      },
+      {
+        id: 'nvmee-libra-hair-styler-brief',
+        title: 'Libra Hair Styler — Endorsement Brief',
+        brand: 'NVMEE',
+        type: 'pdf',
+        file: '/samples/campaigns/nvmee-libra-hair-styler-brief.pdf',
+        description: 'Full endorsement brief for the NVMEE Libra Hair Styler — product messaging, creator guidelines, and content requirements.',
+        year: '2025',
+      },
     ],
     1: [
       {
