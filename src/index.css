@@ -143,22 +143,22 @@ button, a { cursor: none; font-family: inherit; }
 }
 
 .hero-photo-wrap {
-  /* In-flow, pushed to bottom of the flex column */
   margin-top: auto;
-  /* bleed slightly past the column edge into the panels */
-  width: calc(100% + 24px);
-  margin-left: -6px;
-  /* overflow below viewport for pop-out feel */
+  /* width follows the photo's height — don't constrain it */
+  width: auto;
+  margin-left: -10px;
   margin-bottom: -48px;
   pointer-events: none;
   z-index: 26;
   rotate: -1.5deg;
   flex-shrink: 0;
+  align-self: flex-start;
 }
 
 .hero-photo {
-  width: 100%;
-  height: auto;
+  /* height-driven: 52vh puts the top of her head at ~50% of the frame */
+  height: clamp(360px, 52vh, 660px);
+  width: auto;
   display: block;
   filter:
     drop-shadow(-8px 0 0 var(--warm-ivory))
@@ -625,13 +625,15 @@ button, a { cursor: none; font-family: inherit; }
   /* Photo: in-flow after the text, large */
   .hero-photo-wrap {
     position: static;
-    width: 88%;
-    max-width: 360px;
+    width: auto;
     rotate: -2deg;
-    margin: 16px 0 0 12px;
-    /* spill it below so it looks "pop-out" */
-    margin-bottom: -80px;
+    margin: 16px 0 -80px 12px;
     z-index: 10;
+    align-self: flex-start;
+  }
+  .hero-photo {
+    height: clamp(300px, 48vw, 420px);
+    width: auto;
   }
 
   /* Panels: horizontal scrollable row */
