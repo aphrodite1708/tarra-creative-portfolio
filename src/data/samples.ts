@@ -48,6 +48,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2025',
       },
       {
+        id: 'cevita-tomo-kenko-launch-campaign-strategy',
+        title: 'Cevita — Launching Campaign Strategy',
+        brand: 'Tomo Kenko',
+        type: 'pdf',
+        file: '/samples/campaigns/cevita-tomo-kenko-launch-campaign-strategy.pdf',
+        description: 'Full offline & online launch campaign strategy for Cevita multivitamin — audience mapping, event concept, campaign objectives, and KOL activation plan.',
+        year: '2025',
+      },
+      {
         id: 'walls-paddlepop-jiggly-jelly-kol-brief',
         title: 'MTX Gems — Paddle Pop Jiggly Jelly KOL Brief',
         brand: "Wall's",
