@@ -2,6 +2,7 @@ import { motion } from 'framer-motion'
 import type { FolderData, SectionId } from '../data/sections'
 import { SECTION_CONTENT } from '../data/sections'
 import { getSamples, type Sample } from '../data/samples'
+import PdfThumbnail from './PdfThumbnail'
 
 interface Props {
   sectionId: SectionId
@@ -48,6 +49,16 @@ function SampleCard({ sample, accentColor }: { sample: Sample; accentColor: stri
     )
   }
 
+  const previewEl = sample.type === 'pdf' && sample.file
+    ? <PdfThumbnail file={sample.file} className="sample-card-preview" />
+    : sample.type === 'image' && sample.file
+    ? <img src={sample.file} alt={sample.title} className="sample-card-preview sample-card-preview--img" />
+    : (
+      <div className="sample-card-top" style={{ background: accentColor }}>
+        <TypeIcon />
+      </div>
+    )
+
   return (
     <motion.button
       className="sample-card"
@@ -55,18 +66,13 @@ function SampleCard({ sample, accentColor }: { sample: Sample; accentColor: stri
       whileHover={{ y: -4 }}
       whileTap={{ scale: 0.98 }}
     >
-      {/* Top — coloured icon strip */}
-      <div className="sample-card-top" style={{ background: accentColor }}>
-        <TypeIcon />
-      </div>
+      {/* Preview — PDF first page, image, or fallback icon */}
+      {previewEl}
 
       {/* Body */}
       <div className="sample-card-body">
         <div className="sample-card-brand">{sample.brand}</div>
         <h4 className="sample-card-title">{sample.title}</h4>
-        {sample.description && (
-          <p className="sample-card-desc">{sample.description}</p>
-        )}
       </div>
 
       {/* Footer */}
