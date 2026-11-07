@@ -19,6 +19,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
     // 0 = Campaign Briefs
     1: [
       {
+        id: 'cevita-tomo-kenko-launch-campaign-strategy-sourcing',
+        title: 'Cevita — KOL & Event Activation Strategy',
+        brand: 'Tomo Kenko',
+        type: 'pdf',
+        file: '/samples/campaigns/cevita-tomo-kenko-launch-campaign-strategy.pdf',
+        description: 'Creator and event activation strategy within the Cevita launch — target audience mapping, KOL integration, and event touchpoints.',
+        year: '2025',
+      },
+      {
         id: 'secondate-xexymix-padel-kol-catalogue',
         title: 'Playdate Padel Event — KOL Catalogue',
         brand: 'Secondate × Xexymix',
