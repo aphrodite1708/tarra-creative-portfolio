@@ -67,13 +67,14 @@ button, a { cursor: none; font-family: inherit; }
 .hero-overlay {
   position: absolute;
   top: 0; left: 0;
-  width: min(320px, 26vw);
+  width: min(340px, 28vw);
   height: 100%;
   z-index: 20;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 48px 36px 48px 44px;
+  padding: 48px 36px 200px 44px;
+  overflow: visible;
   /* gradient so it fades into the panels */
   background: linear-gradient(
     to right,
@@ -142,17 +143,25 @@ button, a { cursor: none; font-family: inherit; }
 }
 
 .hero-photo-wrap {
-  position: relative;
-  width: 100px;
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-38%);
+  width: clamp(180px, 22vw, 290px);
   pointer-events: none;
-  margin-top: auto;
+  z-index: 25;
+  rotate: -2deg;
 }
 
 .hero-photo {
   width: 100%;
   height: auto;
   display: block;
-  filter: drop-shadow(0 8px 20px rgba(100, 31, 54, 0.15));
+  filter:
+    drop-shadow(-5px 0 0 var(--warm-ivory))
+    drop-shadow(5px 0 0 var(--warm-ivory))
+    drop-shadow(0 6px 0 var(--warm-ivory))
+    drop-shadow(0 20px 28px rgba(100, 31, 54, 0.22));
 }
 
 /* ─── Panels strip ──────────────────────────────────────────── */
@@ -160,7 +169,7 @@ button, a { cursor: none; font-family: inherit; }
   flex: 1;
   display: flex;
   /* indent past the hero overlay */
-  padding-left: min(220px, 20vw);
+  padding-left: min(240px, 22vw);
   gap: 3px;
   overflow: hidden;
 }
