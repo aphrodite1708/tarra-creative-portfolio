@@ -145,10 +145,9 @@ button, a { cursor: none; font-family: inherit; }
 .hero-photo-wrap {
   /* Sibling of hero-overlay — absolute on archive-root */
   position: absolute;
-  /* sits in the lower half of the hero column, below the text */
-  bottom: -40px;
-  left: 20px;
-  width: clamp(220px, 24vw, 400px);
+  bottom: -60px;
+  left: 10px;
+  width: clamp(300px, 32vw, 520px);
   pointer-events: none;
   z-index: 26;
   rotate: -2deg;
@@ -587,7 +586,7 @@ button, a { cursor: none; font-family: inherit; }
   .hero-name-first { font-size: clamp(2.2rem, 4vw, 3.4rem); }
   .hero-name-last  { font-size: clamp(2.4rem, 4.4vw, 3.8rem); }
   .panels-strip { padding-left: min(310px, 33vw); }
-  .hero-photo-wrap { width: clamp(180px, 20vw, 300px); left: 16px; }
+  .hero-photo-wrap { width: clamp(240px, 28vw, 420px); left: 12px; bottom: -50px; }
 }
 
 /* ─── Responsive: mobile ────────────────────────────────────── */
@@ -623,12 +622,12 @@ button, a { cursor: none; font-family: inherit; }
   /* Photo: in-flow after the text, large */
   .hero-photo-wrap {
     position: static;
-    width: 72%;
-    max-width: 280px;
+    width: 88%;
+    max-width: 360px;
     rotate: -2deg;
-    margin: 16px 0 0 20px;
+    margin: 16px 0 0 12px;
     /* spill it below so it looks "pop-out" */
-    margin-bottom: -60px;
+    margin-bottom: -80px;
     z-index: 10;
   }
 
