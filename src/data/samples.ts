@@ -27,6 +27,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         description: 'Full campaign brief & creator guidelines for Westcare sunscreen launch.',
         year: '2022',
       },
+      {
+        id: 'walls-paddlepop-jiggly-jelly-kol-brief',
+        title: 'MTX Gems — Paddle Pop Jiggly Jelly KOL Brief',
+        brand: "Wall's",
+        type: 'pdf',
+        file: '/samples/campaigns/walls-paddlepop-jiggly-jelly-kol-brief.pdf',
+        description: 'PR Kit KOL brief for the Paddle Pop Jiggly Jelly launch, collaborating with the Jumbo film.',
+        year: '2025',
+      },
     ],
   },
 }
