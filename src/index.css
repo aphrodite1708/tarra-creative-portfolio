@@ -695,6 +695,113 @@ button, a { cursor: none; font-family: inherit; }
   letter-spacing: 0.06em;
 }
 
+/* Real sample cards */
+.sample-card {
+  width: 100%;
+  background: #fff;
+  border: 1.5px solid rgba(48, 35, 35, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  text-align: left;
+  transition: box-shadow 0.2s, border-color 0.2s;
+  box-shadow: 0 1px 4px rgba(48, 35, 35, 0.05);
+}
+.sample-card:hover {
+  box-shadow: 0 6px 20px rgba(48, 35, 35, 0.12);
+  border-color: rgba(48, 35, 35, 0.18);
+}
+
+.sample-card-top {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.9;
+  flex-shrink: 0;
+}
+
+.sample-card-body {
+  padding: 16px 16px 10px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.sample-card-brand {
+  font-family: var(--font-sans);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--espresso);
+  opacity: 0.45;
+}
+
+.sample-card-title {
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--espresso);
+  line-height: 1.3;
+  margin: 0;
+}
+
+.sample-card-desc {
+  font-family: var(--font-sans);
+  font-size: 11.5px;
+  color: var(--espresso);
+  opacity: 0.6;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.sample-card-footer {
+  padding: 10px 16px 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-top: 1px solid rgba(48, 35, 35, 0.07);
+}
+
+.sample-card-year {
+  font-family: var(--font-sans);
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--espresso);
+  opacity: 0.4;
+  letter-spacing: 0.04em;
+}
+
+.sample-card-type {
+  font-family: var(--font-sans);
+  font-size: 9px;
+  color: var(--espresso);
+  opacity: 0.35;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.sample-card-open {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  margin-left: auto;
+}
+
+/* Count label in samples header */
+.area-samples-count {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  color: var(--espresso);
+  opacity: 0.4;
+  letter-spacing: 0.04em;
+}
+
 /* keep the old work-placeholder text styles alive in case referenced elsewhere */
 .work-placeholder-text span {
   font-size: 0.9rem;
