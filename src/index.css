@@ -67,14 +67,14 @@ button, a { cursor: none; font-family: inherit; }
 .hero-overlay {
   position: absolute;
   top: 0; left: 0;
-  /* Wide enough to hold the name + clear the panels */
   width: min(400px, 30vw);
   height: 100%;
   z-index: 20;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: 48px 32px 60px 48px;
+  /* text at top, photo at bottom */
+  justify-content: flex-start;
+  padding: clamp(32px, 7vh, 56px) 28px 0 44px;
   overflow: visible;
   background: linear-gradient(
     to right,
@@ -143,14 +143,17 @@ button, a { cursor: none; font-family: inherit; }
 }
 
 .hero-photo-wrap {
-  /* Sibling of hero-overlay — absolute on archive-root */
-  position: absolute;
-  bottom: -60px;
-  left: 10px;
-  width: clamp(300px, 32vw, 520px);
+  /* In-flow, pushed to bottom of the flex column */
+  margin-top: auto;
+  /* bleed slightly past the column edge into the panels */
+  width: calc(100% + 24px);
+  margin-left: -6px;
+  /* overflow below viewport for pop-out feel */
+  margin-bottom: -48px;
   pointer-events: none;
   z-index: 26;
-  rotate: -2deg;
+  rotate: -1.5deg;
+  flex-shrink: 0;
 }
 
 .hero-photo {
@@ -586,7 +589,7 @@ button, a { cursor: none; font-family: inherit; }
   .hero-name-first { font-size: clamp(2.2rem, 4vw, 3.4rem); }
   .hero-name-last  { font-size: clamp(2.4rem, 4.4vw, 3.8rem); }
   .panels-strip { padding-left: min(310px, 33vw); }
-  .hero-photo-wrap { width: clamp(240px, 28vw, 420px); left: 12px; bottom: -50px; }
+  .hero-photo-wrap { width: calc(100% + 20px); margin-left: -4px; margin-bottom: -40px; }
 }
 
 /* ─── Responsive: mobile ────────────────────────────────────── */

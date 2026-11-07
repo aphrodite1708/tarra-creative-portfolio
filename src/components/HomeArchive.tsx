@@ -9,7 +9,7 @@ export default function HomeArchive() {
 
   return (
     <div className="archive-root">
-      {/* Hero text overlay */}
+      {/* Hero column — top: text, bottom: photo */}
       <div className="hero-overlay" aria-hidden={active !== null}>
         <div className="hero-eyebrow">Creative Strategist</div>
         <h1 className="hero-name">
@@ -20,11 +20,11 @@ export default function HomeArchive() {
         <p className="hero-welcome">
           Welcome to my creative archive — a collection of my work, from ideas and strategies to concepts and creative execution.
         </p>
-      </div>
 
-      {/* Photo — absolutely positioned below the intro text, independent of overlay */}
-      <div className="hero-photo-wrap" aria-hidden>
-        <img src="/tarra.png" alt="Tarra Ananda" className="hero-photo" />
+        {/* Photo pushed to the bottom of the column */}
+        <div className="hero-photo-wrap">
+          <img src="/tarra.png" alt="Tarra Ananda" className="hero-photo" />
+        </div>
       </div>
 
       {/* Folder panels strip */}
