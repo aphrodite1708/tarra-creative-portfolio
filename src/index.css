@@ -11,9 +11,9 @@
   --warm-ivory:  #F7F1E9;
   --soft-taupe:  #A99A8D;
 
-  --font-serif:  'Playfair Display', Georgia, serif;
-  --font-script: 'Cormorant Garamond', serif;
-  --font-sans:   'Inter', system-ui, sans-serif;
+  --font-serif:  'Cabinet Grotesk', system-ui, sans-serif;
+  --font-script: 'Satoshi', system-ui, sans-serif;
+  --font-sans:   'Satoshi', system-ui, sans-serif;
 }
 
 html, body { height: 100%; overflow: hidden; }
@@ -103,26 +103,24 @@ button, a { cursor: none; font-family: inherit; }
 }
 
 .hero-name-first {
-  font-family: var(--font-script);
+  font-family: var(--font-serif);
   font-size: clamp(2.8rem, 4.5vw, 4.6rem);
-  font-weight: 300;
-  font-style: italic;
+  font-weight: 400;
   color: var(--burgundy);
-  opacity: 0.8;
-  letter-spacing: 0.02em;
+  opacity: 0.75;
+  letter-spacing: 0.04em;
 }
 
 .hero-name-last {
   font-family: var(--font-serif);
   font-size: clamp(3rem, 4.8vw, 5rem);
-  font-weight: 900;
+  font-weight: 800;
   color: var(--burgundy);
-  letter-spacing: -0.025em;
+  letter-spacing: -0.02em;
 }
 
 .hero-quote {
-  font-family: var(--font-script);
-  font-style: italic;
+  font-family: var(--font-sans);
   font-size: clamp(0.82rem, 1.1vw, 1rem);
   line-height: 1.8;
   color: var(--espresso);
@@ -288,8 +286,7 @@ button, a { cursor: none; font-family: inherit; }
 }
 
 .peek-tagline {
-  font-family: var(--font-script);
-  font-style: italic;
+  font-family: var(--font-sans);
   font-size: clamp(0.82rem, 1vw, 0.98rem);
   line-height: 1.6;
   opacity: 0.75;
@@ -447,8 +444,7 @@ button, a { cursor: none; font-family: inherit; }
 }
 
 .section-intro {
-  font-family: var(--font-script);
-  font-style: italic;
+  font-family: var(--font-sans);
   font-size: clamp(1rem, 1.4vw, 1.2rem);
   line-height: 1.7;
   max-width: 600px;
@@ -525,9 +521,8 @@ button, a { cursor: none; font-family: inherit; }
 }
 
 .area-body {
-  font-family: var(--font-script);
-  font-size: 1rem;
-  font-style: italic;
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
   line-height: 1.65;
   color: var(--espresso);
   opacity: 0.65;
@@ -613,8 +608,7 @@ button, a { cursor: none; font-family: inherit; }
 }
 
 .area-overlay-desc {
-  font-family: var(--font-script);
-  font-style: italic;
+  font-family: var(--font-sans);
   font-size: clamp(0.95rem, 1.3vw, 1.1rem);
   line-height: 1.7;
   opacity: 0.8;
