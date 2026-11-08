@@ -81,6 +81,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2023',
       },
       {
+        id: 'blp-beauty-holiday-gift-set-brief',
+        title: 'Holiday Gift Sets — KOL Brief',
+        brand: 'BLP Beauty',
+        type: 'pdf',
+        file: '/samples/campaigns/blp-beauty-holiday-gift-set-brief.pdf',
+        description: 'KOL brief for BLP Beauty Holiday gift sets — Holiday 1 (Makeup Fixer, Lash Bash, Lip Gel Carnation/Marigold + Sling Bag) and Holiday 2 (Eyeshadow Palette, Matte Liner, Lip Coat + Sling Bag).',
+        year: '2024',
+      },
+      {
         id: 'teddie-clubs-acne-patch-collab-brief',
         title: 'Special Edition Acne Patch — Collaboration Pitch Deck',
         brand: 'Teddie Clubs',
