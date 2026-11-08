@@ -98,6 +98,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         description: 'Collaboration pitch deck for a creator co-branded Special Edition Acne Patch — custom illustration packaging, revenue share model, TikTok Shop & Shopee launch plan. Target launch: June 2026.',
         year: '2025',
       },
+      {
+        id: 'lencir-prebiotic-kol-brief',
+        title: 'Lencir Prebiotic Drink — KOL Brief',
+        brand: 'Lencir',
+        type: 'pdf',
+        file: '/samples/campaigns/lencir-prebiotic-kol-brief.pdf',
+        description: 'Full KOL endorsement brief for Lencir prebiotic drink — product knowledge (Original/Wild & Silver/Strong variants), USPs, content guidelines, and how-to-drink notes.',
+        year: '2025',
+      },
     ],
     1: [
       {
@@ -194,6 +203,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         type: 'pdf',
         file: '/samples/copywriting/wardah-nmf-amino-face-wash-script.pdf',
         description: 'Full UGC script for Reels + Instagram Stories: 6-scene Reels script and 5-story IG series. Concept, dialogue, visual direction, and text overlays.',
+        year: '2025',
+      },
+      {
+        id: 'lencir-probiotic-ig-stories-script',
+        title: 'Lencir Probiotic Drink — Instagram Stories Script',
+        brand: 'Lencir',
+        type: 'pdf',
+        file: '/samples/copywriting/lencir-probiotic-ig-stories-script.pdf',
+        description: '6-story Instagram Stories script using a lifestyle/daily routine approach — hook, product intro, experience, daily routine, convenience, and CTA scenes with talk-to-camera dialogue and text overlays.',
         year: '2025',
       },
     ],
