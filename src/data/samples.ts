@@ -381,6 +381,24 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
     // 2 = Dress Codes & Wardrobe
     2: [
       {
+        id: 'wardrobe-styling-red-dress',
+        title: 'Wardrobe Styling — Raspberry Puff-Sleeve Dress',
+        brand: 'Brand Campaign',
+        type: 'image',
+        file: '/samples/direction/wardrobe-styling-red-dress.jpg',
+        description: 'Wardrobe selection for a brand campaign — raspberry/red puff-sleeve midi dress with sweetheart neckline and button detail, curated to align with the campaign colour palette.',
+        year: '2025',
+      },
+      {
+        id: 'wardrobe-styling-red-flatlay',
+        title: 'Wardrobe Styling — Red Palette Flat Lay',
+        brand: 'Brand Campaign',
+        type: 'image',
+        file: '/samples/direction/wardrobe-styling-red-flatlay.jpg',
+        description: 'Flat-lay wardrobe selection for a brand campaign — maroon striped tee and red polo in a coordinated red palette, styled as content wardrobe options.',
+        year: '2025',
+      },
+      {
         id: 'secondate-xexymix-padel-kol-catalogue-wardrobe',
         title: 'Playdate Padel Event — KOL Wardrobe Catalogue',
         brand: 'Secondate × Xexymix',
