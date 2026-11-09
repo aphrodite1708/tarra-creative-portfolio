@@ -16,6 +16,7 @@ export interface Sample {
 // samples[sectionId][areaIndex] = Sample[]
 export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
   campaigns: {
+    // 0 = Campaign Briefs
     0: [
       {
         id: 'westcare-sunscreen-brief',
@@ -108,6 +109,7 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2025',
       },
     ],
+    // 1 = Creator Sourcing & Outreach
     1: [
       {
         id: 'cevita-tomo-kenko-launch-campaign-strategy-sourcing',
@@ -137,6 +139,19 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2023',
       },
     ],
+    // 3 = Negotiations
+    3: [
+      {
+        id: 'teddie-clubs-acne-patch-collab-negotiations',
+        title: 'Special Edition Acne Patch — Collaboration Pitch Deck',
+        brand: 'Teddie Clubs',
+        type: 'pdf',
+        file: '/samples/campaigns/teddie-clubs-acne-patch-collab-brief.pdf',
+        description: 'Creator co-brand pitch with a revenue share model — structured to negotiate packaging co-creation, profit split, and exclusive TikTok Shop & Shopee launch rights.',
+        year: '2025',
+      },
+    ],
+    // 5 = Content Insight Reports
     5: [
       {
         id: 'activgluta-instagram-insight',
@@ -194,7 +209,347 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
       },
     ],
   },
+  direction: {
+    // 0 = Creative Briefs
+    0: [
+      {
+        id: 'westcare-sunscreen-brief-direction',
+        title: 'Invisible UV Protector SPF 45+++',
+        brand: 'Westcare',
+        type: 'pdf',
+        file: '/samples/campaigns/westcare-sunscreen-brief.pdf',
+        description: 'Campaign brief doubling as a creative brief — concept direction, visual tone, and content parameters for creators.',
+        year: '2022',
+      },
+      {
+        id: 'kaila-cushion-kol-brief-direction',
+        title: 'Cushion 2in1 — KOL Video Brief',
+        brand: 'Kaila Beauté',
+        type: 'image',
+        file: '/samples/campaigns/kaila-cushion-kol-brief.jpg',
+        description: 'Visual concept brief: a full-day outing narrative with before-after demo — demonstrates how creative direction is embedded inside a creator brief.',
+        year: '2025',
+      },
+      {
+        id: 'cevita-tomo-kenko-launch-campaign-brief-direction',
+        title: 'Cevita — Launch Campaign Creative Strategy',
+        brand: 'Tomo Kenko',
+        type: 'pdf',
+        file: '/samples/campaigns/cevita-tomo-kenko-launch-campaign-strategy.pdf',
+        description: 'Full creative strategy doc — event concept, visual direction, campaign objectives, and KOL integration framework for the Cevita launch.',
+        year: '2025',
+      },
+      {
+        id: 'walls-paddlepop-jiggly-jelly-brief-direction',
+        title: 'MTX Gems — Paddle Pop Jiggly Jelly KOL Brief',
+        brand: "Wall's",
+        type: 'pdf',
+        file: '/samples/campaigns/walls-paddlepop-jiggly-jelly-kol-brief.pdf',
+        description: 'PR Kit creative brief for the Jiggly Jelly launch — visual concept, content direction, and key messaging tied to the Jumbo film collaboration.',
+        year: '2025',
+      },
+      {
+        id: 'paxmoly-brightening-tone-up-cream-brief-direction',
+        title: 'Brightening Tone Up Cream — KOL Brief',
+        brand: 'Paxmoly',
+        type: 'pdf',
+        file: '/samples/campaigns/paxmoly-brightening-tone-up-cream-brief.pdf',
+        description: 'Creative brief with concept direction, aesthetic references, and key message framework for creator endorsement content.',
+        year: '2025',
+      },
+      {
+        id: 'nvmee-libra-hair-styler-brief-direction',
+        title: 'Libra Hair Styler — Endorsement Brief',
+        brand: 'NVMEE',
+        type: 'pdf',
+        file: '/samples/campaigns/nvmee-libra-hair-styler-brief.pdf',
+        description: 'Production brief for NVMEE hair styler content — visual direction, product messaging, and execution requirements for creators.',
+        year: '2025',
+      },
+      {
+        id: 'firstlab-probiotic-skin-essence-brief-direction',
+        title: 'Probiotic Skin Essence Signature — IG Reels Brief',
+        brand: 'Firstlab',
+        type: 'pdf',
+        file: '/samples/campaigns/firstlab-probiotic-skin-essence-kol-brief.pdf',
+        description: 'Creative direction embedded in the KOL brief — skincare-before-makeup concept, visual flow, and key talking points for a Reels-first execution.',
+        year: '2023',
+      },
+      {
+        id: 'blp-beauty-holiday-gift-set-brief-direction',
+        title: 'Holiday Gift Sets — KOL Brief',
+        brand: 'BLP Beauty',
+        type: 'pdf',
+        file: '/samples/campaigns/blp-beauty-holiday-gift-set-brief.pdf',
+        description: 'Holiday campaign brief with product bundling logic and content direction for two separate gift set SKUs — demonstrates how to brief multiple deliverables clearly.',
+        year: '2024',
+      },
+      {
+        id: 'teddie-clubs-acne-patch-collab-brief-direction',
+        title: 'Special Edition Acne Patch — Collaboration Pitch Deck',
+        brand: 'Teddie Clubs',
+        type: 'pdf',
+        file: '/samples/campaigns/teddie-clubs-acne-patch-collab-brief.pdf',
+        description: 'Creative pitch deck for a co-branded product — custom illustration packaging concept, visual identity direction, and launch creative plan.',
+        year: '2025',
+      },
+      {
+        id: 'lencir-prebiotic-kol-brief-direction',
+        title: 'Lencir Prebiotic Drink — KOL Brief',
+        brand: 'Lencir',
+        type: 'pdf',
+        file: '/samples/campaigns/lencir-prebiotic-kol-brief.pdf',
+        description: 'KOL brief with embedded creative direction — content tone, visual naturalness guidelines, and product integration parameters.',
+        year: '2025',
+      },
+      {
+        id: 'wardah-nmf-amino-face-wash-script-direction',
+        title: 'Wardah NMF Amino Face Wash — Reels & Stories Script',
+        brand: 'Wardah',
+        type: 'pdf',
+        file: '/samples/copywriting/wardah-nmf-amino-face-wash-script.pdf',
+        description: 'Production document with scene-by-scene visual direction, shot sequence, and text overlay specs — functions as a creative brief alongside the script.',
+        year: '2025',
+      },
+    ],
+    // 1 = Moodboards
+    1: [
+      {
+        id: 'secondate-xexymix-padel-kol-catalogue-moodboard',
+        title: 'Playdate Padel Event — Styling Catalogue',
+        brand: 'Secondate × Xexymix',
+        type: 'pdf',
+        file: '/samples/campaigns/secondate-xexymix-padel-kol-catalogue.pdf',
+        description: 'Visual styling catalogue across three team colour palettes — White, Red, and Green — serving as a moodboard and reference guide for creator looks at the event.',
+        year: '2024',
+      },
+      {
+        id: 'lencir-anniversary-event-invite-moodboard',
+        title: 'Lencir 2nd Anniversary — Event Invite Graphic',
+        brand: 'Lencir',
+        type: 'image',
+        file: '/samples/direction/lencir-anniversary-event-invite.jpg',
+        description: 'Event invitation graphic for the Lencir Anniversary private concert featuring Raisa — dark red velvet aesthetic, ticket motif, and styling inspiration imagery for the dress code.',
+        year: '2025',
+      },
+    ],
+    // 2 = Dress Codes & Wardrobe
+    2: [
+      {
+        id: 'secondate-xexymix-padel-kol-catalogue-wardrobe',
+        title: 'Playdate Padel Event — KOL Wardrobe Catalogue',
+        brand: 'Secondate × Xexymix',
+        type: 'pdf',
+        file: '/samples/campaigns/secondate-xexymix-padel-kol-catalogue.pdf',
+        description: 'Full KOL wardrobe direction for a branded padel event — outfit options per team colour, styling cohesion across multiple creators, and brand aesthetic alignment.',
+        year: '2024',
+      },
+      {
+        id: 'lencir-anniversary-event-invite-dresscode',
+        title: 'Lencir 2nd Anniversary — Dress Code Direction',
+        brand: 'Lencir',
+        type: 'image',
+        file: '/samples/direction/lencir-anniversary-event-invite.jpg',
+        description: 'Event dress code communication: Formal Dress in Shades of Red — styling inspiration photos curated for creators and guests attending the Lencir anniversary private concert.',
+        year: '2025',
+      },
+    ],
+    // 3 = Visual Direction
+    3: [
+      {
+        id: 'kaila-cushion-kol-brief-visual',
+        title: 'Cushion 2in1 — KOL Video Brief',
+        brand: 'Kaila Beauté',
+        type: 'image',
+        file: '/samples/campaigns/kaila-cushion-kol-brief.jpg',
+        description: 'Visual direction embedded in the brief — full-day outing narrative with specific scene references, lighting mood, and before-after demo sequence.',
+        year: '2025',
+      },
+      {
+        id: 'wardah-nmf-amino-face-wash-script-visual',
+        title: 'Wardah NMF Amino Face Wash — Reels & Stories Script',
+        brand: 'Wardah',
+        type: 'pdf',
+        file: '/samples/copywriting/wardah-nmf-amino-face-wash-script.pdf',
+        description: '6-scene Reels script with detailed visual direction per scene — angles, transitions, text overlays, and shot requirements mapped to the final edit.',
+        year: '2025',
+      },
+    ],
+    // 4 = Campaign Storyboards
+    4: [
+      {
+        id: 'cevita-tomo-kenko-launch-campaign-storyboard',
+        title: 'Cevita — Launching Campaign Strategy',
+        brand: 'Tomo Kenko',
+        type: 'pdf',
+        file: '/samples/campaigns/cevita-tomo-kenko-launch-campaign-strategy.pdf',
+        description: 'Full campaign storyboard across offline and online touchpoints — event concept, KOL activation sequence, audience journey, and content phases mapped end-to-end.',
+        year: '2025',
+      },
+    ],
+  },
+  social: {
+    // 4 = High-Performing Content
+    4: [
+      {
+        id: 'activgluta-instagram-insight-social',
+        title: 'Activgluta — Instagram Stories Insight',
+        brand: 'Activgluta',
+        type: 'pdf',
+        file: '/samples/campaigns/activgluta-instagram-insight.pdf',
+        description: '44.6K views · 35.9K accounts reached · 1,589 link clicks. 97.3% women, 98.8% Indonesia — high-intent audience with strong swipe-up behaviour.',
+        year: '2025',
+      },
+      {
+        id: 'wardah-nmf-insight-reels-social',
+        title: 'Wardah NMF Amino Face Wash — Reels Insight',
+        brand: 'Wardah',
+        type: 'pdf',
+        file: '/samples/campaigns/wardah-nmf-insight-reels.pdf',
+        description: '61.6K plays · 79.5% non-followers reached. Strong discovery performance driven by search and explore placement.',
+        year: '2025',
+      },
+      {
+        id: 'wardah-nmf-insight-story-social',
+        title: 'Wardah NMF Amino Face Wash — Stories Insight',
+        brand: 'Wardah',
+        type: 'pdf',
+        file: '/samples/campaigns/wardah-nmf-insight-story.pdf',
+        description: '30.5K accounts reached · 20.4K on the CTA story — high story retention with strong CTA engagement relative to reach.',
+        year: '2025',
+      },
+      {
+        id: 'activgluta-tiktok-insight-social',
+        title: 'Activgluta — TikTok Video Analysis',
+        brand: 'Activgluta',
+        type: 'pdf',
+        file: '/samples/campaigns/activgluta-tiktok-insight.pdf',
+        description: '57.7K views · 80.4% For You traffic — organic discovery-led performance with a highly qualified Indonesian female audience.',
+        year: '2025',
+      },
+      {
+        id: 'nvmee-instagram-stories-insight-social',
+        title: 'NVMEE Libra Hair Styler — Instagram Stories Insight',
+        brand: 'NVMEE',
+        type: 'pdf',
+        file: '/samples/campaigns/nvmee-instagram-stories-insight.pdf',
+        description: '26.8K views · 159 link clicks — demonstrates effective CTA placement and story flow that drives traffic to product page.',
+        year: '2025',
+      },
+      {
+        id: 'firstlab-reels-insight-social',
+        title: 'Firstlab Probiotic Skin Essence — Reels Insight',
+        brand: 'Firstlab',
+        type: 'image',
+        file: '/samples/campaigns/firstlab-reels-insight.jpg',
+        description: '69.5K plays · 59.2% non-followers · 1,509 interactions — top-performing Reels content with high save rate signalling strong audience relevance.',
+        year: '2023',
+      },
+    ],
+  },
+  creator: {
+    // 0 = Content Strategy Documents
+    0: [
+      {
+        id: 'cevita-tomo-kenko-launch-campaign-strategy-creator',
+        title: 'Cevita — Launch Campaign Strategy',
+        brand: 'Tomo Kenko',
+        type: 'pdf',
+        file: '/samples/campaigns/cevita-tomo-kenko-launch-campaign-strategy.pdf',
+        description: 'Multi-channel launch strategy covering audience mapping, content phases, platform priorities, and creator integration — structured as a replicable content strategy framework.',
+        year: '2025',
+      },
+      {
+        id: 'firstlab-product-knowledge-creator',
+        title: 'Firstlab — Product Knowledge Deck',
+        brand: 'Firstlab',
+        type: 'pdf',
+        file: '/samples/campaigns/firstlab-product-knowledge.pdf',
+        description: 'Product knowledge deck prepared to onboard and align creators — covers brand story, product lines, ingredient education, and key selling points to inform authentic content.',
+        year: '2023',
+      },
+    ],
+    // 2 = UGC & Influencer Scripts
+    2: [
+      {
+        id: 'wardah-nmf-amino-face-wash-script-creator',
+        title: 'Wardah NMF Amino Face Wash — Reels & Stories Script',
+        brand: 'Wardah',
+        type: 'pdf',
+        file: '/samples/copywriting/wardah-nmf-amino-face-wash-script.pdf',
+        description: 'Full UGC script for Reels + Instagram Stories: 6-scene Reels with dialogue and visual direction, plus a 5-story IG series with text overlays and CTA flow.',
+        year: '2025',
+      },
+      {
+        id: 'lencir-probiotic-ig-stories-script-creator',
+        title: 'Lencir Probiotic Drink — Instagram Stories Script',
+        brand: 'Lencir',
+        type: 'pdf',
+        file: '/samples/copywriting/lencir-probiotic-ig-stories-script.pdf',
+        description: '6-story UGC script using a lifestyle/daily routine approach — hook, product intro, experience, daily routine, convenience, and CTA with talk-to-camera dialogue.',
+        year: '2025',
+      },
+    ],
+    // 4 = Audience Growth Results
+    4: [
+      {
+        id: 'activgluta-instagram-insight-creator',
+        title: 'Activgluta — Instagram Stories Insight',
+        brand: 'Activgluta',
+        type: 'pdf',
+        file: '/samples/campaigns/activgluta-instagram-insight.pdf',
+        description: '44.6K views · 1,589 link clicks — audience growth evidence from creator-led Stories content with strong swipe-up conversion.',
+        year: '2025',
+      },
+      {
+        id: 'wardah-nmf-insight-reels-creator',
+        title: 'Wardah NMF Amino Face Wash — Reels Insight',
+        brand: 'Wardah',
+        type: 'pdf',
+        file: '/samples/campaigns/wardah-nmf-insight-reels.pdf',
+        description: '61.6K plays · 45.3K accounts reached · 79.5% non-followers — Reels content that drove significant audience expansion beyond existing followers.',
+        year: '2025',
+      },
+      {
+        id: 'wardah-nmf-insight-story-creator',
+        title: 'Wardah NMF Amino Face Wash — Stories Insight',
+        brand: 'Wardah',
+        type: 'pdf',
+        file: '/samples/campaigns/wardah-nmf-insight-story.pdf',
+        description: '30.5K accounts reached · high story retention — demonstrates how Stories content can sustain audience engagement across a multi-slide sequence.',
+        year: '2025',
+      },
+      {
+        id: 'activgluta-tiktok-insight-creator',
+        title: 'Activgluta — TikTok Video Analysis',
+        brand: 'Activgluta',
+        type: 'pdf',
+        file: '/samples/campaigns/activgluta-tiktok-insight.pdf',
+        description: '57.7K views · 80.4% For You traffic — organic audience growth via TikTok algorithmic discovery, with detailed demographic breakdown.',
+        year: '2025',
+      },
+      {
+        id: 'nvmee-instagram-stories-insight-creator',
+        title: 'NVMEE Libra Hair Styler — Instagram Stories Insight',
+        brand: 'NVMEE',
+        type: 'pdf',
+        file: '/samples/campaigns/nvmee-instagram-stories-insight.pdf',
+        description: '26.8K views · 25.7K accounts reached — creator content performance showing strong audience reach relative to account size.',
+        year: '2025',
+      },
+      {
+        id: 'firstlab-reels-insight-creator',
+        title: 'Firstlab Probiotic Skin Essence — Reels Insight',
+        brand: 'Firstlab',
+        type: 'image',
+        file: '/samples/campaigns/firstlab-reels-insight.jpg',
+        description: '69.5K plays · 72.8K accounts reached · 1,509 interactions — audience growth result from a creator Reels post with high save rate and broad non-follower reach.',
+        year: '2023',
+      },
+    ],
+  },
   copywriting: {
+    // 1 = UGC Scripts
     1: [
       {
         id: 'wardah-nmf-amino-face-wash-script',
