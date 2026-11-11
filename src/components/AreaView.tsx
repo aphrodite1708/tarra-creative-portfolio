@@ -85,19 +85,6 @@ function SampleCard({ sample, accentColor }: { sample: Sample; accentColor: stri
   )
 }
 
-function EmptySlot() {
-  return (
-    <div className="sample-slot">
-      <div className="sample-slot-icon">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round">
-          <path d="M12 5v14M5 12h14" />
-        </svg>
-      </div>
-      <span className="sample-slot-label">Add sample</span>
-      <span className="sample-slot-type">Image · PDF · Link</span>
-    </div>
-  )
-}
 
 export default function AreaView({ sectionId, areaIndex, folder, onClose }: Props) {
   const content = SECTION_CONTENT[sectionId]
@@ -105,9 +92,6 @@ export default function AreaView({ sectionId, areaIndex, folder, onClose }: Prop
   const areaNum = String(areaIndex + 1).padStart(2, '0')
   const samples = getSamples(sectionId, areaIndex)
 
-  // Show real samples first, then fill remaining slots up to at least 6
-  const totalSlots = Math.max(6, samples.length + 2)
-  const emptyCount = totalSlots - samples.length
 
   return (
     <motion.div
@@ -165,17 +149,6 @@ export default function AreaView({ sectionId, areaIndex, folder, onClose }: Prop
             </motion.div>
           ))}
 
-          {/* Empty slots */}
-          {Array.from({ length: emptyCount }).map((_, i) => (
-            <motion.div
-              key={`empty-${i}`}
-              initial={{ opacity: 0, y: 16 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.08 + (samples.length + i) * 0.04, duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
-            >
-              <EmptySlot />
-            </motion.div>
-          ))}
         </div>
       </div>
     </motion.div>
