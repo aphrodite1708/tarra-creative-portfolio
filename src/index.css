@@ -309,7 +309,7 @@ button, a { cursor: none; font-family: inherit; }
 /* ─── Bottom nav hint ───────────────────────────────────────── */
 .bottom-hint {
   position: absolute;
-  bottom: 62px;
+  bottom: 20px;
   right: 32px;
   display: flex;
   align-items: center;
@@ -1048,8 +1048,8 @@ button, a { cursor: none; font-family: inherit; }
 
   .panel-tab { width: 44px; height: 30px; }
   .panel-label { bottom: 20px; }
-  .bottom-hint { bottom: 54px; right: 16px; }
-  .footer-strip { padding: 0 16px 0 16px; }
+  .bottom-hint { bottom: 10px; right: 16px; }
+  .footer-strip { padding: 0 16px; }
   .footer-name, .footer-sep, .footer-role { font-size: 9px; }
   .footer-links { gap: 14px; }
 
