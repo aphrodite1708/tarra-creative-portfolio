@@ -1727,6 +1727,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
     // 4 = High-Performing Content
     4: [
       {
+        id: 'ugc-published-content-drive-folder-social',
+        title: 'UGC Published Content — Full Portfolio',
+        brand: 'Various Brands',
+        type: 'link',
+        url: 'https://drive.google.com/drive/folders/16UDQCJmYTJ1smGuffNdOh5_USU1suUyM?usp=sharing',
+        description: 'Full collection of published UGC videos — Reels, TikToks and Stories across beauty, skincare, and lifestyle brands. See real content performance alongside the strategy and insights that explain it.',
+        year: '2025',
+      },
+      {
         id: 'activgluta-instagram-insight-social',
         title: 'Activgluta — Instagram Stories Insight',
         brand: 'Activgluta',
@@ -2488,6 +2497,18 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         type: 'pdf',
         file: '/samples/campaigns/storyline-embryolisse.pdf',
         description: 'Full UGC Reels script for Embryolisse Lait-Crème Concentré — introducing a French pharmacy cult moisturiser to an Indonesian beauty audience. VO and scene direction that positions the brand story, product texture, and key benefits in a format-native creator voice.',
+        year: '2025',
+      },
+    ],
+    // 3 = Published Content Examples
+    3: [
+      {
+        id: 'ugc-published-content-drive-folder',
+        title: 'UGC Published Content — Full Portfolio',
+        brand: 'Various Brands',
+        type: 'link',
+        url: 'https://drive.google.com/drive/folders/16UDQCJmYTJ1smGuffNdOh5_USU1suUyM?usp=sharing',
+        description: 'Full collection of published UGC content across brand campaigns — Reels, TikToks and Stories produced as creator or as content strategist directing creators. Covers beauty, skincare, lifestyle and FMCG categories.',
         year: '2025',
       },
     ],
