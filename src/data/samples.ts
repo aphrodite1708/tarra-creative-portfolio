@@ -3203,6 +3203,18 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
     ],
   },
   ai: {
+    // 0 = AI-Generated Ads
+    0: [
+      {
+        id: 'ai-creatives-ads-drive-folder',
+        title: 'AI-Generated Ads — Full Portfolio',
+        brand: 'Various Brands',
+        type: 'link',
+        url: 'https://drive.google.com/drive/folders/122ktLvk2ud1o8ugp2bWitepMdYEp_z30?usp=sharing',
+        description: 'Full collection of AI-generated advertising content produced across brand campaigns — built to perform, not just to demonstrate what\'s possible.',
+        year: '2025',
+      },
+    ],
     // 2 = AI Video Content
     2: [
       {
