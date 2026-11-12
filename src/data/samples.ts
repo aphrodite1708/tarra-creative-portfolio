@@ -1536,6 +1536,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
     // 3 = Visual Direction
     3: [
       {
+        id: 'brand-graphics-drive-folder-direction',
+        title: 'Brand Graphics — Full Portfolio',
+        brand: 'Various Brands',
+        type: 'link',
+        url: 'https://drive.google.com/drive/folders/105WOnlF0IQxuFjFHbkE4gVhksAjOvt8K?usp=sharing',
+        description: 'Full collection of brand graphic assets produced across campaigns — social media visuals, campaign graphics, and branded creative content across beauty, skincare, and lifestyle brands.',
+        year: '2025',
+      },
+      {
         id: 'kaila-cushion-kol-brief-visual',
         title: 'Cushion 2in1 — KOL Video Brief',
         brand: 'Kaila Beauté',
@@ -3215,6 +3224,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         type: 'link',
         url: 'https://drive.google.com/drive/folders/122ktLvk2ud1o8ugp2bWitepMdYEp_z30?usp=sharing',
         description: 'AI-generated visual content and creative production across campaigns — moodboards, campaign visuals, product imagery and content concepts developed using generative AI tools as part of a broader creative workflow.',
+        year: '2025',
+      },
+      {
+        id: 'brand-graphics-drive-folder-ai-visual',
+        title: 'Brand Graphics — Full Portfolio',
+        brand: 'Various Brands',
+        type: 'link',
+        url: 'https://drive.google.com/drive/folders/105WOnlF0IQxuFjFHbkE4gVhksAjOvt8K?usp=sharing',
+        description: 'Brand graphic assets produced across campaigns — social visuals, campaign graphics and branded content spanning beauty, skincare and lifestyle categories.',
         year: '2025',
       },
     ],
