@@ -3172,6 +3172,32 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
       },
     ],
   },
+  ai: {
+    // 2 = AI Video Content
+    2: [
+      {
+        id: 'ai-creatives-video-drive-folder',
+        title: 'AI Creative Videos — Full Portfolio',
+        brand: 'Various Brands',
+        type: 'link',
+        url: 'https://drive.google.com/drive/folders/122ktLvk2ud1o8ugp2bWitepMdYEp_z30?usp=sharing',
+        description: 'Full collection of AI-generated and AI-assisted video content across brand campaigns — covering generative video production, post-processing workflows, and creative direction using AI tools.',
+        year: '2025',
+      },
+    ],
+    // 3 = Visual Content Creation
+    3: [
+      {
+        id: 'ai-creatives-visual-drive-folder',
+        title: 'AI Creative Portfolio',
+        brand: 'Various Brands',
+        type: 'link',
+        url: 'https://drive.google.com/drive/folders/122ktLvk2ud1o8ugp2bWitepMdYEp_z30?usp=sharing',
+        description: 'AI-generated visual content and creative production across campaigns — moodboards, campaign visuals, product imagery and content concepts developed using generative AI tools as part of a broader creative workflow.',
+        year: '2025',
+      },
+    ],
+  },
 }
 
 export function getSamples(sectionId: SectionId, areaIndex: number): Sample[] {
