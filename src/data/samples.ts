@@ -9,6 +9,7 @@ export interface Sample {
   type: SampleType
   file?: string
   url?: string
+  thumbnail?: string
   description?: string
   year?: string
 }

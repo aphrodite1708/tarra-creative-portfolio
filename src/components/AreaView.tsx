@@ -53,6 +53,8 @@ function SampleCard({ sample, accentColor }: { sample: Sample; accentColor: stri
     ? <PdfThumbnail file={sample.file} className="sample-card-preview" />
     : sample.type === 'image' && sample.file
     ? <img src={sample.file} alt={sample.title} className="sample-card-preview sample-card-preview--img" />
+    : sample.thumbnail
+    ? <img src={sample.thumbnail} alt={sample.title} className="sample-card-preview sample-card-preview--img" />
     : (
       <div className="sample-card-top" style={{ background: accentColor }}>
         <TypeIcon />
