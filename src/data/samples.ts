@@ -3212,7 +3212,7 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         brand: 'Various Brands',
         type: 'link',
         url: 'https://drive.google.com/drive/folders/122ktLvk2ud1o8ugp2bWitepMdYEp_z30?usp=sharing',
-        description: 'Full collection of AI-generated advertising content produced across brand campaigns — built to perform, not just to demonstrate what\'s possible.',
+        description: 'Full collection of AI-generated advertising concepts produced across brand campaigns — combining creative strategy, visual storytelling, and brand consistency.',
         year: '2025',
       },
     ],
