@@ -48,6 +48,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2025',
       },
       {
+        id: 'embryolisse-lait-creme-case-study',
+        title: 'Embryolisse × astaririri — Lait-Crème Concentré',
+        brand: 'Embryolisse',
+        type: 'case-study',
+        caseStudyId: 'embryolisse-lait-creme-astaririri',
+        description: 'Viral hack framing for a French pharmacy cult moisturizer — IG Stories strategy that drove 2,014 link clicks by positioning overnight use as a morning glow secret rather than a product demo.',
+        year: '2025',
+      },
+      {
         id: 'westcare-sunscreen-brief',
         title: 'Invisible UV Protector SPF 45+++',
         brand: 'Westcare',
@@ -1792,6 +1801,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2025',
       },
       {
+        id: 'embryolisse-lait-creme-ugc-stories-social',
+        title: 'astaririri × Embryolisse — Lait-Crème Concentré IG Stories',
+        brand: 'Embryolisse',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/11RyI1alKdMvzFJRMCcA3lSOGHf8G0q-w/view?usp=sharing',
+        description: 'Viral overnight mask hack — 57,603 views · 2,014 link clicks · 177 brand sticker taps. See the case study for the storyline and strategy behind the results.',
+        year: '2025',
+      },
+      {
         id: 'ugc-published-content-drive-folder-social',
         title: 'UGC Published Content — Full Portfolio',
         brand: 'Various Brands',
@@ -2592,6 +2610,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         type: 'link',
         url: 'https://drive.google.com/file/d/1uvdNQHfkx7lD9hPELq4d-jgWiXl-U0KF/view?usp=sharing',
         description: 'Published IG Reel — clinic-alternative hook strategy, opening with post-treatment skin anxiety before positioning Skintific PDRN Moisturizer as the accessible entry point. Brief and storyline developed by me.',
+        year: '2025',
+      },
+      {
+        id: 'embryolisse-lait-creme-ugc-stories',
+        title: 'astaririri × Embryolisse — Lait-Crème Concentré IG Stories',
+        brand: 'Embryolisse',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/11RyI1alKdMvzFJRMCcA3lSOGHf8G0q-w/view?usp=sharing',
+        description: 'Published IG Stories — viral overnight mask hack that drove 2,014 link clicks. Storyline developed by me using competitor-comparison format and discovery-moment hook.',
         year: '2025',
       },
       {

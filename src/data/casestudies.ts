@@ -127,6 +127,57 @@ export const CASE_STUDIES: Record<string, CaseStudy> = {
     ]
   },
 
+  'embryolisse-lait-creme-astaririri': {
+    id: 'embryolisse-lait-creme-astaririri',
+    brand: 'Embryolisse',
+    campaign: 'Lait-Crème Concentré — Viral Moisturizer Hack',
+    creator: 'astaririri',
+    timeline: '2025',
+    role: 'Campaign Manager & Creative Strategist',
+    challenge: "French pharmacy brands face a trust-distance problem in the Indonesian market — their reputation is built on clinical heritage, but that positioning doesn't translate directly into the relatable, trend-led content that makes Indonesian audiences stop scrolling on Stories. The brief needed to close that gap: take a 6-in-1 cult moisturizer and make it feel like a personal discovery rather than a product recommendation.",
+    stages: [
+      {
+        number: '01',
+        title: 'Script & Storyline',
+        body: "Built the IG Stories script around the 'viral hack' frame — positioning overnight use of Lait-Crème Concentré as a morning glow secret Riri was spilling, not a sponsored endorsement. The strategy: lead with the result (Riri's glowing morning skin before camera) before revealing the cause, then use a competitor-comparison text format (clay mask ❌, sheet mask ❌, moisturizer ✅) to make the product's versatility immediately legible. The 6-in-1 multi-purpose claim — moisturizer, mask, makeup base, makeup remover, aftershave care, aftersun care — was embedded into the script as the value anchor rather than a talking-point list.",
+        samples: [
+          {
+            id: 'cs-embryolisse-script',
+            title: 'Storyline & Script — Embryolisse Lait-Crème Concentré',
+            type: 'pdf',
+            file: '/samples/campaigns/storyline-embryolisse.pdf',
+          }
+        ]
+      },
+      {
+        number: '02',
+        title: 'Published Content',
+        body: "The final IG Stories set, produced by astaririri following the script. Riri's glowing morning skin opening — combined with the overnight mask reveal — delivered the discovery-moment hook the brief was built around. The swipe-up link and @embryolisse_idn sticker were placed at the highest-attention moment after the product demonstration.",
+        samples: [
+          {
+            id: 'cs-embryolisse-ugc',
+            title: 'astaririri × Embryolisse — Lait-Crème Concentré IG Stories',
+            type: 'link',
+            url: 'https://drive.google.com/file/d/11RyI1alKdMvzFJRMCcA3lSOGHf8G0q-w/view?usp=sharing',
+          }
+        ]
+      },
+      {
+        number: '03',
+        title: 'Campaign Insights',
+        body: "57,603 views · 48,989 accounts reached · 91 interactions (63 likes, 16 shares, 11 replies). The standout metric: 2,014 link clicks — a high-intent purchase signal that shows the viral hack framing didn't just entertain, it converted. 177 sticker taps on @embryolisse_idn reflect strong brand tag engagement for a Stories format. 50,875 navigation events with 40,219 forwards indicates the audience was moving through the story set actively rather than exiting — content retention was strong.",
+        samples: [
+          {
+            id: 'cs-embryolisse-insight',
+            title: 'Campaign Insights — Embryolisse Lait-Crème Concentré IG Stories',
+            type: 'pdf',
+            file: '/samples/campaigns/embryolisse-insight.pdf',
+          }
+        ]
+      }
+    ]
+  },
+
   'skintific-pdrn-moisturizer-astaririri': {
     id: 'skintific-pdrn-moisturizer-astaririri',
     brand: 'Skintific',
