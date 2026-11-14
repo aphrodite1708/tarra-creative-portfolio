@@ -504,6 +504,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
     // 2 = Creator Sourcing & Outreach
     2: [
       {
+        id: 'highend-beauty-issue-2025-brief',
+        title: 'HighEnd Magazine — Beauty Issue 2025 Photo Shoot Brief',
+        brand: 'HighEnd × MNC',
+        type: 'pdf',
+        file: '/samples/campaigns/highend-beauty-issue-2025-brief.pdf',
+        description: 'Creator sourcing brief for HighEnd Magazine\'s Beauty Issue July 2025 — HighEnd List photo shoot at iNews Tower, Jakarta. Researched and identified Indonesian beauty influencers to feature. Deliverables: 2-page group spread + individual profile + website article. Dress code: Shades of Brown.',
+        year: '2025',
+      },
+      {
         id: 'cevita-tomo-kenko-launch-campaign-strategy-sourcing',
         title: 'Cevita — KOL & Event Activation Strategy',
         brand: 'Tomo Kenko',
