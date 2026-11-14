@@ -38,7 +38,7 @@ export const CASE_STUDIES: Record<string, CaseStudy> = {
       {
         number: '01',
         title: 'Campaign Brief',
-        body: "Developed the full campaign brief for astaririri — defining the core USP, mandatory scenes, talking points, visual references, and format requirements. The strategic decision: lead with the audience's fear. The hook instruction was to open with a reaction stitch of real 'peeling gone wrong' content, so viewers already felt seen before Skintific was introduced as the solution. Product must appear in the first 3–5 seconds, and a full before-and-after was required as proof.",
+        body: "Developed the full campaign brief for astaririri — defining the core USP, mandatory scenes, talking points, visual references, and format requirements. The strategic decision: lead with the audience's fear. The hook instruction was to open with a reaction stitch of real 'peeling gone wrong' content, so viewers already felt seen before Skintific was introduced as the solution. Product must appear in the first 3–5 seconds, and a full before-and-after was required as proof. Post-publish, also managed the paid amplification coordination — collecting the adcode from the creator's post and distributing it to the brand team for boosting.",
         samples: [
           {
             id: 'cs-skintific-ps-brief',
@@ -95,7 +95,7 @@ export const CASE_STUDIES: Record<string, CaseStudy> = {
       {
         number: '01',
         title: 'Script & Storyline',
-        body: "Built the full scene-by-scene storyline for Riri's Reel — opening with the gross-out cotton pad hook that reveals real skin buildup to shock viewers into stopping their scroll. The strategy: use the audience's own skin as the proof. Six scenes from dirty pad reveal to full product close, with each scene engineered to build escalating curiosity. Caption written in Riri's voice: 'WARNING⚠️ Jangan jijiq ya guys... Itu real kotoran muka kalo jarang exfo' — deliberately informal and relatable to lower the barrier of watching something unpleasant.",
+        body: "Built the full scene-by-scene storyline for Riri's Reel — opening with the gross-out cotton pad hook that reveals real skin buildup to shock viewers into stopping their scroll. The strategy: use the audience's own skin as the proof. Six scenes from dirty pad reveal to full product close, with each scene engineered to build escalating curiosity. Caption written in Riri's voice: 'WARNING⚠️ Jangan jijiq ya guys... Itu real kotoran muka kalo jarang exfo' — deliberately informal and relatable to lower the barrier of watching something unpleasant. Post-publish, also managed the paid amplification coordination — collecting the adcode from the creator's post and distributing it to the brand team for boosting.",
         samples: [
           {
             id: 'cs-skintific-pads-script',
@@ -190,7 +190,7 @@ export const CASE_STUDIES: Record<string, CaseStudy> = {
       {
         number: '01',
         title: 'Campaign Brief',
-        body: "Developed the full campaign brief for astaririri — defining the core content angle (Glowing Glass Skin as a clinic-treatment alternative), mandatory scenes, talking points, and format requirements. The strategic decision: open with the post-treatment irritation feeling to trigger immediate recognition in clinic-goers, then position PDRN as the at-home recovery and maintenance solution. Product must appear within 5 seconds. 14-day usage footage required as the proof arc. Product knowledge — covering the hero ingredients (5,000 ppm PDRN, Brightenyl®, Chronoglow, Symbright Plus), the glass-skin timeline (instant moisture → 3 days smoother → 7 days fading dark spots → 14 days glass skin), and all key talking points — was briefed to Riri alongside the content strategy.",
+        body: "Developed the full campaign brief for astaririri — defining the core content angle (Glowing Glass Skin as a clinic-treatment alternative), mandatory scenes, talking points, and format requirements. The strategic decision: open with the post-treatment irritation feeling to trigger immediate recognition in clinic-goers, then position PDRN as the at-home recovery and maintenance solution. Product must appear within 5 seconds. 14-day usage footage required as the proof arc. Product knowledge — covering the hero ingredients (5,000 ppm PDRN, Brightenyl®, Chronoglow, Symbright Plus), the glass-skin timeline (instant moisture → 3 days smoother → 7 days fading dark spots → 14 days glass skin), and all key talking points — was briefed to Riri alongside the content strategy. Post-publish, also managed the paid amplification coordination — collecting the adcode from the creator's post and distributing it to the brand team for boosting.",
         samples: [
           {
             id: 'cs-skintific-pdrn-brief',
