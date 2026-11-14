@@ -1810,6 +1810,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2025',
       },
       {
+        id: 'nukka-homewear-ugc-reel-social',
+        title: 'NUKKA Homewear — Creator UGC',
+        brand: 'NUKKA',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1d-QFKNt9qFsnw5d8ED0nA84M9kgJIy1M/view?usp=sharing',
+        description: 'Published UGC for NUKKA homewear — fashion and lifestyle creator content.',
+        year: '2025',
+      },
+      {
         id: 'ugc-published-content-drive-folder-social',
         title: 'UGC Published Content — Full Portfolio',
         brand: 'Various Brands',
@@ -2619,6 +2628,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         type: 'link',
         url: 'https://drive.google.com/file/d/11RyI1alKdMvzFJRMCcA3lSOGHf8G0q-w/view?usp=sharing',
         description: 'Published IG Stories — viral overnight mask hack that drove 2,014 link clicks. Storyline developed by me using competitor-comparison format and discovery-moment hook.',
+        year: '2025',
+      },
+      {
+        id: 'nukka-homewear-ugc-reel',
+        title: 'NUKKA Homewear — Creator UGC',
+        brand: 'NUKKA',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1d-QFKNt9qFsnw5d8ED0nA84M9kgJIy1M/view?usp=sharing',
+        description: 'Published UGC for NUKKA homewear — fashion and lifestyle content produced as part of a creator collaboration.',
         year: '2025',
       },
       {
