@@ -81,5 +81,99 @@ export const CASE_STUDIES: Record<string, CaseStudy> = {
         samples: []
       }
     ]
+  },
+
+  'skintific-aha-bha-pha-pads-astaririri': {
+    id: 'skintific-aha-bha-pha-pads-astaririri',
+    brand: 'Skintific',
+    campaign: 'AHA BHA PHA Exfoliating Pads',
+    creator: 'astaririri',
+    timeline: '2025',
+    role: 'Campaign Manager & Creative Strategist',
+    challenge: "Exfoliating products face a hidden-need problem — most people don't exfoliate because they can't feel or see the buildup on their skin. The challenge was to create a hook so visceral it made the invisible visible: showing audiences the actual dirt on a cotton pad they never knew was there. The strategy had to convert passive scrollers into grossed-out, then convinced, buyers — all within the first three seconds.",
+    stages: [
+      {
+        number: '01',
+        title: 'Script & Storyline',
+        body: "Built the full scene-by-scene storyline for Riri's Reel — opening with the gross-out cotton pad hook that reveals real skin buildup to shock viewers into stopping their scroll. The strategy: use the audience's own skin as the proof. Six scenes from dirty pad reveal to full product close, with each scene engineered to build escalating curiosity. Caption written in Riri's voice: 'WARNING⚠️ Jangan jijiq ya guys... Itu real kotoran muka kalo jarang exfo' — deliberately informal and relatable to lower the barrier of watching something unpleasant.",
+        samples: [
+          {
+            id: 'cs-skintific-pads-script',
+            title: 'Storyline & Script — Skintific AHA BHA PHA Exfoliating Pads',
+            type: 'pdf',
+            file: '/samples/campaigns/storyline-skintific-aha-bha-pha-pads.pdf',
+          }
+        ]
+      },
+      {
+        number: '02',
+        title: 'Published Content',
+        body: "The final IG Reel, produced by astaririri following the storyline. The cotton pad reveal lands exactly as intended — Riri's natural reaction carries the moment authentically, and the dual-sided pad's visible residue does the persuasion work that no copy claim could replicate. The before-and-after skin comparison in the closing scene converts the gross-out opening into a credible product proof.",
+        samples: [
+          {
+            id: 'cs-skintific-pads-ugc',
+            title: 'astaririri × Skintific AHA BHA PHA Pads — IG Reel',
+            type: 'link',
+            url: 'https://drive.google.com/file/d/17XQJ96Jnk7tLBFHjJtfH41jRYQvCdKk8/view?usp=sharing',
+          }
+        ]
+      },
+      {
+        number: '03',
+        title: 'Campaign Insights',
+        body: 'Performance data and post-campaign learnings — to be added when the insight report is available.',
+        samples: []
+      }
+    ]
+  },
+
+  'skintific-pdrn-moisturizer-astaririri': {
+    id: 'skintific-pdrn-moisturizer-astaririri',
+    brand: 'Skintific',
+    campaign: 'PDRN Moisturizer',
+    creator: 'astaririri',
+    timeline: 'January 2025',
+    role: 'Campaign Manager & Creative Strategist',
+    challenge: "PDRN (Polydeoxyribonucleotide) is a clinical-grade ingredient derived from salmon DNA — powerful for skin regeneration but completely unfamiliar to most Indonesian beauty consumers. The challenge was to make a niche, clinical-sounding ingredient feel approachable and credible without a dermatologist in frame. The strategy anchored the product to a feeling the audience already knew: post-clinic skin sensitivity. If you've ever been to a skincare clinic and felt that tight, slightly raw, freshly-treated skin — that's the problem Skintific PDRN Moisturizer was positioned to solve.",
+    stages: [
+      {
+        number: '01',
+        title: 'Campaign Brief',
+        body: "Developed the full campaign brief for astaririri — defining the core content angle (Glowing Glass Skin as a clinic-treatment alternative), mandatory scenes, talking points, and format requirements. The strategic decision: open with the post-treatment irritation feeling to trigger immediate recognition in clinic-goers, then position PDRN as the at-home recovery and maintenance solution. Product must appear within 5 seconds. 14-day usage footage was required as the proof arc instead of instant-claim format.",
+        samples: [
+          {
+            id: 'cs-skintific-pdrn-brief',
+            title: 'Campaign Brief — Skintific PDRN Moisturizer',
+            type: 'pdf',
+            file: '/samples/campaigns/skintific-pdrn-moisturizer-jan-brief.pdf',
+          }
+        ]
+      },
+      {
+        number: '02',
+        title: 'Script & Storyline',
+        body: "Wrote the scene-by-scene storyline to execute the clinic-alternative narrative — opening with Riri referencing the familiar discomfort of post-treatment skin before introducing the PDRN explanation as the bridge between clinic-grade care and daily skincare. The 14-day transformation arc was scripted as the credibility anchor: not 'it works immediately' but 'here's what two weeks of real use looks like.' Closing scene: glowing, glass-skin result with the full product and ingredient callout.",
+        samples: [
+          {
+            id: 'cs-skintific-pdrn-script',
+            title: 'Storyline & Script — Skintific PDRN Moisturizer',
+            type: 'pdf',
+            file: '/samples/campaigns/storyline-skintific-pdrn-moisturizer.pdf',
+          }
+        ]
+      },
+      {
+        number: '03',
+        title: 'Published Content',
+        body: 'Published IG Reel — to be added when the final content is available.',
+        samples: []
+      },
+      {
+        number: '04',
+        title: 'Campaign Insights',
+        body: 'Performance data and post-campaign learnings — to be added when the insight report is available.',
+        samples: []
+      }
+    ]
   }
 }
