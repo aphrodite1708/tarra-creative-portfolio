@@ -1,6 +1,6 @@
 import type { SectionId } from './sections'
 
-export type SampleType = 'pdf' | 'image' | 'link' | 'video'
+export type SampleType = 'pdf' | 'image' | 'link' | 'video' | 'case-study'
 
 export interface Sample {
   id: string
@@ -10,6 +10,7 @@ export interface Sample {
   file?: string
   url?: string
   thumbnail?: string
+  caseStudyId?: string
   description?: string
   year?: string
 }
@@ -17,8 +18,17 @@ export interface Sample {
 // samples[sectionId][areaIndex] = Sample[]
 export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
   campaigns: {
-    // 0 = Campaign Briefs
+    // 0 = Campaign Strategy & Briefs
     0: [
+      {
+        id: 'skintific-peeling-solution-case-study',
+        title: 'Skintific × astaririri — Peeling Solution',
+        brand: 'Skintific',
+        type: 'case-study',
+        caseStudyId: 'skintific-peeling-solution-astaririri',
+        description: 'End-to-end campaign: brief development, script writing, creator direction, and content delivery for Skintific Peeling Solution on IG Reels.',
+        year: '2025',
+      },
       {
         id: 'westcare-sunscreen-brief',
         title: 'Invisible UV Protector SPF 45+++',
@@ -1737,6 +1747,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
     // 4 = High-Performing Content
     4: [
       {
+        id: 'skintific-peeling-solution-ugc-reel-social',
+        title: 'astaririri × Skintific — Peeling Solution IG Reel',
+        brand: 'Skintific',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1qXNLH6JwfNyX2M9xQnmWuWfH8LUqymrh/view?usp=sharing',
+        description: 'Objection-first hook — led with fear of chemical peeling to maximise relatability before the product solution. See the case study for full brief and strategy behind the content.',
+        year: '2025',
+      },
+      {
         id: 'ugc-published-content-drive-folder-social',
         title: 'UGC Published Content — Full Portfolio',
         brand: 'Various Brands',
@@ -2512,6 +2531,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
     ],
     // 3 = Published Content Examples
     3: [
+      {
+        id: 'skintific-peeling-solution-ugc-reel',
+        title: 'astaririri × Skintific — Peeling Solution IG Reel',
+        brand: 'Skintific',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1qXNLH6JwfNyX2M9xQnmWuWfH8LUqymrh/view?usp=sharing',
+        description: 'Published IG Reel — objection-first hook strategy, stitching real peeling reactions before Riri reframes Skintific as the comfortable alternative. Brief and storyline developed by me.',
+        year: '2025',
+      },
       {
         id: 'ugc-published-content-drive-folder',
         title: 'UGC Published Content — Full Portfolio',

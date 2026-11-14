@@ -3,11 +3,13 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { FOLDERS, type SectionId } from '../data/sections'
 import SectionView from './SectionView'
 import AreaView from './AreaView'
+import CaseStudyView from './CaseStudyView'
 
 export default function HomeArchive() {
   const [hovered, setHovered] = useState<SectionId | null>(null)
   const [active, setActive] = useState<SectionId | null>(null)
   const [activeArea, setActiveArea] = useState<{ sectionId: SectionId; areaIndex: number } | null>(null)
+  const [activeCaseStudy, setActiveCaseStudy] = useState<{ id: string; sectionId: SectionId } | null>(null)
 
   return (
     <div className="archive-root">
@@ -135,6 +137,19 @@ export default function HomeArchive() {
             areaIndex={activeArea.areaIndex}
             folder={FOLDERS.find(f => f.id === activeArea.sectionId)!}
             onClose={() => setActiveArea(null)}
+            onCaseStudyOpen={(id) => setActiveCaseStudy({ id, sectionId: activeArea.sectionId })}
+          />
+        )}
+      </AnimatePresence>
+
+      {/* Case study — slides over the area view */}
+      <AnimatePresence>
+        {activeCaseStudy && (
+          <CaseStudyView
+            key={activeCaseStudy.id}
+            caseStudyId={activeCaseStudy.id}
+            folder={FOLDERS.find(f => f.id === activeCaseStudy.sectionId)!}
+            onClose={() => setActiveCaseStudy(null)}
           />
         )}
       </AnimatePresence>

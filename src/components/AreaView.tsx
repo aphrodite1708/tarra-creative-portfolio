@@ -9,10 +9,15 @@ interface Props {
   areaIndex: number
   folder: FolderData
   onClose: () => void
+  onCaseStudyOpen: (id: string) => void
 }
 
-function SampleCard({ sample, accentColor }: { sample: Sample; accentColor: string }) {
+function SampleCard({ sample, accentColor, onCaseStudyOpen }: { sample: Sample; accentColor: string; onCaseStudyOpen?: (id: string) => void }) {
   const handleOpen = () => {
+    if (sample.type === 'case-study' && sample.caseStudyId) {
+      onCaseStudyOpen?.(sample.caseStudyId)
+      return
+    }
     if (sample.file) window.open(sample.file, '_blank', 'noopener')
     else if (sample.url) window.open(sample.url, '_blank', 'noopener')
   }
@@ -22,6 +27,7 @@ function SampleCard({ sample, accentColor }: { sample: Sample; accentColor: stri
     image: 'Image',
     link: 'Link',
     video: 'Video',
+    'case-study': 'Case Study',
   }
 
   const TypeIcon = () => {
@@ -55,6 +61,15 @@ function SampleCard({ sample, accentColor }: { sample: Sample; accentColor: stri
     ? <img src={sample.file} alt={sample.title} className="sample-card-preview sample-card-preview--img" />
     : sample.thumbnail
     ? <img src={sample.thumbnail} alt={sample.title} className="sample-card-preview sample-card-preview--img" />
+    : sample.type === 'case-study'
+    ? (
+      <div className="sample-card-top sample-card-top--case-study" style={{ background: accentColor }}>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" style={{ opacity: 0.7 }}>
+          <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" /><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+        </svg>
+        <span className="case-study-badge">Case Study</span>
+      </div>
+    )
     : (
       <div className="sample-card-top" style={{ background: accentColor }}>
         <TypeIcon />
@@ -88,7 +103,7 @@ function SampleCard({ sample, accentColor }: { sample: Sample; accentColor: stri
 }
 
 
-export default function AreaView({ sectionId, areaIndex, folder, onClose }: Props) {
+export default function AreaView({ sectionId, areaIndex, folder, onClose, onCaseStudyOpen }: Props) {
   const content = SECTION_CONTENT[sectionId]
   const area = content.areas[areaIndex]
   const areaNum = String(areaIndex + 1).padStart(2, '0')
@@ -147,7 +162,7 @@ export default function AreaView({ sectionId, areaIndex, folder, onClose }: Prop
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.08 + i * 0.06, duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
             >
-              <SampleCard sample={sample} accentColor={folder.color} />
+              <SampleCard sample={sample} accentColor={folder.color} onCaseStudyOpen={onCaseStudyOpen} />
             </motion.div>
           ))}
 
