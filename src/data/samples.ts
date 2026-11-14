@@ -18,7 +18,7 @@ export interface Sample {
 // samples[sectionId][areaIndex] = Sample[]
 export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
   campaigns: {
-    // 0 = Campaign Strategy & Briefs
+    // 0 = Campaign Case Studies
     0: [
       {
         id: 'skintific-peeling-solution-case-study',
@@ -56,6 +56,9 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         description: 'Viral hack framing for a French pharmacy cult moisturizer — IG Stories strategy that drove 2,014 link clicks by positioning overnight use as a morning glow secret rather than a product demo.',
         year: '2025',
       },
+    ],
+    // 1 = Campaign Strategy & Briefs
+    1: [
       {
         id: 'westcare-sunscreen-brief',
         title: 'Invisible UV Protector SPF 45+++',
@@ -489,8 +492,8 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2025',
       },
     ],
-    // 1 = Creator Sourcing & Outreach
-    1: [
+    // 2 = Creator Sourcing & Outreach
+    2: [
       {
         id: 'cevita-tomo-kenko-launch-campaign-strategy-sourcing',
         title: 'Cevita — KOL & Event Activation Strategy',
@@ -672,8 +675,8 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2025',
       },
     ],
-    // 3 = Negotiations
-    3: [
+    // 4 = Negotiations
+    4: [
       {
         id: 'teddie-clubs-acne-patch-collab-negotiations',
         title: 'Special Edition Acne Patch — Collaboration Pitch Deck',
@@ -684,8 +687,8 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2025',
       },
     ],
-    // 5 = Content Insight Reports
-    5: [
+    // 6 = Content Insight Reports
+    6: [
       {
         id: 'activgluta-instagram-insight',
         title: 'Activgluta — Instagram Stories Insight',

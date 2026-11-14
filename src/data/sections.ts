@@ -107,6 +107,7 @@ export const SECTION_CONTENT: Record<SectionId, {
     headline: 'Brand Campaigns & Partnerships',
     intro: "I bring brand campaigns to life by connecting the right creators, creative direction, and campaign objectives. From developing campaign briefs and sourcing talent to managing partnerships and analysing content insights, I help ensure every collaboration has a clear purpose and direction.",
     areas: [
+      { title: 'Campaign Case Studies', body: 'End-to-end case studies showing how I work — from creative strategy and brief development through to published content and campaign results.' },
       { title: 'Campaign Strategy & Briefs', body: 'Detailed creative briefs and campaign strategy documents that align stakeholders, give creators clear direction, and set measurable objectives.' },
       { title: 'Creator Sourcing & Partnerships', body: 'Identifying the right creators for a campaign and building outreach that gets responses — personalised, strategic, and on-brand.' },
       { title: 'Creator Selection & Brand Fit', body: 'Frameworks for evaluating creators beyond follower count — engagement quality, audience fit, content style and brand alignment.' },
