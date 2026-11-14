@@ -1591,6 +1591,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         description: 'KOL brief for Natur-E Advanced specifying a maroon outfit color guideline to align with the brand palette — demonstrates how wardrobe direction is embedded directly within a skincare KOL brief.',
         year: '2025',
       },
+      {
+        id: 'highend-beauty-issue-2025-dresscode',
+        title: 'HighEnd Magazine — Beauty Issue Dress Code Direction',
+        brand: 'HighEnd × MNC',
+        type: 'pdf',
+        file: '/samples/campaigns/highend-beauty-issue-2025-brief.pdf',
+        description: 'Dress code brief for HighEnd Magazine Beauty Issue July 2025 — Shades of Brown palette with best makeup look direction. Photo references show camel, chocolate, terracotta and nude tones across group and individual shoot formats at HighEnd Studio, iNews Tower.',
+        year: '2025',
+      },
     ],
     // 3 = Visual Direction
     3: [
@@ -2639,6 +2648,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         description: 'Full UGC Reels script for Embryolisse Lait-Crème Concentré — introducing a French pharmacy cult moisturiser to an Indonesian beauty audience. VO and scene direction that positions the brand story, product texture, and key benefits in a format-native creator voice.',
         year: '2025',
       },
+      {
+        id: 'senus-instacurl-storyline-creator',
+        title: 'Senus InstaCurl Automatic Styler — "SIAPA TUH YANG BILANG?!" UGC Script',
+        brand: 'Senus',
+        type: 'pdf',
+        file: '/samples/campaigns/senus-instacurl-storyline.pdf',
+        description: '10-scene Reels/TikTok UGC script for Senus InstaCurl — confidence-flip hook: behind-cam voice challenges the belief that DIY curling is hard, then Riri responds with proof. Scene-by-scene VO covering temperature settings, 30-sec fast heat, anti-heat protection, left/right curl direction, 25mm barrel, and auto-off safety close.',
+        year: '2025',
+      },
     ],
     // 3 = Published Content Examples
     3: [
@@ -3287,6 +3305,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         type: 'pdf',
         file: '/samples/campaigns/storyline-embryolisse.pdf',
         description: 'Full VO script for Embryolisse Lait-Crème Concentré Reels — introducing a French pharmacy cult product to an Indonesian audience. Written to balance international brand credibility with familiar creator voice and local beauty language.',
+        year: '2025',
+      },
+      {
+        id: 'senus-instacurl-storyline-copy',
+        title: 'Senus InstaCurl Automatic Styler — Confidence-Flip UGC Script',
+        brand: 'Senus',
+        type: 'pdf',
+        file: '/samples/campaigns/senus-instacurl-storyline.pdf',
+        description: '10-scene Reels/TikTok UGC script — opens with a behind-cam challenge ("Curl rambut sendiri tuh susah!") before cutting to Riri\'s confident rebuttal ("SIAPA TUH YANG BILANG??!"). Each scene integrates a product feature (temperature, heating time, anti-heat protection, curl direction, barrel size) as natural proof-points within the confidence narrative.',
         year: '2025',
       },
     ],
