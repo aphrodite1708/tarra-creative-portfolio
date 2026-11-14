@@ -1783,6 +1783,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2025',
       },
       {
+        id: 'skintific-pdrn-moisturizer-ugc-reel-social',
+        title: 'astaririri × Skintific — PDRN Moisturizer IG Reel',
+        brand: 'Skintific',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1uvdNQHfkx7lD9hPELq4d-jgWiXl-U0KF/view?usp=sharing',
+        description: 'Clinic-alternative hook — opened with post-PDRN-treatment skin anxiety to position Skintific as the accessible way into the ingredient. See the case study for the full brief and strategy.',
+        year: '2025',
+      },
+      {
         id: 'ugc-published-content-drive-folder-social',
         title: 'UGC Published Content — Full Portfolio',
         brand: 'Various Brands',
@@ -2574,6 +2583,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         type: 'link',
         url: 'https://drive.google.com/file/d/17XQJ96Jnk7tLBFHjJtfH41jRYQvCdKk8/view?usp=sharing',
         description: 'Published IG Reel — cotton pad dirt reveal as the hook, making invisible skin buildup impossible to ignore. Storyline and content direction developed by me.',
+        year: '2025',
+      },
+      {
+        id: 'skintific-pdrn-moisturizer-ugc-reel',
+        title: 'astaririri × Skintific — PDRN Moisturizer IG Reel',
+        brand: 'Skintific',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1uvdNQHfkx7lD9hPELq4d-jgWiXl-U0KF/view?usp=sharing',
+        description: 'Published IG Reel — clinic-alternative hook strategy, opening with post-treatment skin anxiety before positioning Skintific PDRN Moisturizer as the accessible entry point. Brief and storyline developed by me.',
         year: '2025',
       },
       {

@@ -139,20 +139,26 @@ export const CASE_STUDIES: Record<string, CaseStudy> = {
       {
         number: '01',
         title: 'Campaign Brief',
-        body: "Developed the full campaign brief for astaririri — defining the core content angle (Glowing Glass Skin as a clinic-treatment alternative), mandatory scenes, talking points, and format requirements. The strategic decision: open with the post-treatment irritation feeling to trigger immediate recognition in clinic-goers, then position PDRN as the at-home recovery and maintenance solution. Product must appear within 5 seconds. 14-day usage footage was required as the proof arc instead of instant-claim format.",
+        body: "Developed the full campaign brief for astaririri — defining the core content angle (Glowing Glass Skin as a clinic-treatment alternative), mandatory scenes, talking points, and format requirements. The strategic decision: open with the post-treatment irritation feeling to trigger immediate recognition in clinic-goers, then position PDRN as the at-home recovery and maintenance solution. Product must appear within 5 seconds. 14-day usage footage required as the proof arc. Product knowledge — covering the hero ingredients (5,000 ppm PDRN, Brightenyl®, Chronoglow, Symbright Plus), the glass-skin timeline (instant moisture → 3 days smoother → 7 days fading dark spots → 14 days glass skin), and all key talking points — was briefed to Riri alongside the content strategy.",
         samples: [
           {
             id: 'cs-skintific-pdrn-brief',
             title: 'Campaign Brief — Skintific PDRN Moisturizer',
             type: 'pdf',
             file: '/samples/campaigns/skintific-pdrn-moisturizer-jan-brief.pdf',
+          },
+          {
+            id: 'cs-skintific-pdrn-product-knowledge',
+            title: 'Product Knowledge — Skintific PDRN Bright & Smooth Moisture Gel',
+            type: 'pdf',
+            file: '/samples/campaigns/skintific-pdrn-product-knowledge.pdf',
           }
         ]
       },
       {
         number: '02',
         title: 'Script & Storyline',
-        body: "Wrote the scene-by-scene storyline to execute the clinic-alternative narrative — opening with Riri referencing the familiar discomfort of post-treatment skin before introducing the PDRN explanation as the bridge between clinic-grade care and daily skincare. The 14-day transformation arc was scripted as the credibility anchor: not 'it works immediately' but 'here's what two weeks of real use looks like.' Closing scene: glowing, glass-skin result with the full product and ingredient callout.",
+        body: "Wrote the 5-scene storyline to execute the clinic-alternative narrative. Scene 1 hook: Riri stitches real images of post-treatment redness and irritation, then cuts to her own nervous reaction — 'Jujur, w tuh dari dulu penasaran sama treatment muka yang pakai PDRN. Tapi pas lihat beberapa kondisi kulit setelah treatment kayak gini, kok jadi agak takut juga yaaa.' Scene 2 reveals Skintific PDRN Moisturizer as the accessible entry point to the ingredient. Scenes 3–4 follow a real usage journey (Day 1 first use → skin progress montage) to replace instant-claim format with a believable 14-day transformation arc. Scene 5 closes with the glass-skin result and clinic-alternative CTA.",
         samples: [
           {
             id: 'cs-skintific-pdrn-script',
@@ -165,8 +171,15 @@ export const CASE_STUDIES: Record<string, CaseStudy> = {
       {
         number: '03',
         title: 'Published Content',
-        body: 'Published IG Reel — to be added when the final content is available.',
-        samples: []
+        body: "The final IG Reel, produced by astaririri following the brief and storyline. Riri's authentic nervous-curious hook pulls in anyone who has considered a PDRN clinic treatment but been put off by the downtime — positioning Skintific as the low-barrier first step into the ingredient.",
+        samples: [
+          {
+            id: 'cs-skintific-pdrn-ugc',
+            title: 'astaririri × Skintific PDRN Moisturizer — IG Reel',
+            type: 'link',
+            url: 'https://drive.google.com/file/d/1uvdNQHfkx7lD9hPELq4d-jgWiXl-U0KF/view?usp=sharing',
+          }
+        ]
       },
       {
         number: '04',
