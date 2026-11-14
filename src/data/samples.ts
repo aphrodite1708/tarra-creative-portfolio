@@ -483,6 +483,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2025',
       },
       {
+        id: 'senus-instacurl-storyline',
+        title: 'Senus InstaCurl — "SIAPA TUH YANG BILANG?!" Creator Script',
+        brand: 'Senus',
+        type: 'pdf',
+        file: '/samples/campaigns/senus-instacurl-storyline.pdf',
+        description: '10-scene Reels/TikTok storyline for Senus InstaCurl Automatic Styler — hook: behind-cam voice "Curl rambut sendiri tuh susah!" cut to Riri\'s confident challenge. Scenes cover the result reveal, temperature settings (170/190/210°C), 30-sec fast heat, double anti-heat protection, left/right curl direction, 25mm barrel volume, curly rod design, 360° swivel cord, and auto-off safety close.',
+        year: '2025',
+      },
+      {
         id: 'nvmee-new-campaign-brief',
         title: 'NVMEE — New Campaign KOL Brief',
         brand: 'NVMEE',
@@ -1831,6 +1840,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2025',
       },
       {
+        id: 'senus-instacurl-ugc-reel-social',
+        title: 'Senus InstaCurl Automatic Styler — Creator UGC',
+        brand: 'Senus',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/12C0AX7QK1pINzuMDxmTAQ9apAkzKIc0c/view?usp=sharing',
+        description: 'Confidence-flip hook — "SIAPA TUH YANG BILANG?!" turning the barrier of DIY curling into an effortless product demo. 10-scene storyline developed to showcase every product feature naturally within the content arc.',
+        year: '2025',
+      },
+      {
         id: 'dew-me-lip-glow-ugc-social',
         title: 'Dew Me — Lip Glow Creator UGC',
         brand: 'Dew Me',
@@ -2667,6 +2685,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         type: 'link',
         url: 'https://drive.google.com/file/d/1d-QFKNt9qFsnw5d8ED0nA84M9kgJIy1M/view?usp=sharing',
         description: 'Published UGC for NUKKA homewear — fashion and lifestyle content produced as part of a creator collaboration.',
+        year: '2025',
+      },
+      {
+        id: 'senus-instacurl-ugc-reel',
+        title: 'Senus InstaCurl Automatic Styler — Creator UGC',
+        brand: 'Senus',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/12C0AX7QK1pINzuMDxmTAQ9apAkzKIc0c/view?usp=sharing',
+        description: 'Published Reels/TikTok for Senus InstaCurl Automatic Styler — confidence-flip hook strategy ("SIAPA TUH YANG BILANG?!") turning the barrier of DIY curling into a proof-of-ease demo. Storyline developed by me.',
         year: '2025',
       },
       {
