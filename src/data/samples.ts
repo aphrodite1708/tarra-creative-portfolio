@@ -1831,6 +1831,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2025',
       },
       {
+        id: 'dew-me-lip-glow-ugc-social',
+        title: 'Dew Me — Lip Glow Creator UGC',
+        brand: 'Dew Me',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1x25moH3loJqW_mKtpRYaJduty70TlT0y/view?usp=sharing',
+        description: 'Published UGC for Dew Me lip care — Lip Glow Serum and Lip Glow Gentle Peeling. Ceramide NP, Murumuru Butter, Papaya Enzyme formulation.',
+        year: '2025',
+      },
+      {
         id: 'ugc-published-content-drive-folder-social',
         title: 'UGC Published Content — Full Portfolio',
         brand: 'Various Brands',
@@ -2658,6 +2667,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         type: 'link',
         url: 'https://drive.google.com/file/d/1d-QFKNt9qFsnw5d8ED0nA84M9kgJIy1M/view?usp=sharing',
         description: 'Published UGC for NUKKA homewear — fashion and lifestyle content produced as part of a creator collaboration.',
+        year: '2025',
+      },
+      {
+        id: 'dew-me-lip-glow-ugc',
+        title: 'Dew Me — Lip Glow Creator UGC',
+        brand: 'Dew Me',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1x25moH3loJqW_mKtpRYaJduty70TlT0y/view?usp=sharing',
+        description: 'Published UGC for Dew Me — lip care brand featuring the Lip Glow Serum and Lip Glow Gentle Peeling. Moisture Lock Complex, Ceramide NP, Murumuru Butter and Papaya Enzyme formulation.',
         year: '2025',
       },
       {
