@@ -105,6 +105,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2025',
       },
       {
+        id: 'tulus-brand-profile-brief',
+        title: 'Tulus — Brand Profile & Creator Brief',
+        brand: 'Tulus',
+        type: 'pdf',
+        file: '/samples/campaigns/tulus-brand-profile.pdf',
+        description: '26-page brand profile for Tulus — an Indonesian clean skincare brand built on honesty, transparency, and cleanliness. Formulated in Korea, made in Indonesia. Full-range product education for creator briefing: Hydromicellar Cleansing Water (Allantoin, Vitamin E), Balanced Gel Cleanser (Roman Chamomile, Sweet Almond, Oat Kernel), Hyalutonic (2% Multi Molecular HA + Propolis Extract), Pore-Fecting Niacinamide Serum (5% Niacinamide + Zinc PCA + Alpha-Arbutin), Carica Dark Spot C-Orrector (10% Ethyl Ascorbic Acid + 2% Carica Papaya Water), Licorice Lactic Serum (10% Licorice + 4% Lactic Acid), Retinol Oil (2% HPR Retinoate), Probio Gel Moisturizer (BB BIONT™ + Pentapeptides), Derma Rich Moisture Cream (Korean Derma Clera™ + Ceramide NP Complex), Zinc Defense Lotion SPF30 PA++++ (20% Zinc Oxide, mineral), Kakadu C(e)RUM Sunscreen SPF50+ PA++++ (1000ppm Kakadu Plum Extract). All products: Cruelty Free, Fragrance Free, Vegan, Halal Certified, 0% Alcohol.',
+        year: '2024',
+      },
+      {
         id: 'cevita-tomo-kenko-launch-campaign-strategy',
         title: 'Cevita — Launching Campaign Strategy',
         brand: 'Tomo Kenko',
@@ -583,6 +592,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         file: '/samples/campaigns/cevita-tomo-kenko-launch-campaign-strategy.pdf',
         description: 'Creator and event activation strategy within the Cevita launch — target audience mapping, KOL integration, and event touchpoints.',
         year: '2025',
+      },
+      {
+        id: 'tulus-brand-profile-sourcing',
+        title: 'Tulus — Brand Profile for Creator Briefing',
+        brand: 'Tulus',
+        type: 'pdf',
+        file: '/samples/campaigns/tulus-brand-profile.pdf',
+        description: 'Full product knowledge reference distributed to creators for the Tulus campaign — 11 SKUs across Cleanser, Toner, Serum, Moisturizer, and Sunscreen categories with per-product ingredient breakdowns, skin type compatibility, and certification credentials (BPOM, Halal, Cruelty Free, Vegan). Used to brief creators on the brand\'s clean formulation philosophy and differentiate each SKU for content.',
+        year: '2024',
       },
       {
         id: 'secondate-xexymix-padel-kol-catalogue',
