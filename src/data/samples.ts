@@ -60,6 +60,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
     // 1 = Campaign Strategy & Briefs
     1: [
       {
+        id: 'jumiso-style-korean-product-knowledge-brief',
+        title: 'Jumiso × Style Korean Indonesia — All Product Knowledge & Brief',
+        brand: 'Jumiso',
+        type: 'pdf',
+        file: '/samples/campaigns/jumiso-style-korean-product-knowledge-brief.pdf',
+        description: 'Comprehensive multi-product PK & KOL brief via Style Korean Indonesia — 8 SKUs: Waterfull Hyaluronic Acid Toner (7x HA, Ceramide, Panthenol, 250ml), All Day Brightening Serum (86.14% Vitamin Tree Extract), Snail Mucin 95 + Peptide Facial Essence, Pore Clearing Cleansing Oil, Snail Mucin 88 + Peptide Facial Cream, Niacinamide 10% Serum, Niacinamide 20% Serum, and Blackhead Melting Softener (66% blackhead reduction in 1 use). Wardrobe: white/grey/black basic top. Per-product mandatory scenes, TikTok references, and content flow direction including couple and non-couple formats.',
+        year: '2025',
+      },
+      {
         id: 'westcare-sunscreen-brief',
         title: 'Invisible UV Protector SPF 45+++',
         brand: 'Westcare',
@@ -1598,6 +1607,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         type: 'pdf',
         file: '/samples/campaigns/highend-beauty-issue-2025-brief.pdf',
         description: 'Dress code brief for HighEnd Magazine Beauty Issue July 2025 — Shades of Brown palette with best makeup look direction. Photo references show camel, chocolate, terracotta and nude tones across group and individual shoot formats at HighEnd Studio, iNews Tower.',
+        year: '2025',
+      },
+      {
+        id: 'jumiso-style-korean-product-knowledge-brief-wardrobe',
+        title: 'Jumiso × Style Korean Indonesia — Wardrobe Direction',
+        brand: 'Jumiso',
+        type: 'pdf',
+        file: '/samples/campaigns/jumiso-style-korean-product-knowledge-brief.pdf',
+        description: 'Wardrobe direction from the Jumiso × Style Korean Indonesia multi-product brief — white, grey, and black basic top with outfit reference photos. Applies across 8 SKUs with per-product content flows, ensuring a neutral, clean backdrop that lets the Korean skincare products remain the visual focus.',
         year: '2025',
       },
     ],

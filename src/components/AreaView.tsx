@@ -1,7 +1,9 @@
+import { useState } from 'react'
 import { motion } from 'framer-motion'
 import type { FolderData, SectionId } from '../data/sections'
 import { SECTION_CONTENT } from '../data/sections'
 import { getSamples, type Sample } from '../data/samples'
+import { BRAND_LOGOS } from '../data/brands'
 import PdfThumbnail from './PdfThumbnail'
 
 interface Props {
@@ -55,25 +57,80 @@ function SampleCard({ sample, accentColor, onCaseStudyOpen }: { sample: Sample; 
     )
   }
 
-  const previewEl = sample.type === 'pdf' && sample.file
-    ? <PdfThumbnail file={sample.file} className="sample-card-preview" />
-    : sample.type === 'image' && sample.file
-    ? <img src={sample.file} alt={sample.title} className="sample-card-preview sample-card-preview--img" />
-    : sample.thumbnail
-    ? <img src={sample.thumbnail} alt={sample.title} className="sample-card-preview sample-card-preview--img" />
-    : sample.type === 'case-study'
+  const brandLogo = BRAND_LOGOS[sample.brand]
+  const [logoFailed, setLogoFailed] = useState(false)
+
+  const LogoCover = ({ children }: { children?: React.ReactNode }) => (
+    <div className="sample-card-top sample-card-top--logo">
+      {brandLogo && !logoFailed
+        ? <img
+            src={brandLogo}
+            alt={sample.brand}
+            className="sample-card-logo"
+            onError={() => setLogoFailed(true)}
+          />
+        : children
+      }
+    </div>
+  )
+
+  const previewEl = sample.type === 'case-study'
     ? (
       <div className="sample-card-top sample-card-top--case-study" style={{ background: accentColor }}>
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" style={{ opacity: 0.7 }}>
-          <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" /><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
-        </svg>
+        {brandLogo && !logoFailed && (
+          <img
+            src={brandLogo}
+            alt={sample.brand}
+            className="sample-card-logo sample-card-logo--case-study"
+            onError={() => setLogoFailed(true)}
+          />
+        )}
+        {(!brandLogo || logoFailed) && (
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" style={{ opacity: 0.7 }}>
+            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" /><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+          </svg>
+        )}
         <span className="case-study-badge">Case Study</span>
       </div>
     )
-    : (
-      <div className="sample-card-top" style={{ background: accentColor }}>
-        <TypeIcon />
+    : sample.type === 'image' && sample.file
+    ? (
+      <div className="sample-card-preview" style={{ position: 'relative' }}>
+        <img src={sample.file} alt={sample.title} className="sample-card-preview sample-card-preview--img" style={{ position: 'absolute', inset: 0, width: '100%', height: '100%' }} />
+        {brandLogo && !logoFailed && (
+          <img
+            src={brandLogo}
+            alt={sample.brand}
+            className="sample-card-logo-badge"
+            onError={() => setLogoFailed(true)}
+          />
+        )}
       </div>
+    )
+    : sample.type === 'pdf' && sample.file
+    ? (
+      <div style={{ position: 'relative' }}>
+        <PdfThumbnail file={sample.file} className="sample-card-preview" />
+        {brandLogo && !logoFailed && (
+          <img
+            src={brandLogo}
+            alt={sample.brand}
+            className="sample-card-logo-badge"
+            onError={() => setLogoFailed(true)}
+          />
+        )}
+      </div>
+    )
+    : sample.thumbnail
+    ? <img src={sample.thumbnail} alt={sample.title} className="sample-card-preview sample-card-preview--img" />
+    : (
+      <LogoCover>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 8, opacity: 0.6 }}>
+          <div style={{ background: accentColor, borderRadius: '50%', width: 36, height: 36, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <TypeIcon />
+          </div>
+        </div>
+      </LogoCover>
     )
 
   return (

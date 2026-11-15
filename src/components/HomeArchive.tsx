@@ -1,9 +1,22 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { FOLDERS, type SectionId } from '../data/sections'
+import { BRANDS_LIST } from '../data/brands'
 import SectionView from './SectionView'
 import AreaView from './AreaView'
 import CaseStudyView from './CaseStudyView'
+
+function BrandLogo({ name, logo }: { name: string; logo: string }) {
+  const [failed, setFailed] = useState(false)
+  return (
+    <div className="brand-chip" title={name}>
+      {!failed
+        ? <img src={logo} alt={name} className="brand-chip-logo" onError={() => setFailed(true)} />
+        : <span className="brand-chip-name">{name}</span>
+      }
+    </div>
+  )
+}
 
 export default function HomeArchive() {
   const [hovered, setHovered] = useState<SectionId | null>(null)
@@ -111,6 +124,16 @@ export default function HomeArchive() {
               aria-label={f.label}
               style={{ background: active === f.id ? f.color : undefined }}
             />
+          ))}
+        </div>
+      </div>
+
+      {/* Brands I've worked with */}
+      <div className="brands-section">
+        <div className="brands-label">Brands I've worked with</div>
+        <div className="brands-scroll">
+          {BRANDS_LIST.map((b) => (
+            <BrandLogo key={b.name} name={b.name} logo={b.logo} />
           ))}
         </div>
       </div>
