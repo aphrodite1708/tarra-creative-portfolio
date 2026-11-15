@@ -60,6 +60,24 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
     // 1 = Campaign Strategy & Briefs
     1: [
       {
+        id: 'grace-and-glow-dry-shampoo-pk-brief',
+        title: 'Grace and Glow — Dry Shampoo Product Knowledge & Brief',
+        brand: 'Grace and Glow',
+        type: 'pdf',
+        file: '/samples/campaigns/grace-and-glow-dry-shampoo-product-knowledge.pdf',
+        description: 'Product knowledge and KOL brief for Grace and Glow Dry Shampoo July 2025 — 2 SKUs: Daisy Breeze (01, yellow) and Velvet Breeze (02, blue), 150ml each. Key selling points: instant refresh anywhere on-the-go, absorbs excess oil and adds volume, Marc Jacobs Daisy fragrance, no white residue. Ingredients include Panthenol, Keratin, and Vitamin C (3-O-Ethyl Ascorbic Acid). Concept: Talkative / Review / First Impressions. 4-scene structure: hook (spray reveal) → bridging (greasy hair problem) → tap-in demo (apply + style with brush) → closing. Max 60 seconds, mandatory before-after.',
+        year: '2025',
+      },
+      {
+        id: 'grace-and-glow-dry-shampoo-talkative-script',
+        title: 'Grace and Glow — Dry Shampoo "Talkative" KOL Script',
+        brand: 'Grace and Glow',
+        type: 'pdf',
+        file: '/samples/campaigns/grace-and-glow-dry-shampoo-script.pdf',
+        description: '4-scene KOL script for Grace and Glow Dry Shampoo — Concept: Talkative, Review, First Impressions. Scene 1 Hook: first impression spray reveal with shocked expression + voluminous hair. Scene 2 Bridging: share greasy/busy hair problem. Scene 3 Tap-in: apply generously to left side, style backward with large brush, show volume result, mention selling points (fragrance, volume, no white residue). Scene 4 Closing: mention 2 variants. Notes: max 60s, mandatory before-after, can use hair oil to fake oily before footage.',
+        year: '2025',
+      },
+      {
         id: 'jumiso-style-korean-product-knowledge-brief',
         title: 'Jumiso × Style Korean Indonesia — All Product Knowledge & Brief',
         brand: 'Jumiso',
@@ -1885,6 +1903,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2025',
       },
       {
+        id: 'grace-and-glow-dry-shampoo-ugc-social',
+        title: 'Grace and Glow — Dry Shampoo Creator UGC',
+        brand: 'Grace and Glow',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/19DLPDNeajew9rk50AqR674-JF0iBGxJ0/view?usp=sharing',
+        description: 'Published TikTok/Reels UGC for Grace and Glow Dry Shampoo — Talkative first-impressions format. Hook: spray reveal with shocked expression showing instant volume. Script developed using 4-scene structure: hook → greasy hair problem → tap-in demo → closing. Concept: Talkative, Review, First Impressions.',
+        year: '2025',
+      },
+      {
         id: 'dew-me-lip-glow-ugc-social',
         title: 'Dew Me — Lip Glow Creator UGC',
         brand: 'Dew Me',
@@ -2667,6 +2694,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2025',
       },
       {
+        id: 'grace-and-glow-dry-shampoo-talkative-script-creator',
+        title: 'Grace and Glow — Dry Shampoo "Talkative" UGC Script',
+        brand: 'Grace and Glow',
+        type: 'pdf',
+        file: '/samples/campaigns/grace-and-glow-dry-shampoo-script.pdf',
+        description: '4-scene KOL script — Hook: spray dry shampoo onto left-side hair, style backward with large brush, show shocked expression at volume result. Bridge: share greasy/busy hair problem. Tap-in: apply generously, mention selling points (Marc Jacobs Daisy scent, volume, no white residue). Closing: mention 2 variants. Max 60s, mandatory before-after.',
+        year: '2025',
+      },
+      {
         id: 'senus-instacurl-storyline-creator',
         title: 'Senus InstaCurl Automatic Styler — "SIAPA TUH YANG BILANG?!" UGC Script',
         brand: 'Senus',
@@ -2730,6 +2766,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         type: 'link',
         url: 'https://drive.google.com/file/d/1d-QFKNt9qFsnw5d8ED0nA84M9kgJIy1M/view?usp=sharing',
         description: 'Published UGC for NUKKA homewear — fashion and lifestyle content produced as part of a creator collaboration.',
+        year: '2025',
+      },
+      {
+        id: 'grace-and-glow-dry-shampoo-ugc',
+        title: 'Grace and Glow — Dry Shampoo Creator UGC',
+        brand: 'Grace and Glow',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/19DLPDNeajew9rk50AqR674-JF0iBGxJ0/view?usp=sharing',
+        description: 'Published TikTok/Reels UGC for Grace and Glow Dry Shampoo — Talkative first-impressions format. Script and content direction by me. Mandatory before-after, hook-driven structure.',
         year: '2025',
       },
       {
@@ -3323,6 +3368,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         type: 'pdf',
         file: '/samples/campaigns/storyline-embryolisse.pdf',
         description: 'Full VO script for Embryolisse Lait-Crème Concentré Reels — introducing a French pharmacy cult product to an Indonesian audience. Written to balance international brand credibility with familiar creator voice and local beauty language.',
+        year: '2025',
+      },
+      {
+        id: 'grace-and-glow-dry-shampoo-talkative-script-copy',
+        title: 'Grace and Glow — Dry Shampoo "Talkative" First-Impressions Script',
+        brand: 'Grace and Glow',
+        type: 'pdf',
+        file: '/samples/campaigns/grace-and-glow-dry-shampoo-script.pdf',
+        description: 'KOL script using a "Talkative / Review / First Impressions" framework — hook-first structure with scene-level gesture direction and mandatory footage notes. Selling points woven into the narrative: Marc Jacobs Daisy fragrance, instant volume, no white residue. TikTok reference-driven concept with max 60s execution.',
         year: '2025',
       },
       {
