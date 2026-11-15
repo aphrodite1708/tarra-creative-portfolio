@@ -774,6 +774,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2025',
       },
       {
+        id: 'milux-co-creator-outreach',
+        title: 'Milux.co — Creator Outreach for Fashion Brand Collaboration',
+        brand: 'Milux.co',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1h_JAsggcBvS62TppJ6DgEuKTzRU9Z19e/view?usp=sharing',
+        description: 'Creator outreach for Milux.co — identifying and approaching creators willing to collaborate with a small Indonesian fashion brand. Outreach process: creator fit research, initial approach, and coordination to secure UGC deliverable for the brand.',
+        year: '2025',
+      },
+      {
         id: 'sculpt-skin-brightening-underarm-brief-sourcing',
         title: "Sculpt Skin — \"She's Spotless, Babe!\" Creator Outreach Brief",
         brand: 'Sculpt Skin',
@@ -2298,6 +2307,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         description: 'Post-campaign insight for Natur-E Advanced activation — IG Reels + Stories performance data showing view counts, accounts reached, non-follower discovery, and engagement metrics that demonstrate content effectiveness for the vitamin E skincare series.',
         year: '2025',
       },
+      {
+        id: 'milux-co-ugc-social',
+        title: 'Milux.co — Fashion Brand UGC',
+        brand: 'Milux.co',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1h_JAsggcBvS62TppJ6DgEuKTzRU9Z19e/view?usp=sharing',
+        description: 'Published UGC for Milux.co — delivered through creator outreach for a small Indonesian fashion brand. Creator sourced and approached by me.',
+        year: '2025',
+      },
     ],
   },
   creator: {
@@ -2937,6 +2955,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         type: 'link',
         url: 'https://drive.google.com/file/d/1N-aasSPrI3O2rO-5E_i44R4YA9PpgAfU/view?usp=sharing',
         description: 'Published IG Reels for Scarlett Facial Wash — GRWM comedic format. Script and content concept developed by me: mirror selfie hook, product education via natural GRWM flow, before-after facial wash, variant recommendation, Rama punchline ending.',
+        year: '2025',
+      },
+      {
+        id: 'milux-co-ugc',
+        title: 'Milux.co — Fashion Brand UGC',
+        brand: 'Milux.co',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1h_JAsggcBvS62TppJ6DgEuKTzRU9Z19e/view?usp=sharing',
+        description: 'Published UGC for Milux.co — result of creator outreach I ran for the brand. Sourced and approached creators willing to collaborate with a small Indonesian fashion brand.',
         year: '2025',
       },
       {
