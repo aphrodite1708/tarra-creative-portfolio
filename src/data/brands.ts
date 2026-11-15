@@ -3,6 +3,7 @@
 // Cards and the brands strip gracefully fall back when a file isn't present yet.
 export const BRAND_LOGOS: Record<string, string> = {
   'Activgluta':          '/brands/activgluta.png',
+  'Ashley':              '/brands/ashley.png',
   'BLP Beauty':          '/brands/blp-beauty.png',
   'BabyGo':              '/brands/babygo.png',
   'Beauty of Joseon':    '/brands/beauty-of-joseon.png',
@@ -108,6 +109,7 @@ export const BRANDS_LIST: { name: string; logo: string }[] = [
   { name: 'Eileen Grace',        logo: '/brands/eileen-grace.png' },
   { name: 'Rovve',               logo: '/brands/rovve.png' },
   { name: 'SH-RD',               logo: '/brands/sh-rd.png' },
+  { name: 'Ashley',              logo: '/brands/ashley.png' },
   { name: 'Kinohimitsu',         logo: '/brands/kinohimitsu.png' },
   { name: 'Milux.co',            logo: '/brands/milux-co.png' },
   { name: 'Pergikuliner',        logo: '/brands/pergikuliner.png' },

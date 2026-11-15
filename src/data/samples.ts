@@ -779,7 +779,7 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         brand: 'Pergikuliner',
         type: 'pdf',
         file: '/samples/campaigns/pergikuliner-kol-brief.pdf',
-        description: 'Creator research and outreach for Pergikuliner — identifying and sourcing culinary-lifestyle creators who match the platform\'s food discovery content style. Creator profile research, fit assessment, and outreach process for the Pergikuliner campaign activation.',
+        description: 'Creator research and outreach for Pergikuliner — identifying and sourcing culinary-lifestyle creators who match the platform\'s food discovery content style. Creator profile research, fit assessment, and outreach process for the Pergikuliner campaign activation. Outreach screenshots not available as contact was conducted via company email.',
         year: '2025',
       },
       {
@@ -788,7 +788,16 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         brand: 'Milux.co',
         type: 'link',
         url: 'https://drive.google.com/file/d/1h_JAsggcBvS62TppJ6DgEuKTzRU9Z19e/view?usp=sharing',
-        description: 'Creator outreach for Milux.co — identifying and approaching creators willing to collaborate with a small Indonesian fashion brand. Outreach process: creator fit research, initial approach, and coordination to secure UGC deliverable for the brand.',
+        description: 'Creator outreach for Milux.co — identifying and approaching creators willing to collaborate with a small Indonesian fashion brand. Outreach process: creator fit research, initial approach, and coordination to secure UGC deliverable. Screenshots not available as outreach was conducted via company email.',
+        year: '2025',
+      },
+      {
+        id: 'ashley-global-brand-outreach',
+        title: 'Ashley — Global Outreach to Vietnamese Fashion Brand',
+        brand: 'Ashley',
+        type: 'pdf',
+        file: '/samples/campaigns/ashley-catalogue.pdf',
+        description: 'Global outreach to Ashley — a Vietnamese fashion brand — identifying and approaching them as a potential brand collaboration partner. Research included reviewing their product catalogue (15 lookbook pieces across tailored sets, lace garments, and occasion wear) to inform a targeted outreach pitch. Outreach screenshots not available as contact was made via company email.',
         year: '2025',
       },
       {
