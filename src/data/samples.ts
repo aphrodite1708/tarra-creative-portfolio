@@ -393,6 +393,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2025',
       },
       {
+        id: 'kinohimitsu-14day-journey-reels-script',
+        title: 'Kinohimitsu — "14-Day Journey" Honest Review IG Reels Script',
+        brand: 'Kinohimitsu',
+        type: 'pdf',
+        file: '/samples/campaigns/kinohimitsu-reels-script.pdf',
+        description: '6-scene honest review Reels storyline for Kinohimitsu C-D Drink & Bird\'s Nest Collagen. Scene 1 (Day 1): first impression — natural/gimmick reaction to Bird\'s Nest Collagen for the first time. Scene 2 (14-Day Journey): montage compilation Day 1 → Day 14 showing growing enjoyment. Scene 3 (Why I Started): inner beauty philosophy + before/after reveal — "merawat kulit tuh nggak cukup cuma dari skincare aja." Scene 4 (C-D Drink): product hero shot + 5,300 mg Collagen Shot + Vitamin C + Malic Acid education. Scene 5 (Bird\'s Nest Collagen): honest taste review — "awalnya w kira rasanya bakal aneh. Ternyata enak." — health + beauty benefits. Scene 6 (Giveaway): 14-Day Trial Kit giveaway, 5 winners, follow IG & TikTok + comment mechanic. Notes: giveaway mechanics and brand claims (5,300mg collagen, 14-day results, immunity/bone health) flagged for official brand approval.',
+        year: '2025',
+      },
+      {
         id: 'scarlett-facial-wash-reels-script',
         title: 'Scarlett Facial Wash — "Too Much Nggak Sih?" IG Reels Script',
         brand: 'Scarlett',
@@ -2739,6 +2748,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2025',
       },
       {
+        id: 'kinohimitsu-14day-journey-reels-script-creator',
+        title: 'Kinohimitsu — "14-Day Journey" Honest Review IG Reels Script',
+        brand: 'Kinohimitsu',
+        type: 'pdf',
+        file: '/samples/campaigns/kinohimitsu-reels-script.pdf',
+        description: '6-scene honest review Reels script: Day 1 first impression → 14-day journey montage → why I started (inner beauty + before/after) → C-D Drink 5,300mg collagen education → Bird\'s Nest honest taste review → giveaway close. Written in Riri\'s natural, humorous voice — "siapa tahu nanti mamak-mamak di sekolah Rei ngira gue anak baru lulus kuliah."',
+        year: '2025',
+      },
+      {
         id: 'scarlett-facial-wash-reels-script-creator',
         title: 'Scarlett Facial Wash — "Too Much Nggak Sih?" UGC Script',
         brand: 'Scarlett',
@@ -3557,6 +3575,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         type: 'pdf',
         file: '/samples/campaigns/senus-instacurl-storyline.pdf',
         description: '10-scene Reels/TikTok UGC script — opens with a behind-cam challenge ("Curl rambut sendiri tuh susah!") before cutting to Riri\'s confident rebuttal ("SIAPA TUH YANG BILANG??!"). Each scene integrates a product feature (temperature, heating time, anti-heat protection, curl direction, barrel size) as natural proof-points within the confidence narrative.',
+        year: '2025',
+      },
+      {
+        id: 'kinohimitsu-14day-journey-reels-script-copy',
+        title: 'Kinohimitsu — Honest Review IG Reels Script',
+        brand: 'Kinohimitsu',
+        type: 'pdf',
+        file: '/samples/campaigns/kinohimitsu-reels-script.pdf',
+        description: '6-scene IG Reels script for Kinohimitsu 14-Day Journey: natural first impression hook, montage arc, inner-beauty "why I started" narrative, product education for C-D Drink (5,300mg collagen) and Bird\'s Nest Collagen, giveaway close. Voice stays in Riri\'s casual, humorous register throughout — honest review tone, not scripted ad feel.',
         year: '2025',
       },
       {
