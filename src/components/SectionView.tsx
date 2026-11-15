@@ -1,6 +1,20 @@
+import { useState } from 'react'
 import { motion } from 'framer-motion'
 import type { FolderData, SectionId } from '../data/sections'
 import { SECTION_CONTENT } from '../data/sections'
+import { BRANDS_LIST } from '../data/brands'
+
+function BrandChip({ name, logo }: { name: string; logo: string }) {
+  const [failed, setFailed] = useState(false)
+  return (
+    <div className="brand-chip" title={name}>
+      {!failed
+        ? <img src={logo} alt={name} className="brand-chip-logo" onError={() => setFailed(true)} />
+        : <span className="brand-chip-name">{name}</span>
+      }
+    </div>
+  )
+}
 
 interface Props {
   sectionId: SectionId
@@ -68,6 +82,18 @@ export default function SectionView({ sectionId, folder, onClose, onAreaClick }:
           ))}
         </div>
       </div>
+
+      {/* Brands strip — only shown inside Campaigns */}
+      {sectionId === 'campaigns' && (
+        <div className="brands-section">
+          <div className="brands-label">Brands I've worked with</div>
+          <div className="brands-scroll">
+            {BRANDS_LIST.map((b) => (
+              <BrandChip key={b.name} name={b.name} logo={b.logo} />
+            ))}
+          </div>
+        </div>
+      )}
 
       {/* Contact footer */}
       <div className="footer-strip">
