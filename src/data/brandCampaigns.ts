@@ -686,6 +686,20 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  // ── Moist Diane ──────────────────────────────────────────────
+  {
+    id: 'moist-diane-extra-hair-fall-launch',
+    brand: 'Moist Diane',
+    title: 'Extra Hair Fall Control — Product Launch Event',
+    subtitle: 'Atrium PIM I · 5 Nov 2022 · Event runner · ~137K IG Stories reach',
+    year: '2022',
+    sampleIds: [
+      'moist-diane-extra-hair-fall-event-rundown',
+      'moist-diane-extra-hair-fall-event-invitation',
+      'moist-diane-extra-hair-fall-igs-insight',
+    ],
+  },
+
   // ── Milux.co ─────────────────────────────────────────────────
   {
     id: 'milux-co-creator-collab',
