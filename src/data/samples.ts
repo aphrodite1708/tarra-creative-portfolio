@@ -268,11 +268,11 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
       },
       {
         id: 'wardah-multidimensional-glow-kol-brief',
-        title: 'Wardah Multidimensional Glow — KOL Campaign Brief',
+        title: 'Wardah Day & Night Cream — Multidimensional Glow KOL Campaign Brief',
         brand: 'Wardah',
         type: 'pdf',
         file: '/samples/campaigns/wardah-multidimensional-glow-kol-brief.pdf',
-        description: 'KOL campaign brief for Wardah Multidimensional Glow (Glow Rhytm campaign).',
+        description: 'KOL campaign brief for Wardah Day & Night Cream — Glow Rhytm campaign concept, Multidimensional Glow positioning.',
         year: '2024',
       },
       {
