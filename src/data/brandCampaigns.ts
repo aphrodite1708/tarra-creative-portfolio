@@ -83,6 +83,21 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  // ── Bio-Oil ──────────────────────────────────────────────────
+  {
+    id: 'bio-oil-skincare-oil-natural',
+    brand: 'Bio-Oil',
+    title: 'Skincare Oil (Natural)',
+    subtitle: 'IG Reels + Stories — #BioOilHealthySkinHabits',
+    year: '2025',
+    sampleIds: [
+      'bio-oil-skincare-oil-natural-kol-brief',
+      'bio-oil-skincare-oil-natural-ugc',
+      'bio-oil-skincare-oil-natural-reels-insight',
+      'bio-oil-skincare-oil-natural-stories-insight',
+    ],
+  },
+
   // ── Finally Found You ────────────────────────────────────────
   {
     id: 'ffy-moisturizer-toner-kak-riri',
