@@ -3413,6 +3413,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2025',
       },
       {
+        id: 'sculpt-skin-brightening-underarm-ugc',
+        title: 'Sculpt Skin — Brightening Underarm Cream IG Stories UGC',
+        brand: 'Sculpt Skin',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/19dI-dveu-N9VG9UAGifKMO_zDJAZxtEw/view?usp=sharing',
+        description: 'Published IG Stories UGC for Sculpt Skin She\'s Spotless, Babe! Brightening Underarm Cream — "Penemuan teraneh di 2025!" hook, ingredient reveal, before/after, 30-day guarantee CTA. Script directed by me. Result: 82,990 views · 72,062 accounts reached · 1,894 link clicks · 234 @sculptskin.id sticker taps.',
+        year: '2025',
+      },
+      {
         id: 'safi-age-defy-reels-script-creator',
         title: 'Safi Age Defy — Japan Travel Skincare Reels Script',
         brand: 'Safi',

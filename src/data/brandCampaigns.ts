@@ -990,6 +990,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'sculpt-skin-brightening-underarm-igs-script-direction',
       'sculpt-skin-aries-waist-trainer-product',
       'sculpt-skin-brightening-underarm-igs-script-creator',
+      'sculpt-skin-brightening-underarm-ugc',
       'sculpt-skin-ig-stories-insight',
     ],
   },
