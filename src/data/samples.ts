@@ -1095,6 +1095,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2023',
       },
       {
+        id: 'ponds-guardian-live-ig-stories-insight-profile',
+        title: "Pond's × Guardian — IG Stories Insight: Profile Activity",
+        brand: "Pond's",
+        type: 'image',
+        file: '/samples/campaigns/ponds-guardian-live-ig-stories-insight-3.jpg',
+        description: "Profile activity breakdown for the Pond's × Guardian Shopee Live Stories promotion.",
+        year: '2023',
+      },
+      {
         id: 'activgluta-tiktok-insight',
         title: 'Activgluta — TikTok Video Analysis',
         brand: 'Activgluta',
@@ -1718,6 +1727,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         type: 'pdf',
         file: '/samples/campaigns/dove-deo-serum-jxb-kol-brief.pdf',
         description: '"Upgrade to Dove Deo Serum" creative brief for event activation at Jakarta x Beauty: Booth XL4 Hall A visit mechanic, 3-SKU product range, natural/organic visual tone. Event storytelling across three content phases (pre-event hype, D-Day live, post-event Reel). Campaign tagline: "When it comes to care, Dove goes beyond." Multi-deliverable SOW across IG Stories and Reels/TikTok.',
+        year: '2025',
+      },
+      {
+        id: 'dove-jxb-wardrobe-white-corset-direction',
+        title: 'Dove Deo Serum — Jakarta x Beauty Wardrobe Direction',
+        brand: 'Dove',
+        type: 'image',
+        file: '/samples/direction/dove-jxb-wardrobe-white-corset.jpg',
+        description: 'Wardrobe direction reference for the Dove Deo Serum Jakarta x Beauty activation — white corset styling for the natural/organic visual tone.',
         year: '2025',
       },
       {
