@@ -413,6 +413,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     year: '2025',
     sampleIds: [
       'erha-active-light-sunscreen-kol-brief',
+      'erha-active-light-sunscreen-product-knowledge',
       'erha-active-light-sunscreen-reels-script',
       'erha-active-light-sunscreen-creator-outreach',
       'erha-active-light-sunscreen-reels-script-creator',

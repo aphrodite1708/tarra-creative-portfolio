@@ -501,6 +501,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2025',
       },
       {
+        id: 'erha-active-light-sunscreen-product-knowledge',
+        title: 'Erha Perfect Shield — Active Light Sunscreen Product Knowledge',
+        brand: 'Erha',
+        type: 'pdf',
+        file: '/samples/campaigns/erha-active-light-sunscreen-product-knowledge.pdf',
+        description: '5-slide product knowledge sheet for ERHA Perfect Shield Active Light Sunscreen SPF 50+/PA++++ (27 May 2024). Spec: liquid lotion, white, 50ml bottle, IDR 199,000, apply 15 min before sun exposure. Benefits: broad spectrum protection, 40 min water resistance, reef-friendly, sebum control, antioxidant complex, alcohol free, weightless. Active ingredients: UVA/UVB Protection (Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Ethylhexyl Salicylate, Ethylhexyl Triazone, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Methylene Bis-Benzotriazolyl Tetramethylbutylphenol), Soothing Agent (Sodium Palmitoyl Proline, Nymphaea Alba Flower Extract), Sebum & Pore Control (Bixa Orellana Seed Extract), Antioxidant Complex (Vitamin E, D-Panthenol). Consumer test: 9/10 agree no greasy feel before/after exercise; >90% agree no comedones/acne after 7 days.',
+        year: '2025',
+      },
+      {
         id: 'erha-active-light-sunscreen-reels-script',
         title: 'Erha Perfect Shield — "Sweet Morning Surprise" IG Reels Script',
         brand: 'Erha',
