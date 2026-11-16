@@ -1072,10 +1072,10 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     sampleIds: ['tulus-brand-profile-brief', 'tulus-brand-profile-sourcing'],
   },
 
-  // ── Wall's ───────────────────────────────────────────────────
+  // ── Paddle Pop ───────────────────────────────────────────────
   {
     id: 'walls-paddlepop-jiggly-jelly',
-    brand: "Wall's",
+    brand: 'Paddle Pop',
     title: 'Paddle Pop Jiggly Jelly',
     subtitle: 'Jumbo film × PR Kit launch — KOL brief',
     year: '2025',

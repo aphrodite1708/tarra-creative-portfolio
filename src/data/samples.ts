@@ -125,7 +125,7 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
       {
         id: 'walls-paddlepop-jiggly-jelly-kol-brief',
         title: 'MTX Gems — Paddle Pop Jiggly Jelly KOL Brief',
-        brand: "Wall's",
+        brand: 'Paddle Pop',
         type: 'pdf',
         file: '/samples/campaigns/walls-paddlepop-jiggly-jelly-kol-brief.pdf',
         description: 'PR Kit KOL brief for the Paddle Pop Jiggly Jelly launch, collaborating with the Jumbo film.',
@@ -1507,7 +1507,7 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
       {
         id: 'walls-paddlepop-jiggly-jelly-brief-direction',
         title: 'MTX Gems — Paddle Pop Jiggly Jelly KOL Brief',
-        brand: "Wall's",
+        brand: 'Paddle Pop',
         type: 'pdf',
         file: '/samples/campaigns/walls-paddlepop-jiggly-jelly-kol-brief.pdf',
         description: 'PR Kit creative brief for the Jiggly Jelly launch — visual concept, content direction, and key messaging tied to the Jumbo film collaboration.',
