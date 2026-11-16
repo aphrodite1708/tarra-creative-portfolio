@@ -746,6 +746,28 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  // ── Ariul ────────────────────────────────────────────────────
+  {
+    id: 'ariul-7days-mask-duo',
+    brand: 'Ariul',
+    title: '7Days Mask Duo',
+    subtitle: 'KOL activation — Duo Power night care, Acne Care & Brightening variants',
+    year: '2024',
+    sampleIds: [
+      'ariul-7days-mask-duo-kol-brief',
+    ],
+  },
+  {
+    id: 'ariul-7days-serum',
+    brand: 'Ariul',
+    title: '7Days Serum',
+    subtitle: 'KOL activation — K-Dermatologist formulated, 3 variants',
+    year: '2024',
+    sampleIds: [
+      'ariul-7days-serum-kol-brief',
+    ],
+  },
+
   // ── Milux.co ─────────────────────────────────────────────────
   {
     id: 'milux-co-creator-collab',
