@@ -26,7 +26,7 @@ export default function SampleCard({ sample, accentColor, onCaseStudyOpen }: Pro
   const typeLabel: Record<string, string> = {
     pdf: 'PDF Document',
     image: 'Image',
-    link: 'Link',
+    link: 'Published UGC',
     video: 'Video',
     'case-study': 'Case Study',
   }
@@ -64,6 +64,37 @@ export default function SampleCard({ sample, accentColor, onCaseStudyOpen }: Pro
       }
     </div>
   )
+
+  // Link (UGC) cards get a special full-width video-card treatment
+  if (sample.type === 'link') {
+    return (
+      <motion.button
+        className="sample-card sample-card--link"
+        onClick={handleOpen}
+        whileHover={{ y: -3 }}
+        whileTap={{ scale: 0.98 }}
+      >
+        <div className="sample-card-link-top">
+          {brandLogo && !logoFailed && (
+            <img src={brandLogo} alt={sample.brand} className="sample-card-link-logo" onError={() => setLogoFailed(true)} />
+          )}
+          <div className="sample-card-link-play">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+              <polygon points="5 3 19 12 5 21 5 3" />
+            </svg>
+          </div>
+        </div>
+        <div className="sample-card-link-body">
+          <div className="sample-card-link-meta">
+            <span className="sample-card-link-badge">Published UGC</span>
+            {sample.year && <span className="sample-card-year" style={{ opacity: 0.5 }}>{sample.year}</span>}
+          </div>
+          <h4 className="sample-card-title" style={{ fontSize: '0.9rem' }}>{sample.title}</h4>
+          <span className="sample-card-link-cta">Watch video →</span>
+        </div>
+      </motion.button>
+    )
+  }
 
   const previewEl = sample.type === 'case-study'
     ? (
