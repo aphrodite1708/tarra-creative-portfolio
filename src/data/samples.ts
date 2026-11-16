@@ -267,6 +267,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2024',
       },
       {
+        id: 'emelyne-burgundy-sunscreen-brief',
+        title: 'Emelyne Burgundy Sunscreen — IG Reels Storyline Brief',
+        brand: 'Emelyne',
+        type: 'pdf',
+        file: '/samples/campaigns/emelyne-burgundy-sunscreen-brief.pdf',
+        description: 'Campaign brief for Emelyne Burgandy 2-in-1 Face & Body Sunscreen IG Reels — 6-scene creator storyline with concept, visual direction, VO dialogue, and text overlays. Creator: Riri. SPF 30 PA+++. Ingredients: Black Pearl, UV Filter, Costoseira Tamaris Extract.',
+        year: '2024',
+      },
+      {
         id: 'nuface-lip-velvet-kol-brief',
         title: 'Velvet Love Matte — KOL Brief',
         brand: 'Nuface',
@@ -693,6 +702,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2024',
       },
       {
+        id: 'emelyne-burgundy-sunscreen-outreach',
+        title: 'Emelyne Burgundy Sunscreen — Creator Outreach DM',
+        brand: 'Emelyne',
+        type: 'pdf',
+        file: '/samples/campaigns/emelyne-burgundy-sunscreen-outreach.pdf',
+        description: 'Creator pitch DM for the Emelyne Burgandy 2-in-1 Face & Body Sunscreen IG Reels campaign — personalised outreach used to recruit the creator. Brief, script, and product provided on confirmation.',
+        year: '2024',
+      },
+      {
         id: 'firstlab-product-knowledge',
         title: 'Firstlab — Product Knowledge Deck',
         brand: 'Firstlab',
@@ -958,6 +976,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         file: '/samples/campaigns/judydoll-iron-mascara-insight.pdf',
         description: '44,493 accounts reached · 336 link clicks · 110 story interactions · 10 @luxcrime_id sticker taps. Instagram Stories performance for the Iron Mascara activation (via @luxcrime_id, Judydoll\'s Indonesian distributor).',
         year: '2024',
+      },
+      {
+        id: 'ponds-guardian-live-ig-stories-insight',
+        title: "Pond's × Guardian — 'Focus on Your Skin Regime & Skinvestment' IG Stories Insight",
+        brand: "Pond's",
+        type: 'pdf',
+        file: '/samples/campaigns/ponds-guardian-live-ig-stories-insight.pdf',
+        description: "43,704 accounts reached · 26 sticker taps (17 @guardian_id · 9 @pondsindonesia). Instagram Stories performance promoting the Pond's × Guardian Shopee Live event featuring @astaririri as guest host (7 April 2023).",
+        year: '2023',
       },
       {
         id: 'activgluta-tiktok-insight',
@@ -2191,6 +2218,24 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2024',
       },
       {
+        id: 'ponds-guardian-live-ig-stories-insight-social',
+        title: "Pond's × Guardian — IG Stories Insight",
+        brand: "Pond's",
+        type: 'pdf',
+        file: '/samples/campaigns/ponds-guardian-live-ig-stories-insight.pdf',
+        description: "43,704 accounts reached · 26 sticker taps — IG Stories promoting a live event as guest host, driving sticker-tap traffic to @guardian_id and @pondsindonesia.",
+        year: '2023',
+      },
+      {
+        id: 'ponds-guardian-live-event-post-social',
+        title: "Pond's × Guardian — Live Event IG Stories Post",
+        brand: "Pond's",
+        type: 'image',
+        file: '/samples/campaigns/ponds-guardian-live-event-post.jpg',
+        description: "Published IG Stories post for Pond's × Guardian 'Focus on Your Skin Regime & Skinvestment' live event — @astaririri featured as guest host.",
+        year: '2023',
+      },
+      {
         id: 'activgluta-tiktok-insight-social',
         title: 'Activgluta — TikTok Video Analysis',
         brand: 'Activgluta',
@@ -3246,6 +3291,24 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2024',
       },
       {
+        id: 'ponds-guardian-live-event-post',
+        title: "Pond's × Guardian — Live Event IG Stories Post",
+        brand: "Pond's",
+        type: 'image',
+        file: '/samples/campaigns/ponds-guardian-live-event-post.jpg',
+        description: "Published IG Stories post for Pond's × Guardian 'Focus on Your Skin Regime & Skinvestment' Shopee Live — @astaririri featured as guest host. 43,704 accounts reached.",
+        year: '2023',
+      },
+      {
+        id: 'ponds-uv-serum-ugc-photo',
+        title: "Pond's UV Protect Sun Serum — Product UGC Photo",
+        brand: "Pond's",
+        type: 'image',
+        file: '/samples/creator/ponds-uv-serum-ugc-photo.jpg',
+        description: "Creator photo with Pond's UV Protect Sun Serum SPF 50+ PA++++ — non-oily, no white cast, with Niacinamide-C. Shot for brand content.",
+        year: '2023',
+      },
+      {
         id: 'erha-active-light-sunscreen-ugc',
         title: 'Erha Perfect Shield — "Sweet Morning Surprise" IG Reels UGC',
         brand: 'Erha',
@@ -3631,6 +3694,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
   copywriting: {
     // 1 = UGC Scripts
     1: [
+      {
+        id: 'emelyne-burgundy-sunscreen-script',
+        title: 'Emelyne Burgundy Sunscreen — IG Reels UGC Script',
+        brand: 'Emelyne',
+        type: 'pdf',
+        file: '/samples/copywriting/emelyne-burgundy-sunscreen-script.pdf',
+        description: '6-scene IG Reels UGC script for Emelyne Burgandy 2-in-1 Face & Body Sunscreen — hook, product intro, texture & application, ingredient highlight (Black Pearl, UV Filter, Costoseira Tamaris Extract), packaging review, and closing CTA with rating. ±60 seconds.',
+        year: '2024',
+      },
       {
         id: 'wardah-nmf-amino-face-wash-script',
         title: 'Wardah NMF Amino Face Wash — Reels & Stories Script',

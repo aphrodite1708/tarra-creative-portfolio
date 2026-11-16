@@ -12,7 +12,7 @@ const TIER_2 = [
   'Energen', 'Lux', 'Skintific', 'Embryolisse', 'Beauty of Joseon', 'Nutrilon Royal',
   'TRESemmé', "Natur-E", 'Safi', 'BLP Beauty', 'Hansaplast',
   'Dew Me', 'Erha', 'Mediheal', 'Kinohimitsu', 'Jumiso',
-  'Jacquelle', 'Herbilogy', 'Nuface', 'Firstlab', 'Judydoll',
+  'Jacquelle', 'Herbilogy', 'Nuface', 'Firstlab', 'Judydoll', "Pond's", 'Emelyne',
 ]
 
 // All other brands in BRAND_LOGOS → tier 3
