@@ -117,6 +117,18 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
 
   // ── Natur-E ──────────────────────────────────────────────────
   {
+    id: 'natur-e-ceraglow-hyaluglow',
+    brand: 'Natur-E',
+    title: 'CeraGlow & Hyaluglow Serum',
+    subtitle: 'Natur-E × Sunny Dahye — Mega Macro KOL activation',
+    year: '2023',
+    sampleIds: [
+      'natur-e-ceraglow-hyaluglow-kol-brief',
+      'natur-e-ceraglow-hyaluglow-ugc',
+      'natur-e-ceraglow-hyaluglow-tiktok-insight',
+    ],
+  },
+  {
     id: 'natur-e-advanced-astari-riri',
     brand: 'Natur-E',
     title: 'Advanced Full Series',

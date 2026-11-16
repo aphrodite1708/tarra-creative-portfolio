@@ -672,6 +672,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2025',
       },
       {
+        id: 'natur-e-ceraglow-hyaluglow-kol-brief',
+        title: 'Natur-E CeraGlow & Hyaluglow Serum — Mega Macro KOL Brief',
+        brand: 'Natur-E',
+        type: 'pdf',
+        file: '/samples/campaigns/natur-e-ceraglow-hyaluglow-kol-brief.pdf',
+        description: 'Product Knowledge & KOL Brief for Natur-E CeraGlow Skin Barrier Calming Serum and Hyaluglow Deep Rich Hydrating Serum — Natur-E × Sunny Dahye collaboration. Covers 12 Macro/Mega + 100 Nano KOL activation. SOW: 1× IG Reels. Storyline: Unboxing PR Package → texture test → skincare routine → review after 1 week. Hashtags: #NaturECeraglow #NaturEHyaluglow #GlowThatLasts.',
+        year: '2023',
+      },
+      {
         id: 'storyline-embryolisse',
         title: 'Embryolisse Lait-Crème Concentré — Creator Script',
         brand: 'Embryolisse',
@@ -1426,6 +1435,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         file: '/samples/campaigns/natur-e-advanced-stories-insight-2.pdf',
         description: 'IG Stories insight Set 2 for Natur-E Advanced by Astari Riri — high-reach story sequence: 41,606 / 40,525 accounts reached · 52 link clicks · 11+5+7 sticker taps · 49,512 navigations.',
         year: '2025',
+      },
+      {
+        id: 'natur-e-ceraglow-hyaluglow-tiktok-insight',
+        title: 'Natur-E CeraGlow & Hyaluglow Serum — TikTok Performance Insight',
+        brand: 'Natur-E',
+        type: 'pdf',
+        file: '/samples/campaigns/natur-e-ceraglow-hyaluglow-tiktok-insight.pdf',
+        description: 'TikTok video insight for Natur-E CeraGlow & Hyaluglow Serum — 2,769 plays · 10.7s avg watch time · 2,243 viewers · 67% non-followers · 72% female · 48% age 18–24. Traffic: 52.4% For You, 33.5% Search. Posted Dec 16, 2023.',
+        year: '2023',
       },
       {
         id: 'embryolisse-insight',
@@ -3675,6 +3693,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         url: 'https://drive.google.com/file/d/1OKUAwxIj9dp1XH2JB3SOlm-QUHX2eCtQ/view?usp=sharing',
         description: 'Additional published UGC for Natur-E Advanced by Astari Riri — supplemental deliverable from the Natur-E Advanced Full Series campaign.',
         year: '2025',
+      },
+      {
+        id: 'natur-e-ceraglow-hyaluglow-ugc',
+        title: 'Natur-E CeraGlow & Hyaluglow Serum — Published TikTok Content',
+        brand: 'Natur-E',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1HWx4VTb54HqPXRmYbqPFLfh_8bFPpEka/view?usp=sharing',
+        description: 'Published TikTok UGC for Natur-E CeraGlow & Hyaluglow Serum — 2,769 plays, 107 likes, 45 comments. Natur-E × Sunny Dahye KOL activation, Dec 2023.',
+        year: '2023',
       },
       {
         id: 'ugc-published-content-drive-folder',
