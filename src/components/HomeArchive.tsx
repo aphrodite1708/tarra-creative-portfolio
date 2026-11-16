@@ -4,17 +4,43 @@ import { FOLDERS, type SectionId } from '../data/sections'
 import SectionView from './SectionView'
 import AreaView from './AreaView'
 import CaseStudyView from './CaseStudyView'
+import BrandPage from './BrandPage'
+import CreatorPage from './CreatorPage'
+
+type Panel = 'brand' | 'creator'
 
 export default function HomeArchive() {
-  const [hovered, setHovered] = useState<SectionId | null>(null)
+  const [hovered, setHovered] = useState<Panel | null>(null)
+  const [activePage, setActivePage] = useState<Panel | null>(null)
+
+  // Deep-nav state (kept for use inside the overlays)
   const [active, setActive] = useState<SectionId | null>(null)
   const [activeArea, setActiveArea] = useState<{ sectionId: SectionId; areaIndex: number } | null>(null)
   const [activeCaseStudy, setActiveCaseStudy] = useState<{ id: string; sectionId: SectionId } | null>(null)
 
+  const anyHovered = hovered !== null
+
+  const panels: { id: Panel; label: string; sub: string; color: string; textColor: string }[] = [
+    {
+      id: 'brand',
+      label: 'Brand',
+      sub: 'Campaigns, strategy, partnerships, briefs & insights',
+      color: '#162342',
+      textColor: '#F7F1E9',
+    },
+    {
+      id: 'creator',
+      label: 'Creator',
+      sub: 'Scripts, UGC, influencer development & published content',
+      color: '#2D1B3D',
+      textColor: '#F7F1E9',
+    },
+  ]
+
   return (
     <div className="archive-root">
-      {/* Hero column — top: text, bottom: photo */}
-      <div className="hero-overlay" aria-hidden={active !== null}>
+      {/* Hero column */}
+      <div className="hero-overlay">
         <div className="hero-eyebrow">Creative Strategist</div>
         <h1 className="hero-name">
           <span className="hero-name-first">Tarra</span>
@@ -22,101 +48,88 @@ export default function HomeArchive() {
         </h1>
         <p className="hero-quote">"Understanding people.<br />Developing ideas.<br />Creating work that connects."</p>
         <p className="hero-welcome">
-          Welcome to my creative archive — a collection of my work, from ideas and strategies to concepts and creative execution.
+          Welcome to my creative portfolio — a collection of brand campaigns, creator strategy, and content work.
         </p>
 
-        {/* Photo pushed to the bottom of the column */}
         <div className="hero-photo-wrap">
           <img src="/tarra.png" alt="Tarra Ananda" className="hero-photo" />
         </div>
       </div>
 
-      {/* Folder panels strip */}
+      {/* Two-panel strip */}
       <div className="panels-strip">
-        {FOLDERS.map((folder) => {
-          const isHovered = hovered === folder.id
-          const anyHovered = hovered !== null
-
+        {panels.map((panel) => {
+          const isHovered = hovered === panel.id
           return (
-            <>
             <motion.div
-              key={folder.id}
-              className="folder-panel"
+              key={panel.id}
+              className="folder-panel two-panel"
               style={{
-                backgroundColor: folder.color,
-                color: folder.textColor,
-                flex: isHovered ? 2.6 : (anyHovered ? 0.72 : 1),
+                backgroundColor: panel.color,
+                color: panel.textColor,
+                flex: isHovered ? 2 : (anyHovered ? 0.75 : 1),
               }}
               transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-              onHoverStart={() => setHovered(folder.id)}
+              onHoverStart={() => setHovered(panel.id)}
               onHoverEnd={() => setHovered(null)}
-              onClick={() => setActive(folder.id)}
+              onClick={() => setActivePage(panel.id)}
               role="button"
               tabIndex={0}
-              aria-label={`Open ${folder.label}`}
-              onKeyDown={(e) => e.key === 'Enter' && setActive(folder.id)}
+              aria-label={`Open ${panel.label} portfolio`}
+              onKeyDown={(e) => e.key === 'Enter' && setActivePage(panel.id)}
             >
-              {/* Background image with tint */}
-              <div
-                className="panel-image"
-                style={{ backgroundImage: `url(${folder.image})` }}
-              />
-              <div
-                className="panel-tint"
-                style={{ background: folder.color, opacity: isHovered ? 0.55 : 0.72 }}
-              />
+              {/* Subtle paper lines */}
+              <div className="panel-tint" style={{
+                background: `repeating-linear-gradient(to bottom, rgba(255,255,255,0.025) 0px, rgba(255,255,255,0.025) 1px, transparent 1px, transparent 32px)`,
+                opacity: 1,
+              }} />
 
-              {/* Top tab (the folder notch) */}
-              <div
-                className="panel-tab"
-                style={{
-                  background: folder.tabBg,
-                  color: folder.tabBg === '#302323' || folder.tabBg === '#641F36' ? '#F7F1E9' : folder.color,
-                }}
-              >
-                <span className="tab-number">{folder.number}</span>
-              </div>
-
-              {/* Vertical label — reads bottom to top */}
+              {/* Vertical label when collapsed */}
               <div className="panel-label">
-                <span className="panel-label-text">{folder.label}</span>
+                <span className="panel-label-text">{panel.label}</span>
               </div>
 
-              {/* Peek content — fades in on hover */}
+              {/* Peek — expands on hover */}
               <motion.div
-                className="panel-peek"
-                animate={{ opacity: isHovered ? 1 : 0, y: isHovered ? 0 : 12 }}
-                transition={{ duration: 0.3, delay: isHovered ? 0.1 : 0 }}
+                className="panel-peek two-panel-peek"
+                animate={{ opacity: isHovered ? 1 : 0, y: isHovered ? 0 : 16 }}
+                transition={{ duration: 0.3, delay: isHovered ? 0.08 : 0 }}
               >
-                <div className="peek-number">{folder.number}</div>
-                <div className="peek-label">{folder.label}</div>
-                <div className="peek-tagline">{folder.tagline}</div>
-                <div className="peek-open">Open folder →</div>
+                <div className="two-panel-label">{panel.label}</div>
+                <div className="two-panel-sub">{panel.sub}</div>
+                <div className="peek-open">Open →</div>
               </motion.div>
             </motion.div>
-            </>
           )
         })}
       </div>
 
-      {/* Bottom navigation hint */}
+      {/* Bottom hint */}
       <div className="bottom-hint">
         <span>Hover to explore · Click to open</span>
-        <div className="bottom-dots">
-          {FOLDERS.map((f) => (
-            <button
-              key={f.id}
-              className={`dot ${active === f.id ? 'dot--active' : ''}`}
-              onClick={() => setActive(f.id)}
-              aria-label={f.label}
-              style={{ background: active === f.id ? f.color : undefined }}
-            />
-          ))}
-        </div>
       </div>
 
+      {/* Brand page overlay */}
+      <AnimatePresence>
+        {activePage === 'brand' && (
+          <BrandPage
+            key="brand-page"
+            onClose={() => setActivePage(null)}
+          />
+        )}
+      </AnimatePresence>
 
-      {/* Section overlay */}
+      {/* Creator page overlay */}
+      <AnimatePresence>
+        {activePage === 'creator' && (
+          <CreatorPage
+            key="creator-page"
+            onClose={() => setActivePage(null)}
+          />
+        )}
+      </AnimatePresence>
+
+      {/* Deep nav (kept for future use — not currently wired to new panels) */}
       <AnimatePresence>
         {active && (
           <SectionView
@@ -129,7 +142,6 @@ export default function HomeArchive() {
         )}
       </AnimatePresence>
 
-      {/* Area sample page — slides over the section */}
       <AnimatePresence>
         {activeArea && (
           <AreaView
@@ -143,7 +155,6 @@ export default function HomeArchive() {
         )}
       </AnimatePresence>
 
-      {/* Case study — slides over the area view */}
       <AnimatePresence>
         {activeCaseStudy && (
           <CaseStudyView

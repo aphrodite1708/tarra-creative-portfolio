@@ -1390,3 +1390,404 @@ button, a { cursor: none; font-family: inherit; }
 @media (prefers-reduced-motion: reduce) {
   .panel-image, .panel-tint, .folder-panel { transition: none; }
 }
+
+/* ─── Two-panel home layout ──────────────────────────────────── */
+.two-panel {
+  cursor: none;
+}
+
+.two-panel-peek {
+  justify-content: flex-end;
+  padding: 48px 48px 56px;
+}
+
+.two-panel-label {
+  font-family: var(--font-serif);
+  font-size: clamp(2.4rem, 4vw, 4rem);
+  font-weight: 900;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  color: #F7F1E9;
+  margin-bottom: 14px;
+}
+
+.two-panel-sub {
+  font-family: var(--font-sans);
+  font-size: clamp(0.9rem, 1.2vw, 1.1rem);
+  line-height: 1.65;
+  color: rgba(247, 241, 233, 0.7);
+  max-width: 320px;
+  margin-bottom: 24px;
+}
+
+/* ─── Page overlay (Brand / Creator pages) ───────────────────── */
+.page-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  background: var(--warm-ivory);
+}
+
+.page-header {
+  flex-shrink: 0;
+  min-height: 260px;
+  display: flex;
+  align-items: flex-end;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    rgba(255,255,255,0.025) 0px,
+    rgba(255,255,255,0.025) 1px,
+    transparent 1px,
+    transparent 32px
+  );
+}
+
+.page-header-inner {
+  padding: 48px 60px 44px;
+  max-width: 900px;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+}
+
+.page-header-meta { margin-bottom: 10px; }
+
+.page-header-eyebrow {
+  font-family: var(--font-sans);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: rgba(247, 241, 233, 0.55);
+}
+
+.page-header-title {
+  font-family: var(--font-serif);
+  font-size: clamp(2.2rem, 4vw, 3.4rem);
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  color: #F7F1E9;
+  margin-bottom: 16px;
+}
+
+.page-header-intro {
+  font-family: var(--font-sans);
+  font-size: clamp(0.95rem, 1.3vw, 1.1rem);
+  line-height: 1.7;
+  color: rgba(247, 241, 233, 0.75);
+  max-width: 540px;
+  margin-bottom: 32px;
+}
+
+/* ─── Brand logo wall ────────────────────────────────────────── */
+.brand-logo-wall {
+  flex: 1;
+  padding: 56px 60px 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.brand-logo-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.brand-logo-section-label {
+  font-family: var(--font-sans);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--espresso);
+  opacity: 0.35;
+}
+
+/* Tier 1 — flagship, big cards */
+.brand-logo-grid--t1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.brand-logo-card--t1 {
+  width: clamp(140px, 18vw, 200px);
+  height: clamp(80px, 10vw, 120px);
+  background: #fff;
+  border: 1px solid rgba(48, 35, 35, 0.08);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-shadow: 0 2px 12px rgba(48, 35, 35, 0.06);
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.brand-logo-card--t1:hover {
+  box-shadow: 0 6px 24px rgba(48, 35, 35, 0.12);
+  transform: translateY(-2px);
+}
+
+/* Tier 2 — medium cards */
+.brand-logo-grid--t2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.brand-logo-card--t2 {
+  width: clamp(100px, 13vw, 150px);
+  height: clamp(56px, 7vw, 86px);
+  background: #fff;
+  border: 1px solid rgba(48, 35, 35, 0.07);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px;
+  box-shadow: 0 1px 6px rgba(48, 35, 35, 0.05);
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.brand-logo-card--t2:hover {
+  box-shadow: 0 4px 16px rgba(48, 35, 35, 0.1);
+  transform: translateY(-2px);
+}
+
+/* Tier 3 — small chips */
+.brand-logo-grid--t3 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.brand-logo-card--t3 {
+  width: clamp(80px, 10vw, 118px);
+  height: clamp(44px, 5.5vw, 64px);
+  background: #fff;
+  border: 1px solid rgba(48, 35, 35, 0.06);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-shadow: 0 1px 4px rgba(48, 35, 35, 0.04);
+}
+
+.brand-logo-img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.brand-logo-name {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--espresso);
+  opacity: 0.65;
+  text-align: center;
+  line-height: 1.3;
+}
+
+.brand-logo-name--large {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+/* ─── Brand results strip ────────────────────────────────────── */
+.brand-results {
+  flex-shrink: 0;
+  background: #162342;
+  color: #F7F1E9;
+}
+
+.brand-results-inner {
+  padding: 44px 60px;
+  max-width: 1100px;
+}
+
+.brand-results-title {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  opacity: 0.45;
+  margin-bottom: 24px;
+}
+
+.brand-results-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+}
+
+.brand-result-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.brand-result-num {
+  font-family: var(--font-serif);
+  font-size: clamp(1.6rem, 2.8vw, 2.4rem);
+  font-weight: 900;
+  letter-spacing: -0.03em;
+  color: #F7F1E9;
+}
+
+.brand-result-label {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  color: rgba(247, 241, 233, 0.5);
+  letter-spacing: 0.03em;
+}
+
+/* ─── Creator page ───────────────────────────────────────────── */
+.creator-video-wall {
+  flex: 1;
+  padding: 56px 60px 48px;
+}
+
+.creator-video-label {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--espresso);
+  opacity: 0.35;
+  margin-bottom: 10px;
+}
+
+.creator-video-note-top {
+  font-size: 12px;
+  color: var(--espresso);
+  opacity: 0.4;
+  margin-bottom: 32px;
+  letter-spacing: 0.02em;
+}
+
+.creator-video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.creator-video-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: #fff;
+  border: 1px solid rgba(48, 35, 35, 0.07);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(48, 35, 35, 0.05);
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.creator-video-card:hover {
+  box-shadow: 0 6px 20px rgba(48, 35, 35, 0.1);
+  transform: translateY(-2px);
+}
+
+.creator-video-thumb {
+  aspect-ratio: 9 / 16;
+  background: linear-gradient(160deg, #2D1B3D 0%, #4A2D5E 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(247, 241, 233, 0.4);
+  flex-shrink: 0;
+}
+
+.creator-video-thumb-inner {
+  width: 56px;
+  height: 56px;
+  border: 1.5px solid rgba(247, 241, 233, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.creator-video-info {
+  padding: 12px 14px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.creator-video-brand {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--espresso);
+  letter-spacing: 0.03em;
+}
+
+.creator-video-stat {
+  font-family: var(--font-sans);
+  font-size: 10px;
+  color: var(--espresso);
+  opacity: 0.45;
+  letter-spacing: 0.03em;
+}
+
+/* ─── Creator stats strip ────────────────────────────────────── */
+.creator-stats {
+  flex-shrink: 0;
+  background: #2D1B3D;
+  color: #F7F1E9;
+}
+
+.creator-stats-inner {
+  padding: 44px 60px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+}
+
+.creator-stat-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.creator-stat-num {
+  font-family: var(--font-serif);
+  font-size: clamp(1.6rem, 2.8vw, 2.4rem);
+  font-weight: 900;
+  letter-spacing: -0.03em;
+}
+
+.creator-stat-label {
+  font-size: 11px;
+  color: rgba(247, 241, 233, 0.5);
+  letter-spacing: 0.03em;
+}
+
+/* ─── Mobile adjustments ─────────────────────────────────────── */
+@media (max-width: 600px) {
+  .brand-logo-wall,
+  .creator-video-wall,
+  .brand-results-inner,
+  .creator-stats-inner {
+    padding: 32px 20px;
+  }
+
+  .page-header-inner {
+    padding: 32px 20px 32px;
+  }
+
+  .brand-logo-card--t1 { width: 120px; height: 68px; }
+  .brand-logo-card--t2 { width: 90px; height: 52px; }
+  .brand-results-grid,
+  .creator-stats-inner { gap: 28px; }
+}

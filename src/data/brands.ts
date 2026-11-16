@@ -2,6 +2,10 @@
 // Drop PNG files into public/brands/ using the slug shown below.
 // Cards and the brands strip gracefully fall back when a file isn't present yet.
 export const BRAND_LOGOS: Record<string, string> = {
+  "L'Oréal":             '/brands/loreal.png',
+  'Maybelline':          '/brands/maybelline.png',
+  'Disney':              '/brands/disney.png',
+  'Paddle Pop':          '/brands/paddle-pop.png',
   'Activgluta':          '/brands/activgluta.png',
   'Ashley':              '/brands/ashley.png',
   'BLP Beauty':          '/brands/blp-beauty.png',
