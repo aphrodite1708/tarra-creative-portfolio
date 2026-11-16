@@ -334,6 +334,20 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
 
   // ── Eileen Grace ─────────────────────────────────────────────
   {
+    id: 'eileen-grace-jelly-mask',
+    brand: 'Eileen Grace',
+    title: 'Jelly Mask — Multimask IG Story Activation',
+    subtitle: 'Rose Jelly Mask & Deep Cleansing Black Jelly Mask',
+    year: '2022',
+    sampleIds: [
+      'eileen-grace-jelly-mask-kol-brief',
+      'eileen-grace-jelly-mask-ugc-1',
+      'eileen-grace-jelly-mask-ugc-2',
+      'eileen-grace-jelly-mask-ugc-3',
+      'eileen-grace-jelly-mask-ugc-4',
+    ],
+  },
+  {
     id: 'eileen-grace-ig-stories',
     brand: 'Eileen Grace',
     title: 'Instagram Stories Campaign',
