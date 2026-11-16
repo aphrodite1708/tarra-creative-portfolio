@@ -82,6 +82,29 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'wardah-hydra-rose-ugc-script-creator',
     ],
   },
+
+  // ── Natur-E ──────────────────────────────────────────────────
+  {
+    id: 'natur-e-advanced-astari-riri',
+    brand: 'Natur-E',
+    title: 'Advanced Full Series',
+    subtitle: 'Astari Riri — IG Reels + Stories KOL activation',
+    year: '2025',
+    sampleIds: [
+      'natur-e-advanced-brief',
+      'natur-e-advanced-brief-direction',
+      'natur-e-advanced-brief-wardrobe',
+      'natur-e-graphic-visual',
+      'natur-e-advanced-astari-riri-reels-ugc',
+      'natur-e-advanced-astari-riri-stories-ugc-1',
+      'natur-e-advanced-astari-riri-stories-ugc-2',
+      'natur-e-advanced-astari-riri-ugc-extra',
+      'natur-e-advanced-insight',
+      'natur-e-advanced-reel-insight',
+      'natur-e-advanced-stories-insight-1',
+      'natur-e-advanced-stories-insight-2',
+    ],
+  },
 ]
 
 export function getBrandCampaigns(brandName: string): BrandCampaign[] {
