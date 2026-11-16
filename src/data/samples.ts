@@ -555,6 +555,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2024',
       },
       {
+        id: 'luxcrime-harley-quinn-kol-brief',
+        title: 'Luxcrime × Harley Quinn — Limited Edition Collection KOL Brief',
+        brand: 'Luxcrime',
+        type: 'pdf',
+        file: '/samples/campaigns/luxcrime-harley-quinn-kol-brief.pdf',
+        description: '19-slide KOL Brief for Luxcrime × Harley Quinn Limited Edition Collection (3-product launch). Products: (1) Ultra Light Lip Stain — 3 shades: Lil Monster (deep red), Joker\'s Girl (medium coral), Puddin\' (muted red-brown); ultra lightweight, 12h wear, beautiful stain, high pigmentation, non-drying (Macadamia Oil, Jojoba Oil, Glycerin), transferproof, vanilla scent. (2) Blur & Cover Two Way Cake Oil Control — 3 shades: Buttercream, Custard, Opera; Illumepotent + Multi X-Coat Technology, Soft-Focus Micro Particles, oil control, silk velvet matte finish, UV protection (Titanium Dioxide), antioxidant (Hydrogenated Olive Oil, Squalane, Tocopherol), non-comedogenic. (3) Ultra Stay Eyeliner — Shade: Midnight; waterproof, smudgeproof, matte finish, easy application, precise brush tip, all-day wear. 2 content angles: #1 Harley Quinn makeup tutorial using all 3 products · #2 stitch/excitement FOMO angle — must-have limited edition. Mandatory: #DC #HARLEYQUINN. TikTok: cart required (renamed), yellow basket in video. Don\'ts: no competitor brands, no Lady Gaga images from internet, no SARA/political content, royalty-free music only.',
+        year: '2024',
+      },
+      {
         id: 'luxcrime-shine-addict-lip-vinyl-kol-brief',
         title: 'Luxcrime — Shine Addict Lip Vinyl Instagram KOL Brief',
         brand: 'Luxcrime',
@@ -3647,6 +3656,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         type: 'link',
         url: 'https://drive.google.com/file/d/1ka2NNp8uhZok0gciuupvXsd9WfvkTWH-/view?usp=sharing',
         description: 'Published IG Reels UGC for Luxcrime Shine Addict Lip Vinyl — hook-review-result format, transfer-proof glass test, shade swatch. KOL brief prepared by me.',
+        year: '2024',
+      },
+      {
+        id: 'luxcrime-harley-quinn-ugc',
+        title: 'Luxcrime × Harley Quinn — Limited Edition UGC',
+        brand: 'Luxcrime',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1MXDV2PHvMbh1vUPgwNDeSv2fkYyJmuS8/view?usp=sharing',
+        description: 'Published UGC for Luxcrime × Harley Quinn Limited Edition Collection — Harley Quinn makeup tutorial angle using all 3 products (Ultra Light Lip Stain, Blur & Cover Two Way Cake, Ultra Stay Eyeliner). KOL brief prepared by me.',
         year: '2024',
       },
       {

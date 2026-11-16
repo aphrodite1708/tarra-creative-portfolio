@@ -703,6 +703,17 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
 
   // ── Luxcrime ─────────────────────────────────────────────────
   {
+    id: 'luxcrime-harley-quinn',
+    brand: 'Luxcrime',
+    title: 'Harley Quinn Limited Edition Collection',
+    subtitle: 'Multi-platform KOL — DC collab launch, 3-product tutorial & FOMO angles',
+    year: '2024',
+    sampleIds: [
+      'luxcrime-harley-quinn-kol-brief',
+      'luxcrime-harley-quinn-ugc',
+    ],
+  },
+  {
     id: 'luxcrime-hydralight-concealer',
     brand: 'Luxcrime',
     title: 'Instant Cover Hydralight Concealer',
