@@ -703,6 +703,16 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
 
   // ── Luxcrime ─────────────────────────────────────────────────
   {
+    id: 'luxcrime-glass-tinted-lip-balm',
+    brand: 'Luxcrime',
+    title: 'Glass Tinted Lip Balm',
+    subtitle: 'Multi-platform KOL — swatch-first soft-sell launch',
+    year: '2024',
+    sampleIds: [
+      'luxcrime-glass-tinted-lip-balm-kol-brief',
+    ],
+  },
+  {
     id: 'luxcrime-harley-quinn',
     brand: 'Luxcrime',
     title: 'Harley Quinn Limited Edition Collection',

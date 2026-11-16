@@ -555,6 +555,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2024',
       },
       {
+        id: 'luxcrime-glass-tinted-lip-balm-kol-brief',
+        title: 'Luxcrime — Glass Tinted Lip Balm KOL Brief',
+        brand: 'Luxcrime',
+        type: 'pdf',
+        file: '/samples/campaigns/luxcrime-glass-tinted-lip-balm-kol-brief.pdf',
+        description: '7-slide KOL Brief for Luxcrime Glass Tinted Lip Balm. Product claims: hydrates with beautiful soft stain, available in multiple pigmented shades. 7 KSPs: Moist Lock Technology (high moisture & hydration, natural glow, plump lip effect), Luxeglow™ (Avocado Oil + Macadamia Oil combo — hydration, smoothing, lip health), Protect Lips (Avocado Oil — Vitamin E, anti-radical, environmental protection), Heal Chapped Lips (Macadamia Oil — cell regeneration, healing, anti-inflammatory), Glossy Finish, Beautiful Stain (soft buildable color for all skin tones), Lightweight (can be layered multiple times). Ingredients: Avocado Oil (nourish, prevent moisture loss, protective barrier, anti-inflammatory), 4% Sunflower Seed Oil (moisture lock, Omega-6 anti-inflammatory, antioxidant), Macadamia Oil (cell regeneration, moisture lock, healing, instantly absorbed), Vitamin E (hydrates, smoother/plumper/softer lips, skin barrier support). 5 shades: Sugar Plum, Cotton Candy, Cocoa Crème, Strawberry Sorbet, Peach Soda. Usage: one swipe for natural color, layer for more pigmentation, reapply as needed. Mandatory: 3–5s hook with shade swatches already applied on lips (must be with full makeup except lip); show all shade swatches on lips with zoom; share fav shade; natural/soft-sell style; can use backsound, VO or talk directly.',
+        year: '2024',
+      },
+      {
         id: 'luxcrime-harley-quinn-kol-brief',
         title: 'Luxcrime × Harley Quinn — Limited Edition Collection KOL Brief',
         brand: 'Luxcrime',
