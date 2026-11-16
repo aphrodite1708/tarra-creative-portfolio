@@ -2,6 +2,9 @@ import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { BRAND_LOGOS } from '../data/brands'
 import { getSamplesByBrand } from '../data/samples'
+import { getBrandCampaigns, getCampaignSamples, getSampleStep, WORKFLOW_STEPS } from '../data/brandCampaigns'
+import type { BrandCampaign } from '../data/brandCampaigns'
+import type { Sample } from '../data/samples'
 import { FOLDERS } from '../data/sections'
 import SampleCard from './SampleCard'
 import CaseStudyView from './CaseStudyView'
@@ -11,17 +14,88 @@ interface Props {
   onClose: () => void
 }
 
+function WorkflowStrip({ samples }: { samples: Sample[] }) {
+  const activeSteps = new Set(samples.map(getSampleStep))
+  return (
+    <div className="workflow-strip">
+      {WORKFLOW_STEPS.map((step, i) => {
+        const active = activeSteps.has(step.id)
+        return (
+          <div key={step.id} className="workflow-step">
+            {i > 0 && <div className={`workflow-line ${active ? 'workflow-line--active' : ''}`} />}
+            <div className={`workflow-dot ${active ? 'workflow-dot--active' : ''}`}>
+              {active && (
+                <svg width="10" height="10" viewBox="0 0 10 10" fill="currentColor">
+                  <circle cx="5" cy="5" r="3.5" />
+                </svg>
+              )}
+            </div>
+            <span className={`workflow-label ${active ? 'workflow-label--active' : ''}`}>{step.short}</span>
+          </div>
+        )
+      })}
+    </div>
+  )
+}
+
+function CampaignSection({
+  campaign,
+  accentColor,
+  onCaseStudyOpen,
+}: {
+  campaign: BrandCampaign
+  accentColor: string
+  onCaseStudyOpen: (id: string) => void
+}) {
+  const samples = getCampaignSamples(campaign)
+  if (samples.length === 0) return null
+
+  return (
+    <div className="campaign-section">
+      <div className="campaign-section-header">
+        <div className="campaign-section-meta">
+          <span className="campaign-section-year">{campaign.year}</span>
+          {campaign.subtitle && (
+            <span className="campaign-section-subtitle">{campaign.subtitle}</span>
+          )}
+        </div>
+        <h3 className="campaign-section-title">{campaign.title}</h3>
+        <WorkflowStrip samples={samples} />
+      </div>
+
+      <div className="samples-grid campaign-samples-grid">
+        {samples.map((sample, i) => (
+          <motion.div
+            key={sample.id}
+            initial={{ opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: i * 0.04, duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
+          >
+            <SampleCard sample={sample} accentColor={accentColor} onCaseStudyOpen={onCaseStudyOpen} />
+          </motion.div>
+        ))}
+      </div>
+    </div>
+  )
+}
+
 export default function BrandSamplesView({ brandName, onClose }: Props) {
   const [logoFailed, setLogoFailed] = useState(false)
   const [activeCaseStudy, setActiveCaseStudy] = useState<string | null>(null)
 
   const logo = BRAND_LOGOS[brandName]
-  const samples = getSamplesByBrand(brandName)
   const accentColor = '#641F36'
-
-  const handleCaseStudyOpen = (id: string) => setActiveCaseStudy(id)
-
   const caseStudyFolder = FOLDERS.find(f => f.id === 'campaigns')!
+
+  // Defined campaigns for this brand
+  const definedCampaigns = getBrandCampaigns(brandName)
+
+  // Auto-group: samples not covered by any defined campaign
+  const coveredIds = new Set(definedCampaigns.flatMap(c => c.sampleIds))
+  const allSamples = getSamplesByBrand(brandName)
+  const ungrouped = allSamples.filter(s => !coveredIds.has(s.id))
+
+  const totalCount = allSamples.length
 
   return (
     <>
@@ -50,57 +124,65 @@ export default function BrandSamplesView({ brandName, onClose }: Props) {
               </motion.button>
             </div>
 
-            <div style={{ marginTop: 24, marginBottom: 8 }}>
+            <div style={{ marginTop: 24, marginBottom: 8, display: 'flex', alignItems: 'center', gap: 16 }}>
               {logo && !logoFailed ? (
                 <img
                   src={logo}
                   alt={brandName}
                   onError={() => setLogoFailed(true)}
-                  style={{ height: 44, maxWidth: 160, objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
+                  style={{ height: 40, maxWidth: 140, objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
                 />
               ) : (
-                <span style={{ fontSize: 28, fontWeight: 700, letterSpacing: '-0.03em', color: '#F7F1E9' }}>{brandName}</span>
+                <span style={{ fontSize: 26, fontWeight: 700, letterSpacing: '-0.03em' }}>{brandName}</span>
               )}
             </div>
 
-            <h2 className="area-overlay-title" style={{ marginTop: 8 }}>Work for {brandName}</h2>
-            <p className="area-overlay-desc">
-              {samples.length > 0
-                ? `${samples.length} piece${samples.length > 1 ? 's' : ''} — briefs, scripts, insights, and published content.`
-                : 'No samples registered yet.'}
+            <h2 className="area-overlay-title" style={{ marginTop: 6 }}>Campaign Work</h2>
+            <p className="area-overlay-desc" style={{ marginTop: 4 }}>
+              {definedCampaigns.length > 0
+                ? `${definedCampaigns.length} campaign${definedCampaigns.length > 1 ? 's' : ''} · ${totalCount} file${totalCount !== 1 ? 's' : ''}`
+                : `${totalCount} file${totalCount !== 1 ? 's' : ''}`}
             </p>
           </div>
         </div>
 
-        {/* Samples */}
+        {/* Campaign sections */}
         <div className="area-samples-body">
-          <div className="area-samples-header">
-            <h3 className="area-samples-label">Work Samples</h3>
-            <span className="area-samples-count">
-              {samples.length > 0 ? `${samples.length} sample${samples.length > 1 ? 's' : ''}` : 'No samples yet'}
-            </span>
-          </div>
-
-          {samples.length === 0 ? (
+          {definedCampaigns.length === 0 && ungrouped.length === 0 && (
             <div style={{ padding: '48px 24px', textAlign: 'center', color: '#888', fontSize: 15 }}>
               No work samples registered for {brandName} yet.
             </div>
-          ) : (
-            <div className="samples-grid">
-              {samples.map((sample, i) => (
-                <motion.div
-                  key={sample.id}
-                  initial={{ opacity: 0, y: 16 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: 0.06 + i * 0.04, duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
-                >
-                  <SampleCard
-                    sample={sample}
-                    accentColor={accentColor}
-                    onCaseStudyOpen={handleCaseStudyOpen}
-                  />
-                </motion.div>
-              ))}
+          )}
+
+          {/* Defined campaigns */}
+          {definedCampaigns.map(campaign => (
+            <CampaignSection
+              key={campaign.id}
+              campaign={campaign}
+              accentColor={accentColor}
+              onCaseStudyOpen={setActiveCaseStudy}
+            />
+          ))}
+
+          {/* Ungrouped samples */}
+          {ungrouped.length > 0 && (
+            <div className="campaign-section">
+              <div className="campaign-section-header">
+                <h3 className="campaign-section-title">Other Work</h3>
+                <WorkflowStrip samples={ungrouped} />
+              </div>
+              <div className="samples-grid campaign-samples-grid">
+                {ungrouped.map((sample, i) => (
+                  <motion.div
+                    key={sample.id}
+                    initial={{ opacity: 0, y: 12 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: i * 0.04, duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
+                  >
+                    <SampleCard sample={sample} accentColor={accentColor} onCaseStudyOpen={setActiveCaseStudy} />
+                  </motion.div>
+                ))}
+              </div>
             </div>
           )}
         </div>
