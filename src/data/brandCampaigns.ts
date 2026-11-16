@@ -479,6 +479,11 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'hansaplast-fit-protect-live-brief-direction',
       'hansaplast-live-wardrobe-sporty',
       'hansaplast-fit-protect-live-brief-creator',
+      'hansaplast-fit-protect-live-ugc-1',
+      'hansaplast-fit-protect-live-ugc-2',
+      'hansaplast-fit-protect-live-ugc-3',
+      'hansaplast-fit-protect-live-ugc-4',
+      'hansaplast-fit-protect-live-ugc-5',
     ],
   },
 
