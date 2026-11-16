@@ -1091,9 +1091,14 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     id: 'walls-paddlepop-jiggly-jelly',
     brand: 'Paddle Pop',
     title: 'Paddle Pop Jiggly Jelly',
-    subtitle: 'Jumbo film × PR Kit launch — KOL brief',
+    subtitle: 'Jumbo film × PR Kit launch — Riri & Rei Reels',
     year: '2025',
-    sampleIds: ['walls-paddlepop-jiggly-jelly-kol-brief', 'walls-paddlepop-jiggly-jelly-brief-direction'],
+    sampleIds: [
+      'walls-paddlepop-jiggly-jelly-kol-brief',
+      'walls-paddlepop-jiggly-jelly-reels-script',
+      'walls-paddlepop-jiggly-jelly-ugc',
+      'walls-paddlepop-jiggly-jelly-brief-direction',
+    ],
   },
 
   // ── Westcare ─────────────────────────────────────────────────
