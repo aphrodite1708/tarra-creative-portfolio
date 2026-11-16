@@ -701,6 +701,19 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  // ── Luxcrime ─────────────────────────────────────────────────
+  {
+    id: 'luxcrime-shine-addict-lip-vinyl',
+    brand: 'Luxcrime',
+    title: 'Shine Addict Lip Vinyl',
+    subtitle: 'Instagram KOL activation — transfer-proof lip vinyl launch',
+    year: '2024',
+    sampleIds: [
+      'luxcrime-shine-addict-lip-vinyl-kol-brief',
+      'luxcrime-shine-addict-lip-vinyl-ugc',
+    ],
+  },
+
   // ── Milux.co ─────────────────────────────────────────────────
   {
     id: 'milux-co-creator-collab',

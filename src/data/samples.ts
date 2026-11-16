@@ -546,6 +546,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2025',
       },
       {
+        id: 'luxcrime-shine-addict-lip-vinyl-kol-brief',
+        title: 'Luxcrime — Shine Addict Lip Vinyl Instagram KOL Brief',
+        brand: 'Luxcrime',
+        type: 'pdf',
+        file: '/samples/campaigns/luxcrime-shine-addict-lip-vinyl-kol-brief.pdf',
+        description: '8-slide Instagram KOL Brief for Luxcrime Shine Addict Lip Vinyl. Product: 2.5ml Lip Vinyl, Rp 89,000. 5 shades: Coconut (nude brown neutral), Grapefruit (nude peach warm), Primrose (nude pink warm), Cinnamon Toast (medium brown warm), Hibiscus (deep red cool). 6 product claims: High Shine, Transfer-Proof, Smudge-Proof, Comfortable & Weightless, Longwearing, Hydrating (Moringa Oil, Sea Buckthorn Oil & Walnut Oil). No shaking needed, light liptint formula. 3-part content structure: Hook & Cover (3-sec clickbait, lip teaser) → Try On & Review (swatch all shades, how-to-use, do not press lips before drying) → Show Result (texture zoom, transfer-proof glass test, wear test). Mandatory: #beautynoworry #shineaddict #racunluxcrime, @Luxcrime_id. Launch embargo: 24 June 2024. Max 50 seconds, own voice, no unboxing.',
+        year: '2024',
+      },
+      {
         id: 'energen-1week-challenge-kol-brief',
         title: 'Energen — "1 Week Challenge" KOL Creative Guideline',
         brand: 'Energen',
@@ -3612,6 +3621,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         url: 'https://drive.google.com/file/d/1OZum0sTomzDT9mnGy1UdluPSYENSYgX4/view?usp=sharing',
         description: 'Published IG Reels UGC for Lux Magical Orchid body wash — script written by me. Ribbon hook → OOTD styling session → unexpected compliment from husband → product reveal in shower. Closing: "Lux Magical Orchid — Smell as good as you feel."',
         year: '2025',
+      },
+      {
+        id: 'luxcrime-shine-addict-lip-vinyl-ugc',
+        title: 'Luxcrime — Shine Addict Lip Vinyl IG Reels UGC',
+        brand: 'Luxcrime',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1ka2NNp8uhZok0gciuupvXsd9WfvkTWH-/view?usp=sharing',
+        description: 'Published IG Reels UGC for Luxcrime Shine Addict Lip Vinyl — hook-review-result format, transfer-proof glass test, shade swatch. KOL brief prepared by me.',
+        year: '2024',
       },
       {
         id: 'wardah-lazada-brandday-nmf-facewash-ugc',
