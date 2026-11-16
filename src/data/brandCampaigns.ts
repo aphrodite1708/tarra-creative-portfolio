@@ -888,6 +888,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'safi-age-defy-wardrobe-white-vest',
       'safi-age-defy-retinoid-kol-brief-wardrobe',
       'safi-age-defy-reels-script-creator',
+      'safi-age-defy-retinoid-ugc',
       'safi-age-defy-reel-insight',
     ],
   },

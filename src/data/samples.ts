@@ -1401,6 +1401,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2025',
       },
       {
+        id: 'safi-age-defy-retinoid-ugc',
+        title: 'Safi Age Defy 3X Advanced Retinoids — Published IG Reels',
+        brand: 'Safi',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1RmhlUDGV3ydz-0HifO5EWTCsOmaCJVmG/view?usp=sharing',
+        description: 'Published IG Reels UGC for Safi Age Defy 3X Advanced Retinoids — 729,849 views · 553,662 accounts reached. Japan travel skin journey narrative: 2-week before/after arc with Renewal Ampoule + Intense Renewal Moisturizer. Proves how travel storytelling amplifies skincare KOL content beyond typical product demo reach.',
+        year: '2025',
+      },
+      {
         id: 'natur-e-advanced-insight',
         title: 'Natur-E Advanced — Reel + IG Stories Campaign Insight',
         brand: 'Natur-E',
