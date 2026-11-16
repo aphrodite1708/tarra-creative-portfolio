@@ -2144,6 +2144,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2025',
       },
       {
+        id: 'natur-e-advanced-starter-bundle-social-post',
+        title: 'Natur-E Advanced — Paket Starter 300 Social Media Post',
+        brand: 'Natur-E',
+        type: 'image',
+        file: '/samples/campaigns/natur-e-starter-300-bundle-social-post.jpg',
+        description: 'Published social media feed post for the Natur-E Advanced campaign — "Paket Starter Natur-E 300" bundle featuring Face Mist, Hand & Body Lotion, and Natur-E 300 Daily Nourishing supplement. Official Store promotional graphic.',
+        year: '2025',
+      },
+      {
         id: 'senus-instacurl-product-visual',
         title: 'Senus — InstaCurl Automatic Styler Product Visual',
         brand: 'Senus',

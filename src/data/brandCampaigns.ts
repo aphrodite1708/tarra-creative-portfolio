@@ -139,6 +139,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'natur-e-advanced-brief-direction',
       'natur-e-advanced-brief-wardrobe',
       'natur-e-graphic-visual',
+      'natur-e-advanced-starter-bundle-social-post',
       'natur-e-advanced-astari-riri-reels-ugc',
       'natur-e-advanced-astari-riri-stories-ugc-1',
       'natur-e-advanced-astari-riri-stories-ugc-2',
