@@ -4376,17 +4376,20 @@ export function getSamples(sectionId: SectionId, areaIndex: number): Sample[] {
 }
 
 export function getSamplesByBrand(brandName: string): Sample[] {
-  const seen = new Set<string>()
+  const seenIds = new Set<string>()
+  const seenContent = new Set<string>()
   const result: Sample[] = []
   for (const sectionId of Object.keys(SAMPLES) as SectionId[]) {
     const areas = SAMPLES[sectionId]
     if (!areas) continue
     for (const areaIndex of Object.keys(areas)) {
       for (const sample of areas[Number(areaIndex)] ?? []) {
-        if (sample.brand === brandName && !seen.has(sample.id)) {
-          seen.add(sample.id)
-          result.push(sample)
-        }
+        if (sample.brand !== brandName) continue
+        const contentKey = sample.file ?? sample.url ?? sample.id
+        if (seenIds.has(sample.id) || seenContent.has(contentKey)) continue
+        seenIds.add(sample.id)
+        seenContent.add(contentKey)
+        result.push(sample)
       }
     }
   }
