@@ -864,7 +864,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     title: 'Protein Cream',
     subtitle: 'Hair Vitamin & Heat Protectant — creator content brief',
     year: '2022',
-    sampleIds: ['sh-rd-protein-cream-brief', 'sh-rd-protein-cream-brief-direction'],
+    sampleIds: ['sh-rd-protein-cream-brief', 'sh-rd-protein-cream-brief-direction', 'sh-rd-protein-cream-ugc-1', 'sh-rd-protein-cream-ugc-2'],
   },
 
   // ── Safi ─────────────────────────────────────────────────────
