@@ -703,6 +703,17 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
 
   // ── Luxcrime ─────────────────────────────────────────────────
   {
+    id: 'luxcrime-hydralight-concealer',
+    brand: 'Luxcrime',
+    title: 'Instant Cover Hydralight Concealer',
+    subtitle: 'Multi-platform KOL — Everyday Favorite & Dupe angles',
+    year: '2024',
+    sampleIds: [
+      'luxcrime-hydralight-concealer-kol-brief',
+      'luxcrime-hydralight-concealer-ugc',
+    ],
+  },
+  {
     id: 'luxcrime-shine-addict-lip-vinyl',
     brand: 'Luxcrime',
     title: 'Shine Addict Lip Vinyl',

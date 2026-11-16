@@ -546,6 +546,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2025',
       },
       {
+        id: 'luxcrime-hydralight-concealer-kol-brief',
+        title: 'Luxcrime — Instant Cover Hydralight Concealer KOL Brief',
+        brand: 'Luxcrime',
+        type: 'pdf',
+        file: '/samples/campaigns/luxcrime-hydralight-concealer-kol-brief.pdf',
+        description: '13-slide KOL Brief for Luxcrime Instant Cover Hydralight Concealer. Main USP: Moist Gel Network Technology (Elastomer gel + blur powder + emollient) — full coverage, smooth finish, hydrating. No foundation needed, no oxidation, no drying, sensitive skin friendly, anti-creasing, anti fine-lines, NO FLASHBACK, long-wearing, easy to blend. Key ingredients: Caffeine & Niacinamide (brighten dark circles), Peptides & Green tea (minimize fine lines), Green tea + Centella Asiatica + Glycerin (Hydralight). Survey stats (55 subjects): 96% non-oxidize, 100% sensitive skin friendly, 85% high coverage & dark circle cover, 98% non-drying. 7 shades: N00–W02–N03 (light neutral to medium deep neutral). 2 content angles: #1 Everyday Favorite (daily routine clips, before/after, buildable coverage, anti-crease hook) · #2 Dupe (Kosas dupe hook, zoom-in imperfection test, anti-creasing proof). TikTok: cart required (renamed), no brand hashtag/mention needed. General: 3–5s hook, no packaging in frame, build comment interaction.',
+        year: '2024',
+      },
+      {
         id: 'luxcrime-shine-addict-lip-vinyl-kol-brief',
         title: 'Luxcrime — Shine Addict Lip Vinyl Instagram KOL Brief',
         brand: 'Luxcrime',
@@ -3621,6 +3630,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         url: 'https://drive.google.com/file/d/1OZum0sTomzDT9mnGy1UdluPSYENSYgX4/view?usp=sharing',
         description: 'Published IG Reels UGC for Lux Magical Orchid body wash — script written by me. Ribbon hook → OOTD styling session → unexpected compliment from husband → product reveal in shower. Closing: "Lux Magical Orchid — Smell as good as you feel."',
         year: '2025',
+      },
+      {
+        id: 'luxcrime-hydralight-concealer-ugc',
+        title: 'Luxcrime — Instant Cover Hydralight Concealer UGC',
+        brand: 'Luxcrime',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1w0yOlypmWoVDwFprg0om0dFgxJSa0EVq/view?usp=sharing',
+        description: 'Published UGC for Luxcrime Instant Cover Hydralight Concealer — everyday favorite angle, before/after, anti-crease zoom test. KOL brief prepared by me.',
+        year: '2024',
       },
       {
         id: 'luxcrime-shine-addict-lip-vinyl-ugc',
