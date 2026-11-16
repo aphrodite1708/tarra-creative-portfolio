@@ -2,6 +2,7 @@
 // Drop PNG files into public/brands/ using the slug shown below.
 // Cards and the brands strip gracefully fall back when a file isn't present yet.
 export const BRAND_LOGOS: Record<string, string> = {
+  'Energen':             '/brands/energen.png',
   "L'Oréal":             '/brands/loreal.png',
   'Maybelline':          '/brands/maybelline.png',
   'Disney':              '/brands/disney.png',
@@ -71,6 +72,7 @@ export const BRAND_LOGOS: Record<string, string> = {
 
 // All brands for the showcase strip — ordered roughly by recency / prominence
 export const BRANDS_LIST: { name: string; logo: string }[] = [
+  { name: 'Energen',             logo: '/brands/energen.png' },
   { name: 'Skintific',           logo: '/brands/skintific.png' },
   { name: 'Embryolisse',         logo: '/brands/embryolisse.png' },
   { name: 'Beauty of Joseon',    logo: '/brands/beauty-of-joseon.png' },

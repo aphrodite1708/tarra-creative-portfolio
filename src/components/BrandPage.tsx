@@ -9,7 +9,7 @@ const TIER_1 = [
 ]
 
 const TIER_2 = [
-  'Skintific', 'Embryolisse', 'Beauty of Joseon', 'Nutrilon Royal',
+  'Energen', 'Skintific', 'Embryolisse', 'Beauty of Joseon', 'Nutrilon Royal',
   'TRESemmé', "Natur-E", 'Safi', 'BLP Beauty', 'Hansaplast',
   'Dew Me', 'Erha', 'Mediheal', 'Kinohimitsu', 'Jumiso',
   'Jacquelle', 'Herbilogy', 'Nuface', 'Firstlab',
