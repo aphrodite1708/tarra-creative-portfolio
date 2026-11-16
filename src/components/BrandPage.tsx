@@ -1,6 +1,7 @@
 import { useState } from 'react'
-import { motion } from 'framer-motion'
+import { motion, AnimatePresence } from 'framer-motion'
 import { BRAND_LOGOS } from '../data/brands'
+import BrandSamplesView from './BrandSamplesView'
 
 // Size tiers — determines card/logo size
 const TIER_1 = [
@@ -22,6 +23,7 @@ interface Props {
 }
 
 export default function BrandPage({ onClose }: Props) {
+  const [selectedBrand, setSelectedBrand] = useState<string | null>(null)
   const allBrandNames = Object.keys(BRAND_LOGOS)
 
   const tier2 = TIER_2.filter(n => allBrandNames.includes(n) && !TIER_1.includes(n))
@@ -79,6 +81,10 @@ export default function BrandPage({ onClose }: Props) {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: i * 0.05, duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
                 title={name}
+                onClick={() => setSelectedBrand(name)}
+                style={{ cursor: 'pointer' }}
+                whileHover={{ scale: 1.04 }}
+                whileTap={{ scale: 0.97 }}
               >
                 {BRAND_LOGOS[name] ? (
                   <LogoCardImg name={name} />
@@ -102,6 +108,10 @@ export default function BrandPage({ onClose }: Props) {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2 + i * 0.04, duration: 0.4 }}
                 title={name}
+                onClick={() => setSelectedBrand(name)}
+                style={{ cursor: 'pointer' }}
+                whileHover={{ scale: 1.04 }}
+                whileTap={{ scale: 0.97 }}
               >
                 <LogoCardImg name={name} />
               </motion.div>
@@ -122,6 +132,10 @@ export default function BrandPage({ onClose }: Props) {
                   animate={{ opacity: 1 }}
                   transition={{ delay: 0.4 + i * 0.02, duration: 0.35 }}
                   title={name}
+                  onClick={() => setSelectedBrand(name)}
+                  style={{ cursor: 'pointer' }}
+                  whileHover={{ scale: 1.06 }}
+                  whileTap={{ scale: 0.97 }}
                 >
                   <LogoCardImg name={name} />
                 </motion.div>
@@ -174,6 +188,17 @@ export default function BrandPage({ onClose }: Props) {
           </a>
         </div>
       </div>
+
+      {/* Brand samples overlay */}
+      <AnimatePresence>
+        {selectedBrand && (
+          <BrandSamplesView
+            key={selectedBrand}
+            brandName={selectedBrand}
+            onClose={() => setSelectedBrand(null)}
+          />
+        )}
+      </AnimatePresence>
     </motion.div>
   )
 }

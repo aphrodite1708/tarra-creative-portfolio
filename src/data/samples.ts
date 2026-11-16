@@ -258,6 +258,33 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2024',
       },
       {
+        id: 'wardah-nmf-facewash-digital-activation-kol-brief',
+        title: 'Wardah Face Wash NMF Amino — Digital Activation KOL Brief',
+        brand: 'Wardah',
+        type: 'pdf',
+        file: '/samples/campaigns/wardah-nmf-amino-facewash-kol-brief.pdf',
+        description: "Wardah digital activation KOL brief for Face Wash with NMF Amino — 'Content Hijack' concept using a pop-up notification format ('Skin Update / Your skin's acid mantle'). Covers Do's & Don'ts, mandatory requirements (preview storyline, 100% or 50% VO, product in-frame by sec 15, pre-upload preview, hashtags, @wardahbeauty tag), 2× Story session angles, 2× Reels angles, and product overview for 3 variants: Crystal Secret AHA PHA, Renew You Ceramide, Hydra Rose Pentavitin.",
+        year: '2024',
+      },
+      {
+        id: 'wardah-multidimensional-glow-kol-brief',
+        title: 'Wardah Multidimensional Glow — KOL Campaign Brief',
+        brand: 'Wardah',
+        type: 'pdf',
+        file: '/samples/campaigns/wardah-multidimensional-glow-kol-brief.pdf',
+        description: 'KOL campaign brief for Wardah Multidimensional Glow (Glow Rhytm campaign).',
+        year: '2024',
+      },
+      {
+        id: 'wardah-renew-you-crystal-secret-brief',
+        title: 'Wardah Renew You × Crystal Secret — 5D Glow Skin Campaign Brief',
+        brand: 'Wardah',
+        type: 'pdf',
+        file: '/samples/campaigns/wardah-renew-you-crystal-secret-brief.pdf',
+        description: "KOL brief for Wardah's 5D Glow Skin campaign featuring Trilogy Skin Barrier™ technology. Products: Renew You Intensive Serum (1% Microcapsule Retinol + Bakuchiol + 3% Ceramide + 5% Niacinamide + Peptide Matrixyl™) and Crystal Secret Bright Activating Night Cream (Alpha Arbutin + Brightening Peptide + Edelweiss Extract). Also covers 4 Gel Moisturizer variants: Dark Spot Corrector, Deep Water Restore, Calm & Soothe, Radiant Charge.",
+        year: '2024',
+      },
+      {
         id: 'judydoll-iron-mascara-brief',
         title: 'Judydoll Iron Mascara — "Lift Up Your Lashes" Campaign Brief',
         brand: 'Judydoll',
@@ -993,6 +1020,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         type: 'pdf',
         file: '/samples/campaigns/wardah-lazada-brandday-nmf-facewash-insight.pdf',
         description: '27.6K views · 32,339 accounts reached · 113 link clicks · 2 @wardahbeauty sticker taps. Instagram Stories performance for the Lazada Brand Day NMF Amino Facewash activation (15 July 2024).',
+        year: '2024',
+      },
+      {
+        id: 'wardah-renew-you-crystal-secret-tiktok-insight',
+        title: 'Wardah Renew You × Crystal Secret — TikTok Video Insight',
+        brand: 'Wardah',
+        type: 'pdf',
+        file: '/samples/campaigns/wardah-renew-you-crystal-secret-tiktok-insight.pdf',
+        description: 'TikTok video analysis for Wardah 5D Glow Skin UGC (posted Mar 7, 2024, 56.75s) — 586 views · 35 likes · 502 total viewers · 1h:8m total play time · 7.2s average watch time · 52.1% For You traffic · 26.2% Search · 74% female audience · 92% aged 18–34.',
         year: '2024',
       },
       {
@@ -2236,6 +2272,23 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2024',
       },
       {
+        id: 'wardah-renew-you-crystal-secret-tiktok-insight-social',
+        title: 'Wardah Renew You × Crystal Secret — TikTok Video Insight',
+        brand: 'Wardah',
+        type: 'pdf',
+        file: '/samples/campaigns/wardah-renew-you-crystal-secret-tiktok-insight.pdf',
+        description: '586 views · 502 total viewers · 74% female · 92% aged 18–34 · 52.1% For You traffic. TikTok UGC performance for Wardah 5D Glow Skin campaign.',
+        year: '2024',
+      },
+      {
+        id: 'wardah-renew-you-crystal-secret-ugc-social',
+        title: 'Wardah Renew You × Crystal Secret — 5D Glow Skin TikTok UGC',
+        brand: 'Wardah',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1Ggw7wprRw3G6RvqjEbpo9kypuQqC1VRF/view?usp=sharing',
+        year: '2024',
+      },
+      {
         id: 'wardah-lazada-brandday-nmf-facewash-ugc-social',
         title: 'Wardah × Lazada Brand Day — NMF Amino Facewash UGC',
         brand: 'Wardah',
@@ -3336,6 +3389,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2024',
       },
       {
+        id: 'wardah-renew-you-crystal-secret-ugc',
+        title: 'Wardah Renew You × Crystal Secret — 5D Glow Skin TikTok UGC',
+        brand: 'Wardah',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1Ggw7wprRw3G6RvqjEbpo9kypuQqC1VRF/view?usp=sharing',
+        description: 'Published TikTok UGC for Wardah 5D Glow Skin campaign — 586 views · 35 likes · 7.2s avg watch time · 52.1% For You traffic. Audience: 74% female, 92% aged 18–34.',
+        year: '2024',
+      },
+      {
         id: 'judydoll-iron-mascara-ugc',
         title: 'Judydoll Iron Mascara — "Lift Up Your Lashes" IG Reels UGC',
         brand: 'Judydoll',
@@ -3800,6 +3862,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         type: 'pdf',
         file: '/samples/campaigns/emelyne-burgundy-sunscreen-brief.pdf',
         description: '6-scene IG Reels UGC script for Emelyne Burgandy 2-in-1 Face & Body Sunscreen — hook, product intro, texture & application, ingredient highlight (Black Pearl, UV Filter, Costoseira Tamaris Extract), packaging review, and closing CTA with rating. ±60 seconds.',
+        year: '2024',
+      },
+      {
+        id: 'wardah-nmf-facewash-digital-activation-reels-storyline',
+        title: 'Wardah Face Wash NMF Amino — Digital Activation Reels Storyline',
+        brand: 'Wardah',
+        type: 'pdf',
+        file: '/samples/copywriting/wardah-nmf-amino-facewash-reels-storyline.pdf',
+        description: "6-scene Reels UGC script for Wardah NMF Amino Face Wash — Hook (washing face carelessly, freeze frame), Problem Awareness (face close-up + orange metaphor for glowing skin), Product Introduction (taking out Wardah NMF Amino Face Wash), Product Benefit (NMF Natural Moisturizing Factor explanation), Variant & How To Use (applying chosen variant), Result & Closing. Full VO written out for each scene. Creator: Riri.",
         year: '2024',
       },
       {
@@ -4302,4 +4373,22 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
 
 export function getSamples(sectionId: SectionId, areaIndex: number): Sample[] {
   return SAMPLES[sectionId]?.[areaIndex] ?? []
+}
+
+export function getSamplesByBrand(brandName: string): Sample[] {
+  const seen = new Set<string>()
+  const result: Sample[] = []
+  for (const sectionId of Object.keys(SAMPLES) as SectionId[]) {
+    const areas = SAMPLES[sectionId]
+    if (!areas) continue
+    for (const areaIndex of Object.keys(areas)) {
+      for (const sample of areas[Number(areaIndex)] ?? []) {
+        if (sample.brand === brandName && !seen.has(sample.id)) {
+          seen.add(sample.id)
+          result.push(sample)
+        }
+      }
+    }
+  }
+  return result
 }
