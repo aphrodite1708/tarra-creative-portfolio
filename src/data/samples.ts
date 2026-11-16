@@ -276,6 +276,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2024',
       },
       {
+        id: 'emelyne-november-briefing',
+        title: 'Emelyne — November Campaign Briefing',
+        brand: 'Emelyne',
+        type: 'pdf',
+        file: '/samples/campaigns/emelyne-november-briefing.pdf',
+        description: 'Campaign briefing document for Emelyne — November activation planning.',
+        year: '2024',
+      },
+      {
         id: 'nuface-lip-velvet-kol-brief',
         title: 'Velvet Love Matte — KOL Brief',
         brand: 'Nuface',
@@ -708,6 +717,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         type: 'pdf',
         file: '/samples/campaigns/emelyne-burgundy-sunscreen-outreach.pdf',
         description: 'Creator pitch DM for the Emelyne Burgandy 2-in-1 Face & Body Sunscreen IG Reels campaign — personalised outreach used to recruit the creator. Brief, script, and product provided on confirmation.',
+        year: '2024',
+      },
+      {
+        id: 'emelyne-company-profile',
+        title: 'Emelyne — Brand & Company Profile',
+        brand: 'Emelyne',
+        type: 'pdf',
+        file: '/samples/campaigns/emelyne-company-profile.pdf',
+        description: 'Full brand and company profile for Emelyne Beauty — used as reference for creator briefing and campaign alignment.',
         year: '2024',
       },
       {
