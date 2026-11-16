@@ -23,6 +23,7 @@ export const BRAND_LOGOS: Record<string, string> = {
   'Dove':                '/brands/dove.png',
   'Eileen Grace':        '/brands/eileen-grace.png',
   'Emelyne':             '/brands/emelyne.png',
+  'Finally Found You':   '/brands/finally-found-you.png',
   'Erha':                '/brands/erha.png',
   'Embryolisse':         '/brands/embryolisse.png',
   'Firstlab':            '/brands/firstlab.png',

@@ -83,6 +83,23 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  // ── Finally Found You ────────────────────────────────────────
+  {
+    id: 'ffy-moisturizer-toner-kak-riri',
+    brand: 'Finally Found You',
+    title: 'Moisturizer & Toner',
+    subtitle: 'Kak Riri — IG Stories UGC activation',
+    year: '2025',
+    sampleIds: [
+      'ffy-moisturizer-toner-igs-storyline-creator',
+      'ffy-moisturizer-toner-igs-ugc-1',
+      'ffy-moisturizer-toner-igs-ugc-2',
+      'ffy-moisturizer-toner-igs-ugc-3',
+      'ffy-moisturizer-toner-igs-ugc-4',
+      'ffy-moisturizer-toner-igs-insight',
+    ],
+  },
+
   // ── Natur-E ──────────────────────────────────────────────────
   {
     id: 'natur-e-advanced-astari-riri',
