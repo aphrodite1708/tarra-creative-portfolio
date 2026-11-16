@@ -4,7 +4,7 @@ import { BRAND_LOGOS } from '../data/brands'
 
 // Size tiers — determines card/logo size
 const TIER_1 = [
-  "L'Oréal", 'Maybelline', 'Disney', 'Paddle Pop',
+  "L'Oréal", 'Maybelline', 'Disney', 'Disney Cruise Line', 'Paddle Pop',
   'Dove', 'Garnier', 'Lazada', 'Wardah',
 ]
 

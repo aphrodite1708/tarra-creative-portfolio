@@ -267,6 +267,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2024',
       },
       {
+        id: 'disney-cruise-line-brief',
+        title: 'Disney Cruise Line — Creator Campaign Brief',
+        brand: 'Disney Cruise Line',
+        type: 'pdf',
+        file: '/samples/campaigns/disney-cruise-line-brief.pdf',
+        description: 'Campaign brief for Disney Cruise Line creator activation — deliverables, content direction, and creator requirements.',
+        year: '2024',
+      },
+      {
         id: 'emelyne-november-briefing',
         title: 'Emelyne — November Campaign Brief',
         brand: 'Emelyne',
@@ -912,6 +921,24 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
     // 4 = Negotiations
     4: [
       {
+        id: 'disney-cruise-line-riri-ticket',
+        title: 'Disney Cruise Line — Riri Creator Ticket',
+        brand: 'Disney Cruise Line',
+        type: 'pdf',
+        file: '/samples/campaigns/disney-cruise-line-riri-ticket.pdf',
+        description: 'Talent engagement ticket for creator Riri — Disney Cruise Line campaign. Documents agreed deliverables, usage rights, and terms.',
+        year: '2024',
+      },
+      {
+        id: 'disney-cruise-line-rama-ticket',
+        title: 'Disney Cruise Line — Rama Creator Ticket',
+        brand: 'Disney Cruise Line',
+        type: 'pdf',
+        file: '/samples/campaigns/disney-cruise-line-rama-ticket.pdf',
+        description: 'Talent engagement ticket for creator Rama — Disney Cruise Line campaign. Documents agreed deliverables, usage rights, and terms.',
+        year: '2024',
+      },
+      {
         id: 'teddie-clubs-acne-patch-collab-negotiations',
         title: 'Special Edition Acne Patch — Collaboration Pitch Deck',
         brand: 'Teddie Clubs',
@@ -923,6 +950,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
     ],
     // 6 = Content Insight Reports
     6: [
+      {
+        id: 'disney-cruise-line-data-collection',
+        title: 'Disney Cruise Line — Creator Data Collection',
+        brand: 'Disney Cruise Line',
+        type: 'pdf',
+        file: '/samples/campaigns/disney-cruise-line-data-collection.docx',
+        description: 'Creator data collection document for the Disney Cruise Line campaign — tracking creator deliverables, posting data, and campaign performance inputs.',
+        year: '2024',
+      },
       {
         id: 'activgluta-instagram-insight',
         title: 'Activgluta — Instagram Stories Insight',
