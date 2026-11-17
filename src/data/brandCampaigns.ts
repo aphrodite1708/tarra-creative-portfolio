@@ -1615,10 +1615,32 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
   {
     id: 'bio-oil-dry-skin-gel',
     brand: 'Bio-Oil',
-    title: 'Dry Skin Gel',
-    subtitle: 'IG Reels — 158K views, 10.5M reach (paid amplified)',
+    title: 'Dry Skin Gel — Storytelling Campaign',
+    subtitle: '"Two Friends, Two Skin Stories" · 158K views · 10.5M reach · oil-base gel pioneer · #BioOilDrySkinGel',
     year: '2025',
-    sampleIds: ['bio-oil-dry-skin-reels-insight'],
+    sampleIds: [
+      'bio-oil-dry-skin-reels-insight',
+      'bio-oil-dry-skin-gel-kol-brief',
+      'bio-oil-dry-skin-gel-storyline',
+      'bio-oil-dry-skin-gel-ugc-1',
+      'bio-oil-dry-skin-gel-ugc-2',
+      'bio-oil-dry-skin-gel-ugc-3',
+      'bio-oil-dry-skin-gel-ugc-4',
+    ],
+  },
+  {
+    id: 'bio-oil-body-lotion',
+    brand: 'Bio-Oil',
+    title: 'Body Lotion — Launch Campaign',
+    subtitle: '"Husband Interviews Wife" Storytelling · post-pregnancy skin journey · daily body care · "My skin saviour!"',
+    year: '2025',
+    sampleIds: [
+      'bio-oil-body-lotion-storyline',
+      'bio-oil-body-lotion-ugc-1',
+      'bio-oil-body-lotion-ugc-2',
+      'bio-oil-body-lotion-ugc-3',
+      'bio-oil-body-lotion-ugc-4',
+    ],
   },
 ]
 
