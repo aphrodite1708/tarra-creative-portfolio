@@ -1527,6 +1527,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     year: '2022',
     sampleIds: [
       'yellowfit-mega-weekend-igs-brief',
+      'yellowfit-mega-weekend-special-menu',
       'yellowfit-mega-weekend-igs-ugc',
     ],
   },

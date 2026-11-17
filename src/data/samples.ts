@@ -2458,6 +2458,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2025',
       },
       {
+        id: 'yellowfit-mega-weekend-special-menu',
+        title: 'Yellow Fit Kitchen — Special Month Batch 38 Menu Visual',
+        brand: 'Yellow Fit Kitchen',
+        type: 'image',
+        file: '/samples/direction/yellowfit-mega-weekend-special-menu.jpg',
+        description: 'Batch 38 Special Month 2022 menu visual — 4 hero dishes used in IG Stories Slide 2 to tease the limited-edition lineup. Menus: Combo Fit Beef Blackpepper + Chicken Ginger Curry with Seaweed Rice + FREE Kakiage (455 kkal) · Tongseng Ayam + Ikan Rica Kemangi with Nasi Kuning Pandan + FREE Tahu Telur Saus Kacang (476 kkal) · YFK Combo Deligth with Penne Arabiata + FREE Onion Bruchotta (447 kkal) · Bread Minced Chicken Pizza + FREE Salad (442 kkal). Dark editorial food photography style, displayed in Stories with link to yellowfitkitchen.com/official.',
+        year: '2022',
+      },
+      {
         id: 'hansaplast-live-wardrobe-sporty',
         title: 'Hansaplast — Sporty Live Stream Wardrobe Direction',
         brand: 'Hansaplast',
