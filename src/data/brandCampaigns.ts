@@ -1235,6 +1235,21 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  // ── Putih by Dentist ─────────────────────────────────────────
+  {
+    id: 'putih-by-dentist-sws',
+    brand: 'Putih by Dentist',
+    title: 'Signature Whitening Strips (SWS)',
+    subtitle: 'Day 1 → Day 8 smile ruler transformation · PAP formula · #GigiPutihAntiRibet',
+    year: '2024',
+    sampleIds: [
+      'putih-by-dentist-sws-prod-guide',
+      'putih-by-dentist-sws-thumbnail',
+      'putih-by-dentist-sws-ugc-1',
+      'putih-by-dentist-sws-ugc-2',
+    ],
+  },
+
   // ── Rosé All Day ─────────────────────────────────────────────
   {
     id: 'roseallday-new-shades-concealer',
