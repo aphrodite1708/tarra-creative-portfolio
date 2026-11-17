@@ -843,6 +843,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     year: '2024',
     sampleIds: [
       'sushiro-kol-brief',
+      'sushiro-dakko-goods-poster',
       'sushiro-dakko-merch-insight',
       'sushiro-dakko-merch-ugc',
     ],

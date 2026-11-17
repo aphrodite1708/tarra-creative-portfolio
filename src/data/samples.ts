@@ -1229,6 +1229,14 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2024',
       },
       {
+        id: 'sushiro-dakko-goods-poster',
+        title: 'Sushiro — Dakko Sushi Goods Category Poster',
+        brand: 'Sushiro',
+        type: 'image',
+        file: '/samples/campaigns/sushiro-dakko-goods-poster.png',
+        year: '2024',
+      },
+      {
         id: 'sushiro-dakko-merch-insight',
         title: 'Sushiro — Dakko Merch IG Reels Insight',
         brand: 'Sushiro',
