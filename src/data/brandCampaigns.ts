@@ -241,6 +241,19 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     sampleIds: ['cazi-catalogue-moodboard', 'cazi-catalogue-wardrobe', 'cazi-catalogue-visual'],
   },
 
+  // ── Collagena ─────────────────────────────────────────────────
+  {
+    id: 'collagena-shk-billboard-teaser',
+    brand: 'Collagena',
+    title: 'Susu Awet Muda — SHK Billboard Teaser',
+    subtitle: '"K-drama enthusiast" GRWM × Song Hye Kyo billboard at Bundaran HI · 1.2M views',
+    year: '2024',
+    sampleIds: [
+      'collagena-shk-billboard-teaser-brief',
+      'collagena-shk-billboard-teaser-igs-ugc',
+    ],
+  },
+
   // ── Ciara ────────────────────────────────────────────────────
   {
     id: 'ciara-stretch-mark-booster-cream',

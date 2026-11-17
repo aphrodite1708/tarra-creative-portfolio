@@ -375,6 +375,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2026',
       },
       {
+        id: 'collagena-shk-billboard-teaser-igs-ugc',
+        title: 'astaririri × Collagena — SHK "Susu Awet Muda" Billboard Teaser Reel',
+        brand: 'Collagena',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1n8klfeulLTk3Bwvp-zOWuw5ssHLROD6u/view?usp=sharing',
+        description: 'Published IG Reels (mirrored to TikTok) for Collagena "Susu Awet Muda" billboard teaser campaign. Teaser phase: brand NOT revealed. KOL persona: K-drama enthusiast — GRWM to replicate Song Hye Kyo\'s iconic makeup and outfit, pose red carpet style in front of SHK billboard at Bundaran HI, reflect on SHK\'s "awet muda" quality from Endless Love (2000) and Full House (2004). Post caption: "Kita sebenernya kembar 🫠" (23 November 2024, 1:11 duration). Performance: 1,200,543 views · 279,422 accounts reached · 86d 6h 59m 25s watch time · 18 sec avg watch time · 28,702 interactions (88.9% non-followers) · 17,140 likes · 6,511 shares · 4,991 comments · 42 new follows.',
+        year: '2024',
+      },
+      {
         id: 'ciara-stretchmark-reels-script',
         title: 'Stretch Mark Booster Cream — IG Reels Content Brief',
         brand: 'Ciara',
