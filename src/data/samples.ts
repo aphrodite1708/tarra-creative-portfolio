@@ -1453,6 +1453,14 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2025',
       },
       {
+        id: 'garnier-serum-cleanser-tiktok-storyline',
+        title: 'Garnier — Bright Complete Serum Cleanser TikTok Storyline',
+        brand: 'Garnier',
+        type: 'pdf',
+        file: '/samples/campaigns/garnier-serum-cleanser-tiktok-storyline.pdf',
+        year: '2025',
+      },
+      {
         id: 'garnier-serum-cleanser-kol-brief',
         title: 'Garnier — Bright Complete Serum Cleanser KOL Brief',
         brand: 'Garnier',

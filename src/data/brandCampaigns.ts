@@ -449,9 +449,21 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
 
   // ── Garnier ──────────────────────────────────────────────────
   {
+    id: 'garnier-serum-cleanser-tiktok',
+    brand: 'Garnier',
+    title: 'Bright Complete Serum Cleanser — TikTok',
+    subtitle: 'KOL TikTok — horror gimmick concept, midnight skincare plot twist, #GarnierCleanserSecerahSerum',
+    year: '2025',
+    sampleIds: [
+      'garnier-serum-cleanser-kol-brief',
+      'garnier-serum-cleanser-tiktok-storyline',
+      'garnier-serum-cleanser-ugc-2',
+    ],
+  },
+  {
     id: 'garnier-serum-cleanser',
     brand: 'Garnier',
-    title: 'Bright Complete Serum Cleanser',
+    title: 'Bright Complete Serum Cleanser — IG Reels',
     subtitle: 'KOL IG Reels — #GarnierCleanserSecerahSerum, Vitamin C, 1 tube = 1 botol serum, re-engaged KOL strategy',
     year: '2025',
     sampleIds: [
@@ -459,7 +471,6 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'garnier-serum-cleanser-reels-storyline',
       'garnier-serum-cleanser-insight',
       'garnier-serum-cleanser-ugc-1',
-      'garnier-serum-cleanser-ugc-2',
     ],
   },
   {
