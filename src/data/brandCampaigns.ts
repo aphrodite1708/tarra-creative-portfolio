@@ -746,6 +746,24 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  // ── TIRTIR ───────────────────────────────────────────────────
+  {
+    id: 'tirtir-mask-fit-red-cushion',
+    brand: 'TIRTIR',
+    title: 'Mask Fit Red Cushion',
+    subtitle: 'KOL IG Reels — poreless finish cushion, 17C–37N shade range, gifting activation',
+    year: '2024',
+    sampleIds: [
+      'tirtir-mask-fit-red-cushion-brief',
+      'tirtir-crystal-mesh-cushion-shade-chart',
+      'tirtir-mask-fit-red-cushion-insight-1',
+      'tirtir-mask-fit-red-cushion-insight-2',
+      'tirtir-mask-fit-red-cushion-insight-3',
+      'tirtir-mask-fit-red-cushion-ugc-1',
+      'tirtir-mask-fit-red-cushion-ugc-2',
+    ],
+  },
+
   // ── L'Oréal ──────────────────────────────────────────────────
   {
     id: 'loreal-le-matte-resistance',
