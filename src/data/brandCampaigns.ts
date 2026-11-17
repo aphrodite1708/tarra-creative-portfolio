@@ -1532,6 +1532,18 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  {
+    id: 'yellowfit-indonesia-signature-special-month',
+    brand: 'Yellow Fit Kitchen',
+    title: 'Special Month Oktober — Indonesia Signature Menu',
+    subtitle: 'IG Stories food review — 3-slide authentic tasting campaign, legendary menu comeback',
+    year: '2023',
+    sampleIds: [
+      'yellowfit-indonesia-signature-igs-brief',
+      'yellowfit-indonesia-signature-igs-ugc',
+    ],
+  },
+
   // ── Bio-Oil (additional) ─────────────────────────────────────
   {
     id: 'bio-oil-dry-skin-gel',

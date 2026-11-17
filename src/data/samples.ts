@@ -5461,6 +5461,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
     // 3 = Visual Content Creation
     3: [
       {
+        id: 'yellowfit-indonesia-signature-igs-ugc',
+        title: 'astaririri × Yellow Fit Kitchen — Indonesia Signature Menu IG Stories UGC',
+        brand: 'Yellow Fit Kitchen',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1yuPi7fUQAOiCn9855-emJP-EA7mvSgKZ/view?usp=sharing',
+        description: 'Published IG Stories UGC for Yellow Fit Kitchen Special Month Oktober 2023 — "Indonesia Signature Menu" campaign. 3-slide Friday afternoon (18:00) review: Slide 1: talking about being a long-time YFK fan and announcing the special October campaign, hook "OMG!! MENU-MENU LEGEND @YELLOWFITKITCHEN COMEBACK SETELAH 6 TAHUN!!" Slide 2: on-camera food review of the Indonesian menu. Slide 3: authentic taste reaction "Pecah banget rasanya enak banget pas sama lidahku!", link to yellowfitkitchen.com/orderpage/ renamed "MENU ENAK SEMUA DISINI!" 4 pax meal plan delivered Fridays only. Tag @yellowfitkitchen.',
+        year: '2023',
+      },
+      {
         id: 'yellowfit-mega-weekend-igs-ugc',
         title: 'astaririri × Yellow Fit Kitchen — Mega Weekend IG Stories UGC',
         brand: 'Yellow Fit Kitchen',
