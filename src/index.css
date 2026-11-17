@@ -11,9 +11,10 @@
   --warm-ivory:  #F7F1E9;
   --soft-taupe:  #A99A8D;
 
-  --font-serif:  'Cabinet Grotesk', system-ui, sans-serif;
-  --font-script: 'Satoshi', system-ui, sans-serif;
-  --font-sans:   'Satoshi', system-ui, sans-serif;
+  --font-serif:        'Cabinet Grotesk', system-ui, sans-serif;
+  --font-script:       'Satoshi', system-ui, sans-serif;
+  --font-sans:         'Satoshi', system-ui, sans-serif;
+  --font-handwriting:  'Caveat', cursive;
 }
 
 html, body { height: 100%; overflow: hidden; }
@@ -124,14 +125,15 @@ button, a { cursor: none; font-family: inherit; }
 }
 
 .hero-quote {
-  font-family: var(--font-sans);
-  font-size: clamp(0.82rem, 1.1vw, 1rem);
-  line-height: 1.8;
+  font-family: var(--font-handwriting);
+  font-size: clamp(1rem, 1.4vw, 1.3rem);
+  line-height: 1.65;
   color: var(--espresso);
-  opacity: 0.65;
+  opacity: 0.75;
   margin-bottom: 16px;
-  border-left: 2px solid var(--dusty-pink);
   padding-left: 14px;
+  border-left: 2px solid var(--dusty-pink);
+  letter-spacing: 0.01em;
 }
 
 .hero-welcome {
@@ -146,7 +148,7 @@ button, a { cursor: none; font-family: inherit; }
 
 .hero-photo-wrap {
   margin-top: auto;
-  /* width follows the photo's height — don't constrain it */
+  position: relative;
   width: auto;
   margin-left: -10px;
   margin-bottom: -48px;
@@ -155,18 +157,28 @@ button, a { cursor: none; font-family: inherit; }
   rotate: -1.5deg;
   flex-shrink: 0;
   align-self: flex-start;
+  /* Polaroid frame */
+  background: white;
+  padding: 7px 7px 24px 7px;
+  box-shadow:
+    3px 5px 24px rgba(100,31,54,0.18),
+    0 1px 4px rgba(0,0,0,0.08);
+}
+
+.polaroid-clip {
+  position: absolute;
+  top: -24px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
 }
 
 .hero-photo {
   /* height-driven: 52vh puts the top of her head at ~50% of the frame */
-  height: clamp(360px, 52vh, 660px);
+  height: clamp(320px, 46vh, 580px);
   width: auto;
   display: block;
-  filter:
-    drop-shadow(-8px 0 0 var(--warm-ivory))
-    drop-shadow(8px 0 0 var(--warm-ivory))
-    drop-shadow(0 10px 0 var(--warm-ivory))
-    drop-shadow(0 32px 48px rgba(100, 31, 54, 0.3));
 }
 
 /* ─── Panels strip ──────────────────────────────────────────── */
@@ -1135,6 +1147,10 @@ button, a { cursor: none; font-family: inherit; }
 
   .panel-tab { width: 44px; height: 30px; }
   .panel-label { bottom: 20px; }
+  .folder-logo-collage { display: none; }
+  .folder-side-tab { display: none; }
+  .polaroid-clip { display: none; }
+  .hero-photo-wrap { padding: 5px 5px 16px 5px; }
   .bottom-hint { bottom: 10px; right: 16px; }
   .brands-section { padding: 16px 20px 20px; }
   .brands-scroll { gap: 8px; }
@@ -1530,6 +1546,63 @@ button, a { cursor: none; font-family: inherit; }
   left: 0;
   background: rgba(255,255,255,0.1);
   border-radius: 12px 0 10px 0;
+}
+
+/* Paper clip at top of each panel */
+.folder-paperclip {
+  position: absolute;
+  z-index: 6;
+  pointer-events: none;
+}
+.folder-paperclip--brand {
+  top: 12px;
+  right: 56px;
+  transform: rotate(-8deg);
+}
+.folder-paperclip--creator {
+  top: 12px;
+  left: 48px;
+  transform: rotate(5deg);
+}
+
+/* Brand logo collage on Brand panel */
+.folder-logo-collage {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 3;
+}
+
+.collage-logo {
+  position: absolute;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+  opacity: 0.55;
+  filter: grayscale(0.3) contrast(1.1);
+  transition: opacity 0.3s;
+}
+
+/* Handwritten vertical tab on folder edge */
+.folder-side-tab {
+  position: absolute;
+  font-family: var(--font-handwriting);
+  font-size: 14px;
+  color: currentColor;
+  writing-mode: vertical-rl;
+  opacity: 0.42;
+  pointer-events: none;
+  z-index: 6;
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+}
+.folder-side-tab--brand {
+  right: 18px;
+  top: 56px;
+  transform: rotate(180deg);
+}
+.folder-side-tab--creator {
+  left: 18px;
+  top: 56px;
 }
 
 /* ─── Page overlay (Brand / Creator pages) ───────────────────── */

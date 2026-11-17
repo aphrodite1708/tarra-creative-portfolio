@@ -9,6 +9,65 @@ import CreatorPage from './CreatorPage'
 
 type Panel = 'brand' | 'creator'
 
+// Brand logos scattered on the Brand folder face
+const COLLAGE_LOGOS = [
+  { brand: 'Disney Cruise Line', src: '/brands/disney-cruise-line.png', left: '8%',  top: '10%', rotate: -7,  size: 46 },
+  { brand: "L'Oréal",           src: '/brands/loreal.png',             left: '54%', top: '7%',  rotate: 5,   size: 48 },
+  { brand: 'Maybelline',         src: '/brands/maybelline.png',         left: '28%', top: '19%', rotate: -3,  size: 50 },
+  { brand: 'TIRTIR',             src: '/brands/tirtir.png',             left: '65%', top: '24%', rotate: 8,   size: 38 },
+  { brand: 'Garnier',            src: '/brands/garnier.png',            left: '12%', top: '34%', rotate: 4,   size: 44 },
+]
+
+function BinderClip() {
+  return (
+    <svg width="52" height="58" viewBox="0 0 52 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+      {/* Left wire handle */}
+      <path d="M18 23 L11 7 C9.5 3.5 11.5 1 14.5 1.5 C17.5 2 17.5 5.5 16.5 8.5 L20 23Z"
+            fill="#B8B8B8" stroke="#999" strokeWidth="0.8"/>
+      {/* Right wire handle */}
+      <path d="M34 23 L41 7 C42.5 3.5 40.5 1 37.5 1.5 C34.5 2 34.5 5.5 35.5 8.5 L32 23Z"
+            fill="#B8B8B8" stroke="#999" strokeWidth="0.8"/>
+      {/* Body shadow */}
+      <rect x="4" y="23" width="44" height="21" rx="3" fill="#818181"/>
+      {/* Body main */}
+      <rect x="4" y="23" width="44" height="19" rx="3" fill="#A8A8A8"/>
+      {/* Body highlight */}
+      <rect x="6" y="25" width="40" height="5" rx="1.5" fill="rgba(255,255,255,0.28)"/>
+      {/* Teeth */}
+      <line x1="10" y1="41" x2="12" y2="51" stroke="#888" strokeWidth="2.2" strokeLinecap="round"/>
+      <line x1="19" y1="41" x2="21" y2="51" stroke="#888" strokeWidth="2.2" strokeLinecap="round"/>
+      <line x1="28" y1="41" x2="30" y2="51" stroke="#888" strokeWidth="2.2" strokeLinecap="round"/>
+      <line x1="37" y1="41" x2="39" y2="51" stroke="#888" strokeWidth="2.2" strokeLinecap="round"/>
+    </svg>
+  )
+}
+
+function PaperClip({ color = '#B4A898' }: { color?: string }) {
+  return (
+    <svg width="20" height="54" viewBox="0 0 20 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M10 2.5
+           C5.5 2.5 2.5 5.5 2.5 9.5
+           L2.5 42
+           C2.5 48 6 52.5 10 52.5
+           C14 52.5 17.5 48 17.5 42
+           L17.5 13
+           C17.5 9.5 15 7.5 11.5 7.5
+           L9.5 7.5
+           C7 7.5 6 9.5 6 11.5
+           L6 42
+           C6 44.5 7.5 46.5 10 46.5
+           C12.5 46.5 14 44.5 14 42
+           L14 15"
+        stroke={color}
+        strokeWidth="2.4"
+        strokeLinecap="round"
+        fill="none"
+      />
+    </svg>
+  )
+}
+
 export default function HomeArchive() {
   const [hovered, setHovered] = useState<Panel | null>(null)
   const [activePage, setActivePage] = useState<Panel | null>(null)
@@ -54,6 +113,9 @@ export default function HomeArchive() {
         </p>
 
         <div className="hero-photo-wrap">
+          <div className="polaroid-clip">
+            <BinderClip />
+          </div>
           <img src="/tarra.png" alt="Tarra Ananda" className="hero-photo" />
         </div>
       </div>
@@ -86,8 +148,38 @@ export default function HomeArchive() {
                 opacity: 1,
               }} />
 
-              {/* Folder tab */}
+              {/* Folder corner tab accent */}
               <div className={`folder-file-tab folder-file-tab--${panel.id}`} />
+
+              {/* Paper clip at top */}
+              <div className={`folder-paperclip folder-paperclip--${panel.id}`}>
+                <PaperClip color={panel.id === 'brand' ? '#B09098' : 'rgba(255,255,255,0.45)'} />
+              </div>
+
+              {/* Brand logos scattered on folder face (Brand panel only) */}
+              {panel.id === 'brand' && (
+                <div className="folder-logo-collage">
+                  {COLLAGE_LOGOS.map(logo => (
+                    <img
+                      key={logo.brand}
+                      src={logo.src}
+                      alt={logo.brand}
+                      className="collage-logo"
+                      style={{
+                        left: logo.left,
+                        top: logo.top,
+                        transform: `rotate(${logo.rotate}deg)`,
+                        width: logo.size,
+                      }}
+                    />
+                  ))}
+                </div>
+              )}
+
+              {/* Vertical handwritten tab label on folder edge */}
+              <div className={`folder-side-tab folder-side-tab--${panel.id}`}>
+                {panel.id === 'brand' ? 'Brand Work' : 'Creator Work'}
+              </div>
 
               {/* Vertical label when collapsed */}
               <div className="panel-label">
