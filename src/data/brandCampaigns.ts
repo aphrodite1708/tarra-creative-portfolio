@@ -812,6 +812,18 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
 
   // ── Sushiro ──────────────────────────────────────────────────
   {
+    id: 'sushiro-kani-matsuri',
+    brand: 'Sushiro',
+    title: 'Kani Matsuri — SUSHIRO Hack',
+    subtitle: 'KOL IG Reels — seasonal snow crab menu, 106K views · 68K accounts reached',
+    year: '2024',
+    sampleIds: [
+      'sushiro-kol-brief',
+      'sushiro-kani-matsuri-insight',
+      'sushiro-kani-matsuri-ugc',
+    ],
+  },
+  {
     id: 'sushiro-dakko-merch',
     brand: 'Sushiro',
     title: 'Dakko Sushi Merchandise',

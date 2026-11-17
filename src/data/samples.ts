@@ -1237,6 +1237,14 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2024',
       },
       {
+        id: 'sushiro-kani-matsuri-insight',
+        title: 'Sushiro — Kani Matsuri IG Reels Insight',
+        brand: 'Sushiro',
+        type: 'pdf',
+        file: '/samples/campaigns/sushiro-kani-matsuri-insight.pdf',
+        year: '2024',
+      },
+      {
         id: 'ponds-guardian-live-ig-stories-insight',
         title: "Pond's × Guardian — 'Focus on Your Skin Regime & Skinvestment' IG Stories Insight",
         brand: "Pond's",
@@ -3834,6 +3842,14 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         type: 'link',
         url: 'https://drive.google.com/file/d/1Ev_l8IyHQaVBEi0t7dhduMg3CR7R51bG/view?usp=sharing',
         description: 'Published IG Stories UGC for Trueve Niacinamax™ Series — CTA story driving link clicks and @trueve.id sticker taps. Brief-driven by me.',
+        year: '2024',
+      },
+      {
+        id: 'sushiro-kani-matsuri-ugc',
+        title: 'Sushiro — Kani Matsuri IG Reels UGC',
+        brand: 'Sushiro',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1dG26LSv_O9KBY2wXXZVj4Tqxi4l4fISb/view?usp=sharing',
         year: '2024',
       },
       {
