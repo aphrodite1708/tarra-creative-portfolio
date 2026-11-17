@@ -748,6 +748,17 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
 
   // ── Maybelline ───────────────────────────────────────────────
   {
+    id: 'maybelline-sunkisser',
+    brand: 'Maybelline',
+    title: 'Sunkisser Blush & Highlighter',
+    subtitle: 'Creator UGC — sun-kissed glow activation',
+    year: '2024',
+    sampleIds: [
+      'maybelline-sunkisser-ugc-1',
+      'maybelline-sunkisser-ugc-2',
+    ],
+  },
+  {
     id: 'maybelline-ssvi-sauce',
     brand: 'Maybelline',
     title: 'Superstay Vinyl Ink Sauce Edition',
