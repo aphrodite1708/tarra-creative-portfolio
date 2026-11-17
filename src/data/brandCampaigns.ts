@@ -488,10 +488,10 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     id: 'garnier-serum-cleanser',
     brand: 'Garnier',
     title: 'Bright Complete Serum Cleanser — IG Reels',
-    subtitle: 'KOL IG Reels — #GarnierCleanserSecerahSerum, Vitamin C, 1 tube = 1 botol serum, re-engaged KOL strategy',
-    year: '2025',
+    subtitle: 'KOL Pre-Buzz IG Reels — #GarnierCleanserSecerahSerum, Vitamin C, 1 tube = 1 botol serum, Dec 2024 launch',
+    year: '2024',
     sampleIds: [
-      'garnier-serum-cleanser-kol-brief',
+      'garnier-serum-cleanser-prebuzz-brief-dec',
       'garnier-serum-cleanser-reels-storyline',
       'garnier-serum-cleanser-insight',
       'garnier-serum-cleanser-ugc-1',

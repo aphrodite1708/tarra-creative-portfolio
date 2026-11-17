@@ -1453,6 +1453,14 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2025',
       },
       {
+        id: 'garnier-serum-cleanser-prebuzz-brief-dec',
+        title: 'Garnier — Bright Complete Serum Cleanser Pre-Buzz KOL Brief (Dec)',
+        brand: 'Garnier',
+        type: 'pdf',
+        file: '/samples/campaigns/garnier-serum-cleanser-prebuzz-brief-dec.pdf',
+        year: '2024',
+      },
+      {
         id: 'garnier-bright-complete-3-kol-brief',
         title: 'Garnier — Bright Complete Serum Cleanser Re-Engaged KOL Brief (Jan)',
         brand: 'Garnier',
