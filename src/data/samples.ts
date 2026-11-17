@@ -600,6 +600,22 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2024',
       },
       {
+        id: 'loreal-uv-serum-open-brief',
+        title: "L'Oréal Paris — UV Defender Serum Open Brief",
+        brand: "L'Oréal",
+        type: 'pdf',
+        file: '/samples/campaigns/loreal-uv-serum-open-brief.pdf',
+        year: '2023',
+      },
+      {
+        id: 'loreal-uv-serum-insight',
+        title: "L'Oréal Paris — UV Defender Serum IG Stories Insight",
+        brand: "L'Oréal",
+        type: 'image',
+        file: '/samples/campaigns/loreal-uv-serum-insight.png',
+        year: '2023',
+      },
+      {
         id: 'maybelline-music-2022-curation',
         title: 'Maybelline — 2022 Music Curation',
         brand: 'Maybelline',
@@ -3891,6 +3907,14 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         url: 'https://drive.google.com/file/d/1Ev_l8IyHQaVBEi0t7dhduMg3CR7R51bG/view?usp=sharing',
         description: 'Published IG Stories UGC for Trueve Niacinamax™ Series — CTA story driving link clicks and @trueve.id sticker taps. Brief-driven by me.',
         year: '2024',
+      },
+      {
+        id: 'loreal-uv-serum-ugc',
+        title: "L'Oréal Paris — UV Defender Serum IG Stories UGC",
+        brand: "L'Oréal",
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1u4QO8W45oeAuICjt9CUoGx9qedcXHD9T/view?usp=sharing',
+        year: '2023',
       },
       {
         id: 'sushiro-grand-menu-ugc',

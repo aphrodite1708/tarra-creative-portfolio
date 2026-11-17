@@ -746,6 +746,20 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  // ── L'Oréal ──────────────────────────────────────────────────
+  {
+    id: 'loreal-uv-serum',
+    brand: "L'Oréal",
+    title: 'UV Defender Sun-Repair Serum',
+    subtitle: 'KOL IG Stories — 2-in-1 serum sunscreen launch, SPF50+ PA++++, Shopee activation',
+    year: '2023',
+    sampleIds: [
+      'loreal-uv-serum-open-brief',
+      'loreal-uv-serum-insight',
+      'loreal-uv-serum-ugc',
+    ],
+  },
+
   // ── Maybelline ───────────────────────────────────────────────
   {
     id: 'maybelline-sunkisser',
