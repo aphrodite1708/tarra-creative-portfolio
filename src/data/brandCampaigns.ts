@@ -449,6 +449,18 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
 
   // ── Garnier ──────────────────────────────────────────────────
   {
+    id: 'garnier-bright-complete-3',
+    brand: 'Garnier',
+    title: 'Bright Complete Serum Cleanser — Re-Engaged KOLs',
+    subtitle: 'KOL re-engagement — January push, #GarnierCleanserSecerahSerum, 1 tube = 1 botol serum',
+    year: '2025',
+    sampleIds: [
+      'garnier-bright-complete-3-kol-brief',
+      'garnier-bright-complete-3-storyline',
+      'garnier-bright-complete-3-ugc-1',
+    ],
+  },
+  {
     id: 'garnier-uv-cooling',
     brand: 'Garnier',
     title: 'Super UV Cooling Watergel Sunscreen — IG Reels',

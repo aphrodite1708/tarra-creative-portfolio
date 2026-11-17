@@ -1453,6 +1453,22 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2025',
       },
       {
+        id: 'garnier-bright-complete-3-kol-brief',
+        title: 'Garnier — Bright Complete Serum Cleanser Re-Engaged KOL Brief (Jan)',
+        brand: 'Garnier',
+        type: 'pdf',
+        file: '/samples/campaigns/garnier-bright-complete-3-kol-brief.pdf',
+        year: '2025',
+      },
+      {
+        id: 'garnier-bright-complete-3-storyline',
+        title: 'Garnier — Bright Complete Serum Cleanser Re-Engaged Storyline',
+        brand: 'Garnier',
+        type: 'pdf',
+        file: '/samples/campaigns/garnier-bright-complete-3-storyline.pdf',
+        year: '2025',
+      },
+      {
         id: 'garnier-uv-cooling-kol-brief',
         title: 'Garnier — Super UV Cooling Watergel Sunscreen KOL Brief',
         brand: 'Garnier',
@@ -4408,6 +4424,14 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         type: 'pdf',
         file: '/samples/campaigns/ownskin-instagram-stories-insight.pdf',
         description: '19,208 views · 15,945 accounts reached · 562 link clicks — audience growth evidence from a branded Stories series with high link-click conversion rate.',
+        year: '2025',
+      },
+      {
+        id: 'garnier-bright-complete-3-ugc-1',
+        title: 'Garnier — Bright Complete Serum Cleanser Re-Engaged UGC',
+        brand: 'Garnier',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1F-BzlaxbAQ9lKI3n7fmzKpfBq0kYvPIQ/view?usp=sharing',
         year: '2025',
       },
       {
