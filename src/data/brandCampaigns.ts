@@ -746,6 +746,21 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  // ── Maybelline ───────────────────────────────────────────────
+  {
+    id: 'maybelline-ssvi-sauce',
+    brand: 'Maybelline',
+    title: 'Superstay Vinyl Ink Sauce Edition',
+    subtitle: 'TikTok KOL — mukbang torture-test concept, 5-shade limited edition',
+    year: '2024',
+    sampleIds: [
+      'maybelline-ssvi-sauce-ref-storyline',
+      'maybelline-ssvi-sauce-shade-food-match',
+      'maybelline-ssvi-sauce-storyline',
+      'maybelline-ssvi-sauce-ugc',
+    ],
+  },
+
   // ── Trueve ───────────────────────────────────────────────────
   {
     id: 'trueve-niacinamax',
