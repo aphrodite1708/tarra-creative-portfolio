@@ -746,6 +746,22 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  // ── Trueve ───────────────────────────────────────────────────
+  {
+    id: 'trueve-niacinamax',
+    brand: 'Trueve',
+    title: 'Niacinamax™ Series',
+    subtitle: 'KOL IG Stories — dark spot 3-product system launch, 27K+ views',
+    year: '2024',
+    sampleIds: [
+      'trueve-niacinamax-kol-brief',
+      'trueve-niacinamax-igs-insight',
+      'trueve-niacinamax-ugc-1',
+      'trueve-niacinamax-ugc-2',
+      'trueve-niacinamax-ugc-3',
+    ],
+  },
+
   // ── Ariul ────────────────────────────────────────────────────
   {
     id: 'ariul-7days-mask-duo',
