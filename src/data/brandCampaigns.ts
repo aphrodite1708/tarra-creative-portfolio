@@ -112,6 +112,18 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  {
+    id: 'bioaqua-nayeon-marsturizer',
+    brand: 'BIOAQUA',
+    title: 'Nayeon Skincare — 8x Ceramide Marsturizer',
+    subtitle: 'Product knowledge · MARSturizer™ ingredient · skin barrier + hydration',
+    year: '2023',
+    sampleIds: [
+      'bioaqua-marsturizer-prod-know',
+      'bioaqua-marsturizer-ugc',
+    ],
+  },
+
   // ── Finally Found You ────────────────────────────────────────
   {
     id: 'ffy-moisturizer-toner-kak-riri',
