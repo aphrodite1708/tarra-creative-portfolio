@@ -1061,6 +1061,23 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     sampleIds: ['milux-co-creator-outreach', 'milux-co-ugc'],
   },
 
+  // ── NPURE ────────────────────────────────────────────────────
+  {
+    id: 'npure-power-series-npd',
+    brand: 'NPURE',
+    title: 'Power Series NPD Launch — Primer + Powder',
+    subtitle: '"Make Up for Healthy Skin" · 5x Power Cover · Skincare-Infused CICA + Salicylic Acid · 5 shades · #NPUREPOWERCOVER',
+    year: '2025',
+    sampleIds: [
+      'npure-power-series-npd-brief',
+      'npure-home-gym-product-visual',
+      'npure-holiday-package-social',
+      'npure-power-series-ugc-1',
+      'npure-power-series-ugc-2',
+      'npure-power-series-ugc-3',
+    ],
+  },
+
   // ── NUKKA ────────────────────────────────────────────────────
   {
     id: 'nukka-homewear',
