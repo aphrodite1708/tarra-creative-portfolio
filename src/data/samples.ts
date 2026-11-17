@@ -447,6 +447,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2025',
       },
       {
+        id: 'tresemme-keratin-smooth-festive-reels-script',
+        title: 'TRESemmé Keratin Smooth — Ramadan (Festive) IG Reels Storyline',
+        brand: 'TRESemmé',
+        type: 'pdf',
+        file: '/samples/campaigns/tresemme-keratin-smooth-festive-reels-script.pdf',
+        description: '7-scene creator storyline for TRESemmé Keratin Smooth Salon Pro Essentials (Ramadan 2025, via Redcomm). Campaign: "Unstoppable Salon Smooth Hair, No Appointment Needed." Hook: hair praised as salon result → busy Ramadan social marathon context → 4-step product routine (shampoo → conditioner → hair mask 5 min → serum before & after styling) → am-to-pm hair check → CTA bundle hemat 20% at Guardian/Watsons. Products: Keratin Smooth No.3 Treatment Mask (Keratin Bond+) + No.4 Serum (Marula Oil). Caption and storyline developed by me.',
+        year: '2025',
+      },
+      {
         id: 'pergikuliner-kol-brief',
         title: 'Pergikuliner — KOL Campaign Brief',
         brand: 'Pergikuliner',
@@ -3100,6 +3109,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2025',
       },
       {
+        id: 'tresemme-keratin-smooth-festive-ugc',
+        title: 'astaririri × TRESemmé Keratin Smooth — Ramadan (Festive) IG Reels UGC',
+        brand: 'TRESemmé',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1ozjQqC5DBPFAZ7vnZFVjxow5_fSmxvJn/view?usp=sharing',
+        description: 'Published IG Reels UGC for TRESemmé Keratin Smooth Salon Pro Essentials — Ramadan 2025 campaign "Unstoppable Salon Smooth Hair, No Appointment Needed". Hook: hair mistaken for salon result → Ramadan bukber social marathon context → 4-step treatment routine (shampoo + conditioner + 5-min hair mask + serum before & after styling) → am-to-pm hair check montage → CTA bundle hemat 20% at Guardian/Watsons. Script and storyline developed by me.',
+        year: '2025',
+      },
+      {
         id: 'lazada-keluarga-ada-aja-alazan-reels-insight-social',
         title: 'Lazada × Keluarga Ada Aja ALAZan — Instagram Reels Performance',
         brand: 'Lazada',
@@ -3636,6 +3654,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         type: 'pdf',
         file: '/samples/campaigns/tresemme-keratin-kit-reels-script.pdf',
         description: '6-scene IG Reels UGC script recreating Pevita Pearce\'s JFW 2026 runway hairstyle. Scenes: reaction to Pevita\'s JFW hair → product intro (TRESemmé Keratin Smooth No.4 Serum) → step-by-step styling with the full kit → comparison reveal. Caption: "Komen yang jujur, hairstyle ini cocok gak di rambut w?!!" #TRESemmeIndonesia #TRESemmeJFW2026. The Reel reached 206,393 views.',
+        year: '2025',
+      },
+      {
+        id: 'tresemme-keratin-smooth-festive-reels-script-creator',
+        title: 'TRESemmé Keratin Smooth — Ramadan (Festive) IG Reels UGC Script',
+        brand: 'TRESemmé',
+        type: 'pdf',
+        file: '/samples/campaigns/tresemme-keratin-smooth-festive-reels-script.pdf',
+        description: '7-scene 60s IG Reels UGC script for TRESemmé Keratin Smooth Salon Pro Essentials (Ramadan 2025, Redcomm). Hook: conversational hair compliment ("Abis dari salon ya?") → talk-to-cam about Ramadan padet schedule → product intro + 4-step routine demo (shampoo + conditioner + 5-min hair mask + serum before & after styling) → am-to-pm hair check montage (pagi/siang/sore/malam) → CTA bundle hemat 20% at Guardian/Watsons or e-commerce. Caption: "W kira bulan Ramadan bisa banyak santai sambil nahan laper aus... gataunya kegiatan malah makin padet?!" Script and storyline developed by me.',
         year: '2025',
       },
       {

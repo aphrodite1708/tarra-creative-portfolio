@@ -1327,6 +1327,18 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'tresemme-keratin-kit-reels-insight',
     ],
   },
+  {
+    id: 'tresemme-keratin-smooth-festive',
+    brand: 'TRESemmé',
+    title: 'Keratin Smooth — Salon Pro Essentials (Festive)',
+    subtitle: '"Unstoppable Salon Smooth Hair, No Appointment Needed" — Ramadan 2025',
+    year: '2025',
+    sampleIds: [
+      'tresemme-keratin-smooth-festive-reels-script',
+      'tresemme-keratin-smooth-festive-reels-script-creator',
+      'tresemme-keratin-smooth-festive-ugc',
+    ],
+  },
 
   // ── Teddie Clubs ─────────────────────────────────────────────
   {
