@@ -1453,6 +1453,22 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2025',
       },
       {
+        id: 'garnier-uv-cooling-kol-brief',
+        title: 'Garnier — Super UV Cooling Watergel Sunscreen KOL Brief',
+        brand: 'Garnier',
+        type: 'pdf',
+        file: '/samples/campaigns/garnier-uv-cooling-kol-brief.pdf',
+        year: '2025',
+      },
+      {
+        id: 'garnier-uv-cooling-storyline',
+        title: 'Garnier — Super UV Cooling Watergel Sunscreen Reels Storyline',
+        brand: 'Garnier',
+        type: 'pdf',
+        file: '/samples/campaigns/garnier-uv-cooling-storyline.pdf',
+        year: '2025',
+      },
+      {
         id: 'garnier-serum-cleanser-tiktok-storyline',
         title: 'Garnier — Bright Complete Serum Cleanser TikTok Storyline',
         brand: 'Garnier',
@@ -4392,6 +4408,14 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         type: 'pdf',
         file: '/samples/campaigns/ownskin-instagram-stories-insight.pdf',
         description: '19,208 views · 15,945 accounts reached · 562 link clicks — audience growth evidence from a branded Stories series with high link-click conversion rate.',
+        year: '2025',
+      },
+      {
+        id: 'garnier-uv-cooling-ugc-1',
+        title: 'Garnier — Super UV Cooling Watergel Sunscreen UGC',
+        brand: 'Garnier',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1OawdCZwTUo5lXaozA1y23F9MXRPi4-eI/view?usp=sharing',
         year: '2025',
       },
       {

@@ -449,6 +449,18 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
 
   // ── Garnier ──────────────────────────────────────────────────
   {
+    id: 'garnier-uv-cooling',
+    brand: 'Garnier',
+    title: 'Super UV Cooling Watergel Sunscreen — IG Reels',
+    subtitle: 'KOL IG Reels — #AntiSunspiracy, SPF50+ PA++++, -2°C cooling reveal, winter outfit challenge concept, Ramadan context',
+    year: '2025',
+    sampleIds: [
+      'garnier-uv-cooling-kol-brief',
+      'garnier-uv-cooling-storyline',
+      'garnier-uv-cooling-ugc-1',
+    ],
+  },
+  {
     id: 'garnier-serum-cleanser-tiktok',
     brand: 'Garnier',
     title: 'Bright Complete Serum Cleanser — TikTok',
