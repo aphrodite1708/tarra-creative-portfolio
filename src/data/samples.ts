@@ -640,6 +640,22 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2024',
       },
       {
+        id: 'loreal-le-matte-limited-shades-kol-brief',
+        title: "L'Oréal — Infallible Matte Resistance Limited Shades KOL Brief (Feb)",
+        brand: "L'Oréal",
+        type: 'pdf',
+        file: '/samples/campaigns/loreal-le-matte-limited-shades-kol-brief.pdf',
+        year: '2024',
+      },
+      {
+        id: 'loreal-le-matte-limited-shades-storyline',
+        title: "L'Oréal — Infallible Matte Resistance Limited Shades Reels Storyline",
+        brand: "L'Oréal",
+        type: 'pdf',
+        file: '/samples/campaigns/loreal-le-matte-limited-shades-storyline.pdf',
+        year: '2024',
+      },
+      {
         id: 'loreal-le-matte-resistance-open-brief',
         title: "L'Oréal Paris — Le Matte Resistance Open Brief",
         brand: "L'Oréal",
@@ -4074,6 +4090,14 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         brand: 'TIRTIR',
         type: 'link',
         url: 'https://drive.google.com/file/d/133J4mur1zL5YAbh1gs1COi1AAb-qHD-f/view?usp=sharing',
+        year: '2024',
+      },
+      {
+        id: 'loreal-le-matte-limited-shades-ugc',
+        title: "L'Oréal — Infallible Matte Resistance Limited Shades UGC",
+        brand: "L'Oréal",
+        type: 'link',
+        url: 'https://drive.google.com/file/d/19ey16tyX38AVwFLRsUaE6_N4MEqLx3DS/view?usp=sharing',
         year: '2024',
       },
       {
