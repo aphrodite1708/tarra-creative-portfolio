@@ -812,6 +812,18 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
 
   // ── Sushiro ──────────────────────────────────────────────────
   {
+    id: 'sushiro-grand-menu',
+    brand: 'Sushiro',
+    title: 'Renewal Grand Menu',
+    subtitle: 'KOL IG Reels — 30+ new menu items, "Discover Sushi The Sushiro Way", 177K views · 116K accounts reached',
+    year: '2025',
+    sampleIds: [
+      'sushiro-grand-menu-brief',
+      'sushiro-grand-menu-insight',
+      'sushiro-grand-menu-ugc',
+    ],
+  },
+  {
     id: 'sushiro-kani-matsuri',
     brand: 'Sushiro',
     title: 'Kani Matsuri — SUSHIRO Hack',
