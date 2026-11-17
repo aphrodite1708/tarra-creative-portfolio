@@ -22,15 +22,13 @@ function WorkflowStrip({ samples }: { samples: Sample[] }) {
         const active = activeSteps.has(step.id)
         return (
           <div key={step.id} className="workflow-step">
-            {i > 0 && <div className={`workflow-line ${active ? 'workflow-line--active' : ''}`} />}
-            <div className={`workflow-dot ${active ? 'workflow-dot--active' : ''}`}>
-              {active && (
-                <svg width="10" height="10" viewBox="0 0 10 10" fill="currentColor">
-                  <circle cx="5" cy="5" r="3.5" />
-                </svg>
-              )}
+            {i > 0 && <div className="workflow-line" />}
+            <div className="workflow-dot">
+              <svg width="10" height="10" viewBox="0 0 10 10" fill="currentColor">
+                <circle cx="5" cy="5" r="3.5" />
+              </svg>
             </div>
-            <span className={`workflow-label ${active ? 'workflow-label--active' : ''}`}>{step.short}</span>
+            <span className="workflow-label">{step.short}</span>
           </div>
         )
       })}
