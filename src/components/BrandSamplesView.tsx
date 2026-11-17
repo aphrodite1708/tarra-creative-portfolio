@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { BRAND_LOGOS } from '../data/brands'
 import { getSamplesByBrand } from '../data/samples'
-import { getBrandCampaigns, getCampaignSamples, getSampleStep, WORKFLOW_STEPS } from '../data/brandCampaigns'
+import { getBrandCampaigns, getCampaignSamples, WORKFLOW_STEPS } from '../data/brandCampaigns'
 import type { BrandCampaign } from '../data/brandCampaigns'
 import type { Sample } from '../data/samples'
 import { FOLDERS } from '../data/sections'
@@ -14,12 +14,10 @@ interface Props {
   onClose: () => void
 }
 
-function WorkflowStrip({ samples }: { samples: Sample[] }) {
-  const activeSteps = new Set(samples.map(getSampleStep))
+function WorkflowStrip({ samples: _samples }: { samples: Sample[] }) {
   return (
     <div className="workflow-strip">
       {WORKFLOW_STEPS.map((step, i) => {
-        const active = activeSteps.has(step.id)
         return (
           <div key={step.id} className="workflow-step">
             {i > 0 && <div className="workflow-line" />}
