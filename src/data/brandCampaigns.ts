@@ -1102,10 +1102,16 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
   {
     id: 'paxmoly-brightening-tone-up',
     brand: 'Paxmoly',
-    title: 'Brightening Tone Up Cream',
-    subtitle: 'KOL endorsement brief & creative direction',
+    title: 'Pearl Brightening Tone Up Cream',
+    subtitle: 'IG Stories endorsement — bare-face before/after, Niacinamide + pearl powder, 3 published UGC',
     year: '2025',
-    sampleIds: ['paxmoly-brightening-tone-up-cream-brief', 'paxmoly-brightening-tone-up-cream-brief-direction'],
+    sampleIds: [
+      'paxmoly-brightening-tone-up-cream-brief',
+      'paxmoly-brightening-tone-up-cream-brief-direction',
+      'paxmoly-brightening-tone-up-igs-ugc-1',
+      'paxmoly-brightening-tone-up-igs-ugc-2',
+      'paxmoly-brightening-tone-up-igs-ugc-3',
+    ],
   },
 
   // ── Pergikuliner ─────────────────────────────────────────────
@@ -1319,6 +1325,20 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'storyline-skintific-peeling-solution',
       'storyline-skintific-peeling-solution-creator',
       'skintific-peeling-solution-ugc-reel',
+    ],
+  },
+
+  // ── Sovia Jewelry ────────────────────────────────────────────
+  {
+    id: 'sovia-jewelry-fashion-ring',
+    brand: 'Sovia Jewelry',
+    title: 'Fashion Ring — Campaign Branding',
+    subtitle: 'IG Stories GRWM · 105,084 views · soft-selling fashion jewelry UGC',
+    year: '2024',
+    sampleIds: [
+      'sovia-jewelry-fashion-ring-brief',
+      'sovia-jewelry-fashion-ring-igs-insight',
+      'sovia-jewelry-fashion-ring-igs-ugc',
     ],
   },
 
