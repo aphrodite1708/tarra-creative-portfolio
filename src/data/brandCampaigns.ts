@@ -754,7 +754,6 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     subtitle: 'Creator UGC — sun-kissed glow activation',
     year: '2024',
     sampleIds: [
-      'maybelline-music-2022-curation',
       'maybelline-sunkisser-ugc-1',
       'maybelline-sunkisser-ugc-2',
     ],
@@ -766,6 +765,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     subtitle: 'TikTok KOL — mukbang torture-test concept, 5-shade limited edition',
     year: '2024',
     sampleIds: [
+      'maybelline-music-2022-curation',
       'maybelline-ssvi-sauce-edit-proof',
       'maybelline-ssvi-sauce-ref-storyline',
       'maybelline-ssvi-sauce-shade-food-match',
