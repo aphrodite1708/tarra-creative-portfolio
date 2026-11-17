@@ -2685,6 +2685,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         description: 'Published IG Story Slide 2 for ElsheSkin Radiant Advance Serum brightening campaign — before/after skin tone comparison demonstrating darkspot reduction. DM hook overlay ("di tahap desperate pake ini itu gak ngaruh terus") + "Mantep betul kan???" caption. Side-by-side KOL before/after portrait using a follower DM as social proof mechanic. 18 brightening agents key message; campaign launched on 9.9 sale day.',
         year: '2024',
       },
+      {
+        id: 'bioaqua-doraemon-pr-package-visual',
+        title: 'BIOAQUA × Doraemon — Limited Edition Sheet Mask PR Package Visual',
+        brand: 'BIOAQUA',
+        type: 'image',
+        file: '/samples/direction/bioaqua-doraemon-sheetmask-pr.png',
+        description: 'BIOAQUA × Doraemon limited edition PR package visual — features the collab sheet mask packaging and Doraemon merchandise (notebook & pen). 5 variants: SymWhite Brightening, Ceramide Barrier Care, Retinol Firming & Anti-Wrinkle, 24k Black Truffle Anti-aging, Diamond Blue Copper Ultimate Youthful. TikTok Super Brand Day activation; brand position: "lokal brand TOP Sheet Mask Indonesia, terjual 3pcs/second."',
+        year: '2024',
+      },
     ],
     // 4 = Campaign Storyboards
     4: [
@@ -4448,6 +4457,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         url: 'https://drive.google.com/file/d/1orC7PiQCZKOvhybSmSgZ0wSCMjNAiwms/view?usp=sharing',
         description: 'Published IG Reels UGC for Bio-Oil Skincare Oil (Natural) — 68,720 plays · 619 comments · 148 shares · 1,933 likes. Lifestyle creative review with @biooilidn tag and #BioOilHealthySkinHabits hashtag.',
         year: '2025',
+      },
+      {
+        id: 'bioaqua-doraemon-sheetmask-ugc',
+        title: 'astaririri × BIOAQUA — Doraemon Sheet Mask TikTok UGC',
+        brand: 'BIOAQUA',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/187zMzvRhjBVnfycpN297qcZermipbZpP/view?usp=sharing',
+        description: 'Published TikTok UGC for BIOAQUA × Doraemon limited edition sheet mask collab — Mega-Macro tier, TikTok Super Brand Day. Content flow: unboxing PR package (notebook & pen Doraemon merch), first impression on collab packaging, 5-variant explanation (SymWhite Brightening, Ceramide Barrier Care, Retinol Firming, 24k Black Truffle Anti-aging, Diamond Blue Copper Ultimate Youthful), live application review using SymWhite or Diamond Blue Copper, skin result reveal, BIOAQUA Protection (skin insurance) mention, CTA "terjual 3pcs/second, masa kamu belum cobain?" Hashtags: #TikTokShopBrandDay #MagicInPocket #BIOAQUAxDoraemon.',
+        year: '2024',
       },
       {
         id: 'ffy-moisturizer-toner-igs-ugc-1',

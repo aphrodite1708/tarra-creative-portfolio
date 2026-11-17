@@ -98,6 +98,20 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  // ── BIOAQUA ──────────────────────────────────────────────────
+  {
+    id: 'bioaqua-doraemon-sheetmask',
+    brand: 'BIOAQUA',
+    title: 'BIOAQUA × Doraemon — Limited Edition Sheet Mask',
+    subtitle: 'Mega-Macro TikTok — PR unboxing + Super Brand Day #BIOAQUAxDoraemon',
+    year: '2024',
+    sampleIds: [
+      'bioaqua-doraemon-kol-brief',
+      'bioaqua-doraemon-pr-package-visual',
+      'bioaqua-doraemon-sheetmask-ugc',
+    ],
+  },
+
   // ── Finally Found You ────────────────────────────────────────
   {
     id: 'ffy-moisturizer-toner-kak-riri',
