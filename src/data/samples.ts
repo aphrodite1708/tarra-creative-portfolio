@@ -627,6 +627,14 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2024',
       },
       {
+        id: 'trueve-niacinamax-tiktok-storyline',
+        title: 'Trueve — Niacinamax™ Series TikTok Storyline',
+        brand: 'Trueve',
+        type: 'pdf',
+        file: '/samples/campaigns/trueve-niacinamax-tiktok-storyline.pdf',
+        year: '2024',
+      },
+      {
         id: 'trueve-niacinamax-kol-brief',
         title: 'Trueve — Niacinamax™ Series KOL Brief',
         brand: 'Trueve',

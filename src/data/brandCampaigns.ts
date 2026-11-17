@@ -781,6 +781,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     year: '2024',
     sampleIds: [
       'trueve-niacinamax-kol-brief',
+      'trueve-niacinamax-tiktok-storyline',
       'trueve-niacinamax-igs-insight',
       'trueve-niacinamax-ugc-1',
       'trueve-niacinamax-ugc-2',
