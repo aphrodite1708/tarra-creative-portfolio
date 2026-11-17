@@ -600,6 +600,14 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2024',
       },
       {
+        id: 'loreal-le-matte-resistance-open-brief',
+        title: "L'Oréal Paris — Le Matte Resistance Open Brief",
+        brand: "L'Oréal",
+        type: 'pdf',
+        file: '/samples/campaigns/loreal-le-matte-resistance-open-brief.pdf',
+        year: '2023',
+      },
+      {
         id: 'loreal-uv-serum-open-brief',
         title: "L'Oréal Paris — UV Defender Serum Open Brief",
         brand: "L'Oréal",
@@ -3907,6 +3915,14 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         url: 'https://drive.google.com/file/d/1Ev_l8IyHQaVBEi0t7dhduMg3CR7R51bG/view?usp=sharing',
         description: 'Published IG Stories UGC for Trueve Niacinamax™ Series — CTA story driving link clicks and @trueve.id sticker taps. Brief-driven by me.',
         year: '2024',
+      },
+      {
+        id: 'loreal-le-matte-resistance-ugc',
+        title: "L'Oréal Paris — Le Matte Resistance IG Stories UGC",
+        brand: "L'Oréal",
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1yZMn2e07UyIASzvtRCkWU-XnpiCiw1Xt/view?usp=sharing',
+        year: '2023',
       },
       {
         id: 'loreal-uv-serum-ugc',

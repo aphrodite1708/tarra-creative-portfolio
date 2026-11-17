@@ -748,6 +748,17 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
 
   // ── L'Oréal ──────────────────────────────────────────────────
   {
+    id: 'loreal-le-matte-resistance',
+    brand: "L'Oréal",
+    title: 'Le Matte Resistance',
+    subtitle: 'KOL IG Stories — 16H liquid lipstick, #ONEBOLDSWIPE, 8 shades, Shopee Payday activation',
+    year: '2023',
+    sampleIds: [
+      'loreal-le-matte-resistance-open-brief',
+      'loreal-le-matte-resistance-ugc',
+    ],
+  },
+  {
     id: 'loreal-uv-serum',
     brand: "L'Oréal",
     title: 'UV Defender Sun-Repair Serum',
