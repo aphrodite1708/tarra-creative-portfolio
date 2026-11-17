@@ -1577,8 +1577,8 @@ button, a { cursor: none; font-family: inherit; }
   position: absolute;
   object-fit: contain;
   mix-blend-mode: multiply;
-  opacity: 0.55;
-  filter: grayscale(0.3) contrast(1.1);
+  opacity: 0.72;
+  filter: grayscale(0.2) contrast(1.05);
   transition: opacity 0.3s;
 }
 
@@ -1701,15 +1701,15 @@ button, a { cursor: none; font-family: inherit; }
 }
 
 .brand-logo-card--t1 {
-  width: clamp(140px, 18vw, 200px);
-  height: clamp(80px, 10vw, 120px);
+  width: clamp(180px, 22vw, 260px);
+  height: clamp(110px, 13vw, 160px);
   background: #fff;
   border: 1px solid rgba(48, 35, 35, 0.08);
   border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: 24px;
   box-shadow: 0 2px 12px rgba(48, 35, 35, 0.06);
   transition: box-shadow 0.2s, transform 0.2s;
 }
@@ -1726,15 +1726,15 @@ button, a { cursor: none; font-family: inherit; }
 }
 
 .brand-logo-card--t2 {
-  width: clamp(100px, 13vw, 150px);
-  height: clamp(56px, 7vw, 86px);
+  width: clamp(140px, 17vw, 200px);
+  height: clamp(80px, 10vw, 120px);
   background: #fff;
   border: 1px solid rgba(48, 35, 35, 0.07);
   border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 14px;
+  padding: 18px;
   box-shadow: 0 1px 6px rgba(48, 35, 35, 0.05);
   transition: box-shadow 0.2s, transform 0.2s;
 }
@@ -1751,15 +1751,15 @@ button, a { cursor: none; font-family: inherit; }
 }
 
 .brand-logo-card--t3 {
-  width: clamp(80px, 10vw, 118px);
-  height: clamp(44px, 5.5vw, 64px);
+  width: clamp(110px, 13vw, 155px);
+  height: clamp(64px, 8vw, 92px);
   background: #fff;
   border: 1px solid rgba(48, 35, 35, 0.06);
   border-radius: 6px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px;
+  padding: 14px;
   box-shadow: 0 1px 4px rgba(48, 35, 35, 0.04);
 }
 
@@ -1971,8 +1971,9 @@ button, a { cursor: none; font-family: inherit; }
     padding: 32px 20px 32px;
   }
 
-  .brand-logo-card--t1 { width: 120px; height: 68px; }
-  .brand-logo-card--t2 { width: 90px; height: 52px; }
+  .brand-logo-card--t1 { width: 160px; height: 90px; }
+  .brand-logo-card--t2 { width: 120px; height: 68px; }
+  .brand-logo-card--t3 { width: 100px; height: 58px; }
   .brand-results-grid,
   .creator-stats-inner { gap: 28px; }
 }

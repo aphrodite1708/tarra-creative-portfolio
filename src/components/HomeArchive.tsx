@@ -11,11 +11,11 @@ type Panel = 'brand' | 'creator'
 
 // Brand logos scattered on the Brand folder face
 const COLLAGE_LOGOS = [
-  { brand: 'Disney Cruise Line', src: '/brands/disney-cruise-line.png', left: '8%',  top: '10%', rotate: -7,  size: 46 },
-  { brand: "L'Oréal",           src: '/brands/loreal.png',             left: '54%', top: '7%',  rotate: 5,   size: 48 },
-  { brand: 'Maybelline',         src: '/brands/maybelline.png',         left: '28%', top: '19%', rotate: -3,  size: 50 },
-  { brand: 'TIRTIR',             src: '/brands/tirtir.png',             left: '65%', top: '24%', rotate: 8,   size: 38 },
-  { brand: 'Garnier',            src: '/brands/garnier.png',            left: '12%', top: '34%', rotate: 4,   size: 44 },
+  { brand: 'Disney Cruise Line', src: '/brands/disney-cruise-line.png', left: '5%',  top: '8%',  rotate: -6,  size: 92 },
+  { brand: "L'Oréal",           src: '/brands/loreal.png',             left: '50%', top: '5%',  rotate: 5,   size: 100 },
+  { brand: 'Maybelline',         src: '/brands/maybelline.png',         left: '24%', top: '22%', rotate: -3,  size: 104 },
+  { brand: 'TIRTIR',             src: '/brands/tirtir.png',             left: '62%', top: '26%', rotate: 7,   size: 80 },
+  { brand: 'Garnier',            src: '/brands/garnier.png',            left: '7%',  top: '40%', rotate: 4,   size: 90 },
 ]
 
 function BinderClip() {
