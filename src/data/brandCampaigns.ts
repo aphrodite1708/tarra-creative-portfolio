@@ -810,6 +810,20 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  // ── Sushiro ──────────────────────────────────────────────────
+  {
+    id: 'sushiro-dakko-merch',
+    brand: 'Sushiro',
+    title: 'Dakko Sushi Merchandise',
+    subtitle: 'KOL IG Reels — collectible merch launch, Ebi Usagi & Ikura Panda characters, 79K+ views',
+    year: '2024',
+    sampleIds: [
+      'sushiro-kol-brief',
+      'sushiro-dakko-merch-insight',
+      'sushiro-dakko-merch-ugc',
+    ],
+  },
+
   // ── Milux.co ─────────────────────────────────────────────────
   {
     id: 'milux-co-creator-collab',

@@ -1212,12 +1212,28 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2024',
       },
       {
+        id: 'sushiro-kol-brief',
+        title: 'Sushiro — KOL Brief (Campaign 1 & 2)',
+        brand: 'Sushiro',
+        type: 'pdf',
+        file: '/samples/campaigns/sushiro-kol-brief.pdf',
+        year: '2024',
+      },
+      {
         id: 'trueve-niacinamax-igs-insight',
         title: 'Trueve — Niacinamax™ Series IG Stories Insight',
         brand: 'Trueve',
         type: 'pdf',
         file: '/samples/campaigns/trueve-niacinamax-igs-insight.pdf',
         description: 'IG Stories performance report for the Trueve Niacinamax™ Series KOL activation — peak story set: 27,438 views · 26,589 accounts reached · 64 interactions (50 likes, 10 replies, 4 shares) · 63 accounts engaged. Additional story sets: 26,534 views / 25,681 accounts reached and 25,904 views / 24,820 accounts reached · 326 link clicks · 29 @trueve.id sticker taps per set.',
+        year: '2024',
+      },
+      {
+        id: 'sushiro-dakko-merch-insight',
+        title: 'Sushiro — Dakko Merch IG Reels Insight',
+        brand: 'Sushiro',
+        type: 'pdf',
+        file: '/samples/campaigns/sushiro-dakko-merch-insight.pdf',
         year: '2024',
       },
       {
@@ -3818,6 +3834,14 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         type: 'link',
         url: 'https://drive.google.com/file/d/1Ev_l8IyHQaVBEi0t7dhduMg3CR7R51bG/view?usp=sharing',
         description: 'Published IG Stories UGC for Trueve Niacinamax™ Series — CTA story driving link clicks and @trueve.id sticker taps. Brief-driven by me.',
+        year: '2024',
+      },
+      {
+        id: 'sushiro-dakko-merch-ugc',
+        title: 'Sushiro — Dakko Sushi Merch IG Reels UGC',
+        brand: 'Sushiro',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1QE1nGiQVhHEFqiWO36H1EBlYyijWkY8f/view?usp=sharing',
         year: '2024',
       },
       {
