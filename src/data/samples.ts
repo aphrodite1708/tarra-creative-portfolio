@@ -600,6 +600,22 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2024',
       },
       {
+        id: 'maybelline-music-2022-curation',
+        title: 'Maybelline — 2022 Music Curation',
+        brand: 'Maybelline',
+        type: 'image',
+        file: '/samples/campaigns/maybelline-music-2022-curation.png',
+        year: '2022',
+      },
+      {
+        id: 'maybelline-ssvi-sauce-edit-proof',
+        title: 'Maybelline — Superstay Vinyl Ink Sauce Video Editing',
+        brand: 'Maybelline',
+        type: 'image',
+        file: '/samples/campaigns/maybelline-ssvi-sauce-edit-proof.png',
+        year: '2024',
+      },
+      {
         id: 'maybelline-ssvi-sauce-ref-storyline',
         title: 'Maybelline — Superstay Vinyl Ink Sauce Edition Creator Ref Storyline',
         brand: 'Maybelline',
