@@ -1544,6 +1544,18 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  {
+    id: 'yellowfit-npure-healthy-skin-package',
+    brand: 'Yellow Fit Kitchen',
+    title: "Yellow Fit Kitchen × N'Pure — Healthy Skin Package",
+    subtitle: '"Collab of the year" — diet catering × skincare · December, free CICA Acne Clear Pad',
+    year: '2023',
+    sampleIds: [
+      'yellowfit-npure-healthy-skin-brief',
+      'yellowfit-npure-healthy-skin-igs-ugc',
+    ],
+  },
+
   // ── Bio-Oil (additional) ─────────────────────────────────────
   {
     id: 'bio-oil-dry-skin-gel',

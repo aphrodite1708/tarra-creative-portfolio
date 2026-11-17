@@ -5461,6 +5461,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
     // 3 = Visual Content Creation
     3: [
       {
+        id: 'yellowfit-npure-healthy-skin-igs-ugc',
+        title: "astaririri × Yellow Fit Kitchen × N'Pure — Healthy Skin Package IG Stories UGC",
+        brand: 'Yellow Fit Kitchen',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/14SWcCicqOC9hpFUNx3AAV0Oo4aZXowzc/view?usp=sharing',
+        description: "Published IG Stories UGC for Yellow Fit Kitchen × N'Pure Official Healthy Skin Package — December collab campaign. 3-slide Friday afternoon (15:00). Slide 1: Announce collab with YFK food as background, hook: \"BARU PERTAMA KALI LIAT DIET CATERING COLLAB SAMA SKINCARE?! Bener-bener 'collab of the year' @yellowfitkitchen x @npureofficial HEALTHY SKIN PACKAGE.\" Slide 2: Review YFK food + N'Pure products, explain dual benefit: anti-inflammatory + antioxidant, body goals + healthy skin with calorie control. Slide 3: Selfie food review with authentic tasting reaction, free gift callout: \"Khusus pembelian menu kolaborasi @yellowfitkitchen x @npureofficial akan mendapatkan produk NPURE CICA ACNE CLEAR PAD ZIPLOCK secara GRATIS!\", link yellowfitkitchen.com/orderpage/ renamed MENU ENAK SEMUA DISINI. Tag @yellowfitkitchen @npureofficial.",
+        year: '2023',
+      },
+      {
         id: 'yellowfit-indonesia-signature-igs-ugc',
         title: 'astaririri × Yellow Fit Kitchen — Indonesia Signature Menu IG Stories UGC',
         brand: 'Yellow Fit Kitchen',
