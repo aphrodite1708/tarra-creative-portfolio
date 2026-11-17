@@ -3735,7 +3735,16 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         type: 'pdf',
         file: '/samples/campaigns/energen-1week-challenge-reels-script.pdf',
         description: '5-scene Reels storyline for the Energen 1 Week Challenge. Concept: "The morning rush" — a family moment that makes the product feel essential rather than advertised. Scene 1 Hook: POV husband reminds wife of a family waiting outside the makeup room. Scene 2 Rush: quick cuts of a hectic morning routine. Scene 3 Product: Energen prep in kitchen, product shot, 30% more cereal message. Scene 4 Family moment: together at breakfast, 1 Week Challenge CTA. Scene 5 Closing: family leaves ceria, product shot on dining table.',
-        year: '2025',
+        year: '2024',
+      },
+      {
+        id: 'energen-1week-challenge-tiktok-ugc',
+        title: 'astaririri × Energen — "Morning Rush" TikTok UGC',
+        brand: 'Energen',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1IZ2sY0YZEz1fIzncvb_ho_Gp3QrG27dZ/view?usp=sharing',
+        description: 'Published TikTok UGC for Energen 1 Week Challenge — "Mom\'s Morning Reality" concept. Hook: "UDAH SIAP TAPI BELUM SARAPAN" / "POV: Diingetin suami kalau punya keluarga di luar ruang makeup." 5-scene: bedroom hook with Rama & Rei → morning rush → Energen Vanilla prep in kitchen → family breakfast moment → 1 Week Challenge CTA. Performance: 70,642 views · 62.6K total viewers · 90% non-followers · 71% female · 52% age 25–34 · 13.5% For You · 35 new followers. Wardrobe: yellow outfits. Storyline developed by me.',
+        year: '2024',
       },
       {
         id: 'erha-active-light-sunscreen-reels-script-creator',

@@ -395,12 +395,13 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     id: 'energen-1week-challenge',
     brand: 'Energen',
     title: '1 Week Challenge',
-    subtitle: 'Working Mom KOL — IG Reels + TikTok',
-    year: '2025',
+    subtitle: '"Morning Rush" Working Mom TikTok — 70,642 views · 90% non-followers',
+    year: '2024',
     sampleIds: [
       'energen-1week-challenge-kol-brief',
       'energen-1week-challenge-reels-script',
       'energen-1week-challenge-reels-script-creator',
+      'energen-1week-challenge-tiktok-ugc',
     ],
   },
 
