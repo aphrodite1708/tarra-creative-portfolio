@@ -61,6 +61,10 @@ button, a { cursor: none; font-family: inherit; }
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  background-image:
+    linear-gradient(rgba(100,31,54,0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(100,31,54,0.07) 1px, transparent 1px);
+  background-size: 26px 26px;
 }
 
 /* ─── Hero overlay ──────────────────────────────────────────── */
@@ -171,7 +175,8 @@ button, a { cursor: none; font-family: inherit; }
   display: flex;
   /* must clear hero-overlay width (min(400px,30vw)) + a little buffer */
   padding-left: min(410px, 31vw);
-  gap: 3px;
+  padding-top: 20px;
+  gap: 8px;
   overflow: hidden;
 }
 
@@ -1476,6 +1481,8 @@ button, a { cursor: none; font-family: inherit; }
 /* ─── Two-panel home layout ──────────────────────────────────── */
 .two-panel {
   cursor: none;
+  border-radius: 12px 12px 0 0;
+  box-shadow: 0 -4px 28px rgba(100,31,54,0.1), 0 0 0 1px rgba(100,31,54,0.06);
 }
 
 .two-panel-peek {
@@ -1489,7 +1496,7 @@ button, a { cursor: none; font-family: inherit; }
   font-weight: 900;
   letter-spacing: -0.03em;
   line-height: 1;
-  color: #F7F1E9;
+  color: currentColor;
   margin-bottom: 14px;
 }
 
@@ -1497,9 +1504,32 @@ button, a { cursor: none; font-family: inherit; }
   font-family: var(--font-sans);
   font-size: clamp(0.9rem, 1.2vw, 1.1rem);
   line-height: 1.65;
-  color: rgba(247, 241, 233, 0.7);
+  color: currentColor;
+  opacity: 0.65;
   max-width: 320px;
   margin-bottom: 24px;
+}
+
+/* Folder tab at top of each two-panel */
+.folder-file-tab {
+  position: absolute;
+  top: 0;
+  height: 36px;
+  width: 44%;
+  z-index: 4;
+  pointer-events: none;
+}
+
+.folder-file-tab--brand {
+  right: 0;
+  background: rgba(100,31,54,0.12);
+  border-radius: 0 12px 0 10px;
+}
+
+.folder-file-tab--creator {
+  left: 0;
+  background: rgba(255,255,255,0.1);
+  border-radius: 12px 0 10px 0;
 }
 
 /* ─── Page overlay (Brand / Creator pages) ───────────────────── */

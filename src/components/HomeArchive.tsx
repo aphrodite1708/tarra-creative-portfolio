@@ -20,20 +20,22 @@ export default function HomeArchive() {
 
   const anyHovered = hovered !== null
 
-  const panels: { id: Panel; label: string; sub: string; color: string; textColor: string }[] = [
+  const panels: { id: Panel; label: string; sub: string; color: string; textColor: string; tintColor: string }[] = [
     {
       id: 'brand',
       label: 'Brand',
-      sub: 'Campaigns, strategy, partnerships, briefs & insights',
-      color: '#162342',
-      textColor: '#F7F1E9',
+      sub: 'Campaigns · Strategy · Briefs · Insights',
+      color: '#DEC5C8',
+      textColor: '#641F36',
+      tintColor: 'rgba(100,31,54,0.07)',
     },
     {
       id: 'creator',
       label: 'Creator',
-      sub: 'Scripts, UGC, influencer development & published content',
-      color: '#2D1B3D',
+      sub: 'Scripts · UGC · Influencer Dev · Content',
+      color: '#7A5244',
       textColor: '#F7F1E9',
+      tintColor: 'rgba(255,255,255,0.08)',
     },
   ]
 
@@ -80,9 +82,12 @@ export default function HomeArchive() {
             >
               {/* Subtle paper lines */}
               <div className="panel-tint" style={{
-                background: `repeating-linear-gradient(to bottom, rgba(255,255,255,0.025) 0px, rgba(255,255,255,0.025) 1px, transparent 1px, transparent 32px)`,
+                background: `repeating-linear-gradient(to bottom, ${panel.tintColor} 0px, ${panel.tintColor} 1px, transparent 1px, transparent 28px)`,
                 opacity: 1,
               }} />
+
+              {/* Folder tab */}
+              <div className={`folder-file-tab folder-file-tab--${panel.id}`} />
 
               {/* Vertical label when collapsed */}
               <div className="panel-label">
