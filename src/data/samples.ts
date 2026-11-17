@@ -2676,6 +2676,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         description: 'Senus InstaCurl Automatic Styler (AC02) product visual — reference image used for creator briefing, showing the device design, rose gold colorway, and brand aesthetic for IG Reels content alignment.',
         year: '2025',
       },
+      {
+        id: 'elsheskin-radiant-advance-before-after',
+        title: 'ElsheSkin Radiant Advance Serum — Before & After Story Frame',
+        brand: 'ElsheSkin',
+        type: 'image',
+        file: '/samples/direction/elsheskin-radiant-advance-before-after.png',
+        description: 'Published IG Story Slide 2 for ElsheSkin Radiant Advance Serum brightening campaign — before/after skin tone comparison demonstrating darkspot reduction. DM hook overlay ("di tahap desperate pake ini itu gak ngaruh terus") + "Mantep betul kan???" caption. Side-by-side KOL before/after portrait using a follower DM as social proof mechanic. 18 brightening agents key message; campaign launched on 9.9 sale day.',
+        year: '2024',
+      },
     ],
     // 4 = Campaign Storyboards
     4: [
@@ -4942,6 +4951,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         url: 'https://drive.google.com/file/d/1-UEosf7IimM4-0RjHuvZyzI1uAhJFEmJ/view?usp=sharing',
         description: 'UGC content for Eileen Grace Jelly Mask IG Story activation.',
         year: '2022',
+      },
+      {
+        id: 'elsheskin-radiant-advance-igs-ugc',
+        title: 'astaririri × ElsheSkin — Radiant Advance Serum IG Stories UGC',
+        brand: 'ElsheSkin',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1m95O35Ume5W7BUPUQchd4fvIZjocv4Yd/view?usp=sharing',
+        description: 'Published 2-set IG Stories UGC for ElsheSkin Radiant Advance Serum brightening campaign, posted on 9 September (9.9 sale day). Slide 1: DM hook from follower asking for brightening recommendations ("di tahap desperate pake ini itu gak ngaruh terus") + before/after portrait, caption "Guys kalian harus tau aku lagi coba 1 serum ini, dan ganyangka sih hasilnya bisa bikin secerah inii." Slide 2: real-time skincare application talk — 18 brightening agents, tranexamic acid, game-changer for kulit badak, rate 1000/10, UTM CTA "CO deh buru, udah gajian kan!" Performance: Story Set 1: 22,262 views · 21,862 accounts reached · 38 interactions (29 likes, 3 replies, 6 shares) · Story Set 2: 21,529 views · 20,884 reached · 44 interactions (33 likes, 7 replies, 4 shares) · 478 link clicks · 19 @elsheskin sticker taps · Combined: 43,791 total views.',
+        year: '2024',
       },
       {
         id: 'safi-age-defy-reel-insight-creator',

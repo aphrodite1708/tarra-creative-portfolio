@@ -369,6 +369,20 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     sampleIds: ['eileen-grace-ig-stories-insight'],
   },
 
+  // ── ElsheSkin ─────────────────────────────────────────────────
+  {
+    id: 'elsheskin-radiant-advance-serum',
+    brand: 'ElsheSkin',
+    title: 'Radiant Advance Serum — Brightening',
+    subtitle: '2-set IG Stories · 43,791 total views · 478 link clicks · 18 brightening agents',
+    year: '2024',
+    sampleIds: [
+      'elsheskin-radiant-advance-igs-brief',
+      'elsheskin-radiant-advance-before-after',
+      'elsheskin-radiant-advance-igs-ugc',
+    ],
+  },
+
   // ── Embryolisse ──────────────────────────────────────────────
   {
     id: 'embryolisse-lait-creme-concentre',
