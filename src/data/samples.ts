@@ -465,6 +465,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2025',
       },
       {
+        id: 'pepsodent-sme-kol-brief',
+        title: 'Pepsodent Sensitive Mineral Expert — H2 2023 SAT KOL Brief',
+        brand: 'Pepsodent',
+        type: 'pdf',
+        file: '/samples/campaigns/pepsodent-sme-kol-brief.pdf',
+        description: 'KOL brief for Pepsodent Sensitive Mineral Expert (SME) H2 2023 campaign via Unilever Studio. SOW: 1x IG Reels published exclusively on @alfamart (3.3M followers). KOL: Astari Budi (@astaririri). Key message: #100PersenYakinBebasNgilu — Active Remin Complex, dentist-recommended, now available at Alfamart. Content directive: show sensitive teeth struggle then relief with SME. CTA: "Beli sekarang di Alfamart terdekat!" Wardrobe: white outfit with turquoise touch. Dos/Don\'ts: no competitor brands, authentic demonstration of product benefit.',
+        year: '2023',
+      },
+      {
         id: 'lazada-keluarga-ada-aja-alazan-brief',
         title: 'Lazada × Keluarga Ada Aja ALAZan — KOL Guideline',
         brand: 'Lazada',

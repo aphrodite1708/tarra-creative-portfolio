@@ -1125,6 +1125,18 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     sampleIds: ['pergikuliner-kol-brief', 'pergikuliner-creator-research'],
   },
 
+  // ── Pepsodent ────────────────────────────────────────────────
+  {
+    id: 'pepsodent-sme-2023',
+    brand: 'Pepsodent',
+    title: 'Sensitive Mineral Expert — H2 2023 SAT',
+    subtitle: '1x IG Reels on @alfamart (3.3M) · #100PersenYakinBebasNgilu · Unilever Studio',
+    year: '2023',
+    sampleIds: [
+      'pepsodent-sme-kol-brief',
+    ],
+  },
+
   // ── Pond's ───────────────────────────────────────────────────
   {
     id: 'ponds-guardian-shopee-live',
