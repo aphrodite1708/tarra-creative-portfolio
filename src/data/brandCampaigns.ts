@@ -929,6 +929,21 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  // ── Spotify ──────────────────────────────────────────────────
+  {
+    id: 'spotify-inispotifyaku',
+    brand: 'Spotify',
+    title: '#InisSpotifyAku — IG Stories',
+    subtitle: 'KOL IG Stories — playlist sharing campaign, 55K views · 49K accounts reached · 13 sticker taps @spotifyid · #inispotifyaku',
+    year: '2024',
+    sampleIds: [
+      'spotify-inispotifyaku-brief',
+      'spotify-inispotifyaku-insight',
+      'spotify-inispotifyaku-ugc-1',
+      'spotify-inispotifyaku-ugc-2',
+    ],
+  },
+
   // ── Sushiro ──────────────────────────────────────────────────
   {
     id: 'sushiro-grand-menu',
