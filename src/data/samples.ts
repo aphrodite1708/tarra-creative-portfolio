@@ -5452,6 +5452,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
     // 3 = Visual Content Creation
     3: [
       {
+        id: 'yellowfit-mega-weekend-igs-ugc',
+        title: 'astaririri × Yellow Fit Kitchen — Mega Weekend IG Stories UGC',
+        brand: 'Yellow Fit Kitchen',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/19vGsZ-BnuROWuIeOUtMpVtFxN108RrXU/view?usp=sharing',
+        description: 'Published IG Stories UGC for Yellow Fit Kitchen Mega Weekend September 2022 — 3-slide gimmick campaign. Slide 1: selfie video when Yellow Fit courier arrives with 4 meal boxes, genuine reaction to legendary menu comeback. Slide 2: menu photo reveal with link to yellowfitkitchen.com/official (renamed as ORDER/KONSULTASI GRATIS). Slide 3: screenshot DM replies from followers, social proof storytelling. Mandatory hooks: "OMG!! MENU-MENU LEGEND @YELLOWFITKITCHEN COMEBACK SETELAH 5 TAHUN!!" and "Menu kolaborasi ini CUMA ADA MINGGU DEPAN & nggak akan ada lagi!" Posted Friday/Saturday/Sunday lunch time, tag @yellowfitkitchen.',
+        year: '2022',
+      },
+      {
         id: 'ai-creatives-visual-drive-folder',
         title: 'AI Creative Portfolio',
         brand: 'Various Brands',

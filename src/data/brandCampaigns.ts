@@ -1518,6 +1518,19 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  // ── Yellow Fit Kitchen ───────────────────────────────────────
+  {
+    id: 'yellowfit-mega-weekend-special-month',
+    brand: 'Yellow Fit Kitchen',
+    title: 'Mega Weekend — September Special Month',
+    subtitle: 'IG Stories gimmick — delivery unboxing + legendary menu comeback after 5 years',
+    year: '2022',
+    sampleIds: [
+      'yellowfit-mega-weekend-igs-brief',
+      'yellowfit-mega-weekend-igs-ugc',
+    ],
+  },
+
   // ── Bio-Oil (additional) ─────────────────────────────────────
   {
     id: 'bio-oil-dry-skin-gel',
