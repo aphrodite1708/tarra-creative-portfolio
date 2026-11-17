@@ -815,6 +815,18 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
 
   // ── L'Oréal ──────────────────────────────────────────────────
   {
+    id: 'loreal-le-matte-limited-shades-igs',
+    brand: "L'Oréal",
+    title: 'Infallible Matte Resistance — Limited Shades IG Stories',
+    subtitle: 'KOL IG Stories — Shade 105 ombre, conversational review format, Shopee Super Brand Day, #OneBoldSwipe',
+    year: '2024',
+    sampleIds: [
+      'loreal-le-matte-limited-shades-kol-brief',
+      'loreal-le-matte-limited-shades-igs-storyline',
+      'loreal-le-matte-limited-shades-igs-ugc',
+    ],
+  },
+  {
     id: 'loreal-le-matte-limited-shades',
     brand: "L'Oréal",
     title: 'Infallible Matte Resistance — Limited Shades Ombre',
