@@ -505,6 +505,19 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     year: '2024',
     sampleIds: ['garnier-reels-insight'],
   },
+  {
+    id: 'garnier-skin-university-2024',
+    brand: 'Garnier',
+    title: 'Skin University by L\'Oréal — KOL Event',
+    subtitle: 'Prep School dresscode · Green Classroom + Super UV Lounge · Jan 18, 2024, The Brickhall',
+    year: '2024',
+    sampleIds: [
+      'garnier-skin-university-kol-brief',
+      'garnier-skin-university-wardrobe',
+      'garnier-skin-university-igs-ugc',
+      'garnier-skin-university-reels-ugc',
+    ],
+  },
 
   // ── Grace and Glow ───────────────────────────────────────────
   {
