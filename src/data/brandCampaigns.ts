@@ -1165,6 +1165,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'pureco-daily-home-detergent-igs-script-direction',
       'pureco-brand-profile-creator',
       'pureco-daily-home-detergent-igs-script-creator',
+      'pureco-daily-home-detergent-igs-ugc',
     ],
   },
 

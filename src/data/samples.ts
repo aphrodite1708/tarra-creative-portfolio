@@ -3792,6 +3792,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2025',
       },
       {
+        id: 'pureco-daily-home-detergent-igs-ugc',
+        title: 'astaririri × Pureco — Daily Home Detergent IG Stories UGC',
+        brand: 'Pureco',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1ruwuKsmU1haL0FyiZuB-LjswbGf8YD4D/view?usp=sharing',
+        description: 'Published IG Stories UGC for Pureco Daily Home Detergent (Geranium & Orange) — "Unexpected Product Discovery" vlog-style format. Walk to laundry area, pick up product, genuine scent reaction. Hook: "JARANG-JARANG KAN W SPILL DETERGEN?!" Plant-based formula, essential oils, antibacterial, color protection. Tag @pureco.inc. Script and storyline developed by me.',
+        year: '2024',
+      },
+      {
         id: 'sculpt-skin-brightening-underarm-igs-script-creator',
         title: 'Sculpt Skin — Brightening Underarm Cream IG Story Script',
         brand: 'Sculpt Skin',
