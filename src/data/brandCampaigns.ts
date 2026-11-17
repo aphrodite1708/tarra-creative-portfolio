@@ -685,6 +685,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'lazada-keluarga-ada-aja-alazan-reels-storyboard',
       'lazada-keluarga-ada-aja-alazan-brief-creator-strategy',
       'lazada-keluarga-ada-aja-alazan-reels-script-creator',
+      'lazada-keluarga-ada-aja-alazan-ugc',
       'lazada-keluarga-ada-aja-alazan-reels-insight',
     ],
   },

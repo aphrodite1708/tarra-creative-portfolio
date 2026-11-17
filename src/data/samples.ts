@@ -4423,6 +4423,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2022',
       },
       {
+        id: 'lazada-keluarga-ada-aja-alazan-ugc',
+        title: 'astaririri × Lazada — #KeluargaAdaAjaALazan IG Reel',
+        brand: 'Lazada',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1CVW_Cc0vTwHE98JFD8411JBXQMCZnw53/view?usp=sharing',
+        description: 'Published IG Reel — sitcom-style branded integration for Lazada 12.12 "Promo Habis-Habisan Akhir Tahun". 271,755 plays · 242,413 accounts reached · 164,404 non-followers (67.9%) · 4,463 interactions (4,244 likes, 105 shares, 90 saves, 24 comments) · 526 hr 26 min total watch time. #KeluargaAdaAjaALazan · Brief and storyline developed by me.',
+        year: '2023',
+      },
+      {
         id: 'ugc-published-content-drive-folder',
         title: 'UGC Published Content — Full Portfolio',
         brand: 'Various Brands',
