@@ -24,7 +24,7 @@ export default function CreatorPage({ onClose }: Props) {
       transition={{ duration: 0.55, ease: [0.16, 1, 0.3, 1] }}
     >
       {/* Header */}
-      <div className="page-header" style={{ background: '#2D1B3D' }}>
+      <div className="page-header" style={{ background: '#7A5244', color: '#F7F1E9' }}>
         <div className="page-header-inner">
           <div className="page-header-meta">
             <span className="page-header-eyebrow">Portfolio</span>

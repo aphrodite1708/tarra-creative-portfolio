@@ -103,12 +103,12 @@ export default function BrandSamplesView({ brandName, onClose }: Props) {
         transition={{ duration: 0.48, ease: [0.16, 1, 0.3, 1] }}
       >
         {/* Header */}
-        <div className="area-overlay-header" style={{ background: '#162342', color: '#F7F1E9' }}>
+        <div className="area-overlay-header" style={{ background: '#DEC5C8', color: '#641F36' }}>
           <div className="area-overlay-inner">
             <div className="area-breadcrumb">
               <motion.button
                 className="area-back"
-                style={{ color: '#F7F1E9', borderColor: 'rgba(247,241,233,0.25)' }}
+                style={{ color: '#641F36', borderColor: 'rgba(100,31,54,0.25)' }}
                 onClick={onClose}
                 whileHover={{ x: -4 }}
                 whileTap={{ scale: 0.95 }}
@@ -126,7 +126,7 @@ export default function BrandSamplesView({ brandName, onClose }: Props) {
                   src={logo}
                   alt={brandName}
                   onError={() => setLogoFailed(true)}
-                  style={{ height: 40, maxWidth: 140, objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
+                  style={{ height: 40, maxWidth: 140, objectFit: 'contain', filter: 'brightness(0) saturate(0) opacity(0.7)' }}
                 />
               ) : (
                 <span style={{ fontSize: 26, fontWeight: 700, letterSpacing: '-0.03em' }}>{brandName}</span>

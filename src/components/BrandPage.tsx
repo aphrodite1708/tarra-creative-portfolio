@@ -41,7 +41,7 @@ export default function BrandPage({ onClose }: Props) {
       transition={{ duration: 0.55, ease: [0.16, 1, 0.3, 1] }}
     >
       {/* Header */}
-      <div className="page-header" style={{ background: '#162342' }}>
+      <div className="page-header" style={{ background: '#DEC5C8', color: '#641F36' }}>
         <div className="page-header-inner">
           <div className="page-header-meta">
             <span className="page-header-eyebrow">Portfolio</span>
@@ -53,7 +53,7 @@ export default function BrandPage({ onClose }: Props) {
           </p>
           <motion.button
             className="section-close"
-            style={{ color: '#F7F1E9', borderColor: 'rgba(247,241,233,0.25)' }}
+            style={{ color: '#641F36', borderColor: 'rgba(100,31,54,0.25)' }}
             onClick={onClose}
             whileHover={{ x: -4 }}
             whileTap={{ scale: 0.95 }}
