@@ -81,6 +81,14 @@ export const BRAND_LOGOS: Record<string, string> = {
   'Westcare':            '/brands/westcare.png',
   'dr. Belle':           '/brands/dr-belle.png',
   'dörskin':             '/brands/dorskin.png',
+  'BIOAQUA':             '/brands/bioaqua.png',
+  'Collagena':           '/brands/collagena.png',
+  'ElsheSkin':           '/brands/elsheskin.png',
+  'NPURE':               '/brands/npure.png',
+  'Pepsodent':           '/brands/pepsodent.png',
+  'Putih by Dentist':    '/brands/putih-by-dentist.png',
+  'Sovia Jewelry':       '/brands/sovia-jewelry.png',
+  'Yellow Fit Kitchen':  '/brands/yellow-fit-kitchen.png',
 }
 
 // All brands for the showcase strip — ordered roughly by recency / prominence
@@ -156,4 +164,12 @@ export const BRANDS_LIST: { name: string; logo: string }[] = [
   { name: 'BabyGo',              logo: '/brands/babygo.png' },
   { name: 'HighEnd × MNC',       logo: '/brands/highend.png' },
   { name: 'Secondate × Xexymix', logo: '/brands/secondate-xexymix.png' },
+  { name: 'BIOAQUA',             logo: '/brands/bioaqua.png' },
+  { name: 'ElsheSkin',           logo: '/brands/elsheskin.png' },
+  { name: 'NPURE',               logo: '/brands/npure.png' },
+  { name: 'Putih by Dentist',    logo: '/brands/putih-by-dentist.png' },
+  { name: 'Yellow Fit Kitchen',  logo: '/brands/yellow-fit-kitchen.png' },
+  { name: 'Collagena',           logo: '/brands/collagena.png' },
+  { name: 'Sovia Jewelry',       logo: '/brands/sovia-jewelry.png' },
+  { name: 'Pepsodent',           logo: '/brands/pepsodent.png' },
 ]
