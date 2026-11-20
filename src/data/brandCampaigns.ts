@@ -500,6 +500,16 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     year: '2025',
     sampleIds: ['g2g-2in1-cushion-powder-product', 'g2g-2in1-cushion-powder-creator-strategy'],
   },
+  {
+    id: 'g2g-perfect-cover-glow-cushion',
+    brand: 'G2G',
+    title: 'Perfect Cover Glow Cushion',
+    subtitle: '"Makeup Kaca" glowing finish · HIGH COVERAGE 1 swipe · NO CRACK NO CREASING · 6 shades · 99K · #SelingkuhKeCushionLain',
+    year: '2025',
+    sampleIds: [
+      'g2g-pgc-kol-brief',
+    ],
+  },
 
   // ── Garnier ──────────────────────────────────────────────────
   {
