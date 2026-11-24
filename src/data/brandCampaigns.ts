@@ -1662,6 +1662,22 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  // ── Wonderlux ────────────────────────────────────────────────
+  {
+    id: 'wonderlux-hair-serum',
+    brand: 'Wonderlux',
+    title: 'Drop Dead GROWGEOUS! Hair Serum & Scalp Serums',
+    subtitle: '"Drop Dead GROWGEOUS!" · Densifying Hair Serum + Set the Oil Free! + Calm It Down! Scalp Serums · Organic Pea Sprout Extract · 86% stimulate hair growth in 8 weeks · Biotin Peptide · 100% vegan · for thinning & shedding hair',
+    year: '2023',
+    sampleIds: [
+      'wonderlux-hair-serum-brief',
+      'wonderlux-hair-serum-ugc-1',
+      'wonderlux-hair-serum-ugc-2',
+      'wonderlux-hair-serum-ugc-3',
+      'wonderlux-hair-serum-ugc-4',
+    ],
+  },
+
   // ── Westcare ─────────────────────────────────────────────────
   {
     id: 'westcare-invisible-uv-protector',

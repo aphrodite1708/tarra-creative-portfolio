@@ -81,6 +81,7 @@ export const BRAND_LOGOS: Record<string, string> = {
   'Westcare':            '/brands/westcare.png',
   'dr. Belle':           '/brands/dr-belle.png',
   'dörskin':             '/brands/dorskin.png',
+  'Wonderlux':           '/brands/wonderlux.png',
   'Azarine':             '/brands/azarine.png',
   'BIOAQUA':             '/brands/bioaqua.png',
   'Collagena':           '/brands/collagena.png',
@@ -173,5 +174,6 @@ export const BRANDS_LIST: { name: string; logo: string }[] = [
   { name: 'Collagena',           logo: '/brands/collagena.png' },
   { name: 'Sovia Jewelry',       logo: '/brands/sovia-jewelry.png' },
   { name: 'Pepsodent',           logo: '/brands/pepsodent.png' },
+  { name: 'Wonderlux',           logo: '/brands/wonderlux.png' },
   { name: 'Azarine',             logo: '/brands/azarine.png' },
 ]
