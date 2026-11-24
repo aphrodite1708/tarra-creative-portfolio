@@ -1101,6 +1101,20 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  {
+    id: 'azarine-red-velvet-lazada',
+    brand: 'Azarine',
+    title: 'Red Velvet × Lazada — Exclusive Makeup Collection',
+    subtitle: '"Asli secantik itu" "Makeupnya Red Velvet" · Blush On + Bronzer + Highlighter + Eyeshadow + Brow-cara · 21.1K reach · 630 link clicks · "Unleash Your Facetive On!" · Lazada exclusive · bundle up to 50% off',
+    year: '2023',
+    sampleIds: [
+      'azarine-red-velvet-igs-brief',
+      'azarine-red-velvet-ugc-1',
+      'azarine-red-velvet-ugc-2',
+      'azarine-red-velvet-ugc-3',
+    ],
+  },
+
   // ── Spotify ──────────────────────────────────────────────────
   {
     id: 'spotify-inispotifyaku',
