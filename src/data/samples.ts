@@ -1082,6 +1082,24 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         description: 'IGS Tap Link brief for Azarine Beauty Glamfest 11.11 (9–11 November 2024) — festival sale at e-commerce platforms throughout November. Tag @azarinecosmeticofficial. Keyword wajib: "Azarine lagi adain Beauty Glamfest!" "Banyak bundle dan promosi menarik!" "Check sekarang juga sebelum harga kembali normal." Deals: Buy 1 get 1 Lip Velvet Rp59K, Buy TWC free eyeliner Rp75K, Buy eyeshadow gratis liptint Rp65K. Discount up to 70% + free GWP + free products. Format: hook 1-2 detik, makeup on-cam VO, CTA ke link di story.',
         year: '2024',
       },
+      {
+        id: 'azarine-glow-revolution-brief',
+        title: 'Azarine Glow Revolution Series — KOL Brief',
+        brand: 'Azarine',
+        type: 'pdf',
+        file: '/samples/campaigns/BRIEF GLOW REVOLUTION.pdf',
+        description: 'KOL brief for Azarine Glow Revolution Series — full Vitamin C brightening skincare line. Products: Brightening Glow Facial Cleanser (NEW, Symradiance® 399 + Niacinamide), C|White Multi-Acids Glowing Toner (Vit C + Tranexamic + Ferulic + Mandelic Acid, pH 5-5.5), Brightening C-Glow Serum (Vit C 3%, Tyrostat™, Bumil & Busui Friendly), Supreme Glow Brightening Moisturizer (NEW, MossCellTec™ No.1 + Pentavitin™, 72h hydration), Hydramax-C Sunscreen Serum SPF50 PA++++ (Hyaluron 11 Multi-complex + Ectoin, Blue Light Protection). "The Secret of Glowing Skin." Brightening & Radiant Skin series.',
+        year: '2024',
+      },
+      {
+        id: 'azarine-glow-revolution-pk',
+        title: 'Azarine Glow Revolution Series — Product Knowledge',
+        brand: 'Azarine',
+        type: 'pdf',
+        file: '/samples/campaigns/Glow Revolution Product Knowledge.pdf',
+        description: 'Full product knowledge document for Azarine Glow Revolution Series — detailed breakdown of 5 products: ingredients, BPOM numbers, skin concerns addressed, usage instructions, and key claims. Brightening Glow Facial Cleanser (BPOM NA18241206873), Multi-Acids Glowing Toner (BPOM NA18211206237), Brightening C-Glow Serum (Vit C 3% + Tyrostat™ 1%, pH 5–5.5, No Alcohol, No Fragrance), Supreme Glow Brightening Moisturizer (BPOM NA18240111753, MossCellTec™ + Symradiance® + Pentavitin™ + OXY 229 CB, 72h hydration), Hydramax-C Sunscreen Serum SPF50 PA++++ (BPOM NA18211701919, Hyaluron 11 Multi-complex + Ectoin, Dewy Glow Finish).',
+        year: '2024',
+      },
 
       // ── Wonderlux Activated Briefs ───────────────────────────────
       {
@@ -4099,6 +4117,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         type: 'link',
         url: 'https://drive.google.com/file/d/1KUnzTuC2SMSl3A18AW5gtvhH4FPy4eoT/view?usp=sharing',
         description: 'Published IG Stories UGC for Azarine Beauty Glamfest 11.11. IGS tap link format: hook opening about Beauty Glamfest, makeup on-cam VO delivery, deal highlights — Buy 1 get 1 Lip Velvet Rp59K, Buy TWC free eyeliner Rp75K, Buy eyeshadow gratis liptint Rp65K. Discount up to 70% + free GWP + bundle deals. CTA ke link di story. November 2024. @azarinecosmeticofficial.',
+        year: '2024',
+      },
+      {
+        id: 'azarine-glow-revolution-ugc-1',
+        title: 'astaririri × Azarine — Glow Revolution Series UGC',
+        brand: 'Azarine',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1dTsvKcYjScd63lTF_27U-0SE9QrIOrrC/view?usp=sharing',
+        description: 'Published UGC for Azarine Glow Revolution Series — "The Secret of Glowing Skin." Featuring the full brightening skincare line: Brightening Glow Facial Cleanser, C|White Multi-Acids Glowing Toner, Brightening C-Glow Serum (Vit C 3%), Supreme Glow Brightening Moisturizer, Hydramax-C Sunscreen Serum SPF50 PA++++. Symradiance® 399 + MossCellTec™ + Niacinamide brightening complex. @azarinecosmeticofficial.',
         year: '2024',
       },
       {

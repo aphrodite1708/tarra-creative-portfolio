@@ -1139,6 +1139,19 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  {
+    id: 'azarine-glow-revolution',
+    brand: 'Azarine',
+    title: 'Azarine Glow Revolution Series — "The Secret of Glowing Skin"',
+    subtitle: 'Full Vitamin C brightening line · Brightening Glow Cleanser + C|White Multi-Acids Toner + Brightening C-Glow Serum + Supreme Glow Moisturizer (NEW) + Hydramax-C Sunscreen Serum SPF50 PA++++ · Symradiance® 399 + Niacinamide + MossCellTec™ No.1 · Instant Hydration 72 hours · Blue Light Protection',
+    year: '2024',
+    sampleIds: [
+      'azarine-glow-revolution-brief',
+      'azarine-glow-revolution-pk',
+      'azarine-glow-revolution-ugc-1',
+    ],
+  },
+
   // ── Spotify ──────────────────────────────────────────────────
   {
     id: 'spotify-inispotifyaku',
