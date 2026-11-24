@@ -1115,6 +1115,18 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  {
+    id: 'azarine-minions-lippiecable',
+    brand: 'Azarine',
+    title: 'Azarine × Minions — Lippiecable Balm Series',
+    subtitle: '"Stay Lippicable, Bye Chapped Lips!" · Limited edition Minions packaging · 4 shades: Banana Jelly + Caramel Candy + Apple Toffee + Pinky Gummy · Shea Butter + Hyaluronic Acid + 3 Natural Oils · 8 jam Instant Moisturizing · UV Filter · Start from Rp50K · 01–05 Juli 2024',
+    year: '2024',
+    sampleIds: [
+      'azarine-minions-igs-brief',
+      'azarine-minions-ugc-1',
+    ],
+  },
+
   // ── Spotify ──────────────────────────────────────────────────
   {
     id: 'spotify-inispotifyaku',

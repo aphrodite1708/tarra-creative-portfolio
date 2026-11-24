@@ -1064,6 +1064,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         description: 'KOL brief for Azarine × Red Velvet exclusive makeup collection on Lazada — Chic To Cheek Blush On, Get Sunkissed! Bronzer, Pop The Soda! Highlighter, Sweet Treats Eyeshadow, Make It Brow-cara! "Unleash Your Facetive On!" Start from Rp50K, bundle up to 50% disc + free Red Velvet pouch + PC Red Velvet.',
         year: '2023',
       },
+      {
+        id: 'azarine-minions-igs-brief',
+        title: 'Azarine × Minions — Lippiecable Balm Series IG Story Brief',
+        brand: 'Azarine',
+        type: 'pdf',
+        file: '/samples/campaigns/AZARINE MINIONS BRIEF.pdf',
+        description: 'IG Story campaign brief for Azarine × Minions (Illumination) Lippiecable Balm Series — 4 shades: 01 Banana Jelly, 02 Caramel Candy, 03 Apple Toffee, 04 Pinky Gummy. Key ingredients: Shea Butter, Vitamin E, Hyaluronic Acid, 3 Natural Oils (Sunflower, Almond, Rosehip). Claims: 8 jam Instant Moisturizing, Anti Cracked Lips, Non Sticky Formula, UV Filter, High Intense Buildable Color. Limited edition. Start from Rp50K, beli 2 dapat pouch lucu. Tags @azarinecosmeticofficial @shopee_id. Posting period: 01–05 Juli 2024. Notes: dilarang pakai stiker/gif/backsound Minions, dilarang sebut "X" antara dua brand.',
+        year: '2024',
+      },
 
       // ── Wonderlux Activated Briefs ───────────────────────────────
       {
@@ -4064,6 +4073,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         url: 'https://drive.google.com/file/d/1OjgbgD5pF-TEoARlL4YM0-6tP5q4jRL2/view?usp=sharing',
         description: 'Published IG Stories UGC #3 for Azarine × Red Velvet exclusive makeup collection on Lazada. CTA activation frame with Lazada link sticker. Bundle exclusive deals: up to 50% discount + free Red Velvet pouch + PC Red Velvet photocard. Tagline: "Unleash Your Facetive On!" Start from Rp50K. 15 sticker taps on review frame, 41 sticker taps on CTA frame. October 2023 campaign. @azarinecosmeticofficial.',
         year: '2023',
+      },
+      {
+        id: 'azarine-minions-ugc-1',
+        title: 'astaririri × Azarine × Minions — Lippiecable Balm Series UGC',
+        brand: 'Azarine',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1JEv0jkzbi0Ul50tOJmzRLaNsf7VbDf_5/view?usp=sharing',
+        description: 'Published IG Stories UGC for Azarine × Minions (Illumination) Lippiecable Balm Series. GRWM/review format: swatch all 4 shades (01 Banana Jelly, 02 Caramel Candy, 03 Apple Toffee, 04 Pinky Gummy), recommended 1-2 shades, honest review on texture. Key talking points: "beneran lip balm karena tekstur yg balmy," ringan & ga lengket, ga bikin bibir kering, pigmentasi bisa di build up. Limited edition, Rp50K, beli 2 dapat pouch lucu. Tags @azarinecosmeticofficial @shopee_id. Juli 2024.',
+        year: '2024',
       },
       {
         id: 'azarine-ceraspray-ugc-1',
