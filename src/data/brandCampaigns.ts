@@ -1667,7 +1667,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     id: 'wonderlux-hair-serum',
     brand: 'Wonderlux',
     title: 'Drop Dead GROWGEOUS! Hair Serum & Scalp Serums',
-    subtitle: '"Drop Dead GROWGEOUS!" · Densifying Hair Serum + Set the Oil Free! + Calm It Down! Scalp Serums · Organic Pea Sprout Extract · 86% stimulate hair growth in 8 weeks · Biotin Peptide · 100% vegan · for thinning & shedding hair',
+    subtitle: '"Drop Dead GROWGEOUS!" · Densifying Hair Serum + Set the Oil Free! + Calm It Down! Scalp Serums · Organic Pea Sprout Extract · 86% stimulate hair growth in 8 weeks · 32K reach · 657 link clicks · 175 sticker taps · 100% vegan',
     year: '2023',
     sampleIds: [
       'wonderlux-hair-serum-brief',
@@ -1675,6 +1675,20 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'wonderlux-hair-serum-ugc-2',
       'wonderlux-hair-serum-ugc-3',
       'wonderlux-hair-serum-ugc-4',
+    ],
+  },
+
+  {
+    id: 'wonderlux-shampoo',
+    brand: 'Wonderlux',
+    title: 'Drop Dead GROWGEOUS! Hair Densifying Shampoo',
+    subtitle: '"Baru tau mereka keluarin shampoonya!!" · 3X Formula · Vitaminized Peptide Complex · 68% meningkatkan kelebatan rambut · 0% SLS/SLES · Mild Surfactant · Dermatologist Tested · paired with GROWGEOUS! Serum · promo WONDXRIRI 50% off',
+    year: '2024',
+    sampleIds: [
+      'wonderlux-shampoo-kol-brief',
+      'wonderlux-shampoo-ugc-1',
+      'wonderlux-shampoo-ugc-2',
+      'wonderlux-shampoo-ugc-3',
     ],
   },
 
