@@ -1692,6 +1692,18 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  {
+    id: 'wonderlux-glambar-barbie',
+    brand: 'Wonderlux',
+    title: 'Barbie × Wonderlux — Glam Bar',
+    subtitle: '"Feels Like Living in a Barbie World" · Extra Hold Spray Setter! + Hair Mistion! Enchanted Floral & Eternal Bloom · hairstyling experience · 12 jam++ hold · 3-in-1 UV/Polusi/Bakteri protection · 6 jam++ luxury fragrance · #BarbiexWonderlux',
+    year: '2025',
+    sampleIds: [
+      'wonderlux-glambar-kol-brief',
+      'wonderlux-glambar-ugc-1',
+    ],
+  },
+
   // ── Westcare ─────────────────────────────────────────────────
   {
     id: 'westcare-invisible-uv-protector',
