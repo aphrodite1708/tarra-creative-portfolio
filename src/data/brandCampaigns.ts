@@ -1104,6 +1104,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     year: '2023',
     sampleIds: [
       'azarine-lip-velvet-igs-brief',
+      'azarine-lip-velvet-insight',
       'azarine-lip-velvet-ugc-1',
       'azarine-lip-velvet-ugc-2',
       'azarine-lip-velvet-ugc-3',
@@ -1146,6 +1147,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     year: '2024',
     sampleIds: [
       'azarine-glamfest-igs-brief',
+      'azarine-glamfest-insight',
       'azarine-glamfest-ugc-1',
     ],
   },
@@ -1819,12 +1821,11 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
-  // ── SkinProtector ────────────────────────────────────────────
   {
-    id: 'skinprotector-kids',
-    brand: 'SkinProtector',
-    title: 'SkinProtector Kids — Campaign',
-    subtitle: 'KOL brief for SkinProtector Kids · skincare protection for children',
+    id: 'azarine-skinprotector-kids',
+    brand: 'Azarine',
+    title: 'Azarine SkinProtector Kids — Campaign',
+    subtitle: 'KOL brief for Azarine SkinProtector Kids · skincare protection product line for children',
     year: '2024',
     sampleIds: [
       'skinprotector-kids-brief',
