@@ -475,6 +475,17 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  {
+    id: 'erha-reels-storyline',
+    brand: 'Erha',
+    title: 'Erha — IG Reels Storyline',
+    subtitle: 'IG Reels content storyline · creator script and scene breakdown for Erha skincare campaign',
+    year: '2025',
+    sampleIds: [
+      'erha-reels-storyline-brief',
+    ],
+  },
+
   // ── Firstlab ─────────────────────────────────────────────────
   {
     id: 'firstlab-probiotic-skin-essence',
@@ -1163,6 +1174,28 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  {
+    id: 'azarine-ceraspray-reels-ss',
+    brand: 'Azarine',
+    title: 'Azarine HydraCool Ceraspray — IG Reels + Story Campaign',
+    subtitle: 'IG Reels + IG Story dual-format campaign · HydraCool Ceraspray Sunscreen SPF50 PA+++ · Re-apply Sat-set Anti Ribet · Collagen Water + 7× Ceramide + CICA',
+    year: '2024',
+    sampleIds: [
+      'azarine-ceraspray-reels-ss-brief',
+    ],
+  },
+
+  {
+    id: 'azarine-tinted-lippie-cake',
+    brand: 'Azarine',
+    title: 'Azarine Tinted Lippie Cake — Campaign',
+    subtitle: 'KOL campaign brief for Azarine Tinted Lippie Cake · tinted lip product with buildable colour · Azarine Makeup Series',
+    year: '2024',
+    sampleIds: [
+      'azarine-tinted-lippie-cake-brief',
+    ],
+  },
+
   // ── Spotify ──────────────────────────────────────────────────
   {
     id: 'spotify-inispotifyaku',
@@ -1761,6 +1794,40 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     sampleIds: [
       'wonderlux-glambar-kol-brief',
       'wonderlux-glambar-ugc-1',
+    ],
+  },
+
+  {
+    id: 'wonderlux-campaign-2',
+    brand: 'Wonderlux',
+    title: 'Wonderlux — Campaign 2 KOL Brief',
+    subtitle: 'Wonderlux Campaign 2 · KOL brief for the second campaign in the Wonderlux hair care series',
+    year: '2024',
+    sampleIds: [
+      'wonderlux-campaign-2-brief',
+    ],
+  },
+
+  {
+    id: 'wonderlux-glass-hair',
+    brand: 'Wonderlux',
+    title: 'Wonderlux Glass Hair — Campaign',
+    subtitle: 'Glass Hair styling campaign · ultra-smooth, high-shine glass hair finish · Wonderlux hair styling product line',
+    year: '2025',
+    sampleIds: [
+      'wonderlux-glass-hair-brief',
+    ],
+  },
+
+  // ── SkinProtector ────────────────────────────────────────────
+  {
+    id: 'skinprotector-kids',
+    brand: 'SkinProtector',
+    title: 'SkinProtector Kids — Campaign',
+    subtitle: 'KOL brief for SkinProtector Kids · skincare protection for children',
+    year: '2024',
+    sampleIds: [
+      'skinprotector-kids-brief',
     ],
   },
 
