@@ -1073,6 +1073,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         description: 'IG Story campaign brief for Azarine × Minions (Illumination) Lippiecable Balm Series — 4 shades: 01 Banana Jelly, 02 Caramel Candy, 03 Apple Toffee, 04 Pinky Gummy. Key ingredients: Shea Butter, Vitamin E, Hyaluronic Acid, 3 Natural Oils (Sunflower, Almond, Rosehip). Claims: 8 jam Instant Moisturizing, Anti Cracked Lips, Non Sticky Formula, UV Filter, High Intense Buildable Color. Limited edition. Start from Rp50K, beli 2 dapat pouch lucu. Tags @azarinecosmeticofficial @shopee_id. Posting period: 01–05 Juli 2024. Notes: dilarang pakai stiker/gif/backsound Minions, dilarang sebut "X" antara dua brand.',
         year: '2024',
       },
+      {
+        id: 'azarine-glamfest-igs-brief',
+        title: 'Azarine Beauty Glamfest — 11.11 IGS Tap Link Brief',
+        brand: 'Azarine',
+        type: 'pdf',
+        file: '/samples/campaigns/BRIEF GLAMFEST.pdf',
+        description: 'IGS Tap Link brief for Azarine Beauty Glamfest 11.11 (9–11 November 2024) — festival sale at e-commerce platforms throughout November. Tag @azarinecosmeticofficial. Keyword wajib: "Azarine lagi adain Beauty Glamfest!" "Banyak bundle dan promosi menarik!" "Check sekarang juga sebelum harga kembali normal." Deals: Buy 1 get 1 Lip Velvet Rp59K, Buy TWC free eyeliner Rp75K, Buy eyeshadow gratis liptint Rp65K. Discount up to 70% + free GWP + free products. Format: hook 1-2 detik, makeup on-cam VO, CTA ke link di story.',
+        year: '2024',
+      },
 
       // ── Wonderlux Activated Briefs ───────────────────────────────
       {
@@ -4081,6 +4090,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         type: 'link',
         url: 'https://drive.google.com/file/d/1JEv0jkzbi0Ul50tOJmzRLaNsf7VbDf_5/view?usp=sharing',
         description: 'Published IG Stories UGC for Azarine × Minions (Illumination) Lippiecable Balm Series. GRWM/review format: swatch all 4 shades (01 Banana Jelly, 02 Caramel Candy, 03 Apple Toffee, 04 Pinky Gummy), recommended 1-2 shades, honest review on texture. Key talking points: "beneran lip balm karena tekstur yg balmy," ringan & ga lengket, ga bikin bibir kering, pigmentasi bisa di build up. Limited edition, Rp50K, beli 2 dapat pouch lucu. Tags @azarinecosmeticofficial @shopee_id. Juli 2024.',
+        year: '2024',
+      },
+      {
+        id: 'azarine-glamfest-ugc-1',
+        title: 'astaririri × Azarine — Beauty Glamfest 11.11 UGC',
+        brand: 'Azarine',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1KUnzTuC2SMSl3A18AW5gtvhH4FPy4eoT/view?usp=sharing',
+        description: 'Published IG Stories UGC for Azarine Beauty Glamfest 11.11. IGS tap link format: hook opening about Beauty Glamfest, makeup on-cam VO delivery, deal highlights — Buy 1 get 1 Lip Velvet Rp59K, Buy TWC free eyeliner Rp75K, Buy eyeshadow gratis liptint Rp65K. Discount up to 70% + free GWP + bundle deals. CTA ke link di story. November 2024. @azarinecosmeticofficial.',
         year: '2024',
       },
       {

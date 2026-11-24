@@ -1127,6 +1127,18 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  {
+    id: 'azarine-beauty-glamfest',
+    brand: 'Azarine',
+    title: 'Azarine Beauty Glamfest — 11.11 Sale Campaign',
+    subtitle: '"Azarine lagi adain Beauty Glamfest!" · Festival sale November · Discount up to 70% + free GWP · Buy 1 get 1 Lip Velvet Rp59K · Buy TWC free eyeliner Rp75K · Buy eyeshadow gratis liptint Rp65K · IGS Tap Link · 9–11 November 2024',
+    year: '2024',
+    sampleIds: [
+      'azarine-glamfest-igs-brief',
+      'azarine-glamfest-ugc-1',
+    ],
+  },
+
   // ── Spotify ──────────────────────────────────────────────────
   {
     id: 'spotify-inispotifyaku',
