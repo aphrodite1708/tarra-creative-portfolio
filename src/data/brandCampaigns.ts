@@ -1012,7 +1012,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     id: 'azarine-barrier-moisturizer-series',
     brand: 'Azarine',
     title: 'Barrier Moisturizer Series — IG Story Review',
-    subtitle: '"Pertolongan pertama kulit breakout" · 3 variants · MossCellTec™ No.1 · super affordable ~50K · local pride · #InstantMoist',
+    subtitle: '"Pertolongan pertama kulit breakout" · 3 variants · MossCellTec™ No.1 · 31.8K reach · 764 link clicks · local pride · #InstantMoist',
     year: '2023',
     sampleIds: [
       'azarine-barrier-moisturizer-igs-brief',
@@ -1020,6 +1020,17 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'azarine-barrier-moisturizer-ugc-2',
       'azarine-barrier-moisturizer-ugc-3',
       'azarine-barrier-moisturizer-ugc-4',
+    ],
+  },
+  {
+    id: 'azarine-sun-care-igs',
+    brand: 'Azarine',
+    title: 'Sun Care Series — IG Story Review',
+    subtitle: '"Masih Jadi Sunscreen Ternyaman Andalan Aku!" · Hydrasoothe Gel SPF45 + Ceraspray SPF50 · 26.9K reach · 136 link clicks · #JuaranyaSunscreen',
+    year: '2022',
+    sampleIds: [
+      'azarine-sun-care-igs-brief',
+      'azarine-sun-care-ugc-1',
     ],
   },
 

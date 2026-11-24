@@ -3882,6 +3882,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2024',
       },
       {
+        id: 'azarine-sun-care-ugc-1',
+        title: 'astaririri × Azarine — Sun Care Series IG Stories UGC',
+        brand: 'Azarine',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1ijEgbcBGCNTcItpPbjfsGIg0TfYt-L2b/view?usp=sharing',
+        description: 'Published IG Stories UGC for Azarine Sun Care Series — "Masih Jadi Sunscreen Ternyaman Andalan Aku!" review format. Focus products: Hydrasoothe Sunscreen Gel SPF45 PA++++ (fungal acne safe, oil free, no whitecast, matte hydrating finish; Royal Jelly + Resveratrol + Green Tea + Ectoin; Tokopedia Beauty Awards 2021 Best Sunscreen) + HydraCool Ceraspray Sunscreen SPF50 PA+++ (cooling sensation, Collagen Water + 7x Ceramide + CICA, travel-friendly 50ml, doubles as setting spray). Insight: 26,960 reach, 136 link clicks, 37 engaged. Keyword: "Masih Jadi Sunscreen Ternyaman Andalan Aku!" @azarinesun @azarinecosmeticofficial #JuaranyaSunscreen.',
+        year: '2022',
+      },
+      {
         id: 'azarine-barrier-moisturizer-ugc-1',
         title: 'astaririri × Azarine — Barrier Moisturizer Series IG Stories UGC #1',
         brand: 'Azarine',
