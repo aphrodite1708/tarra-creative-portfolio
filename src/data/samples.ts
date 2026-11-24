@@ -3882,6 +3882,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2024',
       },
       {
+        id: 'azarine-hydrasoothe-upgrade-ugc-1',
+        title: 'astaririri × Azarine — Hydrasoothe Sunscreen Gel New Size IGS + Tap Link UGC',
+        brand: 'Azarine',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1Hv0QEZvEAvElWRZdbiOQA3zTwpo9YwOe/view?usp=sharing',
+        description: 'Published IG Stories + Tap Link UGC for Azarine Hydrasoothe Sunscreen Gel NEW SIZE UNLOCK launch via Shopee × Tokopedia Super Brand Day. Hook: "Akhirnya Sunscreen Azarine Kecintaan Aku Keluarin Size Jumbo 100 ML GRATIS EXTRA 10ML, Jadi Makin Hemat Karna Bisa 70X Pemakaian!" Storyline: show last 50ml tube being used up → announce upgrade from 50ml to 100ml + free 10ml → size comparison → apply 2 jari to face, texture demo (same light formula, cepat meresap) → optional UVCAM test before/after → IN-VIVO certificate pop-up mandatory → CTA TikTok Shop tap link. Product: Hydrasoothe Sunscreen Gel SPF45 PA++++, Rp115K, 110ml total. Ingredients: Royal Jelly + Resveratrol + Green Tea + Ectoin. 0% oil, alcohol, silikon. Award-winning, Sold 1,000,000+ pcs. #SPFMaksimal. No hashtag (softselling). @azarinecosmeticofficial @azarinesun.',
+        year: '2024',
+      },
+      {
         id: 'azarine-shopee-sbd-ugc-1',
         title: 'astaririri × Azarine — Shopee Super Brand Day IG Stories UGC',
         brand: 'Azarine',

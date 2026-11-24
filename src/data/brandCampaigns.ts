@@ -1058,6 +1058,18 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  {
+    id: 'azarine-hydrasoothe-size-upgrade',
+    brand: 'Azarine',
+    title: 'Hydrasoothe Sunscreen Gel — New Size Launch',
+    subtitle: '"Juaranya Sunscreen Gel Terlegend" · 100ml + Extra 10ml FREE · 70x pemakaian · Rp115K · UVCAM Test · #SPFMaksimal · ft. Sandy Kristian (Clash of Champions)',
+    year: '2024',
+    sampleIds: [
+      'azarine-hydrasoothe-upgrade-igs-brief',
+      'azarine-hydrasoothe-upgrade-ugc-1',
+    ],
+  },
+
   // ── Spotify ──────────────────────────────────────────────────
   {
     id: 'spotify-inispotifyaku',
