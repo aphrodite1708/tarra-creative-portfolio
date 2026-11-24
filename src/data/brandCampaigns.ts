@@ -1152,6 +1152,17 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  {
+    id: 'azarine-birthday-wish',
+    brand: 'Azarine',
+    title: 'Special Birthday Wish — Azarine Brand Owner',
+    subtitle: 'Personal birthday video for Azarine brand owner · creator-to-brand relationship content · authentic bond beyond campaigns · shows depth of long-term brand partnership',
+    year: '2024',
+    sampleIds: [
+      'azarine-birthday-wish-video',
+    ],
+  },
+
   // ── Spotify ──────────────────────────────────────────────────
   {
     id: 'spotify-inispotifyaku',

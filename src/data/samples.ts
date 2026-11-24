@@ -4129,6 +4129,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2024',
       },
       {
+        id: 'azarine-birthday-wish-video',
+        title: 'astaririri — Special Birthday Wish for Azarine Brand Owner',
+        brand: 'Azarine',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1VGc4WL501PZPRtC0k7YZvGV_NjyNwz1e/view?usp=sharing',
+        description: 'Special personal birthday video created for the Azarine brand owner — a heartfelt wish that goes beyond campaign deliverables. Demonstrates the authentic, long-term relationship built between creator astaririri and the Azarine team through years of brand partnership.',
+        year: '2024',
+      },
+      {
         id: 'azarine-ceraspray-ugc-1',
         title: 'astaririri × Azarine — HydraCool Ceraspray Sunscreen UGC #1',
         brand: 'Azarine',
