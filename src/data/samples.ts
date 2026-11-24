@@ -1093,6 +1093,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         description: 'KOL brief for Wonderlux × Barbie Glam Bar experience (Feb 2025) — SOW: 1× Reels, 11–15 Februari 2025. Products: Extra Hold SPRAY SETTER! (12 jam++ hold, Hydrolyzed Rice Protein + Macadamia Ternifolia Seed Oil) + HAIR MISTION! Enchanted Floral & Eternal Bloom (6++ jam moisture, FiberHance™, Botanical Hair Shield 3-in-1 UV/Polusi/Bakteri protection, perfect for hijab). Concept: hairstyling session at Glambar, GRWM Barbie. #FabulousHair #BarbiexWonderlux #HairsprayTahanSeharian.',
         year: '2025',
       },
+      {
+        id: 'wonderlux-glambar-teaser-brief',
+        title: 'Wonderlux × Barbie — Glam Bar Pre-Launch Teaser Brief',
+        brand: 'Wonderlux',
+        type: 'pdf',
+        file: '/samples/campaigns/Wonderlux Glam Bar BRIEF.pdf',
+        description: 'Pre-launch collab overview brief for Wonderlux × Barbie Glam Bar — official launch of Extra Hold SPRAY SETTER! + HAIR MISTION! (approved by Mattel 26 April 2024). Glam Bar concept: a full Barbie-pink salon experience delivered to the KOL\'s home with 1 expert hairstylist + 1 Wonderlux team member. Teaser activation preceding the full Glam Bar KOL experience.',
+        year: '2025',
+      },
     ],
     // 2 = Creator Sourcing & Outreach
     2: [
@@ -4606,6 +4615,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         type: 'link',
         url: 'https://drive.google.com/file/d/1g-BpWfqYJnYcbUVsiIut70EeV6LY3SsC/view?usp=sharing',
         description: 'Published Reels UGC for Wonderlux × Barbie Glam Bar experience. GRWM Barbie hairstyling session featuring Extra Hold SPRAY SETTER! + HAIR MISTION! Enchanted Floral & Eternal Bloom. 12 jam++ hold, 6++ jam luxury fragrance, 3-in-1 UV/Polusi/Bakteri protection. #BarbiexWonderlux #FabulousHair. @wonderluxofficial.',
+        year: '2025',
+      },
+      {
+        id: 'wonderlux-glambar-teaser-ugc-1',
+        title: 'astaririri × Wonderlux × Barbie — Glam Bar Teaser UGC',
+        brand: 'Wonderlux',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1sn9CW2LT9zF0PzFq3Su7IQMKbc90MBWo/view?usp=sharing',
+        description: 'Pre-launch teaser UGC for Wonderlux × Barbie Glam Bar collab — full Barbie OOTD pink styling selfies teasing the official collaboration with Extra Hold SPRAY SETTER! + HAIR MISTION!. @wonderluxofficial #BarbiexWonderlux.',
         year: '2025',
       },
       {

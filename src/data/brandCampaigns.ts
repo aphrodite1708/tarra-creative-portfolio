@@ -1693,6 +1693,18 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
   },
 
   {
+    id: 'wonderlux-glambar-teaser',
+    brand: 'Wonderlux',
+    title: 'Barbie × Wonderlux — Glam Bar Pre-Launch Teaser',
+    subtitle: '"In Collaboration with Barbie™" · Pre-launch teaser activation · full Barbie OOTD pink styling · announcing Extra Hold SPRAY SETTER! + HAIR MISTION! × Barbie · Mattel-approved collab · hairstyling experience sent to KOL homes with expert hairstylist',
+    year: '2025',
+    sampleIds: [
+      'wonderlux-glambar-teaser-brief',
+      'wonderlux-glambar-teaser-ugc-1',
+    ],
+  },
+
+  {
     id: 'wonderlux-glambar-barbie',
     brand: 'Wonderlux',
     title: 'Barbie × Wonderlux — Glam Bar',
