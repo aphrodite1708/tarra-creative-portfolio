@@ -1046,6 +1046,18 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  {
+    id: 'azarine-shopee-super-brand-day',
+    brand: 'Azarine',
+    title: 'Shopee × Azarine Super Brand Day',
+    subtitle: '"No. 1 Juaranya Sunscreen Di Indonesia" · Hydrasoothe Gel SPF45 + Ceraspray SPF50 · Dyson Airwrap giveaway · cashback up to 100K · 4-6 Desember · @shopee_id',
+    year: '2023',
+    sampleIds: [
+      'azarine-shopee-sbd-brief',
+      'azarine-shopee-sbd-ugc-1',
+    ],
+  },
+
   // ── Spotify ──────────────────────────────────────────────────
   {
     id: 'spotify-inispotifyaku',

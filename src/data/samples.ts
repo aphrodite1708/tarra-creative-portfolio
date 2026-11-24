@@ -3882,6 +3882,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2024',
       },
       {
+        id: 'azarine-shopee-sbd-ugc-1',
+        title: 'astaririri × Azarine — Shopee Super Brand Day IG Stories UGC',
+        brand: 'Azarine',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1lOQKX6Pdy826ob-UTYf0QzSc3dQ6tP5q/view?usp=sharing',
+        description: 'Published IG Stories UGC for Azarine × Shopee Super Brand Day (4-6 Desember). Softselling format, no hashtag. Products: Hydrasoothe Sunscreen Gel SPF45 PA++++ ("ini sunscreen kecintaan aku karna teksturnya ringan dan gak greasy") + Ceraspray SPF50 PA+++. Mandatory: "Semua Sunscreen Azarine sudah teruji IN-VIVO Test, jadi dijamin 100% Real SPF." Bundle promo highlight: 2 Ceraspray + 2 Hydrasoothe 30ml travel = 160rb; 3 Ceraspray = 105rb (1 pcs normally 70rb). Promo: Dyson Airwrap giveaway, cashback up to Rp100K, exclusive bundling. Brand ambassador: Angga Yunanda. CTA: tap link Keranjang Kuning. Tag @shopee_id @azarinecosmeticofficial.',
+        year: '2023',
+      },
+      {
         id: 'azarine-twc-ugc-1',
         title: "astaririri × Azarine — It's So Porefect Powder Foundation IG Stories UGC",
         brand: 'Azarine',
