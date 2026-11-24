@@ -3882,6 +3882,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2024',
       },
       {
+        id: 'azarine-twc-ugc-1',
+        title: "astaririri × Azarine — It's So Porefect Powder Foundation IG Stories UGC",
+        brand: 'Azarine',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1XHWsfv0NC7Ese_4ffkP6eOFp5f_W-3CK/view?usp=sharing',
+        description: 'Published IG Story UGC for Azarine "It\'s So Porefect Powder Foundation" TikTok Brand Day launch (5–7 August 2024, 50% discount). Hook: "ini nih yang kemarin pada ngira aku pakai filter, abisnya mulus banget ya" — instant pore blurring effect review. 6 shades: 110 Butter (fair-light neutral), 120 Cheese (light neutral-warm), 210 Almond (medium warm), 220 Ginger (medium tan), 310 Chestnut (medium deep), 320 Truffle (deep). Key ingredients: Squalane + Vitamin F + Ceramide. Claims: soft matte finish, buildable coverage, anti bluelight & pollution, non-comedogenic, UV protection, no crack/drying. Brand ambassador: Elsa Japasal. Keywords: "bedak two way cake Azarine", "bedak anti dempul", "porefect filter banget!" @azarinecosmeticofficial. Start from Rp75,000.',
+        year: '2024',
+      },
+      {
         id: 'azarine-sun-care-ugc-1',
         title: 'astaririri × Azarine — Sun Care Series IG Stories UGC',
         brand: 'Azarine',

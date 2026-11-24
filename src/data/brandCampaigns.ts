@@ -1034,6 +1034,18 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  {
+    id: 'azarine-twc-porefect-powder',
+    brand: 'Azarine',
+    title: "It's So Porefect Powder Foundation — TikTok Brand Day Launch",
+    subtitle: '"Bedak anti dempul, porefect filter banget!" · 6 shades · Squalane + Ceramide · Instant Pore Blurring · 50% launch discount · August 2024',
+    year: '2024',
+    sampleIds: [
+      'azarine-twc-igs-brief',
+      'azarine-twc-ugc-1',
+    ],
+  },
+
   // ── Spotify ──────────────────────────────────────────────────
   {
     id: 'spotify-inispotifyaku',
