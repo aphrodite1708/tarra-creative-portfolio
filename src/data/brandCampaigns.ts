@@ -1027,6 +1027,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     year: '2023',
     sampleIds: [
       'azarine-barrier-moisturizer-igs-brief',
+      'azarine-barrier-moisturizer-insight',
       'azarine-barrier-moisturizer-ugc-1',
       'azarine-barrier-moisturizer-ugc-2',
       'azarine-barrier-moisturizer-ugc-3',
@@ -1041,6 +1042,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     year: '2022',
     sampleIds: [
       'azarine-sun-care-igs-brief',
+      'azarine-sun-care-insight',
       'azarine-sun-care-ugc-1',
     ],
   },
@@ -1121,6 +1123,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     year: '2023',
     sampleIds: [
       'azarine-red-velvet-igs-brief',
+      'azarine-red-velvet-insight',
       'azarine-red-velvet-ugc-1',
       'azarine-red-velvet-ugc-2',
       'azarine-red-velvet-ugc-3',
@@ -1807,6 +1810,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     year: '2024',
     sampleIds: [
       'wonderlux-campaign-2-brief',
+      'wonderlux-campaign-2-insight',
     ],
   },
 
