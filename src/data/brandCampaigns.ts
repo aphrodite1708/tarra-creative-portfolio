@@ -1007,6 +1007,22 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  // ── Azarine ──────────────────────────────────────────────────
+  {
+    id: 'azarine-barrier-moisturizer-series',
+    brand: 'Azarine',
+    title: 'Barrier Moisturizer Series — IG Story Review',
+    subtitle: '"Pertolongan pertama kulit breakout" · 3 variants · MossCellTec™ No.1 · super affordable ~50K · local pride · #InstantMoist',
+    year: '2023',
+    sampleIds: [
+      'azarine-barrier-moisturizer-igs-brief',
+      'azarine-barrier-moisturizer-ugc-1',
+      'azarine-barrier-moisturizer-ugc-2',
+      'azarine-barrier-moisturizer-ugc-3',
+      'azarine-barrier-moisturizer-ugc-4',
+    ],
+  },
+
   // ── Spotify ──────────────────────────────────────────────────
   {
     id: 'spotify-inispotifyaku',
