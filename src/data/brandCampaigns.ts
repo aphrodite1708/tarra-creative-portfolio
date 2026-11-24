@@ -1070,6 +1070,21 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  {
+    id: 'azarine-ceraspray-sunscreen',
+    brand: 'Azarine',
+    title: 'HydraCool Ceraspray Sunscreen SPF50',
+    subtitle: '"No. 1 Sunscreen di Indonesia" · Re-apply Sat-set Anti Ribet · Fine Mist Nozzle · Cooling Sensation · Collagen Water + 7x Ceramide + CICA · Rp65K · ft. Lee Minho',
+    year: '2024',
+    sampleIds: [
+      'azarine-ceraspray-igs-brief',
+      'azarine-ceraspray-ugc-1',
+      'azarine-ceraspray-ugc-2',
+      'azarine-ceraspray-ugc-3',
+      'azarine-ceraspray-ugc-4',
+    ],
+  },
+
   // ── Spotify ──────────────────────────────────────────────────
   {
     id: 'spotify-inispotifyaku',
