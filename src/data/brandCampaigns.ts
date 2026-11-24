@@ -1085,6 +1085,22 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  {
+    id: 'azarine-lip-velvet-99',
+    brand: 'Azarine',
+    title: 'Velvety Lippie Cream — 9.9 Promo',
+    subtitle: '"Affordable, ga lengket, super nyaman dipakai" · 8 shades · Hyaluronic Acid + Vit E + Niacinamide · 26.8K reach · 702 link clicks · 47 sticker taps',
+    year: '2023',
+    sampleIds: [
+      'azarine-lip-velvet-igs-brief',
+      'azarine-lip-velvet-ugc-1',
+      'azarine-lip-velvet-ugc-2',
+      'azarine-lip-velvet-ugc-3',
+      'azarine-lip-velvet-ugc-4',
+      'azarine-lip-velvet-anniversary-ugc',
+    ],
+  },
+
   // ── Spotify ──────────────────────────────────────────────────
   {
     id: 'spotify-inispotifyaku',
