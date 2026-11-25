@@ -100,6 +100,7 @@ export const BRAND_LOGOS: Record<string, string> = {
   'Iswhite':             '/brands/iswhite logo.jpg',
   'Skinmurch':           '/brands/skinmurch logo.webp',
   'HaruHaru Wonder':     '/brands/haruharu wonder logo.png',
+  'Pratista':            '/brands/pratista logo.png',
 }
 
 // All brands for the showcase strip — ordered roughly by recency / prominence
@@ -193,4 +194,5 @@ export const BRANDS_LIST: { name: string; logo: string }[] = [
   { name: 'Iswhite',             logo: '/brands/iswhite logo.jpg' },
   { name: 'Skinmurch',           logo: '/brands/skinmurch logo.webp' },
   { name: 'HaruHaru Wonder',     logo: '/brands/haruharu wonder logo.png' },
+  { name: 'Pratista',            logo: '/brands/pratista logo.png' },
 ]

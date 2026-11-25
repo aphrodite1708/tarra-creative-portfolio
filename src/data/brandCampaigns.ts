@@ -282,6 +282,22 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  // ── Pratista ─────────────────────────────────────────────────
+  {
+    id: 'pratista-hyalu-hydrating-toner',
+    brand: 'Pratista',
+    title: 'Pratista — Hyalu Hydrating Toner Campaign',
+    subtitle: 'KOL campaign · Hyalu Hydrating Toner · IG Reels activation',
+    year: '2025',
+    sampleIds: [
+      'pratista-hyalu-hydrating-toner-storyline',
+      'pratista-hyalu-hydrating-toner-insight',
+      'pratista-hyalu-hydrating-toner-ugc-1',
+      'pratista-hyalu-hydrating-toner-ugc-2',
+      'pratista-hyalu-hydrating-toner-ugc-3',
+    ],
+  },
+
   // ── Finally Found You ────────────────────────────────────────
   {
     id: 'ffy-moisturizer-toner-kak-riri',
@@ -632,6 +648,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'erha-active-light-sunscreen-creator-outreach',
       'erha-active-light-sunscreen-reels-script-creator',
       'erha-active-light-sunscreen-ugc',
+      'erha-active-light-sunscreen-ugc-2',
     ],
   },
 
