@@ -170,6 +170,23 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  // ── Skinmurch ────────────────────────────────────────────────
+  {
+    id: 'skinmurch-matc-boosting-retinal',
+    brand: 'Skinmurch',
+    title: 'Skinmurch — MATC Boosting Retinal Chroma Version Campaign',
+    subtitle: 'Product brief & education · MATC Boosting Retinal Chroma · beginner retinal tips · sandwich technique · retinal layering guide',
+    year: '2024',
+    sampleIds: [
+      'skinmurch-matc-retinal-brief',
+      'skinmurch-matc-retinal-insight',
+      'skinmurch-matc-retinal-ugc-1',
+      'skinmurch-matc-retinal-ugc-2',
+      'skinmurch-matc-retinal-ugc-3',
+      'skinmurch-matc-retinal-before-after',
+    ],
+  },
+
   // ── Cultusia ─────────────────────────────────────────────────
   {
     id: 'cultusia-natural-color-hair-dye',

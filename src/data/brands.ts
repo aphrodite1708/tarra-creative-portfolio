@@ -97,6 +97,7 @@ export const BRAND_LOGOS: Record<string, string> = {
   'KIVA':                '/brands/kiva logo.jpeg',
   'Asthin':              '/brands/asthin logo.png',
   'Iswhite':             '/brands/iswhite logo.jpg',
+  'Skinmurch':           '/brands/skinmurch logo.webp',
 }
 
 // All brands for the showcase strip — ordered roughly by recency / prominence
@@ -188,4 +189,5 @@ export const BRANDS_LIST: { name: string; logo: string }[] = [
   { name: 'KIVA',                logo: '/brands/kiva logo.jpeg' },
   { name: 'Asthin',              logo: '/brands/asthin logo.png' },
   { name: 'Iswhite',             logo: '/brands/iswhite logo.jpg' },
+  { name: 'Skinmurch',           logo: '/brands/skinmurch logo.webp' },
 ]
