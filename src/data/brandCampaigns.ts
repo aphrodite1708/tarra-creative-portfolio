@@ -240,6 +240,20 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  {
+    id: 'bioaqua-retinol-6x-gentle-a',
+    brand: 'BIOAQUA',
+    title: 'BIOAQUA — 6X Gentle-A Retinal Serum TikTok Campaign',
+    subtitle: 'TikTok Macro-Mega · Face yoga + retinol review · Slow-release encapsulation · Golden Formula · BIOAQUA Protection skin insurance · #BIOAQUA #RightSkincare #RealBeauty',
+    year: '2024',
+    sampleIds: [
+      'bioaqua-retinol-6x-gentle-a-brief',
+      'bioaqua-retinol-ugc-1',
+      'bioaqua-retinol-ugc-2',
+      'bioaqua-retinol-ugc-3',
+    ],
+  },
+
   // ── Finally Found You ────────────────────────────────────────
   {
     id: 'ffy-moisturizer-toner-kak-riri',
