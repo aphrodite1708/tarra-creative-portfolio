@@ -983,6 +983,9 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'mediheal-milk-brightening-kol-brief-creator-strategy',
       'mediheal-milk-brightening-kol-brief-creator-script',
       'mediheal-milk-brightening-ig-stories-insight',
+      'mediheal-milk-brightening-ugc-1',
+      'mediheal-milk-brightening-ugc-2',
+      'mediheal-milk-brightening-ugc-3',
     ],
   },
 
