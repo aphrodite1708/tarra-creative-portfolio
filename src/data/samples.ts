@@ -1544,6 +1544,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2024',
       },
       {
+        id: 'skinmurch-retinal-2-kol-brief',
+        title: 'Skinmurch — MATC Retinal Influencer Brief (Campaign 2)',
+        brand: 'Skinmurch',
+        type: 'pdf',
+        file: '/samples/campaigns/BRIEF RETINAL.pdf',
+        description: 'Full KOL influencer brief for Skinmurch MATC Boosting Retinal Chroma Version IG campaign (@astaririri). SOW: 1 Slide Story + 1 Story Session. Campaign theme: new product launch review with before-after usage results. Slide Story 1 (25 Feb 2025): 4-slide arc — storytelling progress review with product background, before-after husband skin result ("muka e bojo"), detail progress evidence, and netizen DM hook with taplink "GOKIL NI RACIKAN DR. ABEL". Slide Story 2 (3 March 2025): DM reply format sharing product mix tips (Endog Neon + Retinal + 1 more), taplink "LEBARAN GLOWING". Tag @skinmurchofficial hidden throughout. TikTok tag: @skinmurch.',
+        year: '2025',
+      },
+      {
         id: 'skinmurch-matc-retinal-brief',
         title: 'Skinmurch — MATC Boosting Retinal Chroma Version Brief',
         brand: 'Skinmurch',
@@ -3237,6 +3246,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         url: 'https://drive.google.com/file/d/1GrQSg3dXa6GX4cNzLT6bwMse323kD3XO/view?usp=sharing',
         description: 'Published IG Reels UGC for KIVA Beauty 1st Anniversary — "Disco Glam Look" using Stain Me Liptint and Intense Precision Jetliner. 30,470 plays, 20,178 reach, 712 interactions. Silver sequin disco night look. #K1VAANNIVERSARY @kivabeauty.official. 8 May 2024.',
         year: '2024',
+      },
+      {
+        id: 'skinmurch-retinal-2-ugc-1',
+        title: 'Skinmurch — MATC Retinal IG Stories UGC (Campaign 2)',
+        brand: 'Skinmurch',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1MiqbYqhiGaI-dppinyhpS_YgsrkPKdaR/view?usp=sharing',
+        description: 'Published IG Stories UGC for Skinmurch MATC Boosting Retinal Chroma Version — "No Editing At All" before-after campaign showing husband\'s skin results (7 March vs 18 March 2025). 38,961 views, 36,043 accounts reached, 325 sticker taps to @skinmurchofficial, 2,017 link clicks.',
+        year: '2025',
       },
       {
         id: 'skinmurch-matc-retinal-ugc-1',

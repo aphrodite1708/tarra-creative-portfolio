@@ -172,6 +172,20 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
 
   // ── Skinmurch ────────────────────────────────────────────────
   {
+    id: 'skinmurch-retinal-2-ig-stories',
+    brand: 'Skinmurch',
+    title: 'Skinmurch — MATC Retinal "No Editing At All" IG Stories Campaign',
+    subtitle: 'IG Story Session · @astaririri · 38.9K views · 36K reach · 325 sticker taps · before-after husband skin result · "muka e bojo"',
+    year: '2025',
+    sampleIds: [
+      'skinmurch-retinal-2-kol-brief',
+      'skinmurch-matc-retinal-insight',
+      'skinmurch-retinal-2-ugc-1',
+      'skinmurch-matc-retinal-before-after',
+    ],
+  },
+
+  {
     id: 'skinmurch-matc-boosting-retinal',
     brand: 'Skinmurch',
     title: 'Skinmurch — MATC Boosting Retinal Chroma Version Campaign',
