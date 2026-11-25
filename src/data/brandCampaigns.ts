@@ -684,6 +684,19 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
 
   // ── Grace and Glow ───────────────────────────────────────────
   {
+    id: 'grace-and-glow-sun-body-serum',
+    brand: 'Grace and Glow',
+    title: 'Grace and Glow — Brightening Sun Body Serum IG Stories Campaign',
+    subtitle: 'IG Story Session · @astaririri · SPF 30 PA+++ · Alpha Arbutin + Bearberry · natural tone-up · Rp 30K / 100ml',
+    year: '2024',
+    sampleIds: [
+      'grace-and-glow-sun-body-serum-brief',
+      'grace-and-glow-sun-body-serum-ugc-video',
+      'grace-and-glow-sun-body-serum-ugc-stories',
+    ],
+  },
+
+  {
     id: 'grace-and-glow-dry-shampoo',
     brand: 'Grace and Glow',
     title: 'Dry Shampoo',

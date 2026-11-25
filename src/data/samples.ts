@@ -60,6 +60,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
     // 1 = Campaign Strategy & Briefs
     1: [
       {
+        id: 'grace-and-glow-sun-body-serum-brief',
+        title: 'Grace and Glow — Brightening Sun Body Serum IG Stories Brief',
+        brand: 'Grace and Glow',
+        type: 'pdf',
+        file: '/samples/campaigns/BRIEF GRACE & GLOW.pdf',
+        description: 'IG Story Session brief for Grace and Glow Brightening Sun Body Serum (@astaririri). SOW: 3-story soft-sell session — Story 1 (photo): before-after tone-up comparison both hands, Story 2 (photo): empty + new bottle showing repurchase behaviour, Story 3 (video): product demo with selling point delivery. Key selling points: SPF 30 PA+++ (Broad Spectrum), natural tone-up (not chalky/grey), brightening & moisturising, cream-like texture but lightweight/non-sticky, luxury perfume scent, Rp 30K / 100ml. Main ingredients: Alpha Arbutin + Bearberry. Requirements: no filter, hidden tag @graceandglow.id, mandatory Shopee affiliate link, draft H-2 before post date.',
+        year: '2024',
+      },
+      {
         id: 'grace-and-glow-dry-shampoo-pk-brief',
         title: 'Grace and Glow — Dry Shampoo Product Knowledge & Brief',
         brand: 'Grace and Glow',
@@ -2535,6 +2544,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
     // 7 = Content Feed
     7: [
       {
+        id: 'grace-and-glow-sun-body-serum-ugc-stories',
+        title: 'Grace and Glow — Brightening Sun Body Serum IG Stories UGC (Photo)',
+        brand: 'Grace and Glow',
+        type: 'pdf',
+        file: '/samples/campaigns/ugc grace & glow.jpg',
+        description: 'Published IG Stories photo UGC for Grace and Glow Brightening Sun Body Serum — Story 2: empty + new bottle repurchase proof, caption "Bahkan udah habis 1 / Ini udah ada lagi yg baru / Saran ku si belinya pas double date apa payday, biar harganya lebih mursida lagi." Demonstrates genuine repeat-purchase authenticity.',
+        year: '2024',
+      },
+      {
         id: 'npure-holiday-feed-post',
         title: "N'Pure — Holiday Package Social Post",
         brand: 'NPURE',
@@ -3539,6 +3557,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         url: 'https://drive.google.com/file/d/12C0AX7QK1pINzuMDxmTAQ9apAkzKIc0c/view?usp=sharing',
         description: 'Confidence-flip hook — "SIAPA TUH YANG BILANG?!" turning the barrier of DIY curling into an effortless product demo. 10-scene storyline developed to showcase every product feature naturally within the content arc.',
         year: '2025',
+      },
+      {
+        id: 'grace-and-glow-sun-body-serum-ugc-video',
+        title: 'Grace and Glow — Brightening Sun Body Serum IG Stories UGC (Video)',
+        brand: 'Grace and Glow',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1Nziai0kso8_A_fShI7LfKC_LBbjIKDbi/view?usp=sharing',
+        description: 'Published IG Stories video UGC for Grace and Glow Brightening Sun Body Serum (@astaririri). Story 3 video — soft-sell product demo showing before-after tone-up on both hands, SPF 30 PA+++ benefit delivery, luxury scent and lightweight texture highlight.',
+        year: '2024',
       },
       {
         id: 'grace-and-glow-dry-shampoo-ugc-social',
