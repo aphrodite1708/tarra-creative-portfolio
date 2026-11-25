@@ -92,6 +92,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     year: '2025',
     sampleIds: [
       'bio-oil-skincare-oil-natural-kol-brief',
+      'bio-oil-skincare-oil-natural-brief-alt',
       'bio-oil-skincare-oil-natural-ugc',
       'bio-oil-skincare-oil-natural-reels-insight',
       'bio-oil-skincare-oil-natural-stories-insight',
@@ -276,6 +277,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     year: '2024',
     sampleIds: [
       'collagena-shk-billboard-teaser-brief',
+      'collagena-shk-billboard-teaser-insight',
       'collagena-shk-billboard-teaser-igs-ugc',
     ],
   },
@@ -380,6 +382,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     year: '2022',
     sampleIds: [
       'eileen-grace-jelly-mask-kol-brief',
+      'eileen-grace-jelly-mask-insight',
       'eileen-grace-jelly-mask-ugc-1',
       'eileen-grace-jelly-mask-ugc-2',
       'eileen-grace-jelly-mask-ugc-3',
@@ -392,7 +395,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     title: 'Instagram Stories Campaign',
     subtitle: 'Fashion brand — 4-set Stories, 424 sticker taps',
     year: '2022',
-    sampleIds: ['eileen-grace-ig-stories-insight'],
+    sampleIds: ['eileen-grace-ig-stories-brief', 'eileen-grace-ig-stories-insight', 'eileen-grace-fixed-script'],
   },
 
   // ── ElsheSkin ─────────────────────────────────────────────────
@@ -519,6 +522,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     year: '2025',
     sampleIds: [
       'g2g-pgc-kol-brief',
+      'g2g-pgc-brief-visual',
     ],
   },
 
@@ -1641,6 +1645,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     sampleIds: [
       'sovia-jewelry-fashion-ring-brief',
       'sovia-jewelry-fashion-ring-igs-insight',
+      'sovia-jewelry-ring-smart-sizer',
       'sovia-jewelry-fashion-ring-igs-ugc',
     ],
   },
@@ -1929,6 +1934,8 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     year: '2025',
     sampleIds: [
       'bio-oil-dry-skin-reels-insight',
+      'bio-oil-dry-skin-gel-reels-insight-2',
+      'bio-oil-dry-skin-gel-stories-insight',
       'bio-oil-dry-skin-gel-kol-brief',
       'bio-oil-dry-skin-gel-storyline',
       'bio-oil-dry-skin-gel-ugc-1',
@@ -1944,6 +1951,8 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     subtitle: '"Husband Interviews Wife" Storytelling · post-pregnancy skin journey · daily body care · "My skin saviour!"',
     year: '2025',
     sampleIds: [
+      'bio-oil-body-lotion-kol-brief',
+      'bio-oil-body-lotion-insight',
       'bio-oil-body-lotion-storyline',
       'bio-oil-body-lotion-ugc-1',
       'bio-oil-body-lotion-ugc-2',
