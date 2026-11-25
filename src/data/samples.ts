@@ -1624,6 +1624,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         description: '8-scene storyline for Make Over Powerstay Glazed Lock Lip Pigment 24H Uncrackable challenge. Scene arc: clickbait hook → product intro and shade selection → challenge start (morning application) → daily activities test → food and drink challenge → additional wear challenges → final wear check → closing verdict and CTA.',
         year: '2023',
       },
+      {
+        id: 'haruharu-wonder-influencer-brief',
+        title: 'HaruHaru Wonder — Influencer Brief',
+        brand: 'HaruHaru Wonder',
+        type: 'pdf',
+        file: '/samples/campaigns/Brief Haruharu Influencer.pdf',
+        description: 'KOL influencer brief for HaruHaru Wonder — campaign guidelines, SOW, key messages, and content direction for IG Stories / Reels activation.',
+        year: '2024',
+      },
     ],
     // 2 = Creator Sourcing & Outreach
     2: [
@@ -5796,6 +5805,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         url: 'https://drive.google.com/file/d/1O9drLaYPR3sQ5ozOO4J3jmmu3FlnLDQd/view?usp=sharing',
         description: 'Published TikTok UGC for Make Over Powerstay Glazed Lock Lip Pigment — Mega tier. 24H Uncrackable challenge format. 20K views, 2,081 likes, 15,216 viewers, 92% non-followers, 80% female, 92.6% Indonesia.',
         year: '2023',
+      },
+      {
+        id: 'haruharu-wonder-ugc-1',
+        title: 'HaruHaru Wonder — IG Stories / Reels UGC',
+        brand: 'HaruHaru Wonder',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1yHnnBC7Vym5b6hloq77vt3h2zOhTxbmu/view?usp=sharing',
+        description: 'Published UGC for HaruHaru Wonder influencer campaign.',
+        year: '2024',
       },
       {
         id: 'ffy-moisturizer-toner-igs-ugc-1',

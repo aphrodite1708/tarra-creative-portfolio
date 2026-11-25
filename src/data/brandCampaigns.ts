@@ -269,6 +269,19 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  // ── HaruHaru Wonder ──────────────────────────────────────────
+  {
+    id: 'haruharu-wonder-influencer-campaign',
+    brand: 'HaruHaru Wonder',
+    title: 'HaruHaru Wonder — Influencer Campaign',
+    subtitle: 'KOL influencer brief · Black Rice skincare line · IG Stories / Reels activation',
+    year: '2024',
+    sampleIds: [
+      'haruharu-wonder-influencer-brief',
+      'haruharu-wonder-ugc-1',
+    ],
+  },
+
   // ── Finally Found You ────────────────────────────────────────
   {
     id: 'ffy-moisturizer-toner-kak-riri',

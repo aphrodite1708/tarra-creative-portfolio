@@ -45,7 +45,7 @@ export const BRAND_LOGOS: Record<string, string> = {
   'Lazada':              '/brands/lazada.png',
   'Lencir':              '/brands/lencir.png',
   'Luxcrime':            '/brands/luxcrime.png',
-  'Mediheal':            '/brands/mediheal.png',
+  'Mediheal':            '/brands/mediheal logo.webp',
   'Milux.co':            '/brands/milux-co.png',
   'Moist Diane':         '/brands/moist-diane.png',
   'NUKKA':               '/brands/nukka.png',
@@ -99,6 +99,7 @@ export const BRAND_LOGOS: Record<string, string> = {
   'Asthin':              '/brands/asthin logo.png',
   'Iswhite':             '/brands/iswhite logo.jpg',
   'Skinmurch':           '/brands/skinmurch logo.webp',
+  'HaruHaru Wonder':     '/brands/haruharu wonder logo.png',
 }
 
 // All brands for the showcase strip — ordered roughly by recency / prominence
@@ -142,7 +143,7 @@ export const BRANDS_LIST: { name: string; logo: string }[] = [
   { name: 'Bio-Oil',             logo: '/brands/bio-oil.png' },
   { name: 'Activgluta',          logo: '/brands/activgluta.png' },
   { name: 'NVMEE',               logo: '/brands/nvmee.png' },
-  { name: 'Mediheal',            logo: '/brands/mediheal.png' },
+  { name: 'Mediheal',            logo: '/brands/mediheal logo.webp' },
   { name: 'Kaila Beauté',        logo: '/brands/kaila-beaute.png' },
   { name: 'Tomo Kenko',          logo: '/brands/tomo-kenko.png' },
   { name: 'Tulus',               logo: '/brands/tulus.png' },
@@ -191,4 +192,5 @@ export const BRANDS_LIST: { name: string; logo: string }[] = [
   { name: 'Asthin',              logo: '/brands/asthin logo.png' },
   { name: 'Iswhite',             logo: '/brands/iswhite logo.jpg' },
   { name: 'Skinmurch',           logo: '/brands/skinmurch logo.webp' },
+  { name: 'HaruHaru Wonder',     logo: '/brands/haruharu wonder logo.png' },
 ]
