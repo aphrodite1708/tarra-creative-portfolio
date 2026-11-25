@@ -112,6 +112,20 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  // ── KIVA ─────────────────────────────────────────────────────
+  {
+    id: 'kiva-anniversary-reels',
+    brand: 'KIVA',
+    title: 'KIVA Beauty — 1st Anniversary "Disco Glam Look" Campaign',
+    subtitle: '1x IG Reels · Stain Me Liptint + Intense Precision Jetliner · 30.4K plays · 20.2K reach · #K1VAANNIVERSARY',
+    year: '2024',
+    sampleIds: [
+      'kiva-anniversary-kol-brief',
+      'kiva-anniversary-reels-insight',
+      'kiva-anniversary-ugc-1',
+    ],
+  },
+
   // ── BI·ES ────────────────────────────────────────────────────
   {
     id: 'bies-ig-stories-year-end-sale',
