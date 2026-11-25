@@ -1534,6 +1534,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         description: 'IG Stories performance insight report for Sovia Jewelry Fashion Ring campaign — reach, sticker taps, link clicks, and engagement analytics.',
         year: '2024',
       },
+      {
+        id: 'cultusia-natural-color-kol-brief',
+        title: 'Cultusia — Natural Color KOL Brief',
+        brand: 'Cultusia',
+        type: 'pdf',
+        file: '/samples/campaigns/Brief Cultusia - NATURAL COLOR.pdf',
+        description: 'KOL brief for Cultusia Natural Color hair dye campaign. Product: Cultusia Natural Color with Olive Oil + Keratin — 6 shades (Ambience Red 6/4, Harvest Gold 9/34, Amber Brown 5/0, Silky Blue 4/41, Ultra Violet 1/14, Tropical Ash). USP: restaurant-quality hair color in 30 minutes at home, no salon required, works on dry or wet hair. Campaign tagline: "Unleash Your True Color, Create Your Style!"',
+        year: '2024',
+      },
     ],
     // 2 = Creator Sourcing & Outreach
     2: [
@@ -3182,6 +3191,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         type: 'link',
         url: 'https://drive.google.com/file/d/1GrQSg3dXa6GX4cNzLT6bwMse323kD3XO/view?usp=sharing',
         description: 'Published IG Reels UGC for KIVA Beauty 1st Anniversary — "Disco Glam Look" using Stain Me Liptint and Intense Precision Jetliner. 30,470 plays, 20,178 reach, 712 interactions. Silver sequin disco night look. #K1VAANNIVERSARY @kivabeauty.official. 8 May 2024.',
+        year: '2024',
+      },
+      {
+        id: 'cultusia-natural-color-ugc-1',
+        title: 'Cultusia — Natural Color Hair Dye UGC',
+        brand: 'Cultusia',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1cYwaYGm5rnm-KFYekCi-NULGqYCXnDn1/view?usp=sharing',
+        description: 'Published UGC for Cultusia Natural Color hair dye campaign — at-home hair coloring content featuring the Olive Oil + Keratin formula. "Unleash Your True Color, Create Your Style!"',
         year: '2024',
       },
       {

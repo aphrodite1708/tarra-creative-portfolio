@@ -170,6 +170,19 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  // ── Cultusia ─────────────────────────────────────────────────
+  {
+    id: 'cultusia-natural-color-hair-dye',
+    brand: 'Cultusia',
+    title: 'Cultusia — Natural Color Hair Dye Campaign',
+    subtitle: 'KOL brief · Cultusia Natural Color with Olive Oil + Keratin · 6 shades · 30-min at-home hair coloring · "Unleash Your True Color"',
+    year: '2024',
+    sampleIds: [
+      'cultusia-natural-color-kol-brief',
+      'cultusia-natural-color-ugc-1',
+    ],
+  },
+
   // ── BIOAQUA ──────────────────────────────────────────────────
   {
     id: 'bioaqua-doraemon-sheetmask',
