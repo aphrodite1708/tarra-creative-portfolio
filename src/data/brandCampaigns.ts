@@ -298,6 +298,21 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  // ── Tokaed ───────────────────────────────────────────────────
+  {
+    id: 'tokaed-triangle-bra-pad',
+    brand: 'Tokaed',
+    title: 'Tokaed — Triangle Bra Pad Campaign',
+    subtitle: 'KOL brief · Triangle Bra Pad · creator activation',
+    year: '2025',
+    sampleIds: [
+      'tokaed-triangle-bra-pad-brief',
+      'tokaed-triangle-bra-pad-ugc-1',
+      'tokaed-triangle-bra-pad-ugc-2',
+      'tokaed-triangle-bra-pad-ugc-3',
+    ],
+  },
+
   // ── Finally Found You ────────────────────────────────────────
   {
     id: 'ffy-moisturizer-toner-kak-riri',
