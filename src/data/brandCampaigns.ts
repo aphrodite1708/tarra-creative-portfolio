@@ -2114,6 +2114,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     sampleIds: [
       'bio-oil-body-lotion-kol-brief',
       'bio-oil-body-lotion-insight',
+      'bio-oil-body-lotion-insight-2',
       'bio-oil-body-lotion-storyline',
       'bio-oil-body-lotion-ugc-1',
       'bio-oil-body-lotion-ugc-2',

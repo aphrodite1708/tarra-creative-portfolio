@@ -1427,6 +1427,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2025',
       },
       {
+        id: 'bio-oil-body-lotion-insight-2',
+        title: 'Bio-Oil Body Lotion — Campaign Insight (Detailed)',
+        brand: 'Bio-Oil',
+        type: 'pdf',
+        file: '/samples/campaigns/insight bio oil body lotion.pdf',
+        description: 'Detailed campaign performance insight for Bio-Oil Body Lotion — creator analytics, audience demographics, and content performance breakdown.',
+        year: '2025',
+      },
+      {
         id: 'bio-oil-dry-skin-gel-reels-insight-2',
         title: 'Bio-Oil Dry Skin Gel — Instagram Reels Insight (2)',
         brand: 'Bio-Oil',
