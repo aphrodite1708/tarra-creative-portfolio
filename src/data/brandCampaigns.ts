@@ -1612,10 +1612,14 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     year: '2025',
     sampleIds: [
       'ponds-uv-miracle-brief',
+      'ponds-uv-miracle-brief-2',
       'ponds-uv-miracle-brief-direction',
+      'ponds-uv-miracle-storyline',
       'ponds-uv-miracle-reels-script-creator',
       'ponds-uv-serum-ugc-photo',
       'ponds-uv-miracle-youtube-shorts-insight',
+      'ponds-uv-miracle-shorts-insight-2',
+      'ponds-uv-miracle-ugc-1',
     ],
   },
 
