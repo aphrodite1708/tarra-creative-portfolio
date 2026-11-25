@@ -112,6 +112,19 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  // ── Iswhite ──────────────────────────────────────────────────
+  {
+    id: 'iswhite-body-mask-home-spa',
+    brand: 'Iswhite',
+    title: 'Iswhite — Body Mask "Home Spa Day at Home" Campaign',
+    subtitle: '1x TikTok / Reels · Iswhite Body Mask · home spa routine · brighten, moisturize & even skin tone',
+    year: '2025',
+    sampleIds: [
+      'iswhite-body-mask-storyline',
+      'iswhite-body-mask-ugc-1',
+    ],
+  },
+
   // ── Asthin ───────────────────────────────────────────────────
   {
     id: 'asthin-force-tiktok-30-is-new-20',

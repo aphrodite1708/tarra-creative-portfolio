@@ -1283,6 +1283,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2023',
       },
       {
+        id: 'iswhite-body-mask-storyline',
+        title: 'Iswhite Body Mask — TikTok / Reels Storyline "Home Spa Day at Home"',
+        brand: 'Iswhite',
+        type: 'pdf',
+        file: '/samples/campaigns/STORYLINE – ISWHITE BODY MASK.pdf',
+        description: 'Approved TikTok / Reels storyline for Iswhite Body Mask by dr. Astari Riri. SOW: 1x TikTok / Reels. 7-scene structure: (1) Opening Hook — home spa day at home; (2) Home Spa Routine — practical & affordable body care; (3) Product Introduction — Iswhite Body Mask; (4) Texture & Application — easy body care at home; (5) Ingredients & Benefits — helps brighten, moisturize & even skin tone; (6) After Use — smooth & moisturized skin result; (7) Closing CTA — "Your home spa essential!" Caption: "Siapa bilang harus ke salon dulu buat punya kulit yang halus dan terawat? Sekarang home spa aja dulu!"',
+        year: '2025',
+      },
+      {
         id: 'asthin-force-kol-brief',
         title: 'Asthin Force — KOL Brief',
         brand: 'Asthin',
@@ -3147,6 +3156,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         url: 'https://drive.google.com/file/d/1NCbJnrKtEvLcd2InnUV6DQlnCw8Og40C/view?usp=sharing',
         description: 'Published IG Stories UGC for BODimax brand campaign — creator activation and product review content.',
         year: '2024',
+      },
+      {
+        id: 'iswhite-body-mask-ugc-1',
+        title: 'Iswhite Body Mask — "Home Spa Day at Home" TikTok / Reels UGC',
+        brand: 'Iswhite',
+        type: 'link',
+        url: 'https://drive.google.com/file/d/1ipkXDo_X3vby8Ei5XqhVjzjJVWzyBDki/view?usp=sharing',
+        description: 'Published TikTok / Reels UGC for Iswhite Body Mask — "Home Spa Day at Home" campaign by dr. Astari Riri. Product application routine, texture showcase, and results reveal. Benefits: mencerahkan, melembapkan, meratakan warna kulit. Closing: "Your home spa essential!"',
+        year: '2025',
       },
       {
         id: 'asthin-force-tiktok-ugc-1',

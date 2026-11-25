@@ -92,9 +92,10 @@ export const BRAND_LOGOS: Record<string, string> = {
   'Sovia Jewelry':       '/brands/sovia-jewelry.png',
   'Yellow Fit Kitchen':  '/brands/yellow-fit-kitchen.png',
   'BI·ES':               '/brands/bies.png',
-  'BODimax':             '/brands/bodimax.png',
-  'KIVA':                '/brands/kiva.png',
-  'Asthin':              '/brands/asthin.png',
+  'BODimax':             '/brands/bodimax logo.jpeg',
+  'KIVA':                '/brands/kiva logo.jpeg',
+  'Asthin':              '/brands/asthin logo.png',
+  'Iswhite':             '/brands/iswhite logo.jpg',
 }
 
 // All brands for the showcase strip — ordered roughly by recency / prominence
@@ -181,7 +182,8 @@ export const BRANDS_LIST: { name: string; logo: string }[] = [
   { name: 'Wonderlux',           logo: '/brands/wonderlux.png' },
   { name: 'Azarine',             logo: '/brands/azarine.png' },
   { name: 'BI·ES',               logo: '/brands/bies.png' },
-  { name: 'BODimax',             logo: '/brands/bodimax.png' },
-  { name: 'KIVA',                logo: '/brands/kiva.png' },
-  { name: 'Asthin',              logo: '/brands/asthin.png' },
+  { name: 'BODimax',             logo: '/brands/bodimax logo.jpeg' },
+  { name: 'KIVA',                logo: '/brands/kiva logo.jpeg' },
+  { name: 'Asthin',              logo: '/brands/asthin logo.png' },
+  { name: 'Iswhite',             logo: '/brands/iswhite logo.jpg' },
 ]
