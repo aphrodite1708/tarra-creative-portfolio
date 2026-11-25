@@ -254,6 +254,21 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  // ── Make Over ────────────────────────────────────────────────
+  {
+    id: 'makeover-powerstay-glazed-lips',
+    brand: 'Make Over',
+    title: 'Make Over — Powerstay Glazed Lock Lip Pigment TikTok Campaign',
+    subtitle: 'TikTok Mega · 24H Uncrackable challenge · 12 shades · 20K views · 2,081 likes · 15,216 viewers · 92% non-followers · 80% female audience · 92.6% Indonesia',
+    year: '2023',
+    sampleIds: [
+      'makeover-glazed-lips-brief',
+      'makeover-glazed-lips-insight',
+      'makeover-glazed-lips-storyline',
+      'makeover-glazed-lips-ugc-1',
+    ],
+  },
+
   // ── Finally Found You ────────────────────────────────────────
   {
     id: 'ffy-moisturizer-toner-kak-riri',
