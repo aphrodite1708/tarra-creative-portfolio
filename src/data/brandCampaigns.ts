@@ -99,6 +99,22 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  // ── BI·ES ────────────────────────────────────────────────────
+  {
+    id: 'bies-ig-stories-year-end-sale',
+    brand: 'BI·ES',
+    title: 'BI·ES — Year End Sale IG Stories Campaign',
+    subtitle: 'European perfumery — Golden Woman + Blossom Garden Gift Set · Year End Sale up to 50% · December 2022',
+    year: '2022',
+    sampleIds: [
+      'bies-ig-stories-kol-brief',
+      'bies-product-knowledge',
+      'bies-ig-stories-ugc-1',
+      'bies-ig-stories-ugc-2',
+      'bies-ig-stories-ugc-3',
+    ],
+  },
+
   // ── BIOAQUA ──────────────────────────────────────────────────
   {
     id: 'bioaqua-doraemon-sheetmask',
