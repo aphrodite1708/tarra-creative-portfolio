@@ -114,6 +114,7 @@ export const SECTION_CONTENT: Record<SectionId, {
       { title: 'Negotiations & Deliverables', body: 'Managing rates, deliverables, exclusivity, and usage rights in a way that works for both brand and creator.' },
       { title: 'Campaign Management', body: 'Monitoring content schedules, approval workflows and deliverables across multiple creators simultaneously.' },
       { title: 'Campaign Insights & Reporting', body: "Post-campaign analysis covering what performed, what didn't, and what that means for the next brief." },
+      { title: 'Content Feed', body: 'Published social media feed posts from brand campaigns — Instagram posts, product reveals, lifestyle content, and shade charts used in creator collaboration.' },
     ],
   },
   direction: {

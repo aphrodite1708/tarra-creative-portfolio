@@ -92,6 +92,7 @@ export const BRAND_LOGOS: Record<string, string> = {
   'Sovia Jewelry':       '/brands/sovia-jewelry.png',
   'Yellow Fit Kitchen':  '/brands/yellow-fit-kitchen.png',
   'BI·ES':               '/brands/bies.png',
+  'BODimax':             '/brands/bodimax.png',
 }
 
 // All brands for the showcase strip — ordered roughly by recency / prominence
@@ -178,4 +179,5 @@ export const BRANDS_LIST: { name: string; logo: string }[] = [
   { name: 'Wonderlux',           logo: '/brands/wonderlux.png' },
   { name: 'Azarine',             logo: '/brands/azarine.png' },
   { name: 'BI·ES',               logo: '/brands/bies.png' },
+  { name: 'BODimax',             logo: '/brands/bodimax.png' },
 ]

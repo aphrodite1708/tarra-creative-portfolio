@@ -99,6 +99,19 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  // ── BODimax ──────────────────────────────────────────────────
+  {
+    id: 'bodimax-campaign',
+    brand: 'BODimax',
+    title: 'BODimax — Brand Campaign',
+    subtitle: 'IG Stories creator activation',
+    year: '2024',
+    sampleIds: [
+      'bodimax-kol-brief',
+      'bodimax-ugc-1',
+    ],
+  },
+
   // ── BI·ES ────────────────────────────────────────────────────
   {
     id: 'bies-ig-stories-year-end-sale',
@@ -919,6 +932,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'tirtir-mask-fit-red-cushion-insight-3',
       'tirtir-mask-fit-red-cushion-ugc-1',
       'tirtir-mask-fit-red-cushion-ugc-2',
+      'tirtir-lip-shade-feed-post',
     ],
   },
 
@@ -1296,6 +1310,8 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'npure-power-series-npd-brief',
       'npure-home-gym-product-visual',
       'npure-holiday-package-social',
+      'npure-holiday-feed-post',
+      'npure-social-media-feed-post',
       'npure-power-series-ugc-1',
       'npure-power-series-ugc-2',
       'npure-power-series-ugc-3',
@@ -1913,6 +1929,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     sampleIds: [
       'yellowfit-mega-weekend-igs-brief',
       'yellowfit-mega-weekend-special-menu',
+      'yellowfit-mega-weekend-special-menu-campaigns',
       'yellowfit-mega-weekend-igs-ugc',
     ],
   },
