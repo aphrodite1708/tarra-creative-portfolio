@@ -94,6 +94,7 @@ export const BRAND_LOGOS: Record<string, string> = {
   'BI·ES':               '/brands/bies.png',
   'BODimax':             '/brands/bodimax.png',
   'KIVA':                '/brands/kiva.png',
+  'Asthin':              '/brands/asthin.png',
 }
 
 // All brands for the showcase strip — ordered roughly by recency / prominence
@@ -182,4 +183,5 @@ export const BRANDS_LIST: { name: string; logo: string }[] = [
   { name: 'BI·ES',               logo: '/brands/bies.png' },
   { name: 'BODimax',             logo: '/brands/bodimax.png' },
   { name: 'KIVA',                logo: '/brands/kiva.png' },
+  { name: 'Asthin',              logo: '/brands/asthin.png' },
 ]

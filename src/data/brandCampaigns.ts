@@ -112,6 +112,21 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  // ── Asthin ───────────────────────────────────────────────────
+  {
+    id: 'asthin-force-tiktok-30-is-new-20',
+    brand: 'Asthin',
+    title: 'Asthin Force 12 — "30 is the New 20" TikTok Campaign',
+    subtitle: '1x TikTok · Astaxanthin 12mg skin supplement · 248K views · 217.9K reach · 868 saves · @ashtinforce.id',
+    year: '2025',
+    sampleIds: [
+      'asthin-force-kol-brief',
+      'asthin-force-tiktok-storyline',
+      'asthin-force-tiktok-insight',
+      'asthin-force-tiktok-ugc-1',
+    ],
+  },
+
   // ── KIVA ─────────────────────────────────────────────────────
   {
     id: 'kiva-anniversary-reels',
