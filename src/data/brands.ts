@@ -38,7 +38,7 @@ export const BRAND_LOGOS: Record<string, string> = {
   'HighEnd × MNC':       '/brands/highend magazine.png',
   'Holigrels':           '/brands/holigrels logo.png',
   'Judydoll':            '/brands/judydoll.png',
-  'Jacqueline':          '/brands/jacqueline logo.png',
+  'Jacquelle':           '/brands/jacquelle logo.png',
   'Jumiso':              '/brands/jumiso.png',
   'Kinohimitsu':         '/brands/kinohimitsu.png',
   'Kaila Beauté':        '/brands/kaila beaute logo.png',
@@ -111,6 +111,7 @@ export const BRAND_LOGOS: Record<string, string> = {
   'Sea Makeup':          '/brands/sea makeup logo.png',
   'OMG':                 '/brands/omg logo.png',
   'Numbuzin':            '/brands/numbuzin logo.png',
+  'Watsons':             '/brands/watsons logo.webp',
 }
 
 // All brands for the showcase strip — ordered roughly by recency / prominence
@@ -150,7 +151,7 @@ export const BRANDS_LIST: { name: string; logo: string }[] = [
   { name: 'Westcare',            logo: '/brands/westcare.png' },
   { name: 'dr. Belle',           logo: '/brands/dr belle logo.png' },
   { name: 'Judydoll',            logo: '/brands/judydoll.png' },
-  { name: 'Jacqueline',           logo: '/brands/jacqueline logo.png' },
+  { name: 'Jacquelle',           logo: '/brands/jacquelle logo.png' },
   { name: 'Bio-Oil',             logo: '/brands/bio-oil.png' },
   { name: 'Activgluta',          logo: '/brands/activgluta.png' },
   { name: 'NVMEE',               logo: '/brands/nvmee logo.png' },

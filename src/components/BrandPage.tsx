@@ -13,7 +13,7 @@ const TIER_1 = [
 const TIER_2 = [
   'Energen', 'Embryolisse', 'Nutrilon Royal', 'TRESemmé', "Natur-E", 'BLP Beauty',
   'Dew Me', 'Mediheal', 'Kinohimitsu', 'Jumiso',
-  'Jacqueline', 'Herbilogy', 'Nuface', 'Firstlab', 'Judydoll', 'Emelyne',
+  'Jacquelle', 'Herbilogy', 'Nuface', 'Firstlab', 'Judydoll', 'Emelyne',
   'MS Glow', 'Make Over', 'Flimty', 'Pratista',
 ]
 

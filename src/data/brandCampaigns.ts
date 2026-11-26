@@ -42,6 +42,19 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
   {
+    id: 'wardah-bright-foam',
+    brand: 'Wardah',
+    title: 'Wardah — Perfect Bright Creamy Foam',
+    subtitle: 'Bright + Smooth Glow — Acid Mantle Expert Technology',
+    year: '2024',
+    sampleIds: [
+      'wardah-bright-foam-brief',
+      'wardah-bright-foam-storyline',
+      'wardah-bright-foam-insight',
+      'wardah-bright-foam-ugc-1',
+    ],
+  },
+  {
     id: 'wardah-lazada-brand-day',
     brand: 'Wardah',
     title: 'Lazada Brand Day',
@@ -929,6 +942,31 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
   },
 
   {
+    id: 'erha-truwhite',
+    brand: 'Erha',
+    title: 'ERHA Truwhite — Dark Spot Corrector',
+    subtitle: 'Niacinamide & Peptide · GenoWhite™ — IG Story brief',
+    year: '2022',
+    sampleIds: [
+      'erha-truwhite-brief',
+      'erha-truwhite-product-knowledge',
+      'erha-truwhite-ugc-1',
+    ],
+  },
+  {
+    id: 'erha-watsons-talkshow',
+    brand: 'Erha',
+    title: 'ERHA Truwhite × Watsons Anniversary',
+    subtitle: '"Truwhite, The Brightening Specialist" talkshow — #ThatsAllBright',
+    year: '2022',
+    sampleIds: [
+      'erha-watsons-talkshow-script',
+      'erha-watsons-ugc-invitation',
+    ],
+    collabBrands: ['Watsons'],
+  },
+
+  {
     id: 'erha-reels-storyline',
     brand: 'Erha',
     title: 'Erha — IG Reels Storyline',
@@ -1140,6 +1178,18 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'herborist-teh-soeltan-kol-brief-direction',
       'herborist-teh-soeltan-kol-brief-creator',
       'herborist-teh-soeltan-kol-creator-script',
+      'herborist-soeltan-storyline',
+      'herborist-soeltan-ugc-1',
+    ],
+  },
+  {
+    id: 'herborist-soeltan-launching-event',
+    brand: 'Herborist',
+    title: 'Teh Soeltan Series — Launching Event',
+    subtitle: '#RoyalTeaHeritageBeauty — Pracimasana Mangkunegaran, Solo',
+    year: '2025',
+    sampleIds: [
+      'herborist-launching-event-brief',
     ],
   },
 
@@ -1170,10 +1220,27 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
-  // ── Jacqueline ────────────────────────────────────────────────
+  // ── Jacquelle ────────────────────────────────────────────────
+  {
+    id: 'jacquelle-cushion',
+    brand: 'Jacquelle',
+    title: 'Blur Tinted Cushion SPF 30+++',
+    subtitle: '"Cushion Technologia" — wear-test teaser + deep review',
+    year: '2025',
+    sampleIds: [
+      'jacquelle-cushion-brief',
+      'jacquelle-cushion-storyline-teaser',
+      'jacquelle-cushion-storyline-review',
+      'jacquelle-cushion-insight',
+      'jacquelle-cushion-ugc-1',
+      'jacquelle-cushion-ugc-2',
+      'jacquelle-cushion-ugc-3',
+      'jacquelle-cushion-ugc-4',
+    ],
+  },
   {
     id: 'jacquelle-inside-out-2',
-    brand: 'Jacqueline',
+    brand: 'Jacquelle',
     title: 'Inside Out 2 Collab',
     subtitle: 'Cosplay Reels — 37K views, 58.4% non-follower discovery',
     year: '2024',
@@ -1181,7 +1248,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
   },
   {
     id: 'jacquelle-little-mermaid',
-    brand: 'Jacqueline',
+    brand: 'Jacquelle',
     title: 'The Little Mermaid Collab',
     subtitle: 'Instagram Stories — 141 sticker taps',
     year: '2025',
