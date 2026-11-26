@@ -2469,6 +2469,15 @@ export const SAMPLES: Partial<Record<SectionId, Record<number, Sample[]>>> = {
         year: '2025',
       },
       {
+        id: 'flimty-campaign-insight',
+        title: 'Flimty — Campaign Insight',
+        brand: 'Flimty',
+        type: 'pdf',
+        file: '/samples/campaigns/insight flimty.pdf',
+        description: 'Campaign performance insight for Flimty.',
+        year: '2025',
+      },
+      {
         id: 'mediheal-milk-brightening-ig-stories-insight',
         title: 'Mediheal Milk Brightening Skincare — Instagram Stories Insight',
         brand: 'Mediheal',

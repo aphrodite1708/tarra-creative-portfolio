@@ -298,6 +298,18 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  // ── Flimty ───────────────────────────────────────────────────
+  {
+    id: 'flimty-campaign',
+    brand: 'Flimty',
+    title: 'Flimty — KOL Campaign',
+    subtitle: 'KOL campaign insight · Flimty fiber drink',
+    year: '2025',
+    sampleIds: [
+      'flimty-campaign-insight',
+    ],
+  },
+
   // ── Tokaed ───────────────────────────────────────────────────
   {
     id: 'tokaed-triangle-bra-pad',

@@ -102,6 +102,7 @@ export const BRAND_LOGOS: Record<string, string> = {
   'HaruHaru Wonder':     '/brands/haruharu wonder logo.png',
   'Pratista':            '/brands/pratista logo.png',
   'Tokaed':              '/brands/tokaed logo.png',
+  'Flimty':              '/brands/flimty logo.png',
 }
 
 // All brands for the showcase strip — ordered roughly by recency / prominence
@@ -197,4 +198,5 @@ export const BRANDS_LIST: { name: string; logo: string }[] = [
   { name: 'HaruHaru Wonder',     logo: '/brands/haruharu wonder logo.png' },
   { name: 'Pratista',            logo: '/brands/pratista logo.png' },
   { name: 'Tokaed',              logo: '/brands/tokaed logo.png' },
+  { name: 'Flimty',              logo: '/brands/flimty logo.png' },
 ]
