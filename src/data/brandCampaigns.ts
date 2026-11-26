@@ -37,6 +37,8 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'wardah-nmf-insight-story',
       'wardah-nmf-insight-reels-creator',
       'wardah-nmf-insight-story-creator',
+      'wardah-nmf-insight-reels-2',
+      'wardah-nmf-amino-ugc-1',
     ],
   },
   {
@@ -2425,6 +2427,20 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'sea-makeup-twc-ugc-1',
       'sea-makeup-twc-ugc-2',
       'sea-makeup-twc-ugc-3',
+    ],
+  },
+  {
+    id: 'sea-makeup-tinted-lip-balm',
+    brand: 'Sea Makeup',
+    title: 'Sea Makeup — Tinted Lip Balm Campaign',
+    subtitle: 'IG Story brief · insight · creator activation',
+    year: '2024',
+    sampleIds: [
+      'sea-makeup-tinted-lip-balm-brief',
+      'sea-makeup-tinted-lip-balm-insight',
+      'sea-makeup-tinted-lip-balm-ugc-1',
+      'sea-makeup-tinted-lip-balm-ugc-2',
+      'sea-makeup-tinted-lip-balm-ugc-3',
     ],
   },
 

@@ -1,6 +1,34 @@
 /* ─── Reset ────────────────────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
+/* ─── Content protection — deters casual copying of confidential work ── */
+html, body, #root {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+img, canvas, video, iframe {
+  -webkit-user-drag: none;
+  user-drag: none;
+}
+
+@media print {
+  body * { visibility: hidden !important; }
+  body::before {
+    content: "This portfolio is for viewing only — printing is disabled.";
+    visibility: visible !important;
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    text-align: center;
+    font-size: 18px;
+  }
+}
+
 /* ─── Tokens ───────────────────────────────────────────────── */
 :root {
   --burgundy:    #641F36;
@@ -2293,18 +2321,87 @@ button, a { cursor: none; font-family: inherit; }
   color: rgba(255,255,255,0.5);
 }
 
-.asset-modal-external {
-  display: block;
-  padding: 0;
-  font-size: 11px;
-  color: rgba(255,255,255,0.4);
-  text-decoration: none;
-  text-align: right;
-  letter-spacing: 0.02em;
-  transition: color 0.15s;
-  flex-shrink: 0;
+/* ─── PDF viewer (canvas-rendered — no native download/print toolbar) ── */
+.pdf-viewer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0;
 }
-.asset-modal-external:hover { color: rgba(255,255,255,0.75); }
+
+.pdf-viewer-canvas-wrap {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background: #e8e4df;
+  padding: 12px;
+  position: relative;
+}
+
+.pdf-viewer-canvas {
+  max-width: 100%;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.25);
+  background: #fff;
+}
+
+.pdf-viewer-spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 28px;
+  height: 28px;
+  margin: -14px 0 0 -14px;
+  border-radius: 50%;
+  border: 3px solid rgba(100,31,54,0.15);
+  border-top-color: rgba(100,31,54,0.6);
+  animation: pdf-viewer-spin 0.8s linear infinite;
+}
+@keyframes pdf-viewer-spin { to { transform: rotate(360deg); } }
+
+.pdf-viewer-nav {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 10px;
+  background: #1a1a1a;
+}
+
+.pdf-viewer-nav-btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255,255,255,0.12);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s;
+}
+.pdf-viewer-nav-btn:hover:not(:disabled) { background: rgba(255,255,255,0.22); }
+.pdf-viewer-nav-btn:disabled { opacity: 0.3; cursor: default; }
+
+.pdf-viewer-nav-label {
+  font-size: 12px;
+  color: rgba(255,255,255,0.7);
+  letter-spacing: 0.02em;
+  min-width: 48px;
+  text-align: center;
+}
+
+.pdf-viewer-error {
+  padding: 32px;
+  text-align: center;
+  font-size: 13px;
+  color: rgba(255,255,255,0.5);
+}
 
 /* ─── UGC card thumbnail ─────────────────────────────────────── */
 .sample-card-link-thumb {

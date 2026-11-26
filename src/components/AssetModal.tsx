@@ -1,4 +1,5 @@
 import { createPortal } from 'react-dom'
+import PdfViewer from './PdfViewer'
 
 export function getDriveFileId(url: string): string | null {
   const m = url.match(/\/file\/d\/([^/?#]+)/)
@@ -22,6 +23,7 @@ export default function AssetModal({ asset, onClose }: Props) {
   const driveFileId = url ? getDriveFileId(url) : null
   const driveEmbed = driveFileId ? `https://drive.google.com/file/d/${driveFileId}/preview` : null
   const isVideoLike = (type === 'link' || type === 'video') && driveEmbed
+  const isPdf = type === 'pdf' && !!file
 
   let boxModifier = 'doc'
   let body: React.ReactNode
@@ -37,11 +39,25 @@ export default function AssetModal({ asset, onClose }: Props) {
     boxModifier = 'image'
     body = (
       <div className="asset-modal-frame-wrap asset-modal-frame-wrap--image">
-        <img src={file} alt={title} className="asset-modal-image" />
+        <img
+          src={file}
+          alt={title}
+          className="asset-modal-image"
+          onContextMenu={e => e.preventDefault()}
+          draggable={false}
+        />
+      </div>
+    )
+  } else if (isPdf) {
+    // Rendered to canvas — no native browser PDF toolbar (no download/print/save-as)
+    boxModifier = 'doc'
+    body = (
+      <div className="asset-modal-frame-wrap asset-modal-frame-wrap--doc">
+        <PdfViewer file={file!} />
       </div>
     )
   } else if (file || url) {
-    // PDFs, plain text, or any other document the browser can render inline
+    // Any other document type the browser can render inline (e.g. plain text)
     boxModifier = 'doc'
     body = (
       <div className="asset-modal-frame-wrap asset-modal-frame-wrap--doc">
@@ -51,8 +67,6 @@ export default function AssetModal({ asset, onClose }: Props) {
   } else {
     body = <div className="asset-modal-empty">Preview unavailable.</div>
   }
-
-  const externalHref = file ?? url
 
   return createPortal(
     <div className="asset-modal-overlay" onClick={onClose}>
@@ -64,11 +78,6 @@ export default function AssetModal({ asset, onClose }: Props) {
         </button>
         <div className="asset-modal-title">{title}</div>
         {body}
-        {externalHref && (
-          <a href={externalHref} target="_blank" rel="noopener noreferrer" className="asset-modal-external">
-            Open in new tab ↗
-          </a>
-        )}
       </div>
     </div>,
     document.body
