@@ -14,6 +14,13 @@ interface Props {
   onClose: () => void
 }
 
+function CollabLogo({ name }: { name: string }) {
+  const [failed, setFailed] = useState(false)
+  const logo = BRAND_LOGOS[name]
+  if (!logo || failed) return <span className="collab-logo-fallback">{name}</span>
+  return <img src={logo} alt={name} className="collab-logo" onError={() => setFailed(true)} />
+}
+
 function WorkflowStrip({ samples: _samples }: { samples: Sample[] }) {
   return (
     <div className="workflow-strip">
@@ -57,6 +64,17 @@ function CampaignSection({
           )}
         </div>
         <h3 className="campaign-section-title">{campaign.title}</h3>
+        {campaign.collabBrands && campaign.collabBrands.length > 0 && (
+          <div className="campaign-collab-logos">
+            <CollabLogo name={campaign.brand} />
+            {campaign.collabBrands.map(name => (
+              <span key={name} className="campaign-collab-pair">
+                <span className="campaign-collab-x">×</span>
+                <CollabLogo name={name} />
+              </span>
+            ))}
+          </div>
+        )}
         <WorkflowStrip samples={samples} />
       </div>
 

@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { FOLDERS, type SectionId } from '../data/sections'
+import { BRANDS_LIST } from '../data/brands'
 import SectionView from './SectionView'
 import AreaView from './AreaView'
 import CaseStudyView from './CaseStudyView'
@@ -9,41 +10,15 @@ import CreatorPage from './CreatorPage'
 
 type Panel = 'brand' | 'creator'
 
-// Brand logos scattered on the Brand folder face
-const COLLAGE_LOGOS = [
-  { brand: 'Disney Cruise Line', src: '/brands/disney-cruise-line.png', left: '5%',  top: '6%',  rotate: -6,  size: 92 },
-  { brand: "L'Oréal",           src: '/brands/loreal.png',             left: '50%', top: '4%',  rotate: 5,   size: 100 },
-  { brand: 'Maybelline',         src: '/brands/maybelline.png',         left: '22%', top: '20%', rotate: -3,  size: 104 },
-  { brand: 'TIRTIR',             src: '/brands/tirtir.png',             left: '62%', top: '24%', rotate: 7,   size: 80 },
-  { brand: 'Garnier',            src: '/brands/garnier.png',            left: '7%',  top: '38%', rotate: 4,   size: 90 },
-  { brand: "Pond's",             src: '/brands/ponds.png',              left: '44%', top: '36%', rotate: -4,  size: 88 },
-  { brand: 'Make Over',          src: '/brands/makeover logo.png',      left: '14%', top: '54%', rotate: 3,   size: 96 },
-  { brand: 'Dove',               src: '/brands/dove.png',               left: '58%', top: '52%', rotate: -5,  size: 76 },
-]
-
-// Marquee logos — the featured brands strip on the landing page
-const MARQUEE_BRANDS = [
-  { brand: 'Disney Cruise Line', src: '/brands/disney-cruise-line.png' },
-  { brand: "L'Oréal",           src: '/brands/loreal.png' },
-  { brand: 'Garnier',           src: '/brands/garnier.png' },
-  { brand: "Pond's",            src: '/brands/ponds.png' },
-  { brand: 'Maybelline',        src: '/brands/maybelline.png' },
-  { brand: 'Make Over',         src: '/brands/makeover logo.png' },
-  { brand: 'Safi',              src: '/brands/safi.png' },
-  { brand: 'Wardah',            src: '/brands/wardah.png' },
-  { brand: 'Lazada',            src: '/brands/lazada.png' },
-  { brand: 'Lux',               src: '/brands/lux.png' },
-  { brand: 'Dove',              src: '/brands/dove.png' },
-  { brand: 'Paddle Pop',        src: '/brands/paddle-pop.png' },
-  { brand: 'Hansaplast',        src: '/brands/hansaplast.png' },
-  { brand: 'Skintific',         src: '/brands/skintific.png' },
-  { brand: 'Erha',              src: '/brands/erha.png' },
-  { brand: 'Bio-Oil',           src: '/brands/bio-oil.png' },
-  { brand: 'TIRTIR',            src: '/brands/tirtir.png' },
-  { brand: 'Beauty of Joseon',  src: '/brands/beauty-of-joseon.png' },
-  { brand: 'Spotify',           src: '/brands/spotify.png' },
-  { brand: 'Sushiro',           src: '/brands/sushiro.png' },
-]
+function GridLogo({ name, src }: { name: string; src: string }) {
+  const [failed, setFailed] = useState(false)
+  if (failed) return null
+  return (
+    <div className="grid-logo-cell">
+      <img src={src} alt={name} className="grid-logo" onError={() => setFailed(true)} />
+    </div>
+  )
+}
 
 function BinderClip() {
   return (
@@ -183,22 +158,11 @@ export default function HomeArchive() {
                 <PaperClip color={panel.id === 'brand' ? '#B09098' : 'rgba(255,255,255,0.45)'} />
               </div>
 
-              {/* Brand logos scattered on folder face (Brand panel only) */}
+              {/* Brand logo grid on folder face (Brand panel only) */}
               {panel.id === 'brand' && (
-                <div className="folder-logo-collage">
-                  {COLLAGE_LOGOS.map(logo => (
-                    <img
-                      key={logo.brand}
-                      src={logo.src}
-                      alt={logo.brand}
-                      className="collage-logo"
-                      style={{
-                        left: logo.left,
-                        top: logo.top,
-                        transform: `rotate(${logo.rotate}deg)`,
-                        width: logo.size,
-                      }}
-                    />
+                <div className="folder-logo-grid">
+                  {BRANDS_LIST.map(logo => (
+                    <GridLogo key={logo.name} name={logo.name} src={logo.logo} />
                   ))}
                 </div>
               )}
@@ -226,20 +190,6 @@ export default function HomeArchive() {
             </motion.div>
           )
         })}
-      </div>
-
-      {/* Brand marquee strip */}
-      <div className="home-marquee-wrap">
-        <div className="home-marquee-label">Brands I've worked with</div>
-        <div className="home-marquee">
-          <div className="home-marquee-track">
-            {[...MARQUEE_BRANDS, ...MARQUEE_BRANDS].map((b, i) => (
-              <div key={i} className="home-marquee-item" title={b.brand}>
-                <img src={b.src} alt={b.brand} className="home-marquee-logo" />
-              </div>
-            ))}
-          </div>
-        </div>
       </div>
 
       {/* Bottom hint */}

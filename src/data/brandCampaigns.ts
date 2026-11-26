@@ -9,6 +9,8 @@ export interface BrandCampaign {
   subtitle?: string
   year: string
   sampleIds: string[]
+  /** Other brands this campaign was run in collaboration with — their logos render alongside the primary brand's. */
+  collabBrands?: string[]
 }
 
 export const BRAND_CAMPAIGNS: BrandCampaign[] = [
@@ -322,6 +324,20 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'tokaed-triangle-bra-pad-ugc-1',
       'tokaed-triangle-bra-pad-ugc-2',
       'tokaed-triangle-bra-pad-ugc-3',
+    ],
+  },
+
+  // ── Purekids ─────────────────────────────────────────────────
+  {
+    id: 'purekids-itchy-cream',
+    brand: 'Purekids',
+    title: 'Purekids — Itchy Cream Campaign',
+    subtitle: 'KOL brief · Itchy Cream · creator activation',
+    year: '2024',
+    sampleIds: [
+      'purekids-itchy-cream-brief',
+      'purekids-itchy-cream-insight',
+      'purekids-itchy-cream-ugc-1',
     ],
   },
 
@@ -911,13 +927,14 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'holigrels-sugar-princess-endorsement-brief-direction',
       'holigrels-sugar-princess-endorsement-brief-wardrobe',
       'holigrels-sugar-princess-storyline-creator',
+      'holigrels-sugar-princess-ugc-1',
     ],
   },
 
-  // ── Jacquelle ────────────────────────────────────────────────
+  // ── Jacqueline ────────────────────────────────────────────────
   {
     id: 'jacquelle-inside-out-2',
-    brand: 'Jacquelle',
+    brand: 'Jacqueline',
     title: 'Inside Out 2 Collab',
     subtitle: 'Cosplay Reels — 37K views, 58.4% non-follower discovery',
     year: '2024',
@@ -925,7 +942,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
   },
   {
     id: 'jacquelle-little-mermaid',
-    brand: 'Jacquelle',
+    brand: 'Jacqueline',
     title: 'The Little Mermaid Collab',
     subtitle: 'Instagram Stories — 141 sticker taps',
     year: '2025',
@@ -1291,6 +1308,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'azarine-shopee-sbd-brief',
       'azarine-shopee-sbd-ugc-1',
     ],
+    collabBrands: ['Shopee'],
   },
 
   {
@@ -1350,6 +1368,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'azarine-red-velvet-ugc-2',
       'azarine-red-velvet-ugc-3',
     ],
+    collabBrands: ['Lazada'],
   },
 
   {
@@ -1647,6 +1666,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'ponds-guardian-live-ig-stories-insight-engagement',
       'ponds-guardian-live-event-post',
     ],
+    collabBrands: ['Guardian', 'Shopee'],
   },
   {
     id: 'ponds-uv-miracle-sunscreen',
@@ -2147,6 +2167,37 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     sampleIds: [
       'yellowfit-npure-healthy-skin-brief',
       'yellowfit-npure-healthy-skin-igs-ugc',
+    ],
+    collabBrands: ['NPURE'],
+  },
+
+  // ── Sea Makeup ───────────────────────────────────────────────
+  {
+    id: 'sea-makeup-twc',
+    brand: 'Sea Makeup',
+    title: 'Sea Makeup — Two Way Cake Campaign',
+    subtitle: 'IG Story brief · shade swatch · creator activation',
+    year: '2024',
+    sampleIds: [
+      'sea-makeup-twc-brief',
+      'sea-makeup-twc-insight',
+      'sea-makeup-twc-ugc-swatch',
+      'sea-makeup-twc-ugc-1',
+      'sea-makeup-twc-ugc-2',
+      'sea-makeup-twc-ugc-3',
+    ],
+  },
+
+  // ── OMG (Oh My Glam) ─────────────────────────────────────────
+  {
+    id: 'omg-mattelast-lip-cream',
+    brand: 'OMG',
+    title: 'OMG — Mattelast Lip Cream Campaign',
+    subtitle: 'Product knowledge · 18 shades · creator activation',
+    year: '2024',
+    sampleIds: [
+      'omg-mattelast-lip-cream-pk',
+      'omg-mattelast-lip-cream-ugc-1',
     ],
   },
 
