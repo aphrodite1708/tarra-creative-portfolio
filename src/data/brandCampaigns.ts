@@ -2709,6 +2709,21 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'deorex-body-odorizer-ugc-1',
     ],
   },
+
+  // ── Kimeskincare ──────────────────────────────────────────────
+  {
+    id: 'kimeskincare-brightening-soap',
+    brand: 'Kimeskincare',
+    title: 'Kimeskincare — Luminizing Jeju Brightening Soap',
+    subtitle: 'Jeju Volcanic Ash brightening soap — IG Story endorsement',
+    year: '2023',
+    sampleIds: [
+      'kimeskincare-brightening-soap-brief',
+      'kimeskincare-brightening-soap-product-knowledge',
+      'kimeskincare-brightening-soap-insight',
+      'kimeskincare-brightening-soap-ugc-1',
+    ],
+  },
 ]
 
 export function getBrandCampaigns(brandName: string): BrandCampaign[] {
