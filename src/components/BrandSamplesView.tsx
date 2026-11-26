@@ -50,6 +50,7 @@ function CampaignSection({
     <div className="campaign-section">
       <div className="campaign-section-header">
         <div className="campaign-section-meta">
+          <span className="campaign-badge">Campaign</span>
           <span className="campaign-section-year">{campaign.year}</span>
           {campaign.subtitle && (
             <span className="campaign-section-subtitle">{campaign.subtitle}</span>
@@ -126,7 +127,7 @@ export default function BrandSamplesView({ brandName, onClose }: Props) {
                   src={logo}
                   alt={brandName}
                   onError={() => setLogoFailed(true)}
-                  style={{ height: 40, maxWidth: 140, objectFit: 'contain', filter: 'brightness(0) saturate(0) opacity(0.7)' }}
+                  style={{ height: 56, maxWidth: 180, objectFit: 'contain' }}
                 />
               ) : (
                 <span style={{ fontSize: 26, fontWeight: 700, letterSpacing: '-0.03em' }}>{brandName}</span>

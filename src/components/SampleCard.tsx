@@ -1,8 +1,14 @@
 import { useState } from 'react'
+import { createPortal } from 'react-dom'
 import { motion } from 'framer-motion'
 import { BRAND_LOGOS } from '../data/brands'
 import PdfThumbnail from './PdfThumbnail'
 import type { Sample } from '../data/samples'
+
+function getDriveFileId(url: string): string | null {
+  const m = url.match(/\/file\/d\/([^/?#]+)/)
+  return m ? m[1] : null
+}
 
 interface Props {
   sample: Sample
@@ -12,7 +18,13 @@ interface Props {
 
 export default function SampleCard({ sample, accentColor, onCaseStudyOpen }: Props) {
   const [logoFailed, setLogoFailed] = useState(false)
+  const [thumbFailed, setThumbFailed] = useState(false)
+  const [videoOpen, setVideoOpen] = useState(false)
   const brandLogo = BRAND_LOGOS[sample.brand]
+
+  const driveFileId = sample.type === 'link' && sample.url ? getDriveFileId(sample.url) : null
+  const driveThumbnail = driveFileId ? `https://drive.google.com/thumbnail?id=${driveFileId}&sz=w400` : null
+  const driveEmbed = driveFileId ? `https://drive.google.com/file/d/${driveFileId}/preview` : null
 
   const handleOpen = () => {
     if (sample.type === 'case-study' && sample.caseStudyId) {
@@ -65,34 +77,79 @@ export default function SampleCard({ sample, accentColor, onCaseStudyOpen }: Pro
     </div>
   )
 
-  // Link (UGC) cards get a special full-width video-card treatment
+  // Link (UGC) cards — video thumbnail + in-site playback modal
   if (sample.type === 'link') {
     return (
-      <motion.button
-        className="sample-card sample-card--link"
-        onClick={handleOpen}
-        whileHover={{ y: -3 }}
-        whileTap={{ scale: 0.98 }}
-      >
-        <div className="sample-card-link-top">
-          {brandLogo && !logoFailed && (
-            <img src={brandLogo} alt={sample.brand} className="sample-card-link-logo" onError={() => setLogoFailed(true)} />
-          )}
-          <div className="sample-card-link-play">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
-              <polygon points="5 3 19 12 5 21 5 3" />
-            </svg>
+      <>
+        <motion.button
+          className="sample-card sample-card--link"
+          onClick={() => driveEmbed ? setVideoOpen(true) : handleOpen()}
+          whileHover={{ y: -3 }}
+          whileTap={{ scale: 0.98 }}
+        >
+          <div className="sample-card-link-top">
+            {driveThumbnail && !thumbFailed ? (
+              <>
+                <img
+                  src={driveThumbnail}
+                  alt={sample.title}
+                  className="sample-card-link-thumb"
+                  onError={() => setThumbFailed(true)}
+                />
+                <div className="sample-card-link-play sample-card-link-play--over">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <polygon points="5 3 19 12 5 21 5 3" />
+                  </svg>
+                </div>
+              </>
+            ) : (
+              <>
+                {brandLogo && !logoFailed && (
+                  <img src={brandLogo} alt={sample.brand} className="sample-card-link-logo" onError={() => setLogoFailed(true)} />
+                )}
+                <div className="sample-card-link-play">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                    <polygon points="5 3 19 12 5 21 5 3" />
+                  </svg>
+                </div>
+              </>
+            )}
           </div>
-        </div>
-        <div className="sample-card-link-body">
-          <div className="sample-card-link-meta">
-            <span className="sample-card-link-badge">Published UGC</span>
-            {sample.year && <span className="sample-card-year" style={{ opacity: 0.5 }}>{sample.year}</span>}
+          <div className="sample-card-link-body">
+            <div className="sample-card-link-meta">
+              <span className="sample-card-link-badge">Published UGC</span>
+              {sample.year && <span className="sample-card-year" style={{ opacity: 0.5 }}>{sample.year}</span>}
+            </div>
+            <h4 className="sample-card-title" style={{ fontSize: '0.9rem' }}>{sample.title}</h4>
+            <span className="sample-card-link-cta">{driveEmbed ? 'Play video ▶' : 'Watch video →'}</span>
           </div>
-          <h4 className="sample-card-title" style={{ fontSize: '0.9rem' }}>{sample.title}</h4>
-          <span className="sample-card-link-cta">Watch video →</span>
-        </div>
-      </motion.button>
+        </motion.button>
+
+        {videoOpen && driveEmbed && createPortal(
+          <div className="video-modal-overlay" onClick={() => setVideoOpen(false)}>
+            <div className="video-modal-box" onClick={e => e.stopPropagation()}>
+              <button className="video-modal-close" onClick={() => setVideoOpen(false)} aria-label="Close video">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round">
+                  <line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" />
+                </svg>
+              </button>
+              <div className="video-modal-title">{sample.title}</div>
+              <div className="video-modal-frame-wrap">
+                <iframe
+                  src={driveEmbed}
+                  className="video-modal-iframe"
+                  allow="autoplay"
+                  allowFullScreen
+                />
+              </div>
+              <a href={sample.url} target="_blank" rel="noopener noreferrer" className="video-modal-external">
+                Open in Google Drive →
+              </a>
+            </div>
+          </div>,
+          document.body
+        )}
+      </>
     )
   }
 

@@ -5,15 +5,16 @@ import BrandSamplesView from './BrandSamplesView'
 
 // Size tiers — determines card/logo size
 const TIER_1 = [
-  "L'Oréal", 'Maybelline', 'Disney', 'Disney Cruise Line', 'Paddle Pop',
-  'Dove', 'Garnier', 'Lazada', 'Wardah',
+  'Disney Cruise Line', "L'Oréal", 'Garnier', "Pond's", 'Maybelline', 'Make Over',
+  'Safi', 'Wardah', 'Lazada', 'Shopee', 'Lux', 'Dove', 'Paddle Pop', 'Hansaplast',
+  'Skintific', 'Erha', 'Bio-Oil', 'TIRTIR', 'Beauty of Joseon', 'Spotify', 'Google', 'Sushiro',
 ]
 
 const TIER_2 = [
-  'Energen', 'Lux', 'Skintific', 'Embryolisse', 'Beauty of Joseon', 'Nutrilon Royal',
-  'TRESemmé', "Natur-E", 'Safi', 'BLP Beauty', 'Hansaplast',
-  'Dew Me', 'Erha', 'Mediheal', 'Kinohimitsu', 'Jumiso',
-  'Jacquelle', 'Herbilogy', 'Nuface', 'Firstlab', 'Judydoll', "Pond's", 'Emelyne',
+  'Energen', 'Embryolisse', 'Nutrilon Royal', 'TRESemmé', "Natur-E", 'BLP Beauty',
+  'Dew Me', 'Mediheal', 'Kinohimitsu', 'Jumiso',
+  'Jacquelle', 'Herbilogy', 'Nuface', 'Firstlab', 'Judydoll', 'Emelyne',
+  'MS Glow', 'Make Over', 'Flimty', 'Pratista',
 ]
 
 // All other brands in BRAND_LOGOS → tier 3
@@ -69,6 +70,14 @@ export default function BrandPage({ onClose }: Props) {
       {/* Logo wall */}
       <div className="brand-logo-wall">
 
+        {/* Instruction */}
+        <div className="brand-logo-instruction">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ opacity: 0.5, flexShrink: 0 }}>
+            <circle cx="12" cy="12" r="10" /><line x1="12" y1="8" x2="12" y2="12" /><line x1="12" y1="16" x2="12.01" y2="16" />
+          </svg>
+          Click on any brand logo to see my campaign work
+        </div>
+
         {/* Tier 1 — flagship brands */}
         <div className="brand-logo-section">
           <span className="brand-logo-section-label">Featured brands</span>
@@ -91,6 +100,7 @@ export default function BrandPage({ onClose }: Props) {
                 ) : (
                   <span className="brand-logo-name brand-logo-name--large">{name}</span>
                 )}
+                <div className="brand-logo-hover-overlay">View work →</div>
               </motion.div>
             ))}
           </div>
@@ -114,6 +124,7 @@ export default function BrandPage({ onClose }: Props) {
                 whileTap={{ scale: 0.97 }}
               >
                 <LogoCardImg name={name} />
+                <div className="brand-logo-hover-overlay">View work →</div>
               </motion.div>
             ))}
           </div>
@@ -138,6 +149,7 @@ export default function BrandPage({ onClose }: Props) {
                   whileTap={{ scale: 0.97 }}
                 >
                   <LogoCardImg name={name} />
+                  <div className="brand-logo-hover-overlay">View →</div>
                 </motion.div>
               ))}
             </div>

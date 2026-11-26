@@ -99,10 +99,13 @@ export const BRAND_LOGOS: Record<string, string> = {
   'Asthin':              '/brands/asthin logo.png',
   'Iswhite':             '/brands/iswhite logo.jpg',
   'Skinmurch':           '/brands/skinmurch logo.webp',
-  'HaruHaru Wonder':     '/brands/haruharu wonder logo.png',
+  'HaruHaru Wonder':     '/brands/haruharu wonder logo.jpeg',
   'Pratista':            '/brands/pratista logo.png',
   'Tokaed':              '/brands/tokaed logo.png',
   'Flimty':              '/brands/flimty logo.png',
+  'MS Glow':             '/brands/msglow logo.png',
+  'Shopee':              '/brands/shopee logo.png',
+  'Google':              '/brands/google logo.png',
 }
 
 // All brands for the showcase strip — ordered roughly by recency / prominence
@@ -195,8 +198,9 @@ export const BRANDS_LIST: { name: string; logo: string }[] = [
   { name: 'Asthin',              logo: '/brands/asthin logo.png' },
   { name: 'Iswhite',             logo: '/brands/iswhite logo.jpg' },
   { name: 'Skinmurch',           logo: '/brands/skinmurch logo.webp' },
-  { name: 'HaruHaru Wonder',     logo: '/brands/haruharu wonder logo.png' },
+  { name: 'HaruHaru Wonder',     logo: '/brands/haruharu wonder logo.jpeg' },
   { name: 'Pratista',            logo: '/brands/pratista logo.png' },
   { name: 'Tokaed',              logo: '/brands/tokaed logo.png' },
   { name: 'Flimty',              logo: '/brands/flimty logo.png' },
+  { name: 'MS Glow',             logo: '/brands/msglow logo.png' },
 ]
