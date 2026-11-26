@@ -113,6 +113,9 @@ export const BRAND_LOGOS: Record<string, string> = {
   'Numbuzin':            '/brands/numbuzin logo.png',
   'Watsons':             '/brands/watsons logo.webp',
   'Biore':               '/brands/biore logo.png',
+  'Sariayu':             '/brands/sariayu logo.jpeg',
+  'GlowTech':            '/brands/GLOWTECH logo.jpg',
+  'Deorex':              '/brands/DEOREX LOGO.png',
 }
 
 // All brands for the showcase strip — ordered roughly by recency / prominence

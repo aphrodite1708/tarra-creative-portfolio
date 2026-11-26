@@ -2632,6 +2632,83 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'bio-oil-body-lotion-ugc-4',
     ],
   },
+
+  // ── Sariayu ───────────────────────────────────────────────────
+  {
+    id: 'sariayu-natural-glow',
+    brand: 'Sariayu',
+    title: 'Sariayu — Natural Glow',
+    subtitle: 'Two Way Cake & Tinted Moisturizer — before/after review',
+    year: '2023',
+    sampleIds: [
+      'sariayu-natural-glow-brief',
+      'sariayu-natural-glow-storyline',
+      'sariayu-natural-glow-ugc-1',
+    ],
+  },
+
+  // ── Wardah (additional) ──────────────────────────────────────
+  {
+    id: 'wardah-sunscreen-x-lazada',
+    brand: 'Wardah',
+    title: 'Wardah × Lazada — Sunscreen',
+    subtitle: 'Brief · storyline · insight · creator UGC',
+    year: '2025',
+    collabBrands: ['Lazada'],
+    sampleIds: [
+      'wardah-sunscreen-lazada-brief',
+      'wardah-sunscreen-lazada-storyline',
+      'wardah-sunscreen-lazada-insight',
+      'wardah-sunscreen-lazada-ugc-1',
+      'wardah-sunscreen-lazada-ugc-2',
+    ],
+  },
+  {
+    id: 'wardah-acne-derm',
+    brand: 'Wardah',
+    title: 'Wardah — Acne Derm',
+    year: '2025',
+    sampleIds: [
+      'wardah-acne-derm-brief',
+    ],
+  },
+  {
+    id: 'wardah-liquid-foundation',
+    brand: 'Wardah',
+    title: 'Wardah — Liquid Foundation',
+    year: '2025',
+    sampleIds: [
+      'wardah-liquid-foundation-storyline',
+    ],
+  },
+
+  // ── GlowTech ──────────────────────────────────────────────────
+  {
+    id: 'glowtech-skincare',
+    brand: 'GlowTech',
+    title: 'GlowTech — Skincare',
+    subtitle: 'Sea-grapes brightening & acne series — "Mindful Beauty, Starts Here"',
+    year: '2024',
+    sampleIds: [
+      'glowtech-skincare-brief',
+      'glowtech-skincare-company-profile',
+      'glowtech-skincare-ugc-1',
+    ],
+  },
+
+  // ── Deorex ────────────────────────────────────────────────────
+  {
+    id: 'deorex-body-odorizer',
+    brand: 'Deorex',
+    title: 'Deorex — Body Odorizer',
+    subtitle: 'Deodorant-replacement endorsement — spray-on underarm care',
+    year: '2023',
+    sampleIds: [
+      'deorex-body-odorizer-brief',
+      'deorex-body-odorizer-insight',
+      'deorex-body-odorizer-ugc-1',
+    ],
+  },
 ]
 
 export function getBrandCampaigns(brandName: string): BrandCampaign[] {
