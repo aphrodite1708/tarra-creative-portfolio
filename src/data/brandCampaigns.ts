@@ -2218,6 +2218,44 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
 
+  // ── MS Glow ──────────────────────────────────────────────────
+  {
+    id: 'msglow-body-lotion',
+    brand: 'MS Glow',
+    title: 'MS Glow — White Forte Body Lotion Campaign',
+    subtitle: 'Brief · script · creator activation',
+    year: '2025',
+    sampleIds: [
+      'msglow-body-lotion-brief',
+      'msglow-body-lotion-script',
+      'msglow-body-lotion-ugc-1',
+    ],
+  },
+  {
+    id: 'msglow-milk-toner',
+    brand: 'MS Glow',
+    title: 'MS Glow — Hydra Milk Toner Campaign',
+    subtitle: 'Product brief',
+    year: '2025',
+    sampleIds: [
+      'msglow-milk-toner-brief',
+    ],
+  },
+
+  // ── Garnier (additional) ─────────────────────────────────────
+  {
+    id: 'garnier-uv-skin-nomorebelang',
+    brand: 'Garnier',
+    title: 'Garnier — UV Skin #Nomorebelang Campaign',
+    subtitle: 'Campaign framework · script · creator activation',
+    year: '2022',
+    sampleIds: [
+      'garnier-uv-skin-nomorebelang-brief',
+      'garnier-uv-skin-nomorebelang-storyline',
+      'garnier-uv-skin-nomorebelang-ugc-1',
+    ],
+  },
+
   // ── Bio-Oil (additional) ─────────────────────────────────────
   {
     id: 'bio-oil-dry-skin-gel',
