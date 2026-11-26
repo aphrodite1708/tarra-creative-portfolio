@@ -54,6 +54,23 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'wardah-bright-foam-ugc-1',
     ],
   },
+
+  // ── Biore ────────────────────────────────────────────────────
+  {
+    id: 'biore-uv-fresh-bright',
+    brand: 'Biore',
+    title: 'Biore — UV Fresh & Bright',
+    subtitle: '"My Face My Way" — Oil Control Matte & Instant Cover',
+    year: '2025',
+    sampleIds: [
+      'biore-uv-fresh-bright-brief',
+      'biore-uv-instant-cover-storyline',
+      'biore-uv-fresh-bright-insight',
+      'biore-uv-fresh-bright-ugc-1',
+      'biore-uv-fresh-bright-ugc-2',
+      'biore-uv-fresh-bright-ugc-3',
+    ],
+  },
   {
     id: 'wardah-lazada-brand-day',
     brand: 'Wardah',
@@ -2419,6 +2436,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'drbelle-picosure-ig-reels-script-direction',
       'drbelle-picosure-ig-reels-script-creator',
       'drbelle-reels-insight',
+      'drbelle-wrinkle-expert-ugc-1',
     ],
   },
 

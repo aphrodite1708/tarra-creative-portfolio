@@ -112,6 +112,7 @@ export const BRAND_LOGOS: Record<string, string> = {
   'OMG':                 '/brands/omg logo.png',
   'Numbuzin':            '/brands/numbuzin logo.png',
   'Watsons':             '/brands/watsons logo.webp',
+  'Biore':               '/brands/biore logo.png',
 }
 
 // All brands for the showcase strip — ordered roughly by recency / prominence
@@ -214,4 +215,5 @@ export const BRANDS_LIST: { name: string; logo: string }[] = [
   { name: 'Sea Makeup',          logo: '/brands/sea makeup logo.png' },
   { name: 'OMG',                 logo: '/brands/omg logo.png' },
   { name: 'Numbuzin',            logo: '/brands/numbuzin logo.png' },
+  { name: 'Biore',               logo: '/brands/biore logo.png' },
 ]

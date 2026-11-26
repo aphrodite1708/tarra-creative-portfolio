@@ -215,9 +215,20 @@ export default function BrandPage({ onClose }: Props) {
   )
 }
 
+// Logos whose ink is white/very pale — unreadable on the card's white background,
+// so they get a dark backdrop chip instead.
+const LIGHT_INK_LOGOS = new Set([
+  'TIRTIR', 'G2G', 'HighEnd × MNC', 'OMG', 'Sovia Jewelry',
+  'Grace and Glow', 'Kaila Beauté', 'The Originote',
+])
+
 function LogoCardImg({ name }: { name: string }) {
   const [failed, setFailed] = useState(false)
   const src = BRAND_LOGOS[name]
   if (!src || failed) return <span className="brand-logo-name">{name}</span>
-  return <img src={src} alt={name} className="brand-logo-img" onError={() => setFailed(true)} />
+  const img = <img src={src} alt={name} className="brand-logo-img" onError={() => setFailed(true)} />
+  if (LIGHT_INK_LOGOS.has(name)) {
+    return <div className="brand-logo-img-dark-chip">{img}</div>
+  }
+  return img
 }
