@@ -110,6 +110,7 @@ export const BRAND_LOGOS: Record<string, string> = {
   'Guardian':            '/brands/guardian logo.png',
   'Sea Makeup':          '/brands/sea makeup logo.png',
   'OMG':                 '/brands/omg logo.png',
+  'Numbuzin':            '/brands/numbuzin logo.png',
 }
 
 // All brands for the showcase strip — ordered roughly by recency / prominence
@@ -211,4 +212,5 @@ export const BRANDS_LIST: { name: string; logo: string }[] = [
   { name: 'Guardian',            logo: '/brands/guardian logo.png' },
   { name: 'Sea Makeup',          logo: '/brands/sea makeup logo.png' },
   { name: 'OMG',                 logo: '/brands/omg logo.png' },
+  { name: 'Numbuzin',            logo: '/brands/numbuzin logo.png' },
 ]

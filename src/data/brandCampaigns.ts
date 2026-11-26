@@ -309,6 +309,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     year: '2025',
     sampleIds: [
       'flimty-campaign-insight',
+      'flimty-campaign-ugc-1',
     ],
   },
 
@@ -2198,6 +2199,22 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     sampleIds: [
       'omg-mattelast-lip-cream-pk',
       'omg-mattelast-lip-cream-ugc-1',
+    ],
+  },
+
+  // ── Numbuzin ─────────────────────────────────────────────────
+  {
+    id: 'numbuzin-no3-serum-shopee',
+    brand: 'Numbuzin',
+    title: 'Numbuzin — No.3 Serum on Shopee Campaign',
+    subtitle: 'Brief · script · insight · creator activation',
+    year: '2025',
+    sampleIds: [
+      'numbuzin-no3-serum-shopee-brief',
+      'numbuzin-no3-serum-shopee-storyline',
+      'numbuzin-no3-serum-shopee-insight',
+      'numbuzin-no3-serum-shopee-ugc-1',
+      'numbuzin-no3-serum-shopee-ugc-2',
     ],
   },
 

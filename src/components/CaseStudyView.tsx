@@ -1,7 +1,9 @@
+import { useState } from 'react'
 import { motion } from 'framer-motion'
 import type { FolderData } from '../data/sections'
 import { CASE_STUDIES, type CaseStudySample } from '../data/casestudies'
 import PdfThumbnail from './PdfThumbnail'
+import AssetModal from './AssetModal'
 
 interface Props {
   caseStudyId: string
@@ -10,10 +12,7 @@ interface Props {
 }
 
 function StageSampleCard({ sample, accentColor }: { sample: CaseStudySample; accentColor: string }) {
-  const handleOpen = () => {
-    if (sample.file) window.open(sample.file, '_blank', 'noopener')
-    else if (sample.url) window.open(sample.url, '_blank', 'noopener')
-  }
+  const [assetOpen, setAssetOpen] = useState(false)
 
   const typeLabel: Record<string, string> = {
     pdf: 'PDF',
@@ -44,19 +43,28 @@ function StageSampleCard({ sample, accentColor }: { sample: CaseStudySample; acc
     )
 
   return (
-    <motion.button
-      className="cs-sample-card"
-      onClick={handleOpen}
-      whileHover={{ y: -2 }}
-      whileTap={{ scale: 0.98 }}
-    >
-      {preview}
-      <div className="cs-sample-body">
-        <span className="cs-sample-label">{typeLabel[sample.type] ?? sample.type}</span>
-        <span className="cs-sample-title">{sample.title}</span>
-        <span className="cs-sample-open" style={{ color: accentColor }}>View →</span>
-      </div>
-    </motion.button>
+    <>
+      <motion.button
+        className="cs-sample-card"
+        onClick={() => setAssetOpen(true)}
+        whileHover={{ y: -2 }}
+        whileTap={{ scale: 0.98 }}
+      >
+        {preview}
+        <div className="cs-sample-body">
+          <span className="cs-sample-label">{typeLabel[sample.type] ?? sample.type}</span>
+          <span className="cs-sample-title">{sample.title}</span>
+          <span className="cs-sample-open" style={{ color: accentColor }}>View →</span>
+        </div>
+      </motion.button>
+
+      {assetOpen && (
+        <AssetModal
+          asset={{ title: sample.title, type: sample.type, file: sample.file, url: sample.url }}
+          onClose={() => setAssetOpen(false)}
+        />
+      )}
+    </>
   )
 }
 
