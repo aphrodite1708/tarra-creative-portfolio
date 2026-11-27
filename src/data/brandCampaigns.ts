@@ -302,6 +302,18 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'makeover-glazed-lips-ugc-1',
     ],
   },
+  {
+    id: 'makeover-hydrastay-cushion',
+    brand: 'Make Over',
+    title: 'Make Over — Hydrastay Cushion',
+    subtitle: 'Hydrastay Lite Glow Cushion — "Finally Finding Myself" shade-match hook',
+    year: '2026',
+    sampleIds: [
+      'makeover-hydrastay-cushion-brief',
+      'makeover-hydrastay-cushion-ugc-1',
+      'makeover-hydrastay-cushion-ugc-2',
+    ],
+  },
 
   // ── HaruHaru Wonder ──────────────────────────────────────────
   {
@@ -2637,6 +2649,18 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'garnier-uv-skin-nomorebelang-ugc-1',
     ],
   },
+  {
+    id: 'garnier-super-uv-matte',
+    brand: 'Garnier',
+    title: 'Garnier — Bright Complete Super UV Matte',
+    subtitle: '"A Day in My Life" — sunscreen storytelling',
+    year: '2026',
+    sampleIds: [
+      'garnier-super-uv-matte-storyline',
+      'garnier-super-uv-matte-insight',
+      'garnier-super-uv-matte-ugc-1',
+    ],
+  },
 
   // ── Bio-Oil (additional) ─────────────────────────────────────
   {
@@ -2778,6 +2802,33 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'latulipe-lip-tint-serum-brief',
       'latulipe-lip-tint-serum-insight',
       'latulipe-lip-tint-serum-ugc-1',
+    ],
+  },
+
+  // ── Leka ──────────────────────────────────────────────────────
+  {
+    id: 'leka-travel-oral-care-kit',
+    brand: 'Leka',
+    title: 'Leka — Travel Oral Care Kit',
+    subtitle: 'Pocket Flosser & Easy Bbrush — Blibli exclusive launch',
+    year: '2022',
+    sampleIds: [
+      'leka-travel-oral-care-kit-brief',
+      'leka-travel-oral-care-kit-ugc-1',
+    ],
+  },
+
+  // ── Lab On Hair ───────────────────────────────────────────────
+  {
+    id: 'lab-on-hair-hair-ampoule',
+    brand: 'Lab On Hair',
+    title: 'Lab On Hair — Hair Fall Control Ampoule',
+    subtitle: 'PDO + Biotin minoxidil alternative — baby hair growth hook',
+    year: '2026',
+    sampleIds: [
+      'lab-on-hair-hair-ampoule-brief',
+      'lab-on-hair-hair-ampoule-script',
+      'lab-on-hair-hair-ampoule-ugc-1',
     ],
   },
 ]

@@ -119,6 +119,8 @@ export const BRAND_LOGOS: Record<string, string> = {
   'Kimeskincare':        '/brands/kimeskincare logo.png',
   'LG':                  '/brands/lg logo.png',
   'Latulipe':            '/brands/latulipe logo.png',
+  'Leka':                '/brands/leka logo.jpeg',
+  'Lab On Hair':         '/brands/lab on hair logo.jpeg',
 }
 
 // All brands for the showcase strip — ordered roughly by recency / prominence
