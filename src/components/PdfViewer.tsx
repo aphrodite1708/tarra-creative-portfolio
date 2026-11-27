@@ -9,6 +9,7 @@ export default function PdfViewer({ file }: Props) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const wrapRef = useRef<HTMLDivElement>(null)
   const pdfRef = useRef<PDFDocumentProxy | null>(null)
+  const touchStartRef = useRef<{ x: number; y: number } | null>(null)
   const [status, setStatus] = useState<'loading' | 'done' | 'error'>('loading')
   const [numPages, setNumPages] = useState(0)
   const [pageNum, setPageNum] = useState(1)
@@ -41,6 +42,16 @@ export default function PdfViewer({ file }: Props) {
   }, [file])
 
   useEffect(() => {
+    if (numPages <= 1) return
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'ArrowRight') setPageNum(p => Math.min(numPages, p + 1))
+      if (e.key === 'ArrowLeft') setPageNum(p => Math.max(1, p - 1))
+    }
+    window.addEventListener('keydown', onKeyDown)
+    return () => window.removeEventListener('keydown', onKeyDown)
+  }, [numPages])
+
+  useEffect(() => {
     if (status !== 'done' || !pdfRef.current) return
     let cancelled = false
 
@@ -68,9 +79,31 @@ export default function PdfViewer({ file }: Props) {
     return <div className="pdf-viewer-error">Couldn't load this document.</div>
   }
 
+  const onTouchStart = (e: React.TouchEvent) => {
+    const t = e.touches[0]
+    touchStartRef.current = { x: t.clientX, y: t.clientY }
+  }
+
+  const onTouchEnd = (e: React.TouchEvent) => {
+    const start = touchStartRef.current
+    touchStartRef.current = null
+    if (!start || numPages <= 1) return
+    const t = e.changedTouches[0]
+    const dx = t.clientX - start.x
+    const dy = t.clientY - start.y
+    if (Math.abs(dx) < 48 || Math.abs(dx) < Math.abs(dy) * 1.5) return
+    if (dx < 0) setPageNum(p => Math.min(numPages, p + 1))
+    else setPageNum(p => Math.max(1, p - 1))
+  }
+
   return (
     <div className="pdf-viewer">
-      <div className="pdf-viewer-canvas-wrap" ref={wrapRef}>
+      <div
+        className="pdf-viewer-canvas-wrap"
+        ref={wrapRef}
+        onTouchStart={onTouchStart}
+        onTouchEnd={onTouchEnd}
+      >
         <canvas
           ref={canvasRef}
           className="pdf-viewer-canvas"
@@ -97,6 +130,7 @@ export default function PdfViewer({ file }: Props) {
           >
             ›
           </button>
+          <span className="pdf-viewer-nav-hint">Swipe or tap the arrows to browse pages</span>
         </div>
       )}
     </div>

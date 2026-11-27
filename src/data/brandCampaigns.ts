@@ -516,6 +516,20 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
   {
+    id: 'boj-sunscreen-rice-probiotics',
+    brand: 'Beauty of Joseon',
+    title: 'BOJ — Sunscreen: Rice + Probiotics',
+    subtitle: 'SPF 50+ PA++++ — Style Korean Indonesia IG Story activation',
+    year: '2023',
+    sampleIds: [
+      'boj-sunscreen-rice-probiotics-brief',
+      'boj-sunscreen-rice-probiotics-insight',
+      'boj-sunscreen-rice-probiotics-ugc-1',
+      'boj-sunscreen-rice-probiotics-ugc-2',
+      'boj-sunscreen-rice-probiotics-ugc-3',
+    ],
+  },
+  {
     id: 'boj-rice-honey',
     brand: 'Beauty of Joseon',
     title: 'BOJ — Rice & Honey',
@@ -1138,7 +1152,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     title: 'Twin Master Eyebrow',
     subtitle: '0.9mm precision pencil — 3-shade launch brief',
     year: '2023',
-    sampleIds: ['hhrr-twin-master-eyebrow-brief', 'hhrr-twin-master-eyebrow-brief-sourcing'],
+    sampleIds: ['hhrr-twin-master-eyebrow-brief', 'hhrr-twin-master-eyebrow-brief-sourcing', 'hhrr-twin-master-eyebrow-ugc-1'],
   },
 
   // ── Hansaplast ───────────────────────────────────────────────

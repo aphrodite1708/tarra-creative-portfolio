@@ -2375,6 +2375,7 @@ button, a { cursor: none; font-family: inherit; }
 
 .pdf-viewer-nav {
   flex-shrink: 0;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2384,8 +2385,8 @@ button, a { cursor: none; font-family: inherit; }
 }
 
 .pdf-viewer-nav-btn {
-  width: 30px;
-  height: 30px;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
   border: none;
   background: rgba(255,255,255,0.12);
@@ -2406,6 +2407,18 @@ button, a { cursor: none; font-family: inherit; }
   letter-spacing: 0.02em;
   min-width: 48px;
   text-align: center;
+}
+
+.pdf-viewer-nav-hint {
+  position: absolute;
+  right: 14px;
+  font-size: 10.5px;
+  color: rgba(255,255,255,0.35);
+  letter-spacing: 0.01em;
+}
+
+@media (max-width: 640px) {
+  .pdf-viewer-nav-hint { display: none; }
 }
 
 .pdf-viewer-error {
