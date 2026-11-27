@@ -96,6 +96,14 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
   {
+    id: 'wardah-renew-you-retinol-night-cream',
+    brand: 'Wardah',
+    title: 'Wardah — Renew You Retinol Night Cream',
+    subtitle: 'Creator UGC',
+    year: '2026',
+    sampleIds: ['wardah-renew-you-retinol-ugc-1'],
+  },
+  {
     id: 'wardah-multidimensional-glow',
     brand: 'Wardah',
     title: 'Day & Night Cream',
@@ -385,6 +393,19 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'purekids-itchy-cream-ugc-1',
     ],
   },
+  {
+    id: 'purekids-toothpaste',
+    brand: 'Purekids',
+    title: 'Purekids — Toothpaste Advanced',
+    subtitle: '"Bye Bye Gigi Caries" — mom & kid live experience',
+    year: '2024',
+    sampleIds: [
+      'purekids-toothpaste-brief',
+      'purekids-toothpaste-storyline',
+      'purekids-toothpaste-insight',
+      'purekids-toothpaste-ugc-1',
+    ],
+  },
 
   // ── Finally Found You ────────────────────────────────────────
   {
@@ -414,6 +435,9 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'natur-e-ceraglow-hyaluglow-kol-brief',
       'natur-e-ceraglow-hyaluglow-ugc',
       'natur-e-ceraglow-hyaluglow-tiktok-insight',
+      'natur-e-ceraglow-hyaluglow-insight-2',
+      'natur-e-ceraglow-hyaluglow-insight-3',
+      'natur-e-ceraglow-hyaluglow-ugc-2',
     ],
   },
   {
@@ -436,6 +460,28 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'natur-e-advanced-reel-insight',
       'natur-e-advanced-stories-insight-1',
       'natur-e-advanced-stories-insight-2',
+    ],
+  },
+  {
+    id: 'natur-e-advanced-2022',
+    brand: 'Natur-E',
+    title: 'Natur-E — Advanced (2022)',
+    subtitle: '"Hidden gem" anti-aging review — PopBela Beauty Award winner',
+    year: '2022',
+    sampleIds: ['natur-e-advanced-2022-brief', 'natur-e-advanced-2022-insight', 'natur-e-advanced-2022-ugc-1'],
+  },
+  {
+    id: 'natur-e-advanced-2023',
+    brand: 'Natur-E',
+    title: 'Natur-E — Advanced (2023)',
+    subtitle: '"Hidden gem" anti-aging review — second wave',
+    year: '2023',
+    sampleIds: [
+      'natur-e-advanced-2023-brief',
+      'natur-e-advanced-2023-insight',
+      'natur-e-advanced-2023-ugc-1',
+      'natur-e-advanced-2023-ugc-2',
+      'natur-e-advanced-2023-ugc-3',
     ],
   },
 
@@ -466,7 +512,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     title: 'Holiday Gift Sets',
     subtitle: 'Holiday 1 & 2 — KOL brief & creative direction',
     year: '2024',
-    sampleIds: ['blp-beauty-holiday-gift-set-brief', 'blp-beauty-holiday-gift-set-brief-direction'],
+    sampleIds: ['blp-beauty-holiday-gift-set-brief', 'blp-beauty-holiday-gift-set-brief-direction', 'blp-beauty-holiday-gift-set-ugc-1'],
   },
 
   // ── BabyGo ───────────────────────────────────────────────────
@@ -891,6 +937,18 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'dove-deo-serum-jxb-ig-stories-insight',
     ],
   },
+  {
+    id: 'dove-deo-serum-standalone',
+    brand: 'Dove',
+    title: 'Deo Serum — Indonesia Launch',
+    subtitle: '"Viral in Philippines & Vietnam" — 3-variant introduction',
+    year: '2024',
+    sampleIds: [
+      'dove-deo-serum-standalone-script',
+      'dove-deo-serum-standalone-insight',
+      'dove-deo-serum-standalone-ugc-1',
+    ],
+  },
 
   // ── Eileen Grace ─────────────────────────────────────────────
   {
@@ -929,6 +987,14 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'elsheskin-radiant-advance-before-after',
       'elsheskin-radiant-advance-igs-ugc',
     ],
+  },
+  {
+    id: 'elsheskin-moisturizer',
+    brand: 'ElsheSkin',
+    title: 'ElsheSkin — Moisturizer',
+    subtitle: 'GRWM IG Story — product application demo',
+    year: '2026',
+    sampleIds: ['elsheskin-moisturizer-insight', 'elsheskin-moisturizer-ugc-1'],
   },
 
   // ── Embryolisse ──────────────────────────────────────────────
@@ -1031,6 +1097,19 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     year: '2025',
     sampleIds: [
       'erha-reels-storyline-brief',
+    ],
+  },
+  {
+    id: 'erha-perfect-shield-hydra-clearly',
+    brand: 'Erha',
+    title: 'Perfect Shield — Hydra Light & Clearly Light Sunscreen',
+    subtitle: '"Trying a Completely Different Makeup Style" — skin-type-matched sunscreen',
+    year: '2023',
+    sampleIds: [
+      'erha-perfect-shield-hydra-clearly-brief',
+      'erha-perfect-shield-hydra-clearly-script',
+      'erha-perfect-shield-hydra-clearly-insight',
+      'erha-perfect-shield-hydra-clearly-ugc-1',
     ],
   },
 
@@ -1593,6 +1672,18 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'maybelline-ssvi-sauce-ugc',
     ],
   },
+  {
+    id: 'maybelline-sky-high-cosmic-black',
+    brand: 'Maybelline',
+    title: 'Sky High Cosmic Black Easy Wash Mascara',
+    subtitle: '"Swipe Up Swipe Down" — extra black/long/thick, removes with warm water',
+    year: '2024',
+    sampleIds: [
+      'maybelline-sky-high-cosmic-black-brief',
+      'maybelline-sky-high-cosmic-black-insight',
+      'maybelline-sky-high-cosmic-black-ugc-1',
+    ],
+  },
 
   // ── Trueve ───────────────────────────────────────────────────
   {
@@ -2111,6 +2202,8 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'roseallday-poof-product-graphic',
       'roseallday-new-shades-concealer-brief-visual',
       'roseallday-instagram-stories-insight',
+      'roseallday-new-shades-concealer-ugc-1',
+      'roseallday-new-shades-concealer-ugc-2',
     ],
   },
 
@@ -2121,7 +2214,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     title: 'Brightening Barrier Repair Moisture Serum',
     subtitle: '#BrightBeautifully — creator product knowledge',
     year: '2025',
-    sampleIds: ['rovve-brightening-serum-product-knowledge', 'rovve-brightening-serum-product-knowledge-creator'],
+    sampleIds: ['rovve-brightening-serum-product-knowledge', 'rovve-brightening-serum-product-knowledge-creator', 'rovve-brightening-serum-ugc-1'],
   },
 
   // ── SH-RD ────────────────────────────────────────────────────
@@ -2584,6 +2677,20 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'sea-makeup-tinted-lip-balm-ugc-3',
     ],
   },
+  {
+    id: 'sea-makeup-setting-spray',
+    brand: 'Sea Makeup',
+    title: 'Sea Makeup — Setting Spray Campaign',
+    subtitle: '"Drench technique" — matte, long-lasting, 2-in-1 primer',
+    year: '2024',
+    sampleIds: [
+      'sea-makeup-setting-spray-brief',
+      'sea-makeup-setting-spray-insight',
+      'sea-makeup-setting-spray-ugc-1',
+      'sea-makeup-setting-spray-ugc-2',
+      'sea-makeup-setting-spray-ugc-3',
+    ],
+  },
 
   // ── OMG (Oh My Glam) ─────────────────────────────────────────
   {
@@ -2662,6 +2769,14 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'garnier-super-uv-matte-insight',
       'garnier-super-uv-matte-ugc-1',
     ],
+  },
+  {
+    id: 'garnier-colors-natural',
+    brand: 'Garnier',
+    title: 'Garnier — Colors Natural',
+    subtitle: 'At-home hair dye — couple comedy storyline',
+    year: '2026',
+    sampleIds: ['garnier-colors-natural-script'],
   },
 
   // ── Bio-Oil (additional) ─────────────────────────────────────
@@ -2877,6 +2992,193 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'localu-brightening-underarm-ugc-2',
       'localu-brightening-underarm-ugc-3',
       'localu-brightening-underarm-ugc-4',
+    ],
+  },
+
+  // ── Female Secret ─────────────────────────────────────────────
+  {
+    id: 'female-secret-essence-toner',
+    brand: 'Female Secret',
+    title: 'Female Secret — Essence Toner',
+    subtitle: '"Skincare Sat-Set, Emang Ada?" — one-step brightening & hydrating essence',
+    year: '2023',
+    sampleIds: [
+      'female-secret-essence-toner-brief',
+      'female-secret-essence-toner-script',
+      'female-secret-essence-toner-insight',
+      'female-secret-essence-toner-ugc-1',
+    ],
+  },
+
+  // ── Kanzler ───────────────────────────────────────────────────
+  {
+    id: 'kanzler-crispy-chicken-stick',
+    brand: 'Kanzler',
+    title: 'Kanzler — Crispy Chicken Stick',
+    subtitle: 'Nicholas Saputra OOH billboard tie-in — #ChickenStickViral',
+    year: '2023',
+    sampleIds: [
+      'kanzler-crispy-chicken-stick-brief',
+      'kanzler-crispy-chicken-stick-guide',
+      'kanzler-crispy-chicken-stick-ugc-1',
+      'kanzler-crispy-chicken-stick-ugc-2',
+      'kanzler-crispy-chicken-stick-ugc-3',
+      'kanzler-crispy-chicken-stick-ugc-4',
+    ],
+  },
+
+  // ── BCA ───────────────────────────────────────────────────────
+  {
+    id: 'bca-credit-card',
+    brand: 'BCA',
+    title: 'BCA — Credit Card',
+    subtitle: 'myBCA Ramadan education — "Pack With Me Edisi Libur Lebaran"',
+    year: '2025',
+    sampleIds: [
+      'bca-credit-card-brief',
+      'bca-credit-card-storyline',
+      'bca-credit-card-insight',
+      'bca-credit-card-ugc-1',
+    ],
+  },
+
+  // ── Sunlight ──────────────────────────────────────────────────
+  {
+    id: 'sunlight-rhamno-power',
+    brand: 'Sunlight',
+    title: 'Sunlight — Rhamno Power',
+    subtitle: '"Serum for dishes" — skincare-review-style demo',
+    year: '2025',
+    sampleIds: [
+      'sunlight-rhamno-power-brief',
+      'sunlight-rhamno-power-storyline',
+      'sunlight-rhamno-power-insight',
+      'sunlight-rhamno-power-ugc-1',
+    ],
+  },
+
+  // ── Picora ────────────────────────────────────────────────────
+  {
+    id: 'picora-where-memories-find-a-home',
+    brand: 'Picora',
+    title: 'Picora — Where Memories Find a Home',
+    subtitle: 'Photo-frame catalogue — emotional storytelling',
+    year: '2025',
+    sampleIds: [
+      'picora-where-memories-find-a-home-brief',
+      'picora-where-memories-find-a-home-storyline',
+      'picora-where-memories-find-a-home-ugc-1',
+    ],
+  },
+
+  // ── PinkRabbit Lens ───────────────────────────────────────────
+  {
+    id: 'pinkrabbit-lens-best-woman-legacy',
+    brand: 'PinkRabbit Lens',
+    title: 'Pink Rabbit Lens — Best Woman Legacy',
+    subtitle: 'Pink Rabbit Lens × Liunic Sisters — "The New Legacy" collab',
+    year: '2025',
+    sampleIds: [
+      'pinkrabbit-lens-best-woman-legacy-brief',
+      'pinkrabbit-lens-best-woman-legacy-ugc-1',
+    ],
+  },
+
+  // ── LG (additional) ───────────────────────────────────────────
+  {
+    id: 'lg-puricare-360',
+    brand: 'LG',
+    title: 'LG — PuriCare 360',
+    subtitle: 'Air purifier unboxing & room-tour — 1.1M TikTok views',
+    year: '2023',
+    sampleIds: [
+      'lg-puricare-360-brief',
+      'lg-puricare-360-storyline',
+      'lg-puricare-360-insight',
+      'lg-puricare-360-ugc-1',
+    ],
+  },
+
+  // ── Newlab ────────────────────────────────────────────────────
+  {
+    id: 'newlab-fiber-30b-probiotic',
+    brand: 'Newlab',
+    title: 'Newlab — Fitlogy Fiber 30B Probiotic',
+    subtitle: 'Post-workout myth-busting hook — 30B probiotics, low-laxative formula',
+    year: '2026',
+    sampleIds: [
+      'newlab-fiber-30b-probiotic-brief',
+      'newlab-fiber-30b-probiotic-insight',
+      'newlab-fiber-30b-probiotic-ugc-1',
+    ],
+  },
+
+  // ── d'Alba ────────────────────────────────────────────────────
+  {
+    id: 'dalba-first-spray-serum',
+    brand: "d'Alba",
+    title: "d'Alba — First Spray Serum",
+    subtitle: 'White Truffle premium vegan spray serum — personal sharing-session format',
+    year: '2023',
+    sampleIds: [
+      'dalba-first-spray-serum-brief',
+      'dalba-first-spray-serum-ugc-1',
+    ],
+  },
+
+  // ── Astro ─────────────────────────────────────────────────────
+  {
+    id: 'astro-gajian-spesial-anniversary',
+    brand: 'Astro',
+    title: 'Astro — Gajian Spesial Anniversary',
+    subtitle: 'Payday-horror concept — Buy 3 Pay 2, referral discount CTA',
+    year: '2023',
+    sampleIds: [
+      'astro-gajian-spesial-brief',
+      'astro-gajian-spesial-storyline',
+      'astro-gajian-spesial-insight',
+      'astro-gajian-spesial-ugc-1',
+    ],
+  },
+
+  // ── D'Savior ──────────────────────────────────────────────────
+  {
+    id: 'dsavior-dark-spot-solution',
+    brand: "D'Savior",
+    title: "D'Savior — Dark Spot Solution",
+    subtitle: 'Bodycare range — Body Serum, Peeling Spray, Body Oil',
+    year: '2026',
+    sampleIds: [
+      'dsavior-product-knowledge',
+      'dsavior-dark-spot-solution-ugc-1',
+    ],
+  },
+
+  // ── Jergens ───────────────────────────────────────────────────
+  {
+    id: 'jergens-ultra-care-lotion',
+    brand: 'Jergens',
+    title: 'Jergens — Ultra Care Lotion',
+    subtitle: '#FeelTheSkinhancement — dry-skin review + product demo',
+    year: '2023',
+    sampleIds: [
+      'jergens-ultra-care-guideline',
+      'jergens-ultra-care-product-knowledge',
+      'jergens-ultra-care-script',
+      'jergens-ultra-care-reels-insight',
+      'jergens-ultra-care-ugc-1',
+    ],
+  },
+  {
+    id: 'jergens-ultra-care-giveaway',
+    brand: 'Jergens',
+    title: 'Jergens — Ultra Care Giveaway',
+    subtitle: '50 pcs Mini Size giveaway — #FeelTheSkinhancement',
+    year: '2023',
+    sampleIds: [
+      'jergens-giveaway-script',
+      'jergens-giveaway-insight',
+      'jergens-giveaway-ugc-1',
     ],
   },
 ]

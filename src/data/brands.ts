@@ -117,7 +117,7 @@ export const BRAND_LOGOS: Record<string, string> = {
   'GlowTech':            '/brands/GLOWTECH logo.jpg',
   'Deorex':              '/brands/DEOREX LOGO.png',
   'Kimeskincare':        '/brands/kimeskincare logo.png',
-  'LG':                  '/brands/lg logo.png',
+  'LG':                  '/brands/LG logo.png',
   'Latulipe':            '/brands/latulipe logo.png',
   'Leka':                '/brands/leka logo.jpeg',
   'Lab On Hair':         '/brands/lab on hair logo.jpeg',
@@ -126,6 +126,17 @@ export const BRAND_LOGOS: Record<string, string> = {
   'Localu':              '/brands/localu logo.png',
   'Sociolla':            '/brands/sociolla logo.png',
   'Riri':                '/brands/riri.png',
+  'Female Secret':       '/brands/female secret logo.jpg',
+  'Newlab':              '/brands/newlab logo.jpeg',
+  "d'Alba":              "/brands/d'alba logo.png",
+  'Astro':               '/brands/astro logo.jpg',
+  "D'Savior":            "/brands/d'savior logo.webp",
+  'Jergens':             '/brands/jergens logo.png',
+  'Kanzler':             '/brands/kanzler logo.jpeg',
+  'BCA':                 '/brands/bca logo.webp',
+  'Sunlight':            '/brands/sunlight logo.avif',
+  'Picora':              '/brands/picora logo.tiff',
+  'PinkRabbit Lens':     '/brands/pinkrabbit logo.png',
 }
 
 // All brands for the showcase strip — ordered roughly by recency / prominence
@@ -229,4 +240,5 @@ export const BRANDS_LIST: { name: string; logo: string }[] = [
   { name: 'OMG',                 logo: '/brands/omg logo.png' },
   { name: 'Numbuzin',            logo: '/brands/numbuzin logo.png' },
   { name: 'Biore',               logo: '/brands/biore logo.png' },
+  { name: 'LG',                  logo: '/brands/LG logo.png' },
 ]
