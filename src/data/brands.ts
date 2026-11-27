@@ -13,7 +13,7 @@ export const BRAND_LOGOS: Record<string, string> = {
   'Activgluta':          '/brands/activgluta.png',
   'Ashley':              '/brands/ashley.png',
   'BLP Beauty':          '/brands/BLP beauty logo.webp',
-  'BabyGo':              '/brands/babygo.png',
+  'BabyGo':              '/brands/babygo logo.png',
   'Beauty of Joseon':    '/brands/BOJ (beauty of joseon) logo.webp',
   'Bio-Oil':             '/brands/bio-oil.png',
   'Brighty':             '/brands/brighty logo.png',
@@ -124,6 +124,8 @@ export const BRAND_LOGOS: Record<string, string> = {
   'JXB':                 '/brands/jxb logo.png',
   'Lysca Beauty':        '/brands/lysca logo.jpeg',
   'Localu':              '/brands/localu logo.png',
+  'Sociolla':            '/brands/sociolla logo.png',
+  'Riri':                '/brands/riri.png',
 }
 
 // All brands for the showcase strip — ordered roughly by recency / prominence
@@ -196,7 +198,7 @@ export const BRANDS_LIST: { name: string; logo: string }[] = [
   { name: 'HHRR',                logo: '/brands/HHRR logo.webp' },
   { name: 'G2G',                 logo: '/brands/g2g logo.png' },
   { name: 'Grace and Glow',     logo: '/brands/grace-and-glow.png' },
-  { name: 'BabyGo',              logo: '/brands/babygo.png' },
+  { name: 'BabyGo',              logo: '/brands/babygo logo.png' },
   { name: 'HighEnd × MNC',       logo: '/brands/highend magazine.png' },
   { name: 'Secondate × Xexymix', logo: '/brands/secondate logo.png' },
   { name: 'BIOAQUA',             logo: '/brands/bioaqua logo.png' },
