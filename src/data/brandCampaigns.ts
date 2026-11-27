@@ -1990,7 +1990,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     title: 'GENTLE Active Guard Antiperspirant',
     subtitle: 'IG Stories — 562 link clicks creator activation',
     year: '2025',
-    sampleIds: ['ownskin-gentle-product-knowledge', 'ownskin-gentle-product-knowledge-creator', 'ownskin-instagram-stories-insight'],
+    sampleIds: ['ownskin-gentle-product-knowledge', 'ownskin-gentle-product-knowledge-creator', 'ownskin-instagram-stories-insight', 'ownskin-gentle-brief-astari-riri', 'ownskin-gentle-storyline', 'ownskin-gentle-ugc-1'],
   },
 
   // ── Paxmoly ──────────────────────────────────────────────────
@@ -2829,6 +2829,52 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'lab-on-hair-hair-ampoule-brief',
       'lab-on-hair-hair-ampoule-script',
       'lab-on-hair-hair-ampoule-ugc-1',
+    ],
+  },
+
+  // ── JXB ───────────────────────────────────────────────────────
+  {
+    id: 'jxb-mandiri-x-jxb',
+    brand: 'JXB',
+    title: 'JXB — Mandiri × JXB (Jakarta X Beauty)',
+    subtitle: 'Multi-KOL activation — Livin\' by Mandiri promos, 5–8 Dec 2024',
+    year: '2024',
+    sampleIds: [
+      'jxb-mandiri-brief',
+      'jxb-mandiri-storyline',
+      'jxb-mandiri-insight',
+      'jxb-mandiri-ugc-1',
+    ],
+  },
+
+  // ── Lysca Beauty ──────────────────────────────────────────────
+  {
+    id: 'lysca-hydrasmoth-sunscreen',
+    brand: 'Lysca Beauty',
+    title: 'Lysca Beauty — Hydrasmoth Sunscreen Gel',
+    subtitle: 'SPF 45 PA++++ — toner/serum/sunscreen combo clickbait hook',
+    year: '2026',
+    sampleIds: [
+      'lysca-hydrasmoth-sunscreen-brief',
+      'lysca-hydrasmoth-sunscreen-script',
+      'lysca-hydrasmoth-sunscreen-ugc-1',
+    ],
+  },
+
+  // ── Localu ────────────────────────────────────────────────────
+  {
+    id: 'localu-brightening-underarm',
+    brand: 'Localu',
+    title: 'Localu — Brightening Underarm Gel',
+    subtitle: '"Show It Don\'t Hide It" — soft-sell underarm brightening',
+    year: '2023',
+    sampleIds: [
+      'localu-brightening-underarm-brief',
+      'localu-brightening-underarm-product-knowledge',
+      'localu-brightening-underarm-ugc-1',
+      'localu-brightening-underarm-ugc-2',
+      'localu-brightening-underarm-ugc-3',
+      'localu-brightening-underarm-ugc-4',
     ],
   },
 ]
