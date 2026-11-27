@@ -846,6 +846,18 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     ],
   },
   {
+    id: 'dove-hairfall-control',
+    brand: 'Dove',
+    title: 'Dove — Biotin Hairfall Control',
+    subtitle: 'From #SalahFokus to #ScalpFokus — scalp-care hair fall campaign',
+    year: '2026',
+    sampleIds: [
+      'dove-hairfall-control-brief',
+      'dove-hairfall-control-script',
+      'dove-hairfall-control-ugc-1',
+    ],
+  },
+  {
     id: 'dove-deo-serum-jakarta-beauty',
     brand: 'Dove',
     title: 'Deo Serum — Jakarta x Beauty',
@@ -1347,6 +1359,19 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'lazada-keluarga-ada-aja-alazan-reels-script-creator',
       'lazada-keluarga-ada-aja-alazan-ugc',
       'lazada-keluarga-ada-aja-alazan-reels-insight',
+    ],
+  },
+  {
+    id: 'lazada-7-beauty-wonders',
+    brand: 'Lazada',
+    title: 'LazBeauty — 7 Beauty Wonders',
+    subtitle: 'Multi-category KOL activation — up to 75% off, 26–27 Nov',
+    year: '2023',
+    sampleIds: [
+      'lazada-7bw-brief',
+      'lazada-7bw-storyline',
+      'lazada-7bw-insight',
+      'lazada-7bw-ugc-1',
     ],
   },
 
@@ -2469,6 +2494,9 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'dorskin-matcha-glow-product-knowledge-creator',
       'dorskin-matcha-glow-ig-stories-creator-script',
       'dorskin-instagram-stories-insight',
+      'dorskin-matcha-glow-insight',
+      'dorskin-matcha-glow-ugc-1',
+      'dorskin-matcha-glow-ugc-2',
     ],
   },
 
@@ -2736,6 +2764,20 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'kimeskincare-brightening-soap-product-knowledge',
       'kimeskincare-brightening-soap-insight',
       'kimeskincare-brightening-soap-ugc-1',
+    ],
+  },
+
+  // ── La Tulipe ─────────────────────────────────────────────────
+  {
+    id: 'latulipe-lip-tint-serum',
+    brand: 'Latulipe',
+    title: 'La Tulipe — Lip Tint Serum',
+    subtitle: 'Full review & 6-shade swatch — staining power focus',
+    year: '2026',
+    sampleIds: [
+      'latulipe-lip-tint-serum-brief',
+      'latulipe-lip-tint-serum-insight',
+      'latulipe-lip-tint-serum-ugc-1',
     ],
   },
 ]
