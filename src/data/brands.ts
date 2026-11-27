@@ -137,6 +137,9 @@ export const BRAND_LOGOS: Record<string, string> = {
   'Sunlight':            '/brands/sunlight logo.avif',
   'Picora':              '/brands/picora logo.tiff',
   'PinkRabbit Lens':     '/brands/pinkrabbit logo.png',
+  'ESQA':                '/brands/esqa logo.webp',
+  'Eze Nails':           '/brands/eze nails logo.webp',
+  'Glafidsya':           '/brands/glafidsya.jpeg',
 }
 
 // All brands for the showcase strip — ordered roughly by recency / prominence

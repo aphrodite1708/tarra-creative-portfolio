@@ -1481,6 +1481,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'lencir-anniversary-event-invite-moodboard',
       'lencir-anniversary-event-invite-dresscode',
       'lencir-probiotic-ig-stories-script-creator',
+      'lencir-prebiotic-ugc-1',
     ],
   },
 
@@ -3179,6 +3180,41 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'jergens-giveaway-script',
       'jergens-giveaway-insight',
       'jergens-giveaway-ugc-1',
+    ],
+  },
+
+  // ── ESQA ──────────────────────────────────────────────────────
+  {
+    id: 'esqa-your-skin-flex',
+    brand: 'ESQA',
+    title: 'ESQA — Your Skin Flex',
+    subtitle: 'Minimalist Serum Concealer & Eye Tint Corrector',
+    year: '2024',
+    sampleIds: ['esqa-your-skin-flex-brief', 'esqa-your-skin-flex-ugc-1'],
+  },
+
+  // ── Eze Nails ─────────────────────────────────────────────────
+  {
+    id: 'eze-nails-flawless-reunion',
+    brand: 'Eze Nails',
+    title: 'Eze Nails — Flawless Reunion',
+    subtitle: 'Stefany Talita × Aghnia collab — Ramadan launch',
+    year: '2025',
+    sampleIds: ['eze-nails-flawless-reunion-catalogue', 'eze-nails-flawless-reunion-event-invite'],
+  },
+
+  // ── Glafidsya ─────────────────────────────────────────────────
+  {
+    id: 'glafidsya-premium-ferment-barrier',
+    brand: 'Glafidsya',
+    title: 'Glafidsya — Premium Ferment Barrier Supporting Set',
+    subtitle: '"Susuk modern" doctor-chat TikTok hook — 1.1M views',
+    year: '2024',
+    sampleIds: [
+      'glafidsya-premium-ferment-barrier-script',
+      'glafidsya-premium-ferment-barrier-product-knowledge',
+      'glafidsya-premium-ferment-barrier-insight',
+      'glafidsya-premium-ferment-barrier-ugc-1',
     ],
   },
 ]
