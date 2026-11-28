@@ -140,6 +140,8 @@ export const BRAND_LOGOS: Record<string, string> = {
   'ESQA':                '/brands/esqa logo.webp',
   'Eze Nails':           '/brands/eze nails logo.webp',
   'Glafidsya':           '/brands/glafidsya.jpeg',
+  'Xi Xiu Cosmetic':     '/brands/xi xiu cosmetic logo.jpeg',
+  'Tansofficial':        '/brands/tansofficial logo.png',
 }
 
 // All brands for the showcase strip — ordered roughly by recency / prominence

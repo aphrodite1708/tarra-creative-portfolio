@@ -104,6 +104,30 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     sampleIds: ['wardah-renew-you-retinol-ugc-1'],
   },
   {
+    id: 'wardah-renew-you-regime',
+    brand: 'Wardah',
+    title: 'Wardah — Renew You Regime',
+    subtitle: 'Cell-Power™ Serum & Night Cream — Retinol for beginners',
+    year: '2023',
+    sampleIds: [
+      'wardah-renew-you-regime-brief',
+      'wardah-renew-you-regime-insight',
+      'wardah-renew-you-regime-ugc-1',
+    ],
+  },
+  {
+    id: 'wardah-lash-serum-mascara',
+    brand: 'Wardah',
+    title: 'Wardah — Lash Serum × Mascara',
+    subtitle: '"Halal Lash Extension Look" — Volume Expert Mascara + Brow Lash Serum',
+    year: '2024',
+    sampleIds: [
+      'wardah-lash-serum-mascara-brief',
+      'wardah-lash-serum-mascara-insight',
+      'wardah-lash-serum-mascara-ugc-1',
+    ],
+  },
+  {
     id: 'wardah-multidimensional-glow',
     brand: 'Wardah',
     title: 'Day & Night Cream',
@@ -333,6 +357,9 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
     sampleIds: [
       'haruharu-wonder-influencer-brief',
       'haruharu-wonder-ugc-1',
+      'haruharu-wonder-ugc-2',
+      'haruharu-wonder-ugc-3',
+      'haruharu-wonder-ugc-4',
     ],
   },
 
@@ -1126,6 +1153,7 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'firstlab-probiotic-skin-essence-brief-direction',
       'firstlab-product-knowledge-creator',
       'firstlab-reels-insight',
+      'firstlab-probiotic-skin-essence-ugc-1',
     ],
   },
 
@@ -3215,6 +3243,33 @@ export const BRAND_CAMPAIGNS: BrandCampaign[] = [
       'glafidsya-premium-ferment-barrier-product-knowledge',
       'glafidsya-premium-ferment-barrier-insight',
       'glafidsya-premium-ferment-barrier-ugc-1',
+    ],
+  },
+
+  // ── Xi Xiu Cosmetic ───────────────────────────────────────────
+  {
+    id: 'xixiu-divine-lipteen-stain',
+    brand: 'Xi Xiu Cosmetic',
+    title: 'Xi Xiu Cosmetic — Divine Lipteen Stain',
+    subtitle: '"Stay Teen" lip tint — 6 shades, Caramel Popcorn scent',
+    year: '2026',
+    sampleIds: ['xixiu-divine-lipteen-stain-brief', 'xixiu-divine-lipteen-stain-ugc-1'],
+  },
+
+  // ── Tansofficial ──────────────────────────────────────────────
+  {
+    id: 'tansofficial-ugc-campaign',
+    brand: 'Tansofficial',
+    title: 'Tansofficial — Creator UGC',
+    subtitle: 'Published UGC collection',
+    year: '2026',
+    sampleIds: [
+      'tansofficial-ugc-1',
+      'tansofficial-ugc-2',
+      'tansofficial-ugc-3',
+      'tansofficial-ugc-4',
+      'tansofficial-ugc-5',
+      'tansofficial-ugc-6',
     ],
   },
 ]
